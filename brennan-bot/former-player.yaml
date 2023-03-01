@@ -1,0 +1,8 @@
+name: former-player
+rank: 1
+event: on-role-remove
+if:
+  - compare: ["$role_id", "==", "1074794023887306823"] # players
+do:
+  - add-roles-to-user: ["1066810929687310477"] # former-player
+  - send-message: [server-log,"🚫 $user_mention is no longer subscribed and has been converted to former-player"]
