@@ -1,0 +1,9 @@
+name: new-user-joined
+rank: 1
+event: on-user-join
+if:
+  - username-matches-any: ["*"]
+do:
+  - add-roles-to-user: [unverified]
+  - set-user-nickname: "NPC $user_name"
+  - send-message: [server-log,"🎉 New user $user_mention joined"]
