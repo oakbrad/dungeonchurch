@@ -81,6 +81,10 @@ D&D group infrastructure and Foundry macros.
 * Sequencer
   * Show Sequencer Tools `Unchecked`
   * Show Sequence Tools in Token Controls `Unchecked`
+* Tidy5E Sheet
+  * Sheet Settings→GM Options→Auto Exhaustion effects `Tidy5e - use Active Effects`
+  * Sheet Settings→Locks→Lock down sensitive fields `Checked`
+  * Enable Lazy HP and XP `Checked`
 * Tokenizer
   * Add frame to the token when opened `Unchecked`
   * Add a color layer by default `Unchecked`
