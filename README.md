@@ -10,6 +10,7 @@ D&D group infrastructure and Foundry macros.
   * Audio/Video→Audio Video Conferencing Mode `Disabled`
   * Pan to Token Speaker `Unchecked`
   * Left Click to Release Objects `Checked`
+  * User Permission Configuration→CreateJournal Entries `Check for Player`
 * DnD5E
   * Apply Currency Weight `Checked`
   * Collapse Item Cards in Chat `Checked`
@@ -73,6 +74,9 @@ D&D group infrastructure and Foundry macros.
 * Moulinette Image Search
   * Google Search API `SECRET`
   * Google Search Engine Index `SECRET`
+* NPC Generator
+  * Portrait Directory `s3 bucket/npc`
+  * Default Folder `NPCs`
 * Polyglot
   * Journal Use Normal Font Size `Checked`
   * Custom Languages `Adalindian Whistle`
