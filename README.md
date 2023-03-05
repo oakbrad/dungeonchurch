@@ -63,13 +63,17 @@ D&D group infrastructure and Foundry macros.
   * Unpause on Ready `Checked`
   * Combat pause control `Checked`
   * Restore pause state `Checked`
-* Monk's Little Details
+* Monk's Bloodsplats
+* Monk's Combat Details
+  * Prevent Spell changes `Prevent change`
   * Combat Round Message `Unchecked`
-  * Switch to Combat Tab 
+  * Hide Enemies `Checked`
   * Hide Until Turn `Checked`
-  * Auto scroll combat tracker `Unchecked`
-  * Show Token Highlight `Unchecked`
-  * Move Pause Button Up `Checked`
+  * Auto Scroll combat tracker `Unchecked`
+  * Next Turn Sound `Unchecked`
+  * Current Turn Sound `Checked`
+  * Current Turn Sound URL `modules/monks-combat-details/sounds/round.ogg`
+  * New Round Sound `Unchecked`
 * Moulinette
   * S3 Bucket `dungeonchurch-foundry`
 * Moulinette Image Search
