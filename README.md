@@ -7,6 +7,7 @@ D&D group infrastructure and Foundry macros.
 ## Server Settings
 
 * Core
+  * Combat Tab→Gea→Skip Defeated? `Checked`
   * Audio/Video→Audio Video Conferencing Mode `Disabled`
   * Pan to Token Speaker `Unchecked`
   * Left Click to Release Objects `Checked`
