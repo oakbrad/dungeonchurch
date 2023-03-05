@@ -67,6 +67,10 @@ D&D group infrastructure and Foundry macros.
   * Unpause on Ready `Checked`
   * Combat pause control `Checked`
   * Restore pause state `Checked`
+* Midi-QOL
+  * GM→GMRoll details hiding `Show attack D20 + Damage total`
+  * Workflow→Hits→Au check if attack hits target `Check - all see result`
+  * Workflow→Saves→Auto check Saves `Save - All see Result + Rolls` 
 * Monk's Bloodsplats
 * Monk's Combat Details
   * Prevent Spell changes `Prevent change`
