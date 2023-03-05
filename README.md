@@ -15,6 +15,10 @@ D&D group infrastructure and Foundry macros.
 * DnD5E
   * Apply Currency Weight `Checked`
   * Collapse Item Cards in Chat `Checked`
+
+## Module Settings
+
+* Autocomplete Whisper
 * Beyond20
   * Notify player to activate Beyond20 `Checked`
 * Chat Portrait
