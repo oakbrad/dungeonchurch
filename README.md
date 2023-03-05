@@ -80,7 +80,7 @@ D&D group infrastructure and Foundry macros.
   * Google Search API `SECRET`
   * Google Search Engine Index `SECRET`
 * NPC Generator
-  * Portrait Directory `s3 bucket/npc`
+  * Portrait Directory `modules/npc-generator-dnd5e/imgs`
   * Default Folder `NPCs`
 * Polyglot
   * Journal Use Normal Font Size `Checked`
