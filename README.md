@@ -7,7 +7,7 @@ D&D group infrastructure and Foundry macros.
 ## Server Settings
 
 * Core
-  * Combat Tab→Gea→Skip Defeated? `Checked`
+  * Combat Tab→Gera→Skip Defeated? `Checked`
   * Audio/Video→Audio Video Conferencing Mode `Disabled`
   * Pan to Token Speaker `Unchecked`
   * Left Click to Release Objects `Checked`
@@ -49,6 +49,8 @@ D&D group infrastructure and Foundry macros.
   * Directory Locations `S3 Bucket`
   * Monster DDB link in titlebar? `Unchecked`
   * Use full source book name? `Unchecked`
+* DFreds Droppables - _Allows GM to drop folders of actors all at once on map_
+  * Drop Style→Horizontal Line
 * Dice So Nice!
   * Allow interaction with rolled dice `Checked`
   * Show Ghost dice for hidden rolls `Checked`
