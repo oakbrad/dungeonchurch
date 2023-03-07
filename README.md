@@ -21,6 +21,7 @@ D&D group infrastructure and Foundry macros.
 * Autocomplete Whisper
 * Beyond20
   * Notify player to activate Beyond20 `Checked`
+* Chat Commands - _Dependency of DF Chat Enhancements_
 * Chat Portrait
   * Adds a textual tag to chat message `Checked`
 * Combat Booster
@@ -49,6 +50,16 @@ D&D group infrastructure and Foundry macros.
   * Directory Locations `S3 Bucket`
   * Monster DDB link in titlebar? `Unchecked`
   * Use full source book name? `Unchecked`
+* DF Chat Enhancements - _Chat visibility buttons, chat log and archiving, etc._
+  * Chat Merge: How to Handle Rolls - `Do not merge`
+  * Enable Whisper Name List Truncation `Unchecked`
+  * Tint Chat Messages Background `Checked`
+  * Display Send Button in Chat `Checked`
+  * Adventure Log Set GM Only `Checked`
+  * Adventure Log All Logs are Whispers `Checked`
+  * Adventure Log Post Logs to Chat `Unchecked`
+  * Adventure Log Disable Writing Author in Entries `Checked`
+  * Chat Edit Ignore Messages with HTML `Checked`
 * DFreds Droppables - _Allows GM to drop folders of actors all at once on map_
   * Drop Style→Horizontal Line
 * Dice So Nice!
