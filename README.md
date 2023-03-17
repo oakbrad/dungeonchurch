@@ -51,6 +51,7 @@ D&D group infrastructure and Foundry macros.
   * Monster DDB link in titlebar? `Unchecked`
   * Use full source book name? `Unchecked`
 * DF Chat Enhancements - _Chat visibility buttons, chat log and archiving, etc._
+  * Hide Export Chat Button `Checked`
   * Chat Merge: How to Handle Rolls - `Do not merge`
   * Enable Whisper Name List Truncation `Unchecked`
   * Tint Chat Messages Background `Checked`
@@ -65,11 +66,15 @@ D&D group infrastructure and Foundry macros.
 * Dice So Nice!
   * Allow interaction with rolled dice `Checked`
   * Show Ghost dice for hidden rolls `Checked`
+* Dice Tray - _Adds dice calculator to chat tools~
+  * Enable Dice Tray `Unchecked`
 * Drag Ruler
   * Right click action `Create waypoint`
   * Show GM ruler to players `Unchecked`
 * Dynamic effects using Active Effects
   * DAE Title Bar `Unchecked`
+* GM Screen - _for easy GM reference to entities_
+  * Right Margin `10` _avoid overlap from Siderbar Resizer_
 * Initiative Double Click
   * Order Buttons `Checked`
 * Item Macro
