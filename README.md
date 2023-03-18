@@ -50,7 +50,8 @@ D&D group infrastructure and Foundry macros.
   * Directory Locations `S3 Bucket`
   * Monster DDB link in titlebar? `Unchecked`
   * Use full source book name? `Unchecked`
-* DF Chat Enhancements - _Chat visibility buttons, chat log and archiving, etc._
+* 🔒 DF Chat Enhancements - _Chat visibility buttons, chat log and archiving, etc._
+  * 🔒 Locked: Modified 'Public' icon
   * Hide Export Chat Button `Checked`
   * Chat Merge: How to Handle Rolls - `Do not merge`
   * Enable Whisper Name List Truncation `Unchecked`
