@@ -12,6 +12,7 @@ D&D group infrastructure and Foundry macros.
   * Pan to Token Speaker `Unchecked`
   * Left Click to Release Objects `Checked`
   * User Permission Configuration→CreateJournal Entries `Check for Player`
+  * User Permission Configuration→Create New Items `Check for Player`
 * DnD5E
   * Apply Currency Weight `Checked`
   * Collapse Item Cards in Chat `Checked`
