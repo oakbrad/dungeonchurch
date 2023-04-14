@@ -7,7 +7,7 @@ D&D group infrastructure and Foundry macros.
 ## Server Settings
 
 * Core
-  * Combat Tab→Gera→Skip Defeated? `Checked`
+  * Combat Tab→Gara→Skip Defeated? `Checked`
   * Audio/Video→Audio Video Conferencing Mode `Disabled`
   * Pan to Token Speaker `Unchecked`
   * Left Click to Release Objects `Checked`
@@ -19,6 +19,7 @@ D&D group infrastructure and Foundry macros.
 
 ## Module Settings
 
+* 5E Sheet Resources Plus - _Increase number of Resources beyond default of 3_
 * Autocomplete Whisper
 * Beyond20
   * Notify player to activate Beyond20 `Checked`
@@ -68,7 +69,7 @@ D&D group infrastructure and Foundry macros.
 * Dice So Nice!
   * Allow interaction with rolled dice `Checked`
   * Show Ghost dice for hidden rolls `Checked`
-* Dice Tray - _Adds dice calculator to chat tools~
+* Dice Tray - _Adds dice calculator to chat tools_
   * Enable Dice Tray `Unchecked`
 * Drag Ruler
   * Right click action `Create waypoint`
