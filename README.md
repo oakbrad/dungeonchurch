@@ -35,7 +35,7 @@ The containers necessary to run all this are detailed in the docker-compose.yaml
 ### Ghost Authorization
 Get an auth cookie to access the API
 
-<img src=/node-red-examples/ghost-auth.png>
+<img src=/node-red-examples/ghost-auth-cookie.png>
 
 ### Ghost Post to Discord
 Repost public blog posts from Ghost to Discord and tag @everyone
