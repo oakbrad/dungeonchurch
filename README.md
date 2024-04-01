@@ -13,6 +13,8 @@ D&D group infrastructure. More information in [this blog post](https://www.dunge
     - [Plutonium](https://5e.tools/plutonium.html) - Import content from 5E Tools to FoundryVTT
     - [DDB Proxy](https://github.com/MrPrimate/ddb-proxy) - If you are stuck in WotC subscription land, you can import your content with this
 
+*Not playing online anymore, the FoundryVTT config details are [archived here](/archive/foundryvtt-v10-old/README.md)*
+
 ## Docker Compose
 The config necessary to run all this is detailed in the <a href=/docker-compose.yaml>docker-compose.yaml</a>
 ### Container List
