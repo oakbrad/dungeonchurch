@@ -1,0 +1,214 @@
+version: '3.8'
+services:
+
+  # NGINX PROXY
+  nginx:
+    image: jc21/nginx-proxy-manager:latest
+    restart: unless-stopped
+    container_name: nginx
+    ports:
+      - "80:80"
+      - "443:443"
+      - "81:81"
+    volumes:
+      - /home/ubuntu/nginx/data:/data
+      - /home/ubuntu/nginx/letsencrypt:/letsencrypt
+    networks:
+      - public-proxy # PUBLIC SERVICES MUST CONNECT TO THIS NETWORK
+
+  node-red:
+    image: nodered/node-red:latest-18
+    container_name: nodered
+    restart: unless-stopped
+    volumes:
+      - /home/ubuntu/nodered:/data
+    environment:
+      - TZ=America/Los_Angeles
+      - NODE_RED_CREDENTIAL_SECRET="XXX"
+    networks:
+      - public-proxy
+
+# FOUNDRY
+  foundryvtt:
+    container_name: foundryvtt
+    image: felddy/foundryvtt:release
+    hostname: XXX.dungeon.church
+    restart: unless-stopped
+    networks:
+      - public-proxy
+    volumes:
+      - /home/ubuntu/foundryvtt:/data
+    environment:
+      - UID=1001
+      - GID=1001
+      - FOUNDRY_USERNAME=XXX
+      - FOUNDRY_PASSWORD=XXX
+      - CONTAINER_CACHE=/data/cache
+      - FOUNDRY_ADMIN_KEY=XXX
+      - FOUNDRY_MINIFY_STATIC_FILES=true
+      - FOUNDRY_HOSTNAME=XXX.dungeon.church
+      - VIRTUAL_HOST=XXXX.dungeon.church
+      - FOUNDRY_AWS_CONFIG=aws.json # Backblaze B2
+      - FOUNDRY_PROXY_PORT=443
+      - FOUNDRY_PROXY_SSL=true
+      - VIRTUAL_PORT=30000
+      - TIMEZONE='America/Los_Angeles'
+      - FOUNDRY_UID=1001
+      - FOUNDRY_GID=1001
+    ports:
+      - 30000:30000/tcp
+    links:
+      - ddb-proxy:ddb-proxy
+
+# CONNECTS FOUNDRY to D&D BEYOND
+  ddb-proxy:
+    image: ghcr.io/mrprimate/ddb-proxy:latest
+    container_name: ddb-proxy
+    restart: unless-stopped
+    networks:
+      - public-proxy
+
+# 5E TOOLS
+  5etools:
+    restart: unless-stopped
+    container_name: 5etools
+    image: jafner/5etools-docker
+    volumes:
+      - /home/ubuntu/5etools:/usr/local/apache2/htdocs
+      - /home/ubuntu/5etools-homebrew:/usr/local/apache2/htdocs/homebrew
+    environment:
+      - SOURCE=GITHUB
+      - IMG=TRUE
+    networks:
+      - public-proxy
+
+# OUTLINE STACK
+#
+# DB FOR OUTLINE
+  postdb:
+    image: postgres:13
+    restart: unless-stopped
+    container_name: postdb
+    environment:
+      - POSTGRES_USER=XXX
+      - POSTGRES_PASSWORD=XXX
+      - POSTGRES_DB=XXX
+    volumes:
+      - /home/ubuntu/dbpost:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+    networks:
+      - outline-internal
+# OUTLINE DB BACKUP
+  postdb_backup:
+    image: postgres:13
+    depends_on:
+      - postdb
+    volumes:
+      - /home/ubuntu/dbpost_backup:/backup
+    command: >
+      bash -c "while true; do
+        PGPASSWORD=$$POSTGRES_PASSWORD pg_dump -h postdb -U $$POSTGRES_USER -Fc $$POSTGRES_DB > /backup/$$(date +%Y-%m-%d-%H-%M-%S).dump
+        echo ""Backup done at $$(date +%Y-%m-%d_%H:%M:%S)""
+        ls -1 /backup/*.dump | head -n -2 | xargs rm -f
+        sleep 86400
+      done"
+    environment:
+      POSTGRES_USER: XXX
+      POSTGRES_PASSWORD: XXX
+      POSTGRES_DB: XXX
+    networks:
+      - outline-internal
+# REDIS FOR OUTLINE
+  redis:
+    image: redis
+    restart: unless-stopped
+    container_name: redis
+    networks:
+      - outline-internal
+# OUTLINE WIKI
+ outline:
+    image: outlinewiki/outline:0.75.2
+    container_name: outline
+    restart: unless-stopped
+    # USE THIS TO UPGRADE
+    #command: sh -c "sleep 5 && yarn db:migrate --env=production-ssl-disabled"
+    # USE THIS TO RUN PRODUCTION SERVICE
+    command: yarn start --env=production-ssl-disabled
+    depends_on:
+      - postdb
+      - redis
+    links:
+      - postdb:postdb
+      - redis:redis
+    env_file:
+      - /home/ubuntu/outline/outline.env
+    ports:
+      - "1661:80"
+    volumes:
+      - /home/ubuntu/outline/data:/var/lib/outline/data
+    networks:
+      - outline-internal
+      - public-proxy
+
+# GHOST STACK
+#
+# GHOST
+  ghost_dungeon:
+    image: ghost:latest
+    restart: always
+    container_name: ghost_dungeon
+    networks:
+      - public-proxy
+      - internal-db
+    links:
+      - db:db
+    depends_on:
+      - db
+    environment:
+      # see https://ghost.org/docs/config/#configuration-options
+      - database__client=mysql
+      - database__connection__host=db
+      - database__connection__user=XXX
+      - database__connection__password=XXX
+      - database__connection__database=XXX
+      # this url value is just an example, and is likely wrong for your environment!
+      - url=https://www.dungeon.church
+      # contrary to the default mentioned in the linked documentation, this image defaults to NODE_ENV=production (so development mode needs to be explicitly specified if desired)
+      #NODE_ENV: development
+      - mail__transport=SMTP
+      - mail__options__host=smtp.mailgun.org
+      - mail__options__port=587
+      - mail__options__auth__user=XXX
+      - mail__options__auth__pass=XXX
+      - mail__from="Dungeon Church <noreply@dungeon.church>"
+    volumes:
+      - /home/ubuntu/ghost:/var/lib/ghost
+# GHOST DB
+  db:
+    image: mysql:8.0
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: XXX
+    volumes:
+      - /home/ubuntu/db:/var/lib/mysql
+    networks:
+      - internal-db
+
+# RED DISCORD BOT
+  redbot:
+    container_name: redbot
+    image: phasecorex/red-discordbot
+    restart: unless-stopped
+    volumes:
+      - /home/ubuntu/redbot:/data
+    environment:
+      - TOKEN=XXX
+      - PREFIX=.
+      - TZ=America/Los_Angeles
+      - PUID=1000
+
+networks:
+  public-proxy:
+  internal-db:
+  outline-internal

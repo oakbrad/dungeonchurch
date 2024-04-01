@@ -15,6 +15,21 @@ More information on [this blog post](https://www.dungeon.church/dungeon-church-s
     - [Plutonium](https://5e.tools/plutonium.html) - Import content from 5E Tools to FoundryVTT
     - [DDB Proxy](https://github.com/MrPrimate/ddb-proxy) - If you are stuck in WotC subscription land, you can import your content with this
 
+## Docker Compose
+The containers necessary to run all this are detailed in the docker-compose.yaml
+
+- jc21/nginx-proxy-manager
+- nodered/node-red
+- felddy/foundryvtt
+- ghcr.io/mrprimate/ddb-proxy
+- jafner/5etools/docker
+- postgres
+- redis
+- outlinewiki/outline
+- ghost
+- mysql
+- phasecorex/red-discordbot
+
 ## Node-Red Examples
 
 WIP
