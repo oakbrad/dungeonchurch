@@ -1,0 +1,137 @@
+[
+    {
+        "id": "405121c241e75859",
+        "type": "comment",
+        "z": "ec781da35003e39d",
+        "name": "GHOST - GET AUTH COOKIE EVERY 10 DAYS",
+        "info": "",
+        "x": 220,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "afdf13fde78f7c52",
+        "type": "change",
+        "z": "ec781da35003e39d",
+        "name": "Auth Cookie Payload",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{\"username\":\"USERNAME\",\"password\":\"PASS\"}",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 300,
+        "y": 100,
+        "wires": [
+            [
+                "529a3932916fe0e6"
+            ]
+        ]
+    },
+    {
+        "id": "529a3932916fe0e6",
+        "type": "http request",
+        "z": "ec781da35003e39d",
+        "name": "Get Cookie",
+        "method": "POST",
+        "ret": "txt",
+        "paytoqs": "body",
+        "url": "https://www.your.tld/ghost/api/admin/session",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 290,
+        "y": 140,
+        "wires": [
+            [
+                "666efe5c94eada8a",
+                "b95fe2d728378fee"
+            ]
+        ]
+    },
+    {
+        "id": "666efe5c94eada8a",
+        "type": "change",
+        "z": "ec781da35003e39d",
+        "name": "Save Cookie",
+        "rules": [
+            {
+                "t": "move",
+                "p": "responseCookies",
+                "pt": "msg",
+                "to": "cookies",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 290,
+        "y": 180,
+        "wires": [
+            [
+                "b95fe2d728378fee"
+            ]
+        ]
+    },
+    {
+        "id": "b95fe2d728378fee",
+        "type": "debug",
+        "z": "ec781da35003e39d",
+        "name": "End of Route",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 550,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "e7ef398d7b1f8327",
+        "type": "inject",
+        "z": "ec781da35003e39d",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "691200",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 110,
+        "y": 100,
+        "wires": [
+            [
+                "afdf13fde78f7c52"
+            ]
+        ]
+    }
+]

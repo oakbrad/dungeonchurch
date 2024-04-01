@@ -1,0 +1,543 @@
+[
+    {
+        "id": "a9753b82edda6d57",
+        "type": "comment",
+        "z": "0aa61d3f6feef093",
+        "name": "SLASH LORE",
+        "info": "",
+        "x": 110,
+        "y": 840,
+        "wires": []
+    },
+    {
+        "id": "301ff15deca22376",
+        "type": "http request",
+        "z": "0aa61d3f6feef093",
+        "name": "Search Request",
+        "method": "POST",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "https://your.tld/api/documents.search",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "bearer",
+        "senderr": false,
+        "headers": [],
+        "x": 720,
+        "y": 960,
+        "wires": [
+            [
+                "b65d223fcb97ea7e",
+                "b75c2f3db67707fa"
+            ]
+        ]
+    },
+    {
+        "id": "7248e018ef49410f",
+        "type": "template",
+        "z": "0aa61d3f6feef093",
+        "name": "Search Payload",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "{\n  \"offset\": 0,\n  \"limit\": 5,\n  \"query\": \"{{ query }}\",\n  \"includeArchived\": false,\n  \"includeDrafts\": false\n}",
+        "output": "json",
+        "x": 720,
+        "y": 920,
+        "wires": [
+            [
+                "301ff15deca22376"
+            ]
+        ]
+    },
+    {
+        "id": "22b6ca665a2a4b7c",
+        "type": "discordInteraction",
+        "z": "0aa61d3f6feef093",
+        "name": "SLASH LORE",
+        "token": "",
+        "interactionType": "command",
+        "custom_id": "lore",
+        "commandResponse": "Command in proccess, wait a moment...",
+        "interactionObject": true,
+        "ephemeral": false,
+        "responseType": "update",
+        "x": 110,
+        "y": 880,
+        "wires": [
+            [
+                "ca30eada014555c9",
+                "295f912ea481f7dd",
+                "7d5639a13e386a33"
+            ]
+        ]
+    },
+    {
+        "id": "295f912ea481f7dd",
+        "type": "function",
+        "z": "0aa61d3f6feef093",
+        "name": "Response",
+        "func": "// MAKE NEW MESSAGE\n\nlet newMessage = {};\nnewMessage.payload = {\n    content: \"*\\\"Let me find the tome...\\\"* 📚\"\n};\n\nnewMessage.interactionId = msg.payload.id;\nreturn newMessage;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 400,
+        "y": 920,
+        "wires": [
+            [
+                "5301439593191a61"
+            ]
+        ]
+    },
+    {
+        "id": "5301439593191a61",
+        "type": "discordInteractionManager",
+        "z": "0aa61d3f6feef093",
+        "name": "Send Response",
+        "token": "",
+        "x": 420,
+        "y": 960,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f94b85fcf550f4b3",
+        "type": "comment",
+        "z": "0aa61d3f6feef093",
+        "name": "Save Interaction Object",
+        "info": "",
+        "x": 440,
+        "y": 1020,
+        "wires": []
+    },
+    {
+        "id": "7d5639a13e386a33",
+        "type": "change",
+        "z": "0aa61d3f6feef093",
+        "name": "move msg.payload",
+        "rules": [
+            {
+                "t": "move",
+                "p": "payload.options._hoistedOptions[0].value",
+                "pt": "msg",
+                "to": "query",
+                "tot": "msg"
+            },
+            {
+                "t": "move",
+                "p": "payload",
+                "pt": "msg",
+                "to": "discord",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 430,
+        "y": 1060,
+        "wires": [
+            [
+                "7248e018ef49410f"
+            ]
+        ]
+    },
+    {
+        "id": "95484bbe9581421a",
+        "type": "comment",
+        "z": "0aa61d3f6feef093",
+        "name": "Temporary Thinking Message",
+        "info": "",
+        "x": 460,
+        "y": 880,
+        "wires": []
+    },
+    {
+        "id": "9ef9af9584dc19c3",
+        "type": "comment",
+        "z": "0aa61d3f6feef093",
+        "name": "Search Wiki & Get Content",
+        "info": "",
+        "x": 750,
+        "y": 880,
+        "wires": []
+    },
+    {
+        "id": "b65d223fcb97ea7e",
+        "type": "change",
+        "z": "0aa61d3f6feef093",
+        "name": "move msg.payload",
+        "rules": [
+            {
+                "t": "move",
+                "p": "payload.data",
+                "pt": "msg",
+                "to": "results",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 730,
+        "y": 1000,
+        "wires": [
+            [
+                "d6f922a1effaea95"
+            ]
+        ]
+    },
+    {
+        "id": "27749d92c5041ed2",
+        "type": "function",
+        "z": "0aa61d3f6feef093",
+        "name": "GPT Prompt",
+        "func": "let prompt = \"Give a one sentence response to the following scenario: You are the Oracle of Pyora, a librarian wizard who keeps the lore and secrets of this dark fantasy realm. Role play as the librarian handing over the book and making a short comment or riddle alluding to it's contents or legends. The knowledge the book contains is - \" + msg.results[0].document.text\nprompt = prompt.substring(0, 2000); // content max length is 2000 characters\nmsg.payload = prompt;\nmsg.max_tokens = 1000;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 730,
+        "y": 1160,
+        "wires": [
+            [
+                "1a1fc0a80d9c3d8b"
+            ]
+        ],
+        "icon": "font-awesome/fa-comments-o"
+    },
+    {
+        "id": "1a1fc0a80d9c3d8b",
+        "type": "chatgpt",
+        "z": "0aa61d3f6feef093",
+        "name": "",
+        "topic": "turbo",
+        "BaseUrl": "https://api.openai.com/",
+        "x": 720,
+        "y": 1200,
+        "wires": [
+            [
+                "9f80be9c79b3d43b",
+                "b75c2f3db67707fa"
+            ]
+        ]
+    },
+    {
+        "id": "9f80be9c79b3d43b",
+        "type": "function",
+        "z": "0aa61d3f6feef093",
+        "name": "Assemble Discord Message",
+        "func": "// removes image references, saves content IDs to the ids variable,returned as msg.images\nfunction extractAndRemoveImageRefs(markdown) {\n  const imageRefRegex = /!\\[.*?\\]\\(\\/api\\/attachments\\.redirect\\?id=([a-f0-9\\-]+).*?\\)/g;\n  let ids = [];\n  let cleanedMarkdown = markdown.replace(imageRefRegex, (match, id) => {\n    ids.push(id); // Save the extracted ID\n    return \"\"; // Remove the image reference from the markdown\n  });\n\n  return { cleanedMarkdown, ids };\n}\n// START FORMATTING CONTENT\n\n// Fixes and links and <suppresses> embeds for them\nlet firstResult = msg.results[0].document.text\n//firstResult = firstResult.replace(/\\n+/g, \"\\n\"); // remove extra line breaks\n\n// Clean up markdown of image references, save as array\nconst { cleanedMarkdown, ids } = extractAndRemoveImageRefs(firstResult);\n\n// So now create the other elements\nconst emote = \"*\" + msg.payload + \"*\" // italicize the AI response\nlet title = msg.results[0].document.title \nif (msg.results[0].document.emoji) {\n  title = msg.results[0].document.emoji + \" \" + title\n}\nlet content = cleanedMarkdown\n// fix stuff in the content\ncontent = content.replace(/\\]\\(\\/doc\\//g, \"](<https://your.tld/doc/\").replace(/\\)/g, \">)\"); // fix links\nlet resulturl = \"https://your.tld\" + msg.results[0].document.url\ncontent = \"# [\" + title + \"](\" + resulturl + \")\\n\" + content\ncontent = content.substring(0, 2000); // content max length is 2000 characters\n\n\n// assemble search links\nlet searchlist = \"\";\nfor (let j = 1; j < Math.min(4, msg.results.length); j++) {\n      searchlist = searchlist + \"* [\" + msg.results[j].document.title + \"](<https://your.tld\" + msg.results[j].document.url + \">)\\n\"\n}\n// assemble backlinks\nlet backlinklist = \"\";\nfor (let i = 0; i < Math.min(3, msg.backlinks.data.length); i++) {\n  backlinklist = backlinklist + \"* [\" + msg.backlinks.data[i].title + \"](<https://your.tld\" + msg.backlinks.data[i].url + \">)\\n\"\n}\n\n// MAKE NEW MESSAGE\n\nlet newMessage = {};\nnewMessage.payload = {\n    content: emote,\n    embed: [{\n      description: content,\n      color: 0xAA0000,\n      thumbnail: {\n        url: \"attachment://attachment.png\"\n      }\n  },\n  {\n    color: 0x999999,\n    fields: [\n              {\n        name: \"🔗 Backlinks:\",\n          value: backlinklist,\n          inline: true\n        },\n        {\n          name: \"🔎 Search Results:\",\n          value: searchlist,\n          inline: true,\n        }\n      ]\n\n  }\n  ],\n  components:\n    [\n      {\n        \"type\": 1,\n        \"components\": [\n          {\n            \"type\": 2,\n            \"label\": \"✏️ Edit Wiki Entry\",\n            \"style\": 5,\n            \"URL\": resulturl\n          }/*,\n          {\n            \"type\": 2,\n            \"label\": \"🎨 Generate Image\",\n            \"style\": 1,\n            \"custom_id\": \"lore_genimage\"\n          }*/\n        ]\n\n      }\n    ]\n};\n\n\n// Assign Interaction ID\nnewMessage.images = ids;\nnewMessage.interactionId = msg.discord.id;\nreturn newMessage;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1040,
+        "y": 920,
+        "wires": [
+            [
+                "74b955e46f480b1e",
+                "be2e026e9e386716"
+            ]
+        ]
+    },
+    {
+        "id": "6ac44d0cf360c516",
+        "type": "comment",
+        "z": "0aa61d3f6feef093",
+        "name": "Return Final Message",
+        "info": "",
+        "x": 1020,
+        "y": 880,
+        "wires": []
+    },
+    {
+        "id": "d3db4976ab03c66b",
+        "type": "discordInteractionManager",
+        "z": "0aa61d3f6feef093",
+        "name": "Send Lore Message",
+        "token": "",
+        "x": 1340,
+        "y": 1020,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "dcca9f81a81de576",
+        "type": "http request",
+        "z": "0aa61d3f6feef093",
+        "name": "Search Request",
+        "method": "POST",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "https://your.tld/api/documents.list",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "bearer",
+        "senderr": false,
+        "headers": [],
+        "x": 720,
+        "y": 1080,
+        "wires": [
+            [
+                "e094a77326bcc175"
+            ]
+        ]
+    },
+    {
+        "id": "e094a77326bcc175",
+        "type": "change",
+        "z": "0aa61d3f6feef093",
+        "name": "move msg.payload",
+        "rules": [
+            {
+                "t": "move",
+                "p": "payload",
+                "pt": "msg",
+                "to": "backlinks",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 730,
+        "y": 1120,
+        "wires": [
+            [
+                "27749d92c5041ed2"
+            ]
+        ]
+    },
+    {
+        "id": "d6f922a1effaea95",
+        "type": "function",
+        "z": "0aa61d3f6feef093",
+        "name": "Backlinks Search",
+        "func": "let docID = msg.results[0].document.id\n\nmsg.payload = {\n  \"offset\": 0,\n  \"limit\": 10,\n  \"direction\": \"DESC\",\n  \"backlinkDocumentId\": docID,\n  \"includeArchived\": false,\n  \"includeDrafts\": false\n}\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 730,
+        "y": 1040,
+        "wires": [
+            [
+                "dcca9f81a81de576"
+            ]
+        ]
+    },
+    {
+        "id": "eee0b5b24fe963f9",
+        "type": "http request",
+        "z": "0aa61d3f6feef093",
+        "name": "Retrieve URL",
+        "method": "POST",
+        "ret": "bin",
+        "paytoqs": "ignore",
+        "url": "https://your.tld/api/attachments.redirect",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "bearer",
+        "senderr": false,
+        "headers": [],
+        "x": 1030,
+        "y": 1020,
+        "wires": [
+            [
+                "c82611ecbacfd7eb"
+            ]
+        ]
+    },
+    {
+        "id": "c82611ecbacfd7eb",
+        "type": "function",
+        "z": "0aa61d3f6feef093",
+        "name": "Download Image",
+        "func": "msg.method = \"GET\"\nmsg.url = msg.responseUrl\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1030,
+        "y": 1060,
+        "wires": [
+            [
+                "300a50cd18a73d38"
+            ]
+        ]
+    },
+    {
+        "id": "300a50cd18a73d38",
+        "type": "http request",
+        "z": "0aa61d3f6feef093",
+        "name": "Save in Buffer",
+        "method": "GET",
+        "ret": "bin",
+        "paytoqs": "ignore",
+        "url": "",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 1040,
+        "y": 1100,
+        "wires": [
+            [
+                "4e8e85c23e97c826"
+            ]
+        ]
+    },
+    {
+        "id": "4e8e85c23e97c826",
+        "type": "function",
+        "z": "0aa61d3f6feef093",
+        "name": "Attach to Embed",
+        "func": "msg.attachments = { buffer: msg.payload, name: \"attachment.png\" };\nmsg.payload = msg.payloadwaiting\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1050,
+        "y": 1140,
+        "wires": [
+            [
+                "d3db4976ab03c66b",
+                "4963b2729a79718d"
+            ]
+        ]
+    },
+    {
+        "id": "74b955e46f480b1e",
+        "type": "change",
+        "z": "0aa61d3f6feef093",
+        "name": "",
+        "rules": [
+            {
+                "t": "move",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payloadwaiting",
+                "tot": "msg"
+            },
+            {
+                "t": "move",
+                "p": "images[0]",
+                "pt": "msg",
+                "to": "payload.id",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1040,
+        "y": 980,
+        "wires": [
+            [
+                "eee0b5b24fe963f9"
+            ]
+        ]
+    },
+    {
+        "id": "be2e026e9e386716",
+        "type": "debug",
+        "z": "0aa61d3f6feef093",
+        "name": "debug 7",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1300,
+        "y": 920,
+        "wires": []
+    },
+    {
+        "id": "4963b2729a79718d",
+        "type": "debug",
+        "z": "0aa61d3f6feef093",
+        "name": "debug 8",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1300,
+        "y": 1140,
+        "wires": []
+    },
+    {
+        "id": "b75c2f3db67707fa",
+        "type": "debug",
+        "z": "0aa61d3f6feef093",
+        "name": "lore pre assembly",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1050,
+        "y": 1200,
+        "wires": []
+    },
+    {
+        "id": "ca30eada014555c9",
+        "type": "debug",
+        "z": "0aa61d3f6feef093",
+        "name": "lore output",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 110,
+        "y": 980,
+        "wires": []
+    }
+]
