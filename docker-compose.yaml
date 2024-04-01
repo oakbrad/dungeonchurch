@@ -211,4 +211,4 @@ services:
 networks:
   public-proxy:
   internal-db:
-  outline-internal
+  outline-internal:
