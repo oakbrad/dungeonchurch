@@ -32,4 +32,23 @@ The containers necessary to run all this are detailed in the docker-compose.yaml
 
 ## Node-Red Examples
 
-WIP
+### Ghost Authorization
+Get an auth cookie to access the API
+
+<img src=/node-red-examples/ghost-auth.png>
+
+### Ghost Post to Discord
+Repost public blog posts from Ghost to Discord and tag @everyone
+
+<img src=/node-red-examples/ghost-to-discord.png>
+
+### Outline to Discord Command
+Discord ```/lore``` command prints the first result from Outline search, including backlinks and ChatGPT flavor.
+
+<img src=/node-red-examples/discord-slash-lore.png>
+
+### Discord Roles to Ghost Newsletters
+Synchronize RSVP roles from Discord to corresponding email newsletters in Ghost.
+
+*This one is a bit of a mess, need to refactor before posting.*
+

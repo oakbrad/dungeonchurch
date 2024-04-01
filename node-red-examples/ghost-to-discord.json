@@ -1,0 +1,273 @@
+[
+    {
+        "id": "7b309acfbb99a58e",
+        "type": "http in",
+        "z": "ec781da35003e39d",
+        "name": "Ghost Post",
+        "url": "/ghostpost",
+        "method": "post",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 100,
+        "y": 360,
+        "wires": [
+            [
+                "7099e8b0564225e4",
+                "15020bbf53daffcc",
+                "48b04273c8d3c6ee"
+            ]
+        ]
+    },
+    {
+        "id": "7099e8b0564225e4",
+        "type": "debug",
+        "z": "ec781da35003e39d",
+        "name": "Capture Incoming Payload",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 420,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "15020bbf53daffcc",
+        "type": "http response",
+        "z": "ec781da35003e39d",
+        "name": "Respond 200 Success",
+        "statusCode": "",
+        "headers": {},
+        "x": 400,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "274767dff3e73936",
+        "type": "discordMessageManager",
+        "z": "ec781da35003e39d",
+        "name": "#BOT-TESTING",
+        "channel": "XXX",
+        "token": "",
+        "x": 880,
+        "y": 720,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "db71f07a3379b4c8",
+        "type": "turndown",
+        "z": "ec781da35003e39d",
+        "name": "Parse HTML to markdown",
+        "x": 420,
+        "y": 560,
+        "wires": [
+            [
+                "9312c04c921bbf5d"
+            ]
+        ]
+    },
+    {
+        "id": "48b04273c8d3c6ee",
+        "type": "change",
+        "z": "ec781da35003e39d",
+        "name": "Rearrange for Turndown",
+        "rules": [
+            {
+                "t": "move",
+                "p": "payload",
+                "pt": "msg",
+                "to": "ghost",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "ghost.post.current.html",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 410,
+        "y": 520,
+        "wires": [
+            [
+                "db71f07a3379b4c8"
+            ]
+        ]
+    },
+    {
+        "id": "686a44f22964eb82",
+        "type": "change",
+        "z": "ec781da35003e39d",
+        "name": "Rearrange to Payload",
+        "rules": [
+            {
+                "t": "move",
+                "p": "payload",
+                "pt": "msg",
+                "to": "ghost.post.current.markdown",
+                "tot": "msg"
+            },
+            {
+                "t": "move",
+                "p": "ghost",
+                "pt": "msg",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 420,
+        "y": 640,
+        "wires": [
+            [
+                "cbd9945ba40f2fb1"
+            ]
+        ]
+    },
+    {
+        "id": "b1fe7c75fc1047d7",
+        "type": "comment",
+        "z": "ec781da35003e39d",
+        "name": "GHOST POST -> DISCORD",
+        "info": "",
+        "x": 160,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "b1ccb1dd5706577a",
+        "type": "comment",
+        "z": "ec781da35003e39d",
+        "name": "Convert to Discord Message",
+        "info": "",
+        "x": 420,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "cbd9945ba40f2fb1",
+        "type": "change",
+        "z": "ec781da35003e39d",
+        "name": "Format for Discord",
+        "rules": [
+            {
+                "t": "set",
+                "p": "action",
+                "pt": "msg",
+                "to": "create",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "embeds",
+                "pt": "msg",
+                "to": "{   \t    \"color\": \"15548997\",  \t    \"title\": payload.post.current.title,\t    \"url\": payload.post.current.url,\t    \"description\": payload.post.current.markdown,\t    \"author\": {\t        \"name\": payload.post.current.authors[0].name,\t        \"icon_url\": (\"https:\" & payload.post.current.authors[0].profile_image)\t    },\t    \"image\": {\t        \"url\": payload.post.current.feature_image\t    }\t\t\t  }",
+                "tot": "jsonata"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "@everyone",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 410,
+        "y": 680,
+        "wires": [
+            [
+                "369876bbc85d82f6",
+                "9cac511f2c03b49e"
+            ]
+        ]
+    },
+    {
+        "id": "369876bbc85d82f6",
+        "type": "debug",
+        "z": "ec781da35003e39d",
+        "name": "Discord Payload",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 660,
+        "y": 720,
+        "wires": []
+    },
+    {
+        "id": "9cac511f2c03b49e",
+        "type": "discordMessageManager",
+        "z": "ec781da35003e39d",
+        "name": "#ANNOUNCEMENTS",
+        "channel": "XXX",
+        "token": "",
+        "x": 900,
+        "y": 660,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9312c04c921bbf5d",
+        "type": "function",
+        "z": "ec781da35003e39d",
+        "name": "extract images and construct embeds",
+        "func": "const regex = /!\\[\\]\\((.*?)\\)/g;\n// = /([\\uE000-\\uF8FF]|\\uD83C[\\uDC00-\\uDFFF]|\\uD83D[\\uDC00-\\uDFFF]|[\\u2580-\\u27BF]|\\uD83E[\\uDD10-\\uDDFF])\\n+/g;\nconst emojiRegex = /([\\uE000-\\uF8FF]|\\uD83C[\\uDC00-\\uDFFF]|\\uD83D[\\uDC00-\\uDFFF]|[\\u2580-\\u27BF]|[\\u2600-\\u26FF]|⚔️|\\uD83E[\\uDD10-\\uDDFF])\\n+/g;\n\n// Extract image URLs\nlet urls = [];\nlet match;\nwhile ((match = regex.exec(msg.payload)) !== null) {\n    urls.push(match[1]);\n}\n// Add featured image if it's there\nif (msg.payload.post && msg.payload.post.current && msg.payload.post.current.feature_image) {\n    urls.push(msg.payload.post.current.feature_image);\n}\n\n// Construct embeds for Discord\nmsg.images = urls.map(url => ({\n  //  \"title\": \"Image\", // Optional: You might want to customize the title for each image or remove this line\n    \"image\": {\n        \"url\": url\n    }\n}));\n\n// remove markdown embeds from message\nmsg.payload = msg.payload.replace(regex, '');\nmsg.payload = msg.payload.replace(emojiRegex, \"\\n$1 \")\n// remove extra new lines\nmsg.payload = msg.payload.replace(/\\n{3,}/g, '\\n\\n');\n\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 450,
+        "y": 600,
+        "wires": [
+            [
+                "686a44f22964eb82",
+                "b8e7f5361aa31055"
+            ]
+        ]
+    },
+    {
+        "id": "b8e7f5361aa31055",
+        "type": "debug",
+        "z": "ec781da35003e39d",
+        "name": "Extracted Image Payload",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 770,
+        "y": 600,
+        "wires": []
+    }
+]
