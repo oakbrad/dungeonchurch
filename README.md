@@ -1,9 +1,7 @@
 # Dungeon Church
-D&D group infrastructure.
+D&D group infrastructure. More information in [this blog post](https://www.dungeon.church/dungeon-church-software-stack).
 
 ## Software
-More information on [this blog post](https://www.dungeon.church/dungeon-church-software-stack)
-
 - [Ghost](https://ghost.org/) - public website, email newsletters and automated reminders
 - [Outline](https://www.getoutline.com/) - lore wiki for our homebrew setting
 - [5E Tools](https://github.com/Jafner/5etools-docker) - Community compilation of D&D content and tools
@@ -16,19 +14,19 @@ More information on [this blog post](https://www.dungeon.church/dungeon-church-s
     - [DDB Proxy](https://github.com/MrPrimate/ddb-proxy) - If you are stuck in WotC subscription land, you can import your content with this
 
 ## Docker Compose
-The containers necessary to run all this are detailed in the docker-compose.yaml
-
-- jc21/nginx-proxy-manager
-- nodered/node-red
-- felddy/foundryvtt
-- ghcr.io/mrprimate/ddb-proxy
-- jafner/5etools/docker
+The config necessary to run all this is detailed in the <a href=/docker-compose.yaml>docker-compose.yaml</a>
+### Container List
+- [jc21/nginx-proxy-manager](https://github.com/NginxProxyManager/nginx-proxy-manager)
+- [nodered/node-red](https://nodered.org/docs/getting-started/docker)
+- [felddy/foundryvtt](https://github.com/felddy/foundryvtt-docker)
+- [ghcr.io/mrprimate/ddb-proxy](https://github.com/MrPrimate/ddb-proxy)
+- [jafner/5etools-docker](https://github.com/Jafner/5etools-docker)
 - postgres
 - redis
-- outlinewiki/outline
-- ghost
+- [outlinewiki/outline](https://github.com/outline/outline)
+- [ghost](https://github.com/TryGhost/Ghost)
 - mysql
-- phasecorex/red-discordbot
+- [phasecorex/red-discordbot](https://github.com/PhasecoreX/docker-red-discordbot)
 
 ## Node-Red Examples
 
