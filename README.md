@@ -46,6 +46,8 @@ Repost public blog posts from Ghost to Discord and tag @everyone
 Discord ```/lore``` command prints the first result from Outline search, including backlinks and ChatGPT flavor.
 
 <img src=/node-red-examples/discord-slash-lore.png>
+Result:
+<img src=/node-red-examples/discord-slash-lore-output.png>
 
 ### Discord Roles to Ghost Newsletters
 Synchronize RSVP roles from Discord to corresponding email newsletters in Ghost.
