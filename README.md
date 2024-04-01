@@ -29,6 +29,7 @@ The config necessary to run all this is detailed in the <a href=/docker-compose.
 - [phasecorex/red-discordbot](https://github.com/PhasecoreX/docker-red-discordbot)
 
 ## Node-Red Examples
+The json files to import these into Node-Red are in the repo here.
 
 ### Ghost Authorization
 Get an auth cookie to access the API
