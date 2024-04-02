@@ -2,6 +2,7 @@ version: '3.8'
 services:
 
   # NGINX PROXY
+  # https://github.com/NginxProxyManager/nginx-proxy-manager
   nginx:
     image: jc21/nginx-proxy-manager:latest
     restart: unless-stopped
@@ -16,6 +17,8 @@ services:
     networks:
       - public-proxy # PUBLIC SERVICES MUST CONNECT TO THIS NETWORK
 
+  # NODERED
+  # https://nodered.org/docs/getting-started/docker
   node-red:
     image: nodered/node-red:latest-18
     container_name: nodered
@@ -29,6 +32,7 @@ services:
       - public-proxy
 
 # FOUNDRY
+# https://github.com/felddy/foundryvtt-docker
   foundryvtt:
     container_name: foundryvtt
     image: felddy/foundryvtt:release
@@ -61,6 +65,7 @@ services:
       - ddb-proxy:ddb-proxy
 
 # CONNECTS FOUNDRY to D&D BEYOND
+# https://github.com/MrPrimate/ddb-proxy
   ddb-proxy:
     image: ghcr.io/mrprimate/ddb-proxy:latest
     container_name: ddb-proxy
@@ -69,6 +74,7 @@ services:
       - public-proxy
 
 # 5E TOOLS
+# https://github.com/Jafner/5etools-docker
   5etools:
     restart: unless-stopped
     container_name: 5etools
@@ -127,6 +133,7 @@ services:
     networks:
       - outline-internal
 # OUTLINE WIKI
+# https://github.com/outline/outline
  outline:
     image: outlinewiki/outline:0.75.2
     container_name: outline
@@ -154,6 +161,8 @@ services:
 #
 # OPTIONAL OUTLINE INTEGRATIONS
 #
+  # DRAWIO
+  # https://github.com/jgraph/docker-drawio
   drawio:
     image: jgraph/drawio
     container_name: drawio
@@ -175,6 +184,7 @@ services:
 # GHOST STACK
 #
 # GHOST
+# https://github.com/TryGhost/Ghost
   ghost_dungeon:
     image: ghost:latest
     restart: always
@@ -217,6 +227,7 @@ services:
       - internal-db
 
 # RED DISCORD BOT
+# https://github.com/PhasecoreX/docker-red-discordbot
   redbot:
     container_name: redbot
     image: phasecorex/red-discordbot
