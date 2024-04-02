@@ -26,6 +26,211 @@
 			"typicalSpeakers": [
 				"{@filter gnomes|bestiary|type=humanoid|tag=gnome}"
 			]
+		},
+		{
+			"name": "Tribal",
+			"source": "DungeonChurch",
+			"page": 0,
+			"entries": [
+				"Tribal is a harsh, grating language with hard consonants used in the tribes of the southwest. It has no script of its own but is written in the Dwarvish script."
+			],
+			"type": "exotic",
+			"typicalSpeakers": [
+				"{@filter tribeborn|bestiary|type=humanoid|tag=tribeborn}"
+			]
+		}
+	],
+	"race": [
+		{
+			"name": "Elfmarked",
+			"source": "DungeonChurch",
+			"page": 0,
+			"srd": false,
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"ability": [
+				{
+					"cha": 2,
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con",
+							"int",
+							"wis"
+						],
+						"count": 2
+					}
+				}
+			],
+			"heightAndWeight": {
+				"baseHeight": 57,
+				"heightMod": "2d8",
+				"baseWeight": 110,
+				"weightMod": "2d4"
+			},
+			"age": {
+				"mature": 20,
+				"max": 180
+			},
+			"darkvision": 60,
+			"traitTags": [
+				"Uncommon Race"
+			],
+			"skillProficiencies": [
+				{
+					"any": 2
+				}
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"elvish": true,
+					"anyStandard": 1
+				}
+			],
+			"entries": [
+				{
+					"name": "Age",
+					"type": "entries",
+					"entries": [
+						"The Elfmarked mature at the same rate humans do and reach adulthood around the age of 20. They live much longer than humans, however, often exceeding 180 years."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"The elfmarked are about the same size as humans, ranging from 5 to 6 feet tall. Your size is Medium."
+					]
+				},
+				{
+					"name": "Darkvision",
+					"entries": [
+						"Thanks to your elf heritage, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Fey Ancestry",
+					"entries": [
+						"You have advantage on saving throws against being {@condition charmed}, and magic can't put you to sleep."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Skill Versatility",
+					"entries": [
+						"You gain proficiency in two skills of your choice."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write Common and two extra languages of your choice."
+					],
+					"type": "entries"
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Tribeborn",
+			"source": "DungeonChurch",
+			"page": 0,
+			"srd": false,
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"ability": [
+				{
+					"str": 2,
+					"con": 1
+				}
+			],
+			"heightAndWeight": {
+				"baseHeight": 58,
+				"heightMod": "2d10",
+				"baseWeight": 140,
+				"weightMod": "2d6"
+			},
+			"age": {
+				"mature": 14,
+				"max": 75
+			},
+			"darkvision": 60,
+			"traitTags": [
+				"Uncommon Race"
+			],
+			"skillProficiencies": [
+				{
+					"intimidation": true
+				}
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"orc": true
+				}
+			],
+			"entries": [
+				{
+					"name": "Age",
+					"type": "entries",
+					"entries": [
+						"Tribeborn mature a little faster than humans, reaching adulthood around age 14. They age noticeably faster and rarely live longer than 75 years."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Tribeborn are somewhat larger and bulkier than humans, and they range from 5 to well over 6 feet tall. Your size is Medium."
+					]
+				},
+				{
+					"name": "Darkvision",
+					"entries": [
+						"Thanks to your tribal upbringing, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Menacing",
+					"entries": [
+						"You gain proficiency in the {@skill Intimidation} skill."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Relentless Endurance",
+					"entries": [
+						"When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead. You can't use this feature again until you finish a long rest."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Savage Attacks",
+					"entries": [
+						"When you score a critical hit with a melee weapon attack, you can roll one of the weapon's damage dice one additional time and add it to the extra damage of the critical hit."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write Common and Tribal. Tribal is a harsh, grating language with hard consonants. It has no script of its own but is written in the Dwarvish script."
+					],
+					"type": "entries"
+				}
+			],
+			"hasFluff": false,
+			"hasFluffImages": false
 		}
 	]
 }
