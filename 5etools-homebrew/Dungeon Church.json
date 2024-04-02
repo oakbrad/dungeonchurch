@@ -1,0 +1,31 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "DungeonChurch",
+				"abbreviation": "CHURCH",
+				"full": "Dungeon Church",
+				"version": "0.1",
+				"url": "https://www.dungeon.church",
+				"authors": [
+					"Brad Wenner"
+				],
+				"color": "a90001"
+			}
+		]
+	},
+	"language": [
+		{
+			"name": "Adalindian Whistling",
+			"source": "DungeonChurch",
+			"page": 0,
+			"entries": [
+				"A secret, whistled language used by the Gnomish resistance movement Hand of Adalind."
+			],
+			"type": "secret",
+			"typicalSpeakers": [
+				"{@filter gnomes|bestiary|type=humanoid|tag=gnome}"
+			]
+		}
+	]
+}
