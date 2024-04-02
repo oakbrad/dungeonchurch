@@ -1,0 +1,6 @@
+{
+   "accessKeyId": "XXX",
+   "secretAccessKey": "XXX",
+   "region": "us-west-002",
+   "endpoint": "https://s3.us-west-002.backblazeb2.com"
+}
