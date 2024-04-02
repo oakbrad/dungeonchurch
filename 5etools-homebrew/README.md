@@ -1,7 +1,9 @@
 # Dungeon Church Homebrew
-For use with 5eTools.
+For use with 5eTools. 
 
 # Contents
+* Books
+    * [Dungeon Church Zine 1](https://www.dungeon.church/zine-no1/)
 * Languages
     * [Adalindian Whistling](https://lore.dungeon.church/doc/hand-of-adalind-kFepjGY6vb)
     * [Tribal](https://lore.dungeon.church/doc/tribeborn-KVgPsdxk3f)
@@ -9,3 +11,6 @@ For use with 5eTools.
     * [Elfmarked](https://lore.dungeon.church/doc/elfmarked-ohkfCOb0aT)
     * [Ravenfolk](https://lore.dungeon.church/doc/ravenfolk-2FqUStq1FR)
     * [Tribeborn](https://lore.dungeon.church/doc/tribeborn-KVgPsdxk3f)
+* Deities
+* Items
+* Bestiary

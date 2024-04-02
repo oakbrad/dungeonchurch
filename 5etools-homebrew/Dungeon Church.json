@@ -12,8 +12,52 @@
 				],
 				"color": "a90001"
 			}
-		]
+		],
+		"dateAdded": 0,
+		"dateLastModified": 0
 	},
+    "book": [
+		{
+			"name": "Dungeon Church Zine 1",
+			"id": "DC1",
+			"source": "DungeonChurch",
+			"group": "homebrew",
+			"published": "2021-07-21",
+			"author": "Brad Wenner",
+			"cover": {
+				"type": "external",
+				"url": "https://www.dungeon.church/content/images/size/w2000/2023/09/Screen-Shot-2023-09-25-at-18.52.47.png"
+			},
+			"contents": [
+				{
+					"name":	"History"
+				},
+				{
+					"name": "Pyora"
+				},
+				{
+					"name": "Saltmarsh"
+				},
+				{
+					"name": "Players"
+				},
+				{
+					"name": "Characters"
+				},
+				{
+					"name": "Playable Species",
+					"headers": [
+						"Humans",
+						"Dwarves",
+						"Elfmarked",
+						"Dragonborn",
+						"Gnomes",
+						"Halflings"
+					]
+				}
+			]
+		}
+	],
 	"language": [
 		{
 			"name": "Adalindian Whistling",
@@ -203,14 +247,14 @@
 				{
 					"name": "Mimicry",
 					"entries": [
-						"Ravenfolk can mimic any sound they've heard. Make a Charisma (Deception) check against the passive Wisdom (Insight) of any listeners. Success indicates they believe the sound you created was real."
+						"Ravenfolk can mimic any sound they've heard. Make a Charisma {@skill Deception} check against the passive {@skill Insight} of any listeners. Success indicates they believe the sound you created was real."
 					],
 					"type": "entries"
 				},
 				{
 					"name": "Trickster",
 					"entries": [
-						"You have proficiency in the Deception and Stealth skills."
+						"You have proficiency in the {@skill Deception} and {@skill Stealth} skills."
 					],
 					"type": "entries"
 				},
@@ -262,7 +306,7 @@
 			"languageProficiencies": [
 				{
 					"common": true,
-					"orc": true
+					"tribal": true
 				}
 			],
 			"entries": [
@@ -290,7 +334,7 @@
 				{
 					"name": "Menacing",
 					"entries": [
-						"You gain proficiency in the {@skill Intimidation} skill."
+						"You gain proficiency in {@skill Intimidation}"
 					],
 					"type": "entries"
 				},
