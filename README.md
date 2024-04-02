@@ -33,29 +33,5 @@ The config necessary to run all this is detailed in the <a href=/docker-compose.
 - [phasecorex/red-discordbot](https://github.com/PhasecoreX/docker-red-discordbot)
 
 ## Node-Red Examples
-The json files to import these into Node-Red are in the repo here.
-
-### Ghost Authorization
-Get an auth cookie to access the API
-
-<img src=/node-red-examples/ghost-auth-cookie.png>
-
-### Ghost Post to Discord
-Repost public blog posts from Ghost to Discord and tag @everyone
-
-<img src=/node-red-examples/ghost-to-discord.png>
-Output:
-<img src=/node-red-examples/ghost-to-discord-output.png>
-
-### Outline to Discord Command
-Discord ```/lore``` command prints the first result from Outline search, including backlinks and ChatGPT flavor.
-
-<img src=/node-red-examples/discord-slash-lore.png>
-Output::
-<img src=/node-red-examples/discord-slash-lore-output.png>
-
-### Discord Roles to Ghost Newsletters
-Synchronize RSVP roles from Discord to corresponding email newsletters in Ghost.
-
-*This one is a bit of a mess, need to refactor before posting.*
+<a href=/node-red-examples/README.md>Example flows</a>
 
