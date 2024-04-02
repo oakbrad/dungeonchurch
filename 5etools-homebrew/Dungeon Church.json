@@ -87,8 +87,7 @@
 			"languageProficiencies": [
 				{
 					"common": true,
-					"elvish": true,
-					"anyStandard": 1
+					"anyStandard": 2
 				}
 			],
 			"entries": [
@@ -103,18 +102,18 @@
 					"type": "entries",
 					"name": "Size",
 					"entries": [
-						"The elfmarked are about the same size as humans, ranging from 5 to 6 feet tall. Your size is Medium."
+						"The Elfmarked are about the same size as humans, ranging from 5 to 6 feet tall. Your size is Medium."
 					]
 				},
 				{
 					"name": "Darkvision",
 					"entries": [
-						"Thanks to your elf heritage, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+						"Thanks to your elven heritage, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
 					],
 					"type": "entries"
 				},
 				{
-					"name": "Fey Ancestry",
+					"name": "Elven Ancestry",
 					"entries": [
 						"You have advantage on saving throws against being {@condition charmed}, and magic can't put you to sleep."
 					],
@@ -131,6 +130,94 @@
 					"name": "Languages",
 					"entries": [
 						"You can speak, read, and write Common and two extra languages of your choice."
+					],
+					"type": "entries"
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": false
+		},
+		{
+			"name": "Ravenfolk",
+			"source": "DungeonChurch",
+			"page": 0,
+			"srd": false,
+			"size": [
+				"S",
+				"M"
+			],
+			"speed": 30,
+			"ability": [
+				{
+					"dex": 2,
+					"cha": 1
+				}
+			],
+			"heightAndWeight": {
+				"baseHeight": 48,
+				"heightMod": "2d12",
+				"baseWeight": 50,
+				"weightMod": "1d6"
+			},
+			"age": {
+				"mature": 10,
+				"max": 110
+			},
+			"traitTags": [
+				"Uncommon Race"
+			],
+			"skillProficiencies": [
+				{
+					"deception": true,
+					"stealth": true
+				}
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"anyStandard": 3
+				}
+			],
+			"entries": [
+				{
+					"name": "Age",
+					"type": "entries",
+					"entries": [
+						"Ravenfolk reach adulthood at 10 years old, and can live to be 110."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Ravenfolk are slighter and shorter than humans. They range from 4 feet to just shy of 6 feet tall. Your size is Small or Medium."
+					]
+				},
+				{
+					"name": "Sudden Attack",
+					"entries": [
+						"You have advantage on attack rolls against a surprised creature."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Mimicry",
+					"entries": [
+						"Ravenfolk can mimic any sound they've heard. Make a Charisma (Deception) check against the passive Wisdom (Insight) of any listeners. Success indicates they believe the sound you created was real."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Trickster",
+					"entries": [
+						"You have proficiency in the Deception and Stealth skills."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Languages",
+					"entries": [
+						"You can mimic Common perfectly and 3 additional languages poorly."
 					],
 					"type": "entries"
 				}
@@ -229,7 +316,7 @@
 					"type": "entries"
 				}
 			],
-			"hasFluff": false,
+			"hasFluff": true,
 			"hasFluffImages": false
 		}
 	]
