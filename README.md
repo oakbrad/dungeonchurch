@@ -18,19 +18,6 @@ D&D group infrastructure. More information in [this blog post](https://www.dunge
 
 ## Docker Compose
 The config necessary to run all this is detailed in the <a href=/docker-compose.yaml>docker-compose.yaml</a>
-### Container List
-- [jc21/nginx-proxy-manager](https://github.com/NginxProxyManager/nginx-proxy-manager)
-- [nodered/node-red](https://nodered.org/docs/getting-started/docker)
-- [felddy/foundryvtt](https://github.com/felddy/foundryvtt-docker)
-- [ghcr.io/mrprimate/ddb-proxy](https://github.com/MrPrimate/ddb-proxy)
-- [jafner/5etools-docker](https://github.com/Jafner/5etools-docker)
-- postgres
-- redis
-- [outlinewiki/outline](https://github.com/outline/outline)
-- [jgraph/docker-drawio](https://github.com/jgraph/docker-drawio)
-- [ghost](https://github.com/TryGhost/Ghost)
-- mysql
-- [phasecorex/red-discordbot](https://github.com/PhasecoreX/docker-red-discordbot)
 
 ## Node-Red Examples
 <a href=/node-red-examples/README.md>Example flows</a>
