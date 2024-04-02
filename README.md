@@ -4,6 +4,7 @@ D&D group infrastructure. More information in [this blog post](https://www.dunge
 ## Software
 - [Ghost](https://ghost.org/) - public website, email newsletters and automated reminders
 - [Outline](https://www.getoutline.com/) - lore wiki for our homebrew setting
+    - [Drawio](https://github.com/jgraph/docker-drawio) - diagramming integration
 - [5E Tools](https://github.com/Jafner/5etools-docker) - Community compilation of D&D content and tools
 - Discord - private group chat
     - [Sesh.FYI](https://sesh.fyi/) - RSVP and calendar bot *(not self hosted)*
@@ -26,6 +27,7 @@ The config necessary to run all this is detailed in the <a href=/docker-compose.
 - postgres
 - redis
 - [outlinewiki/outline](https://github.com/outline/outline)
+- [jgraph/docker-drawio](https://github.com/jgraph/docker-drawio)
 - [ghost](https://github.com/TryGhost/Ghost)
 - mysql
 - [phasecorex/red-discordbot](https://github.com/PhasecoreX/docker-red-discordbot)

@@ -151,6 +151,27 @@ services:
       - outline-internal
       - public-proxy
 
+#
+# OPTIONAL OUTLINE INTEGRATIONS
+#
+  drawio:
+    image: jgraph/drawio
+    container_name: drawio
+    restart: unless-stopped
+    environment:
+      - PUBLIC_DNS=your.tld
+      - DRAWIO_BASE_URL=your.tld
+      - DRAWIO_GOOGLE_CLIENT_ID=XXX
+      - DRAWIO_GOOGLE_CLIENT_SECRET=XXX
+      - DRAWIO_GOOGLE_APP_ID=XXX
+      - DRAWIO_GOOGLE_VIEWER_CLIENT_ID=XXX
+      - DRAWIO_GOOGLE_VIEWER_CLIENT_SECRET=XXX
+      - DRAWIO_GOOGLE_VIEWER_APP_ID=XXX
+      - KEYSTORE_PASS=XXX
+    networks:
+      - public-proxy
+
+
 # GHOST STACK
 #
 # GHOST
