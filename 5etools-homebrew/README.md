@@ -11,6 +11,7 @@ Our homebrew setting for use with 5eTools.
 * Species (Races)
     * [Dwarf (Durandian)](https://lore.dungeon.church/doc/dwarf-durandian-UOdggQRi6Y)
     * [Elfmarked](https://lore.dungeon.church/doc/elfmarked-ohkfCOb0aT)
+    * [Halfling](https://lore.dungeon.church/doc/halfling-fFZiVbQDbC)
     * [Human (Pyoran)](https://lore.dungeon.church/doc/human-LMuc7qNrv4)
     * [Ravenfolk](https://lore.dungeon.church/doc/ravenfolk-2FqUStq1FR)
     * [Tribeborn](https://lore.dungeon.church/doc/tribeborn-KVgPsdxk3f)

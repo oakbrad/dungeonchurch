@@ -14,7 +14,7 @@
 			}
 		],
 		"dateAdded": 1711973394,
-		"dateLastModified": 1712120994
+		"dateLastModified": 1712121094
 	},
     "book": [
 		{
@@ -317,159 +317,6 @@
 		}
 	],
 	"race": [
-		{
-			"name": "Dwarf (Durandian)",
-			"source": "DungeonChurch",
-			"page": 0,
-			"size": [
-				"M"
-			],
-			"speed": 25,
-			"ability": [
-				{
-					"con": 2,
-					"str": 2
-				}
-			],
-			"age": {
-				"mature": 20,
-				"max": 350
-			},
-			"darkvision": 60,
-			"languageProficiencies": [
-				{
-					"common": true,
-					"dwarvish": true
-				}
-			],
-			"toolProficiencies": [
-				{
-					"choose": {
-						"from": [
-							"smith's tools",
-							"brewer's supplies",
-							"mason's tools",
-							"tinker's tools",
-							"alchemist's supplies",
-							"carpenter's tools",
-							"cook's utensils",
-							"jeweler's tools",
-							"painter's supplies",
-							"weaver's tools",
-							"glassblower's tools"
-						],
-						"count": 2
-					}
-				}
-			],
-			"weaponProficiencies": [
-				{
-					"battleaxe|phb": true,
-					"handaxe|phb": true,
-					"light hammer|phb": true,
-					"warhammer|phb": true
-				}
-			],
-			"armorProficiencies": [
-				{
-					"light": true,
-					"medium": true
-				}
-			],
-			"resist": [
-				"poison"
-			],
-			"soundClip": {
-				"type": "internal",
-				"path": "races/dwarf.mp3"
-			},
-			"entries": [
-				{
-					"name": "Age",
-					"type": "entries",
-					"entries": [
-						"Dwarves mature at the same rate as humans, but they're considered young until they reach the age of 50. On average, they live about 350 years."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Size",
-					"entries": [
-						"Dwarves stand between 4 and 5 feet tall and average about 150 pounds. Your size is Medium."
-					]
-				},
-				{
-					"name": "Speed",
-					"entries": [
-						"Your speed is not reduced by wearing heavy armor."
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Darkvision",
-					"entries": [
-						"Accustomed to life underground, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Dwarven Resilience",
-					"entries": [
-						"You have advantage on saving throws against poison, and you have resistance against poison damage."
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Dwarven Combat Training",
-					"entries": [
-						"You have proficiency with the {@item battleaxe|phb}, {@item handaxe|phb}, {@item light hammer|phb}, and {@item warhammer|phb}."
-					],
-					"type": "entries"
-				},
-				{
-					"type": "entries",
-					"name": "Dwarven Armor Training",
-					"entries": [
-						"You have proficiency with light and medium armor."
-					]
-				},
-				{
-					"name": "Durandian Ingenuity",
-					"entries": [
-						"You gain 2 artisan tool proficiencies {@item Smith's tools|phb}, {@item brewer's supplies|phb}, {@item mason's tools|phb}, {@item tinker's tools|phb}, {@item alchemist's supplies|phb}, {@item carpenter's tools|phb}, {@item cook's utensils|phb}, {@item jeweler's tools|phb}, {@item painter's supplies|phb}, {@item weaver's tools|phb}, or {@item glassblower's tools|phb}"
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Stonecunning",
-					"entries": [
-						"Whenever you make an Intelligence ({@skill History}) check related to the origin of stonework, you are considered proficient in the {@skill History} skill and add double your proficiency bonus to the check, instead of your normal proficiency bonus."
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Languages",
-					"entries": [
-						"You can speak, read, and write Common and Dwarvish. Dwarvish is full of hard consonants and guttural sounds, and those characteristics spill over into whatever other language a dwarf might speak."
-					],
-					"type": "entries"
-				}
-			],
-			"fluff": {
-				"entries": [
-					"It's taken centuries for King Olfgard Wisebeard to convince the majority of the dwarven tribes to abandon their homes and build the new granite city of Durandar under the mountain. Opposed to the use of magic, the dwarves there dedicate themselves to alchemy & artificing, building great forges, damming the power of the rivers, and preparing for the apocalypse that's been foretold. ",
-					"But dwarves are stubborn & not everyone has gone along. Some have stayed behind, adapting to the flood of newcomers to the old cities, while others have sought fortune on the continent as independent merchants or hireswords.",
-					"It is rumored that the pirates who plague Striborg's merchant ships are dwarves who prefer the open sea.",
-					{
-						"type": "inset",
-						"name": "Dungeon Church Wiki",
-						"entries": [
-							"Learn more about {@link Dwarves in the wiki|https://lore.dungeon.church/doc/dwarf-durandian-UOdggQRi6Y}."
-						]
-					}
-				]
-			}
-		},
 		{
 			"name": "Elfmarked",
 			"source": "DungeonChurch",
@@ -962,6 +809,86 @@
 						"name": "Dungeon Church Wiki",
 						"entries": [
 							"Learn more about the {@link Tribeborn in the wiki|https://lore.dungeon.church/doc/tribeborn-KVgPsdxk3f}."
+						]
+					}
+				]
+			}
+		}
+	],
+	"subrace": [
+		{
+			"name": "Durandian",
+			"source": "DungeonChurch",
+			"raceName": "Dwarf",
+			"raceSource": "PHB",
+			"ability": [
+				{
+					"con": 2,
+					"str": 2
+				}
+			],
+			"speed": {
+				"walk": 25
+			},
+			"armorProficiencies": [
+				{
+					"light": true,
+					"medium": true
+				}
+			],
+			"toolProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"smith's tools",
+							"brewer's supplies",
+							"mason's tools",
+							"tinker's tools",
+							"alchemist's supplies",
+							"carpenter's tools",
+							"cook's utensils",
+							"jeweler's tools",
+							"painter's supplies",
+							"weaver's tools",
+							"glassblower's tools"
+						],
+						"count": 2
+					}
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Durandian Ingenuity",
+					"entries": [
+						"You gain an additional artisan tool proficiency {@item tinker's tools|phb}, {@item alchemist's supplies|phb}, {@item carpenter's tools|phb}, {@item cook's utensils|phb}, {@item jeweler's tools|phb}, {@item painter's supplies|phb}, {@item weaver's tools|phb}, or {@item glassblower's tools|phb}"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Dwarven Armor Training",
+					"entries": [
+						"You have proficiency with light and medium armor."
+					]
+				}
+			],
+			"heightAndWeight": {
+				"baseHeight": 44,
+				"heightMod": "2d4",
+				"baseWeight": 115,
+				"weightMod": "2d6"
+			},
+			"hasFluff": true,
+			"fluff": {
+				"entries": [
+					"It's taken centuries for King Olfgard Wisebeard to convince the majority of the dwarven tribes to abandon their homes and build the new granite city of Durandar under the mountain. Opposed to the use of magic, the dwarves there dedicate themselves to alchemy & artificing, building great forges, damming the power of the rivers, and preparing for the apocalypse that's been foretold. ",
+					"But dwarves are stubborn & not everyone has gone along. Some have stayed behind, adapting to the flood of newcomers to the old cities, while others have sought fortune on the continent as independent merchants or hireswords.",
+					"It is rumored that the pirates who plague Striborg's merchant ships are dwarves who prefer the open sea.",
+					{
+						"type": "inset",
+						"name": "Dungeon Church Wiki",
+						"entries": [
+							"Learn more about {@link Dwarves in the wiki|https://lore.dungeon.church/doc/dwarf-durandian-UOdggQRi6Y}."
 						]
 					}
 				]
