@@ -18,3 +18,10 @@ Our homebrew setting for use with 5eTools.
 * Deities
 * Items
 * Bestiary
+
+# Resources
+* [Homebrew Builder](https://5e.dungeon.church/makebrew.html) Monster & Spell builder tool
+* [Current 5ETools Source](https://github.com/5etools-mirror-2/5etools-mirror-2.github.io)
+* [Renderer Demo Page](https://5e.dungeon.church/renderdemo.html)  Format & template examples
+* ["Official" Homebrew Data](https://github.com/TheGiddyLimit/homebrew) good examples
+* [5ETools Discord Server](https://discord.gg/5etools)
