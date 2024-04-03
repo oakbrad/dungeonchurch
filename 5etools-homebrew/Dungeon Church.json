@@ -5,7 +5,7 @@
 				"json": "DungeonChurch",
 				"abbreviation": "CHURCH",
 				"full": "Dungeon Church",
-				"version": "0.1",
+				"version": "0.2",
 				"url": "https://www.dungeon.church",
 				"authors": [
 					"Brad Wenner"
@@ -26,33 +26,266 @@
 			"author": "Brad Wenner",
 			"cover": {
 				"type": "external",
-				"url": "https://www.dungeon.church/content/images/size/w2000/2023/09/Screen-Shot-2023-09-25-at-18.52.47.png"
+				"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/dc1-cover.png"
 			},
 			"contents": [
 				{
-					"name":	"History"
+					"name":	"History",
+					"headers": [
+						"Timeline",
+						"Maps"
+					]
 				},
 				{
 					"name": "Pyora"
 				},
 				{
-					"name": "Saltmarsh"
+					"name": "Saltmarsh",
+					"headers": [
+						"Maps"
+					]
 				},
 				{
 					"name": "Players"
 				},
 				{
-					"name": "Characters"
-				},
-				{
-					"name": "Playable Species",
+					"name": "Species",
 					"headers": [
 						"Humans",
 						"Dwarves",
+						"Elves",
 						"Elfmarked",
 						"Dragonborn",
-						"Gnomes",
-						"Halflings"
+						"Gnomes & Halflings"
+					]
+				}
+			]
+		}
+	],
+	"bookData": [
+		{
+			"id": "DC1",
+			"source": "DungeonChurch",
+			"data": [
+				{
+					"type": "section",
+					"name": "Dungeon Church 1",
+					"entries": [
+						{
+							"type": "image",
+							"href": {
+								"type": "external",
+								"url": "https://www.dungeon.church/content/images/size/w2000/2023/09/Screen-Shot-2023-09-25-at-18.52.47.png"
+							}
+						},
+						{
+							"type": "quote",
+									"entries": [
+										"Physical copies of this zine were sent as an invitation to players of Dungeon Church in 2021. This is the start of our homebrew setting, Pyora."
+									],
+									"by": "Dungeon Master Brad",
+									"from": "Dungeon Church No1"
+						},
+						{
+							"type": "inset",
+							"name": "Original Zine",
+							"entries": [
+								"The original, printable form of this zine in PDF format is {@link available here|https://www.dungeon.church/zine-no1}."
+							]
+						}
+					]
+				},
+				{
+					"type": "section",
+					"name": "History",
+					"page": 0,
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Timeline",
+							"entries": [
+								{
+									"type": "image",
+									"href": {
+										"type": "external",
+										"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/dc1-timeline.png"
+									},
+									"title": "Pyora Timeline",
+									"credit": "From Session 0.1 on 6/11/21"
+								},
+								{
+									"type": "inset",
+									"name": "Current Timelines",
+									"entries": [
+										"Are available in {@link the lore wiki|https://lore.dungeon.church/s/zine-1}."
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Maps",
+							"entries": [
+								{
+									"type": "image",
+									"href": {
+										"type": "external",
+										"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/dc1-map-hex.png"
+									},
+									"title": "Pyora original hex map"
+								},
+								{
+									"type": "image",
+									"href": {
+										"type": "external",
+										"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/dc1-map-pyora.png"
+									},
+									"title": "Pyora first draft map"
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "section",
+					"name": "Pyora",
+					"page": 0,
+					"entries": [
+						"Several centuries after the fall of the Last Dragon Emperor, civilization in the lands of Pyora has entered a new period of innovation & transition.",
+						"Humans have labored to carve out pockets of order among the wilderness & ruins of the last age, rebuilding cities, establishing trade routes, and mastering the wild lands into agriculture. In the villages on the edges of humanity's reach, rumors and superstitions percolate about strange children born with unexplainable talents, echoes of long vanished Elven heroes.",
+						"The Dwarven Kingdom has nearly finished the long Great Migration - abandoning their old cities to follow their Prophet-King across the Azure Sea and into the mountains of the west. Their new granite city of Durandar rises as a center of technological innovation, as the dwarves reject magic in favor of molding the mountain's inner fire and rivers into great power.",
+						"The Dragonborn, once the conscripted foot soldiers of the Empire's army, have been instrumental in the reclaiming of the port of New Galmaarden into a democratic city with free elections in the east. Others seek out a simpler life among the Tribeborn in the vast wilderness - away from the wars & schemes of humanity.",
+						"Between the two new cities lies the older human stronghold, Striborg, at a crucial trade point on the peninsula. With it's well funded naval control of the strait and ambitious aristocratic ruling class, the city’s influence extends far beyond it’s walls as the hoofsteps of the Iron Riders echo down the newly safe roads throughout the land.",
+						"Beneath this veneer of progress & opportunity, the old threats still lurk, plotting for their moment to reemerge and propel the endless cycle of fate & magic forward again."
+					]
+				},
+				{
+					"type": "section",
+					"name": "Saltmarsh",
+					"page": 0,
+					"entries": [
+						"Nestled on the eastern coast of the Azure Sea is Saltmarsh, a sleepy fishing village thats sits on the precipice of great change.",
+						"Smugglers guide their ships to hidden coves, willing to slit the throat of any who cross their path. Soldiers of a faraway power patrol the roads mounted on armored horses. Monsters gather beneath the waves & drowned sailors stir to unnatural life, animated by dark magic. The cult of a dead god silently grows it's reach. The nearby woods house mind-bending horrors. Mercenary groups seek abandoned treasures in the old dwarven mine.",
+						"As Saltmarsh sleeps each night, waves gently lapping against the docks, the forces that seek to plunder it grow stronger.",
+						{
+							"type": "entries",
+							"name": "Maps",
+							"page": 0,
+							"entries": [
+								{
+									"type": "image",
+									"href": {
+										"type": "external",
+										"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/dc1-map-saltmarsh.png"
+									},
+									"title": "Saltmarsh map"
+								},
+								{
+									"type": "image",
+									"href": {
+										"type": "external",
+										"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/dc1-map-saltmarsh-region.jpg"
+									},
+									"title": "Saltmarsh region map"
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "section",
+					"name": "Players",
+					"page": 0,
+					"entries": [
+						"You have been invited to join our in-person Dungeons & Dragons campaign.",
+						"We will play an ongoing, narrative-focused game in a world of our own creation.",
+						"The story of that world has already begun to be told, what role will you play?",
+						{
+							"type": "inset",
+							"name": "If you're reading this in the present...",
+							"entries": [
+								"...and you live in the SF Bay area, you can fill out this form to {@link join us|https://www.dungeon.church/join-us}."
+							]
+						}
+					]
+				},
+				{
+					"type": "section",
+					"name": "Species",
+					"page": 0,
+					"entries": [
+						{
+							"type": "inset",
+							"entries": [
+								"Playable character species were limited to these options at the inception of Pyora."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Humans",
+							"page": 0,
+							"entries": [
+								"The most common species by far, humans have built their cities, expanded their roads, and in general sought order in the world.",
+								"Human ambition is embodied in the prosperous merchant city of Striborg. Ruled by an aristocratic merchant class, with a rising religious-populous movement in the streets, Striborg has become a place increasingly unwelcome to those not committed to human partisanship in some form.",
+								"Most humans do not live in Striborg though, but in simple settlements throughout the continent. These people are driven by more basic motivations: farmers, craftsmen, travelers, scholars, and adventurers."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Dwarves",
+							"page": 0,
+							"entries": [
+								"It's taken centuries for King Olfgar Wisebeard to convince the majority of the dwarven tribes to abandon their homes and build the new granite city of Durandar under the mountain. Opposed to the use of magic, the dwarves there dedicate themselves to alchemy & artificing, building great forges, damming the power of the rivers, and preparing for the apocalypse that's been foretold.",
+								"But dwarves are stubborn & not everyone has gone along. Some have stayed behind, adapting to the flood of newcomers to the old cities, while others have sought fortune on the continent as independent merchants or hireswords.",
+								"It is rumored that the pirates who plague Striborg's merchant ships are dwarves who prefer the open sea."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Elves",
+							"page": 0,
+							"entries": [
+								"It is known that elves played a prominent role in fighting the Dragon Empires in the last age, but no one in living memory can remember seeing one in the flesh except for the oldest dwarves.",
+								"According to legends and the tall tales of lost hunters, they have built an advanced civilization in the deep forests, but no one has ever pinpointed the exact location of any settlement or ruin.",
+								{
+									"type": "inset",
+									"entries": [
+										"[Players will not play elves... for now]"
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Elfmarked",
+							"page": 0,
+							"entries": [
+								"According to superstitions common in the villages, children who exhibit certain talents, deformities, or spurious lineage are called 'Children of the Travelers' a.k.a. the elfmarked.",
+								"Many stories, or convenient excuses, of individuals being charmed into illicit encounters with elves have been reported over the centuries. Sometimes the rumors claim whole towns were bewitched into bacchanal acts, or driven mad in carnivals beyond comprehension, only to find themselves not only hungover - but bearing a generation of progeny that can only be called special.",
+								"More skeptical minds consider these children to have been exposed to magic in the womb, or to be the resurgence of recessive traits from pre-human species lost to the cycle of time."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Dragonborn",
+							"page": 0,
+							"entries": [
+								"Forged by the Frst Dragon Emperor as an unholy magical corruption of humanity, the slaves that conquered and then built the First Empire.",
+								"Finally freed of their wyrm master, the former conscripts have since proven their resilience and independent nature despite lingering doubts about their true allegiances.",
+								"Many of the dispossessed dragonborn have been instrumental in reclaiming the abandoned dwarven port of New Galmaarden and building a thriving free city where it is said, 'every man a king.' ",
+								"Others have sought to create a new history and culture that they were denied, living tribal lives in the wilderness."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Gnomes & Halflings",
+							"page": 0,
+							"entries": [
+								"The diminutive little people, gnomes live below ground and guard their homeland with a jealous secrecy that few have glimpsed. ",
+								"Their dealings with the civilizations above ground is limited to trade, where they are known for intricate craftsmanship and ingenious devices.",
+								"Some gnomes have come to live on the surface and assimilate to human life - known as halflings - as in half-humans."
+							]
+						}
 					]
 				}
 			]
