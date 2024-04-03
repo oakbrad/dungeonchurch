@@ -321,8 +321,6 @@
 			"name": "Dwarf (Durandian)",
 			"source": "DungeonChurch",
 			"page": 0,
-			"srd": true,
-			"basicRules": true,
 			"size": [
 				"M"
 			],
@@ -466,7 +464,7 @@
 						"type": "inset",
 						"name": "Dungeon Church Wiki",
 						"entries": [
-							"Learn more about {@link Humans in the wiki|https://lore.dungeon.church/doc/dwarf-durandian-UOdggQRi6Y}."
+							"Learn more about {@link Dwarves in the wiki|https://lore.dungeon.church/doc/dwarf-durandian-UOdggQRi6Y}."
 						]
 					}
 				]
@@ -476,7 +474,6 @@
 			"name": "Elfmarked",
 			"source": "DungeonChurch",
 			"page": 0,
-			"srd": false,
 			"size": [
 				"M"
 			],
@@ -581,7 +578,97 @@
 			}
 		},
 		{
-			"name": "Huma (Pyoran)",
+			"name": "Halfling",
+			"source": "DungeonChurch",
+			"page": 0,
+			"size": [
+				"S"
+			],
+			"speed": 25,
+			"ability": [
+				{
+					"dex": 2
+				}
+			],
+			"heightAndWeight": {
+				"baseHeight": 31,
+				"heightMod": "2d4",
+				"baseWeight": 35
+			},
+			"age": {
+				"mature": 20,
+				"max": 250
+			},
+			"languageProficiencies": [
+				{
+					"common": true,
+					"gnomish": true
+				}
+			],
+			"soundClip": {
+				"type": "internal",
+				"path": "races/halfling.mp3"
+			},
+			"entries": [
+				{
+					"name": "Age",
+					"type": "entries",
+					"entries": [
+						"A halfling reaches adulthood at the age of 20 and generally lives into the middle of his or her second century."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Halflings average about 3 feet tall and weigh about 40 pounds. Your size is Small."
+					]
+				},
+				{
+					"name": "Lucky",
+					"entries": [
+						"When you roll a 1 on an attack roll, ability check, or saving throw, you can reroll the die and must use the new roll."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Brave",
+					"entries": [
+						"You have advantage on saving throws against being {@condition frightened}."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Halfling Nimbleness",
+					"entries": [
+						"You can move through the space of any creature that is of a size larger than yours."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write Common and Gnomish. The Gnomish language isn't secret, but halflings are loath to share it with others. They write very little, so they don't have a rich body of literature. Their oral tradition, however, is very strong. Almost all halflings speak Common to converse with the people in whose lands they dwell or through which they are traveling."
+					],
+					"type": "entries"
+				}
+			],
+			"fluff": {
+				"entries": [
+					"The diminutive little people, gnomes live below ground and guard their homeland with a jealous secrecy that few have glimpsed. their dealings with the civilizations above ground is limited to trade, where they are known for intricate craftsmanship and ingenious devices.",
+					"Some gnomes have come to live on the surface and assimilate to human life - known as halflings - as in half-humans. These people tend to be nomadic and independent, with an intrinsic wanderlust that led them out of the Underdark and away from their traditional culture and lifestyle underground.",
+					{
+						"type": "inset",
+						"name": "Dungeon Church Wiki",
+						"entries": [
+							"Learn more about {@link Halflings in the wiki|https://lore.dungeon.church/doc/halfling-fFZiVbQDbC}."
+						]
+					}
+				]
+			}
+		},
+		{
+			"name": "Human (Pyoran)",
 			"source": "DungeonChurch",
 			"page": 0,
 			"size": [
@@ -679,7 +766,6 @@
 			"name": "Ravenfolk",
 			"source": "DungeonChurch",
 			"page": 0,
-			"srd": false,
 			"size": [
 				"S",
 				"M"
@@ -779,7 +865,6 @@
 			"name": "Tribeborn",
 			"source": "DungeonChurch",
 			"page": 0,
-			"srd": false,
 			"size": [
 				"M"
 			],
@@ -806,7 +891,7 @@
 			],
 			"skillProficiencies": [
 				{
-					"intimidation": true
+					"survival": true
 				}
 			],
 			"languageProficiencies": [
@@ -838,9 +923,9 @@
 					"type": "entries"
 				},
 				{
-					"name": "Menacing",
+					"name": "Tribal Resilience",
 					"entries": [
-						"You gain proficiency in {@skill Intimidation}"
+						"You gain proficiency in {@skill Survival}"
 					],
 					"type": "entries"
 				},
