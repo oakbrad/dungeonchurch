@@ -13,8 +13,8 @@
 				"color": "a90001"
 			}
 		],
-		"dateAdded": 0,
-		"dateLastModified": 0
+		"dateAdded": 1711973394,
+		"dateLastModified": 1712120994
 	},
     "book": [
 		{
@@ -83,8 +83,7 @@
 									"entries": [
 										"Physical copies of this zine were sent as an invitation to players of Dungeon Church in 2021. This is the start of our homebrew setting, Pyora."
 									],
-									"by": "Dungeon Master Brad",
-									"from": "Dungeon Church No1"
+									"by": "Dungeon Master Brad"
 						},
 						{
 							"type": "inset",
@@ -411,8 +410,115 @@
 					"type": "entries"
 				}
 			],
-			"hasFluff": true,
-			"hasFluffImages": false
+			"fluff": {
+				"entries": [
+					"According to superstitions common in the villages, children who exhibit certain talents, deformities, or spurious lineage are called “Children of the Travelers” a.k.a. the elfmarked.",
+					"Many stories - or convenient excuses - of individuals being charmed into illicit encounters with elves have been reported over the centuries. Sometimes the rumors claim whole towns were bewitched into bacchanal acts, or driven mad in carnivals beyond comprehension, only to find themselves not only hungover - but bearing a generation of progeny that can only be called special. ",
+					"More skeptical minds consider these children to have been exposed to magic in the womb, or to be the resurgence of recessive traits from pre-human species lost to the cycle of time.",
+					{
+						"type": "inset",
+						"name": "Dungeon Church Wiki",
+						"entries": [
+							"Learn more about the {@link Elfmarked in the wiki|https://lore.dungeon.church/doc/elfmarked-ohkfCOb0aT}."
+						]
+					}
+				]
+			}
+		},
+		{
+			"name": "Huma (Pyoran)",
+			"source": "DungeonChurch",
+			"page": 0,
+			"size": [
+				"M"
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con",
+							"int",
+							"wis",
+							"cha"
+						],
+						"count": 2
+					}
+				}
+			],
+			"speed": 30,
+			"heightAndWeight": {
+				"baseHeight": 56,
+				"heightMod": "2d10",
+				"baseWeight": 110,
+				"weightMod": "2d4"
+			},
+			"age": {
+				"mature": 20,
+				"max": 100
+			},
+			"languageProficiencies": [
+				{
+					"common": true,
+					"anyStandard": 1
+				}
+			],
+			"soundClip": {
+				"type": "internal",
+				"path": "races/human.mp3"
+			},
+			"entries": [
+				{
+					"name": "Age",
+					"type": "entries",
+					"entries": [
+						"Humans reach adulthood in their late teens and live less than a century."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Humans vary widely in height and build, from barely 5 feet to well over 6 feet tall. Regardless of your position in that range, your size is Medium."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Skills",
+					"entries": [
+						"You gain proficiency in one skill of your choice."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Feat",
+					"entries": [
+						"You gain one feat of your choice."
+					]
+				},
+				{
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write Common and one extra language of your choice. Humans typically learn the languages of other peoples they deal with, including obscure dialects. They are fond of sprinkling their speech with words borrowed from other tongues: Orc curses, Elvish musical expressions, Dwarvish military phrases, and so on."
+					],
+					"type": "entries"
+				}
+			],
+			"fluff": {
+				"entries": [
+					"The most common species by far, humans have built their cities, expanded their roads, and in general sought order in the world.",
+					"Human ambition is embodied in the prosperous merchant city of Striborg. Ruled by an aristocratic merchant class, with a rising religious-populous movement in the streets, Striborg has become a place increasingly unwelcome to those not committed to human partisanship in some form.",
+					"Most humans do not live in Striborg though, but in simple settlements throughout the continent. These people are driven by more basic motivations: farmers, craftsmen, travelers, scholars, and adventurers.",
+					{
+						"type": "inset",
+						"name": "Dungeon Church Wiki",
+						"entries": [
+							"Learn more about {@link Humans in the wiki|https://lore.dungeon.church/doc/ravenfolk-2FqUStq1FR}."
+						]
+					}
+				]
+			}
 		},
 		{
 			"name": "Ravenfolk",
@@ -499,8 +605,20 @@
 					"type": "entries"
 				}
 			],
-			"hasFluff": true,
-			"hasFluffImages": true
+			"fluff": {
+				"entries": [
+					"Few live amid so much rumor, suspicion, and outright falsehood as the ravenfolk. Depending on whom you ask, they might condemn the ravenfolk as nomads bearing misfortune or praise them as messengers from the gods. Ravenfolk are loyal comrades and treacherous thieves, brave warriors and contemptible cowards. They are despised for their strange and secretive nature, and criticized for having no true culture - only mimicry. These contradictions conceal a greater mystery few understand or know.",
+					"The Ravenfolk are the ethereal wanderers and messengers of Pyora, born from the celestial drama of deities and their caprices. They emerged from the feathers of Eve, the winged consort of the Raven Queen, who, in a fit of jealousy clipped Eve's wings to keep her faithful. These feathers, cast into the nether regions of the planes, took on life and consciousness, becoming the Ravenfolk.",
+					"Cast out from their home, the Ravenfolk traverse the myriad planes of existence, seeking redemption and a path back to the favor of the Raven Queen.",
+					{
+						"type": "inset",
+						"name": "Dungeon Church Wiki",
+						"entries": [
+							"Learn more about the {@link Ravenfolk in the wiki|https://lore.dungeon.church/doc/ravenfolk-2FqUStq1FR}."
+						]
+					}
+				]
+			}
 		},
 		{
 			"name": "Tribeborn",
@@ -593,8 +711,21 @@
 					"type": "entries"
 				}
 			],
-			"hasFluff": true,
-			"hasFluffImages": false
+			"fluff": {
+				"entries": [
+					"The Tribeborn are a formidable and resilient people, born of the union between orcs and other species. Deeply connected to their tribal settlements in the wilderness of the southwestern jungles, they embody a fusion of the primal strength of their orcish heritage with the varied traits of Pyora's diversity.",
+					"Tribeborn often inherit the physical prowess and stature of orcs, characterized by robust builds and distinct features such as prominent jaws and tusk-like teeth. Their skin tones range from deep greens to earthy browns, often marked with tribal tattoos or scars from rites of passage.",
+					"Tribeborn are deeply communal, valuing the bonds of their tribe above all. They are raised with a strong sense of loyalty and often act as protectors of their people and the wild lands they call home. Their communities are tight-knit, with traditions and customs passed down through generations.",
+					"They are not common in the urban cities of Pyora, preferring to live apart from broader society.",
+					{
+						"type": "inset",
+						"name": "Dungeon Church Wiki",
+						"entries": [
+							"Learn more about the {@link Tribeborn in the wiki|https://lore.dungeon.church/doc/tribeborn-KVgPsdxk3f}."
+						]
+					}
+				]
+			}
 		}
 	]
 }
