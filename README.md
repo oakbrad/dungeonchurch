@@ -19,6 +19,10 @@ D&D group infrastructure. More information in [this blog post](https://www.dunge
 ## Docker Compose
 The config necessary to run all this is detailed in the <a href=/docker-compose.yaml>docker-compose.yaml</a>
 
+## 5E Tools Homebrew
+Dungeon Church <a href="/5etools-homebrew/Dungeon Church.json">homebrew source</a> for 5E Tools.
+
+```https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/Dungeon Church.json```
 ## Node-Red Examples
 <a href=/node-red-examples/README.md>Example flows</a>
 
