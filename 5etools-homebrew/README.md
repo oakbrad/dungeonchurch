@@ -21,6 +21,7 @@ Our homebrew setting for use with 5eTools.
 * Deities
 * Items
 * Bestiary
+    * [Sap Ooze](https://lore.dungeon.church/doc/sap-ooze-eGVX8QPLEh)
 
 # Resources
 * [Homebrew Builder](https://5e.dungeon.church/makebrew.html) Monster & Spell builder tool

@@ -1033,5 +1033,177 @@
 				]
 			}
 		}
+	],
+	"monster": [
+		{
+			"name": "Sap Ooze",
+			"source": "DungeonChurch",
+			"page": 0,
+			"size": [
+				"S"
+			],
+			"type": "ooze",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 67,
+				"formula": "15d6 + 15"
+			},
+			"speed": {
+				"walk": 20,
+				"climb": 20
+			},
+			"str": 14,
+			"dex": 6,
+			"con": 12,
+			"int": 10,
+			"wis": 14,
+			"cha": 10,
+			"senses": [
+				"blindsight 90 ft. (blind beyond this radius)"
+			],
+			"passive": 12,
+			"resist": [
+				{
+					"resist": [
+						"piercing"
+					],
+					"note": "and slashing from nonmagical weapons"
+				}
+			],
+			"immune": [
+				"bludgeoning",
+				"acid",
+				"lightning"
+			],
+			"conditionImmune": [
+				"blinded",
+				"charmed",
+				"deafened",
+				"exhaustion",
+				"frightened",
+				"prone"
+			],
+			"languages": [
+				"none in its natural form; knows the same languages as a creature it dominates"
+			],
+			"cr": "4",
+			"trait": [
+				{
+					"name": "Amorphous",
+					"entries": [
+						"The sap ooze can move through a space as narrow as 1 inch wide without squeezing."
+					]
+				},
+				{
+					"name": "Season's Change",
+					"entries": [
+						"If a sap ooze (or its host) takes at least 10 fire damage, it also gains the effect of a {@spell haste} spell until the end of its next turn. If it takes at least 10 cold damage, it gains the effect of a {@spell slow} spell until the end of its next turn."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The sap ooze makes two slam attacks."
+					]
+				},
+				{
+					"name": "Slam",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d8 + 2}) bludgeoning damage. If both attacks hit a Medium or smaller target, the target is {@condition grappled} (escape {@dc 12}), and the sap ooze uses Soul Sap on it as a bonus action."
+					]
+				},
+				{
+					"name": "Soul Sap",
+					"entries": [
+						"The sap ooze slides down the throat of a sleeping, helpless, or {@condition grappled} living creature of Medium size or smaller. Once inside, the sap ooze takes control of its host, as per the dominate monster spell (Wisdom {@dc 12} negates). While dominated, the host gains {@sense blindsight} 90 feet. The host drips blood from its ears, nose, eyes, or from a wound that resembles the injury done to the sap demon's tree (1 damage/Hour). Damage inflicted on the host has no effect on the sap demon. If the host dies or is reduced to 0 hit points, the sap ooze must leave the body within one hour."
+					]
+				}
+			],
+			"environment": [
+				"forest"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/ToB/token/Sap%20Demon.png"
+			},
+			"traitTags": [
+				"Amorphous"
+			],
+			"senseTags": [
+				"B"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"grappled"
+			],
+			"fluff": {
+				"entries": [
+					"{@i When a sap ooze leaves a tree, its milky amber fluid oozes from an axe wound on a stout maple's trunk and shapes itself into a small, vaguely humanoid form on the forest floor beside the tree. This languid creature half walks and half flows forward, implacably following the axe wielder's path to certain revenge.}",
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Tree Oozes",
+										"entries": [
+											"Sap oozes are intelligent oozes that form when an enchanted tree is cut or injured. Though typically Small, the larger the sap source is, the larger the resulting creature can be. Over a few hours, they pool into a shape that vaguely resembles their tree's attacker: for instance, if the tree cutter wore a hat, then a hat may be incorporated into the sap ooze's overall shape. The similarity is faint at best; no one would ever confuse a sap ooze for the creature it hunts, because its shape has no sharp features or color other than amber."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Called to Vengeance",
+										"entries": [
+											"Sap oozes can pummel their prey with partially-crystallized fists, but they especially enjoy claiming the weapon that wounded their tree and wielding it to deliver a final blow. Once their prey is destroyed, most sap oozes return to their tree, but not all do. Some are curious or malevolent enough to explore the world further."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Reckless Possessors",
+										"entries": [
+											"A sap ooze can possess another creature by grappling it and oozing down its throat. Once inside, the sap ooze dominates its host and makes it bleed as the tree bled. Since the sap ooze takes no damage when its host is wounded, it's free to be as reckless as it likes. It might wander into a town to cause trouble. However, no matter how its new body is bandaged or cured, it never stops bleeding slowly. If the host body is killed, the sap oozes out during the next hour and either returns to its tree or seeks another host."
+										]
+									}
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/ToB/Sap%20Demon.webp"
+						}
+					}
+				]
+			},
+			"damageTags": [
+				"B",
+				"C",
+				"F"
+			]
+		}
 	]
 }
