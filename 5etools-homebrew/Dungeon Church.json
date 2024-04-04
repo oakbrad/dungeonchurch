@@ -817,10 +817,124 @@
 	],
 	"subrace": [
 		{
-			"name": "Durandian",
+			"name": "Rock",
+			"source": "DungeonChurch",
+			"raceName": "Gnome",
+			"raceSource": "PHB",
+			"ability": [
+				{
+					"con": 1
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Artificer's Lore",
+					"entries": [
+						"Whenever you make an Intelligence {@skill History} check related to magic items, alchemical objects, or technological devices, you can add twice your proficiency bonus, instead of any proficiency bonus you normally apply."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Tinker",
+					"entries": [
+						"You have proficiency with {@item tinker's tools|phb}. Using those tools, you can spend 1 hour and 10 gp worth of materials to construct a Tiny clockwork device (AC 5, 1 hp). The device ceases to function after 24 hours (unless you spend 1 hour repairing it to keep the device functioning), or when you use your action to dismantle it; at that time, you can reclaim the materials used to create it. You can have up to three such devices active at a time.",
+						"When you create a device, choose one of the following options:",
+						{
+							"type": "entries",
+							"name": "Clockwork Toy",
+							"entries": [
+								"This toy is a clockwork animal, monster, or person, such as a frog, mouse, bird, dragon, or soldier. When placed on the ground, the toy moves 5 feet across the ground on each of your turns in a random direction. It makes noises as appropriate to the creature it represents."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Fire Starter",
+							"entries": [
+								"The device produces a miniature flame, which you can use to light a candle, torch, or campfire. Using the device requires your action."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Music Box",
+							"entries": [
+								"When opened, this music box plays a single song at a moderate volume. The box stops playing when it reaches the song’s end or when it is closed."
+							]
+						}
+						
+					]
+				}
+			],
+			"hasFluff": true,
+			"fluff": {
+				"entries": [
+					"The diminutive little people, gnomes live below ground and guard their homeland with a jealous secrecy that few have glimpsed. Their dealings with the civilizations above ground is limited to trade, where they are known for intricate craftsmanship and ingenious devices. Some gnomes have come to live on the surface and assimilate to human life - known as halflings - as in half-humans.",
+					{
+						"type": "inset",
+						"name": "Dungeon Church Wiki",
+						"entries": [
+							"Learn more about {@link Rock Gnomes in the wiki|https://lore.dungeon.church/doc/gnome-rock-ARFvDASnZz}."
+						]
+					}
+				]
+			}
+		},
+		{
+			"name": "Road",
 			"source": "DungeonChurch",
 			"raceName": "Dwarf",
 			"raceSource": "PHB",
+			"ability": [
+				{
+					"cha": 1
+				}
+			],
+			"speed": {
+				"walk": 30
+			},
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Brisk Footeed",
+					"entries": [
+						"Your base walking speed increases to 30 feet."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Stone Marcher",
+					"entries": [
+						"When you take the {@action Dash} action in mountainous or hilly environments, non-magical difficult terrain doesn't cost you extra movement on that turn."
+					]
+				}
+			],
+			"heightAndWeight": {
+				"baseHeight": 44,
+				"heightMod": "2d4",
+				"baseWeight": 115,
+				"weightMod": "2d6"
+			},
+			"hasFluff": true,
+			"fluff": {
+				"entries": [
+					"Road dwarves appears closely related to their mountain brethren. They maintain dwarven traditions and customs, and typically organize themselves in clans.",
+					"However, centuries of adaption to traveling the winding roads stretching across the lands has created a distinct subset of dwarf. Road dwarves, whether living as wandering mercantile clans or exiles banished from their homeland in Durandar, use their natural charms and swift journeying to build their fortune and make a name for themselves.",
+					{
+						"type": "inset",
+						"name": "Dungeon Church Wiki",
+						"entries": [
+							"Learn more about {@link Dwarves in the wiki|https://lore.dungeon.church/doc/dwarf-durandian-UOdggQRi6Y}."
+						]
+					}
+				]
+			}
+		},
+		{
+			"name": "Durandar",
+			"source": "DungeonChurch",
+			"raceName": "Dwarf",
+			"raceSource": "PHB",
+			"page": 0,
 			"ability": [
 				{
 					"con": 2,
