@@ -290,6 +290,30 @@
 			]
 		}
 	],
+	"condition": [
+		{
+			"name": "Intoxicated",
+			"source": "DungeonChurch",
+			"page": 0,
+			"entries": [
+				"An intoxicated creature has disadvantage on attack rolls and ability checks. To cast a spell, the creature must first succeed a DC 10 Constitution check. Otherwise, the spellcasting action is wasted, but the spell is not."
+			],
+			"fluff":
+				{
+					"name": "Intoxicated",
+					"source": "DungeonChurch",
+					"images": [
+						{
+							"type": "image",
+							"href": {
+								"type": "external",
+								"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/34b2d16d1ce980004aee1b31c539721e8031e86a/5etools-homebrew/static/condition-intoxicated.jpg"
+							}
+						}
+					]
+				}
+		}
+	],
 	"language": [
 		{
 			"name": "Adalindian Whistling",
