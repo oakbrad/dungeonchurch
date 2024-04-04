@@ -23,6 +23,7 @@ Our homebrew setting for use with 5eTools.
 * Deities
 * Items
     * [Amulet of Betrayal](https://lore.dungeon.church/doc/amulet-of-betrayal-vY1rCwAwHh)
+    * [Longsword of the Dragon Empire](https://lore.dungeon.church/doc/longsword-of-the-dragon-empire-WNp5oBATI3)
 * Bestiary
     * [Sap Ooze](https://lore.dungeon.church/doc/sap-ooze-eGVX8QPLEh)
 
