@@ -1297,7 +1297,13 @@
 			"dmg2": "1d10",
 			"entries": [
 				"A fine blade with a dark steel hilt in the shape of dragon wings. Issued to officers in the {@link Dragon Empire's|https://lore.dungeon.church/doc/dragon-empire-odzVqtQPbm} army, it pulses with a small amount of the draconic fire magic that they are forged in.",
-				"While you attuned to it, you gain the ability to cast {@spell Fire Bolt}",
+				{
+					"type": "entries",
+					"name": "Draconic Energy",
+					"entries": [
+						"While you are attuned to this longsword, you gain the ability to cast {@spell Fire Bolt}."
+					]
+				},
 				{
 					"type": "inset",
 					"name": "Dungeon Church Wiki",
@@ -1306,20 +1312,46 @@
 					]
 				}
 			],
-			"fluff":
-				{
-					"name": "Longsword of the Dragon Empire",
-					"source": "DungeonChurch",
-					"images": [
-						{
-							"type": "image",
-							"href": {
-								"type": "external",
-								"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-longsword-of-dragon-empire.png"
-							}
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-longsword-of-dragon-empire.png"
 						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Skeleton Key",
+			"source": "DungeonChurch",
+			"page": 0,
+			"tier": "major",
+			"rarity": "legendary",
+			"wondrous": true,
+			"entries": [
+				"A magical key that can make a perfect copy of any other key. The Key must touch the key it's copying, and it can only change form once every 24 hours.",
+				{
+					"type": "inset",
+					"name": "Dungeon Church Wiki",
+					"entries": [
+						"Learn more about the {@link Skeleton Key in the wiki|https://lore.dungeon.church/doc/skeleton-key-aCKEViKMZf}."
 					]
 				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-skeleton-key.png"
+						}
+					}
+				]
+			}
 		}
 	]
 }
