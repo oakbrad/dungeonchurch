@@ -817,10 +817,34 @@
 	],
 	"subrace": [
 		{
+			"name": "Pyoran",
+			"source": "DungeonChurch",
+			"raceName": "Dragonborn",
+			"raceSource": "PHB",
+			"page": 0,
+			"hasFluff": true,
+			"fluff": {
+				"entries": [
+					"Forged by the Frst Dragon Emperor as an unholy magical corruption of humanity, the slaves that conquered and then built the First Empire.",
+					"Finally freed of their wyrm master, the former conscripts have since proven their resilience and independent nature despite lingering doubts about their true allegiances.",
+					"Many of the dispossessed dragonborn have been instrumental in reclaiming the abandoned dwarven port of New Galmaarden and building a thriving free city where it is said, 'every man a king.' ",
+					"Others have sought to create a new history and culture that they were denied, living tribal lives in the wilderness.",
+					{
+						"type": "inset",
+						"name": "Dungeon Church Wiki",
+						"entries": [
+							"Learn more about the {@link Dragonborn in the wiki|https://lore.dungeon.church/doc/dragonborn-pyoran-Pd8mdtKo6V}."
+						]
+					}
+				]
+			}
+		},
+		{
 			"name": "Rock",
 			"source": "DungeonChurch",
 			"raceName": "Gnome",
 			"raceSource": "PHB",
+			"page": 0,
 			"ability": [
 				{
 					"con": 1
@@ -884,6 +908,7 @@
 			"source": "DungeonChurch",
 			"raceName": "Dwarf",
 			"raceSource": "PHB",
+			"page": 0,
 			"ability": [
 				{
 					"cha": 1

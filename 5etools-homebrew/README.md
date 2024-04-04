@@ -9,6 +9,7 @@ Our homebrew setting for use with 5eTools.
     * [Adalindian Whistling](https://lore.dungeon.church/doc/hand-of-adalind-kFepjGY6vb)
     * [Tribal](https://lore.dungeon.church/doc/tribeborn-KVgPsdxk3f)
 * Species (Races)
+    * [Dragonborn (Pyoran)](https://lore.dungeon.church/doc/dragonborn-pyoran-Pd8mdtKo6V)
     * [Dwarf (Durandar)](https://lore.dungeon.church/doc/dwarf-durandian-UOdggQRi6Y)
     * [Dwarf (Road)](https://lore.dungeon.church/doc/dwarf-road-JqwmFsdhFj)
     * [Elfmarked](https://lore.dungeon.church/doc/elfmarked-ohkfCOb0aT)
