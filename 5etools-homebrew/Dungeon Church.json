@@ -30,6 +30,9 @@
 			},
 			"contents": [
 				{
+					"name": "About"
+				},
+				{
 					"name":	"History",
 					"headers": [
 						"Timeline",
@@ -150,12 +153,12 @@
 					"name": "Pyora",
 					"page": 0,
 					"entries": [
-						"Several centuries after the fall of the Last Dragon Emperor, civilization in the lands of Pyora has entered a new period of innovation & transition.",
-						"Humans have labored to carve out pockets of order among the wilderness & ruins of the last age, rebuilding cities, establishing trade routes, and mastering the wild lands into agriculture. In the villages on the edges of humanity's reach, rumors and superstitions percolate about strange children born with unexplainable talents, echoes of long vanished Elven heroes.",
-						"The Dwarven Kingdom has nearly finished the long Great Migration - abandoning their old cities to follow their Prophet-King across the Azure Sea and into the mountains of the west. Their new granite city of Durandar rises as a center of technological innovation, as the dwarves reject magic in favor of molding the mountain's inner fire and rivers into great power.",
-						"The Dragonborn, once the conscripted foot soldiers of the Empire's army, have been instrumental in the reclaiming of the port of New Galmaarden into a democratic city with free elections in the east. Others seek out a simpler life among the Tribeborn in the vast wilderness - away from the wars & schemes of humanity.",
-						"Between the two new cities lies the older human stronghold, Striborg, at a crucial trade point on the peninsula. With it's well funded naval control of the strait and ambitious aristocratic ruling class, the city’s influence extends far beyond it’s walls as the hoofsteps of the Iron Riders echo down the newly safe roads throughout the land.",
-						"Beneath this veneer of progress & opportunity, the old threats still lurk, plotting for their moment to reemerge and propel the endless cycle of fate & magic forward again."
+						"Several centuries after the fall of the {@link Last Dragon Emperor|https://lore.dungeon.church/doc/dragon-empire-odzVqtQPbm}, civilization in the lands of Pyora has entered a new period of innovation & transition.",
+						"{@race Human (Pyoran)|dungeonchurch|Humans} have labored to carve out pockets of order among the wilderness & ruins of the last age, rebuilding cities, establishing trade routes, and mastering the wild lands into agriculture. In the villages on the edges of humanity's reach, rumors and superstitions percolate about {@race Elfmarked|dungeonchurch} children born with unexplainable talents, echoes of long vanished Elven heroes.",
+						"The {@race Dwarf (Durandar)|dungeonchurch|Dwarven} Kingdom has nearly finished the long Great Migration - abandoning their old cities to follow their {@link Prophet-King|https://lore.dungeon.church/doc/king-olfgard-wisebeard-S0YDu9xGHy} across the Azure Sea and into the mountains of the west. Their new granite city of {@link Durandar|https://lore.dungeon.church/doc/durandar-sWDxZHDVIC} rises as a center of technological innovation, as the dwarves reject magic in favor of molding the mountain's inner fire and rivers into great power.",
+						"The {@race Dragonborn (Pyoran)|dungeonchurch|Dragonborn}, once the conscripted foot soldiers of the {@link Empire's|https://lore.dungeon.church/doc/dragon-empire-odzVqtQPbm} army, have been instrumental in the reclaiming of the port of {@link New Galmaarden|https://lore.dungeon.church/doc/new-galmaarden-03tcpxxc2t} into a {@link democratic city|https://lore.dungeon.church/doc/new-galmaarden-civil-society-AjPbwTWHao} with free elections in the east. Others seek out a simpler life among the {@race Tribeborn|dungeonchurch} in the vast wilderness - away from the wars & schemes of humanity.",
+						"Between the two new cities lies the older human stronghold, {@link Striborg|https://lore.dungeon.church/doc/striborg-mZk9jSyJUV}, at a crucial trade point on the peninsula. With it's well funded naval control of the strait and ambitious aristocratic ruling class, the city's influence extends far beyond it's walls as the hoofsteps of the {@link Iron Riders|https://lore.dungeon.church/doc/iron-riders-of-abraxas-P77pTaxjou} echo down the newly safe roads throughout the land.",
+						"Beneath this veneer of progress & opportunity, the old threats still lurk, plotting for their moment to reemerge and propel the {@link endless cycle of fate & magic|https://lore.dungeon.church/doc/session-01-ouroboros-turns-MlX7v5L4dN} forward again."
 					]
 				},
 				{
@@ -163,7 +166,7 @@
 					"name": "Saltmarsh",
 					"page": 0,
 					"entries": [
-						"Nestled on the eastern coast of the Azure Sea is Saltmarsh, a sleepy fishing village thats sits on the precipice of great change.",
+						"Nestled on the eastern coast of the Azure Sea is {@link Saltmarsh|https://lore.dungeon.church/doc/saltmarsh-GkGI6ISio5}, a sleepy fishing village thats sits on the precipice of great change.",
 						"Smugglers guide their ships to hidden coves, willing to slit the throat of any who cross their path. Soldiers of a faraway power patrol the roads mounted on armored horses. Monsters gather beneath the waves & drowned sailors stir to unnatural life, animated by dark magic. The cult of a dead god silently grows it's reach. The nearby woods house mind-bending horrors. Mercenary groups seek abandoned treasures in the old dwarven mine.",
 						"As Saltmarsh sleeps each night, waves gently lapping against the docks, the forces that seek to plunder it grow stronger.",
 						{
@@ -221,22 +224,22 @@
 						},
 						{
 							"type": "entries",
-							"name": "Humans",
+							"name": "{@race Human (Pyoran)|dungeonchurch|Humans}",
 							"page": 0,
 							"entries": [
 								"The most common species by far, humans have built their cities, expanded their roads, and in general sought order in the world.",
 								"Human ambition is embodied in the prosperous merchant city of Striborg. Ruled by an aristocratic merchant class, with a rising religious-populous movement in the streets, Striborg has become a place increasingly unwelcome to those not committed to human partisanship in some form.",
-								"Most humans do not live in Striborg though, but in simple settlements throughout the continent. These people are driven by more basic motivations: farmers, craftsmen, travelers, scholars, and adventurers."
+								"Most humans do not live in {@link Striborg|https://lore.dungeon.church/doc/striborg-mZk9jSyJUV} though, but in simple settlements throughout the continent. These people are driven by more basic motivations: farmers, craftsmen, travelers, scholars, and adventurers."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Dwarves",
+							"name": "Dwarves ({@race Dwarf (Durandar)|dungeonchurch|Durandar} or {@race Dwarf (Road)|dungeonchurch|Road})",
 							"page": 0,
 							"entries": [
-								"It's taken centuries for King Olfgar Wisebeard to convince the majority of the dwarven tribes to abandon their homes and build the new granite city of Durandar under the mountain. Opposed to the use of magic, the dwarves there dedicate themselves to alchemy & artificing, building great forges, damming the power of the rivers, and preparing for the apocalypse that's been foretold.",
+								"It's taken centuries for {@link King Olfgard Wisebeard|https://lore.dungeon.church/doc/king-olfgard-wisebeard-S0YDu9xGHy} to convince the majority of the dwarven tribes to abandon their homes and build the new granite city of {@link Durandar|https://lore.dungeon.church/doc/durandar-sWDxZHDVIC} under the mountain. Opposed to the use of magic, the dwarves there dedicate themselves to alchemy & artificing, building great forges, damming the power of the rivers, and preparing for the apocalypse that's been foretold. ",
 								"But dwarves are stubborn & not everyone has gone along. Some have stayed behind, adapting to the flood of newcomers to the old cities, while others have sought fortune on the continent as independent merchants or hireswords.",
-								"It is rumored that the pirates who plague Striborg's merchant ships are dwarves who prefer the open sea."
+								"It is rumored that the pirates who plague {@link Striborg's merchant ships|https://lore.dungeon.church/doc/striborg-navy-ndvIs6jZtX} are dwarves who prefer the open sea."
 							]
 						},
 						{
@@ -256,7 +259,7 @@
 						},
 						{
 							"type": "entries",
-							"name": "Elfmarked",
+							"name": "{@race Elfmarked|dungeonchurch}",
 							"page": 0,
 							"entries": [
 								"According to superstitions common in the villages, children who exhibit certain talents, deformities, or spurious lineage are called 'Children of the Travelers' a.k.a. the elfmarked.",
@@ -266,21 +269,21 @@
 						},
 						{
 							"type": "entries",
-							"name": "Dragonborn",
+							"name": "{@race Dragonborn (Pyoran)|dungeonchurch|Dragonborn}",
 							"page": 0,
 							"entries": [
-								"Forged by the Frst Dragon Emperor as an unholy magical corruption of humanity, the slaves that conquered and then built the First Empire.",
+								"Forged by the {@link First Dragon Emperor|https://lore.dungeon.church/doc/dragon-empire-odzVqtQPbm#h-emperors} as an unholy magical corruption of humanity, the slaves that conquered and then built the First Empire.",
 								"Finally freed of their wyrm master, the former conscripts have since proven their resilience and independent nature despite lingering doubts about their true allegiances.",
-								"Many of the dispossessed dragonborn have been instrumental in reclaiming the abandoned dwarven port of New Galmaarden and building a thriving free city where it is said, 'every man a king.' ",
+								"Many of the dispossessed dragonborn have been instrumental in reclaiming the abandoned dwarven port of {@link New Galmaarden|https://lore.dungeon.church/doc/new-galmaarden-03tcpxxc2t} and building a thriving free city where it is said, 'every man a king.' ",
 								"Others have sought to create a new history and culture that they were denied, living tribal lives in the wilderness."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Gnomes & Halflings",
+							"name": "{@race Gnome (Rock)|dungeonchurch|Gnomes} & {@race Halfling|dungeonchurch|Halflings}",
 							"page": 0,
 							"entries": [
-								"The diminutive little people, gnomes live below ground and guard their homeland with a jealous secrecy that few have glimpsed. ",
+								"The diminutive little people, gnomes live below ground and guard their homeland with a jealous secrecy that few have glimpsed.",
 								"Their dealings with the civilizations above ground is limited to trade, where they are known for intricate craftsmanship and ingenious devices.",
 								"Some gnomes have come to live on the surface and assimilate to human life - known as halflings - as in half-humans."
 							]
@@ -1044,9 +1047,9 @@
 			"hasFluff": true,
 			"fluff": {
 				"entries": [
-					"It's taken centuries for King Olfgard Wisebeard to convince the majority of the dwarven tribes to abandon their homes and build the new granite city of Durandar under the mountain. Opposed to the use of magic, the dwarves there dedicate themselves to alchemy & artificing, building great forges, damming the power of the rivers, and preparing for the apocalypse that's been foretold. ",
+					"It's taken centuries for {@link King Olfgard Wisebeard|https://lore.dungeon.church/doc/king-olfgard-wisebeard-S0YDu9xGHy} to convince the majority of the dwarven tribes to abandon their homes and build the new granite city of {@link Durandar|https://lore.dungeon.church/doc/durandar-sWDxZHDVIC} under the mountain. Opposed to the use of magic, the dwarves there dedicate themselves to alchemy & artificing, building great forges, damming the power of the rivers, and preparing for the apocalypse that's been foretold. ",
 					"But dwarves are stubborn & not everyone has gone along. Some have stayed behind, adapting to the flood of newcomers to the old cities, while others have sought fortune on the continent as independent merchants or hireswords.",
-					"It is rumored that the pirates who plague Striborg's merchant ships are dwarves who prefer the open sea.",
+					"It is rumored that the pirates who plague {@link Striborg's merchant ships|https://lore.dungeon.church/doc/striborg-navy-ndvIs6jZtX} are dwarves who prefer the open sea.",
 					{
 						"type": "inset",
 						"name": "Dungeon Church Wiki",
