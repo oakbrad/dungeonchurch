@@ -310,7 +310,7 @@
 							"type": "image",
 							"href": {
 								"type": "external",
-								"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/34b2d16d1ce980004aee1b31c539721e8031e86a/5etools-homebrew/static/condition-intoxicated.jpg"
+								"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/condition-intoxicated.jpg"
 							}
 						}
 					]
@@ -1231,6 +1231,48 @@
 				"C",
 				"F"
 			]
+		}
+	],
+	"item": [
+		{
+			"name": "Amulet of Betrayal",
+			"source": "DungeonChurch",
+			"page": 0,
+			"weight": 0,
+			"otherSources": [
+				{
+					"source": "CoA",
+					"page": 267
+				}
+			],
+			"rarity": "very rare",
+			"reqAttune": true,
+			"wondrous": true,
+			"entries": [
+				"You can use a bonus action to move one of the following conditions from yourself to an ally within 60 feet of you: {@condition blinded}, {@condition deafened}, {@condition frightened}, {@condition poisoned}, {@condition stunned}, {@condition exhaustion}. When transferring {@condition exhaustion}, move all your {@condition exhaustion} levels. If the chosen ally is immune to a transferred condition, the transfer fails.",
+				"This item was once owned by the vampire knight {@link Lamont Solmar|https://lore.dungeon.church/doc/lamont-solmar-GLrWBoIX5h}, who served the {@link Lady Nightshade|https://lore.dungeon.church/doc/lady-nightshade-3kjLNj2Zbs}.",
+				{
+					"type": "inset",
+					"name": "Dungeon Church Wiki",
+					"entries": [
+						"Learn more about the {@link Amulet of Betrayal in the wiki|https://lore.dungeon.church/doc/amulet-of-betrayal-vY1rCwAwHh}."
+					]
+				}
+			],
+			"fluff":
+				{
+					"name": "Amulet of Betrayal",
+					"source": "DungeonChurch",
+					"images": [
+						{
+							"type": "image",
+							"href": {
+								"type": "external",
+								"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-amulet-of-betrayal.png"
+							}
+						}
+					]
+				}
 		}
 	]
 }

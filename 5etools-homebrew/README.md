@@ -22,10 +22,12 @@ Our homebrew setting for use with 5eTools.
     * [Tribeborn](https://lore.dungeon.church/doc/tribeborn-KVgPsdxk3f)
 * Deities
 * Items
+    * [Amulet of Betrayal](https://lore.dungeon.church/doc/amulet-of-betrayal-vY1rCwAwHh)
 * Bestiary
     * [Sap Ooze](https://lore.dungeon.church/doc/sap-ooze-eGVX8QPLEh)
 
 # Resources
+* [5eTools Homebrew Wiki](https://wiki.tercept.net/en/Homebrew/TableOfReference) Reference of objects and their properties
 * [Homebrew Builder](https://5e.dungeon.church/makebrew.html) Monster & Spell builder tool
 * [Current 5ETools Source](https://github.com/5etools-mirror-2/5etools-mirror-2.github.io)
 * [Renderer Demo Page](https://5e.dungeon.church/renderdemo.html)  Format & template examples
