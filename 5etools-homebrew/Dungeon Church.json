@@ -1306,6 +1306,25 @@
 				}
 		},
 		{
+			"name": "Cirilla's Gift",
+			"source": "DungeonChurch",
+			"page": 0,
+			"type": "RG",
+			"rarity": "legendary",
+			"tier": "major",
+			"entries": [
+				"Cirilla's gift is a ring that was worn by the elven battle mage Cirilla of Avalon during the Dragon Wars. After facing a series of defeats on the open battle field, a small group of allies brought the war to the dragon's den. Amongst these was the future dragonborn leader Razorback.",
+				"In an attempt to ambush the dragon, Cirilla sacrificed her life in order to save the lives of her friends and defeat the dragon. This set off a cascade of magical effects that resulted in an explosion so powerful that a piece of Cirilla's soul became embedded in the ring, thus imbuing it with its potent and volatile  properties.",
+				{
+					"type": "inset",
+					"name": "Dungeon Church Wiki",
+					"entries": [
+						"Learn more about the {@link Cirilla's Gift in the wiki|https://lore.dungeon.church/doc/cirillas-gift-pKEY4nYJDS}."
+					]
+				}
+			]
+		},
+		{
 			"name": "Shield of Missile Deflection",
 			"source": "DungeonChurch",
 			"page": 0,
