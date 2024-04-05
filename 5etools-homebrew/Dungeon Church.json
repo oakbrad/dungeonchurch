@@ -1523,7 +1523,7 @@
 			"otherSources": [
 				{
 					"source": "KTftS",
-					"page": 0
+					"page": 176
 				}
 			],
 			"attachedSpells": [
@@ -1552,6 +1552,13 @@
 					"entries": [
 						"You have advantage on {@skill Survival} checks made to navigate at night."
 					]
+				},
+				{
+					"type": "inset",
+					"name": "Dungeon Church Wiki",
+					"entries": [
+						"Learn more about the {@link Night Messenger's Cloak in the wiki|https://lore.dungeon.church/doc/night-messengers-cloak-wPglVS3jpz}."
+					]
 				}
 			],
 			"fluff": {
@@ -1566,14 +1573,43 @@
 				]
 			}
 		},
-
+		{
+			"name": "Nightshade's Ring",
+			"source": "DungeonChurch",
+			"page": 0,
+			"type": "RG",
+			"rarity": "very rare",
+			"curse": true,
+			"entries": [
+				"A sapphire encircled in silver by the leaves of a nightshade plant.",
+				"{@link Lady Nightshade|https://lore.dungeon.church/doc/lady-nightshade-3kjLNj2Zbs} has enchanted this ring so that she knows both the location and the inner emotional state of the person who wears it.",
+				{
+					"type": "inset",
+					"name": "Dungeon Church Wiki",
+					"entries": [
+						"Learn more about {@link Nightshade's Ring in the wiki|https://lore.dungeon.church/doc/nightshades-ring-D07HSUmuuy}."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-nightshades-ring.png"
+						}
+					}
+				]
+			}
+		},
 		{
 			"name": "Shield of Missile Deflection",
 			"source": "DungeonChurch",
 			"page": 0,
 			"type": "S",
 			"tier": "major",
-			"rarity": "rare",
+			"rarity": "very rare",
 			"otherSources": [
 				{
 					"source": "DMG",
