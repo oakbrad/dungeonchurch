@@ -1604,6 +1604,43 @@
 			}
 		},
 		{
+			"name": "Painting of Lamont Solmar",
+			"source": "DungeonChurch",
+			"page": 0,
+			"type": "TG",
+			"rarity": "rare",
+			"value": 2500,
+			"weight": 8,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Provenance",
+					"entries": [
+						"Portrait of {@link Lamont Solmar|https://lore.dungeon.church/doc/lamont-solmar-GLrWBoIX5h}, found in the cache of the young black dragon in the {@link Sunless Temple|https://lore.dungeon.church/doc/sunless-temple-yS5i3gqWiO}.",
+						"Found by {@link Grey Rivermoon|https://lore.dungeon.church/doc/grey-rivermoon-p54iB0ukBr}, who recognized it as the man who used to employ him to check in on the {@link Solmar Hunting Lodge|https://lore.dungeon.church/doc/solmar-hunting-lodge-TsdtD4GnTp}."
+					]
+				},
+				{
+					"type": "inset",
+					"name": "Dungeon Church Wiki",
+					"entries": [
+						"Learn more about the {@link Painting of Lamont Solmar in the wiki|https://lore.dungeon.church/doc/painting-of-lamont-solmar-h8zc7ZQfRp}."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-painting-lamont-solmar.png"
+						}
+					}
+				]
+			}
+		},
+		{
 			"name": "Shield of Missile Deflection",
 			"source": "DungeonChurch",
 			"page": 0,
