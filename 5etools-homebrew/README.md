@@ -43,6 +43,7 @@ Our homebrew setting for use with 5eTools.
     * [Night Messenger's Cloak](https://lore.dungeon.church/doc/night-messengers-cloak-wPglVS3jpz)
     * [Nightshade's Ring](https://lore.dungeon.church/doc/nightshades-ring-D07HSUmuuy)
     * [Painting of Lamont Solmar](https://lore.dungeon.church/doc/painting-of-lamont-solmar-h8zc7ZQfRp)
+    * [Ring of Prestidigitation](https://lore.dungeon.church/doc/ring-of-prestidigitation-RrfeGNnCzv)
     * [Sapphire Nightshade](https://lore.dungeon.church/doc/sapphire-nightshade-Qvbjiqksvy)
     * [Shield of Missile Deflection](https://lore.dungeon.church/doc/shield-of-missile-deflection-cltEpG9HRg)
     * [Skeleton Key](https://lore.dungeon.church/doc/skeleton-key-aCKEViKMZf)

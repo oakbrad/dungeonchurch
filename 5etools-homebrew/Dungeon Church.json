@@ -2045,6 +2045,23 @@
 			}
 		},
 		{
+			"name": "Ring of Prestidigitation",
+			"type": "RG",
+			"weight": 1,
+			"tier": "minor",
+			"rarity": "common",
+			"source": "DungeonChurch",
+			"otherSources": [
+				{
+					"source": "JafnerBrew",
+					"page": 0
+				}
+			],
+			"entries": [
+				"While wearing this ring, you can cast the {@spell prestidigitation} spell at will."
+			]
+		},
+		{
 			"name": "Sapphire Nightshade",
 			"source": "DungeonChurch",
 			"page": 0,
