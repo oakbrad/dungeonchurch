@@ -1415,6 +1415,24 @@
 			}
 		},
 		{
+			"name": "Mage Bane",
+			"source": "DungeonChurch",
+			"page": 0,
+			"type": "M",
+			"rarity": "legendary",
+			"entries": [
+				"A blasphemous weapon, made in secret by the Dwarf Council of {@link Durandar|https://lore.dungeon.church/doc/durandar-sWDxZHDVIC} behind the back of {@link King Wisebeard|https://lore.dungeon.church/doc/king-olfgard-wisebeard-S0YDu9xGHy}.",
+				"Formed from a magical, ancient crystal to wield against wizards or magicians who would try to use their influence on the Kingdom.",
+				{
+					"type": "inset",
+					"name": "Dungeon Church Wiki",
+					"entries": [
+						"Learn more about the {@link Mage Bane in the wiki|https://lore.dungeon.church/doc/mage-bane-vvIjgk9BDu}."
+					]
+				}
+			]
+		},
+		{
 			"name": "Shield of Missile Deflection",
 			"source": "DungeonChurch",
 			"page": 0,
