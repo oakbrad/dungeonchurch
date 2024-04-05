@@ -1428,6 +1428,9 @@
 					"page": 173
 				}
 			],
+			"attachedSpells": [
+				"fire bolt"
+			],
 			"weaponCategory": "martial",
 			"property": [
 				"V"
@@ -1563,6 +1566,7 @@
 				]
 			}
 		},
+
 		{
 			"name": "Shield of Missile Deflection",
 			"source": "DungeonChurch",
