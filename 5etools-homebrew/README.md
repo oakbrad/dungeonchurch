@@ -57,6 +57,7 @@ Our homebrew setting of Pyora, for use with 5eTools. This content auto-loads int
     * Increase Max HP When Leveling Up
     * Inspiration
     * Sorcerer: Wild Magic Surge
+    * Witchlight Sight
 
 # Resources
 * [5eTools Homebrew Wiki](https://wiki.tercept.net/en/Homebrew/TableOfReference) Reference of objects and their properties

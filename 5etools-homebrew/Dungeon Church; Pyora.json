@@ -2473,6 +2473,22 @@
 			]
 		},
 		{
+			"name": "Witchlight Sight",
+			"source": "DungeonChurch",
+			"page": 0,
+			"ruleType": "O",
+			"entries": [
+				"You can see and sense ley lines and magical trails.",
+				{
+					"type": "inset",
+					"name": "Dungeon Church Wiki",
+					"entries": [
+						"Learn more about {@link House Rules in the wiki|https://lore.dungeon.church/doc/house-rules-OhKbZs6UV4}."
+					]
+				}
+			]
+		},
+		{
 			"name": "Inspiration",
 			"source": "DungeonChurch",
 			"page": 0,
@@ -2516,6 +2532,26 @@
 			"ruleType": "V",
 			"entries": [
 				"When the character casts a leveled spell, they roll 1D8. If the roll is equal to or less than the number of spells that have been cast that day, the PC triggers a Wild Magic Surge. When the PC has activated Tides of Chaos, they may surge when casting any subsequent leveled spell of their choosing. All wild magic surges are subject to override at the DM’s discretion.",
+				{
+					"type": "inset",
+					"name": "Dungeon Church Wiki",
+					"entries": [
+						"Learn more about {@link House Rules in the wiki|https://lore.dungeon.church/doc/house-rules-OhKbZs6UV4}."
+					]
+				}
+			]
+		}
+	],
+	"optionalfeature": [
+		{
+			"name": "Witchlight Sight",
+			"source": "DungeonChurch",
+			"page": 0,
+			"featureType": [
+				"OTH"
+			],
+			"entries": [
+				"You can see and sense ley lines and magical trails.",
 				{
 					"type": "inset",
 					"name": "Dungeon Church Wiki",
