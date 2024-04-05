@@ -22,8 +22,21 @@ Our homebrew setting for use with 5eTools.
     * [Tribeborn](https://lore.dungeon.church/doc/tribeborn-KVgPsdxk3f)
 * Deities
 * Items
+    * [Abi Teos's Machete](https://lore.dungeon.church/doc/abi-teoss-machete-ZrSq7FcMTj)
     * [Amulet of Betrayal](https://lore.dungeon.church/doc/amulet-of-betrayal-vY1rCwAwHh)
+    * [Cirilla's Gift](https://lore.dungeon.church/doc/cirillas-gift-pKEY4nYJDS)
+    * [Collector of Souls](https://lore.dungeon.church/doc/collector-of-souls-XA0hpJ7gfE)
+    * [Dimensional Glasses](https://lore.dungeon.church/doc/dimensional-glasses-953LlRzRKE)
+    * [Fist of Durradin](https://lore.dungeon.church/doc/fist-of-durradin-GrRsr84scL)
+    * [Fiz's Flute](https://lore.dungeon.church/doc/fizs-flute-ANcBt7lLmj)
     * [Longsword of the Dragon Empire](https://lore.dungeon.church/doc/longsword-of-the-dragon-empire-WNp5oBATI3)
+    * [Mage Bane](https://lore.dungeon.church/doc/mage-bane-vvIjgk9BDu)
+    * [Minor Belt of Dwarvenkind](https://5e.dungeon.church/items.html#belt%20of%20dwarvenkind_dmg)
+    * [Monster Identification Cards](https://lore.dungeon.church/doc/monster-identification-cards-gfyYKrdZLJ)
+    * [Night Messenger's Cloak](https://lore.dungeon.church/doc/night-messengers-cloak-wPglVS3jpz)
+    * [Nightshade's Ring](https://lore.dungeon.church/doc/nightshades-ring-D07HSUmuuy)
+    * [Painting of Lamont Solmar](https://lore.dungeon.church/doc/painting-of-lamont-solmar-h8zc7ZQfRp)
+    * [Sapphire Nightshade](https://lore.dungeon.church/doc/sapphire-nightshade-Qvbjiqksvy)
     * [Shield of Missile Deflection](https://lore.dungeon.church/doc/shield-of-missile-deflection-cltEpG9HRg)
     * [Skeleton Key](https://lore.dungeon.church/doc/skeleton-key-aCKEViKMZf)
 * Bestiary
