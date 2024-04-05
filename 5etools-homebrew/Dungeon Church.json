@@ -1235,6 +1235,37 @@
 	],
 	"item": [
 		{
+        	"name": "Abi-Tseo's Machete",
+        	"source": "DungeonChurch",
+        	"page": 0,
+        	"baseItem": "scimitar|PHB",
+			"type": "M",
+			"rarity": "legendary",
+			"reqAttune": "by reading the scrawled phrase on the hilt.",
+			"weight": 3,
+			"weaponCategory": "martial",
+			"bonusWeapon": "3",
+        	"entries": [
+            	"You gain a +3 bonus to attack and damage rolls made with this magic weapon. In addition, the weapon ignores resistance to slashing damage and deals an extra {@dice 2d8} slashing damage to plants and Plant creatures.",
+				"The 17-inch blade of this tool-weapon appears deceptively dull and chipped, its hilt is carved azabache (a mystical stone believed to ward off malevolent spirits), and its handle is carved with a disturbing depiction of writhing, bloated leeches. The bohika (shaman) after which the weapon is named used it to wantonly cut down selva and conduct excessive ritual sacrifice to their patron. A lock of unmarred blonde hair dangles from the pommel, its significance lost to time. If the blade is held at the right angle in light, a scrawled phrase appears on the hilt: “A mi, volpal” which translates from its indigenous tongue as “A blade for me.”",
+				"When you attack a creature that has at least one head with this weapon and roll a 20 on the attack roll, you cut off one of the creatures heads. The creature dies if it can't survive without the lost head. A creature is immune to this effect if it is immune to slashing damage, doesn't have or need a head, has legendary actions, or the DM decides the creature is too big for its head to be cut off with this weapon. Such a creature takes an extra {@dice 6d8} slashing damage from the hit.",
+				{
+					"type": "entries",
+					"name": "Cursed",
+					"entries": [
+						"Whenever you deal damage with Abi-Teos's machete, you take {@dice 1d6} necrotic damage as the weapon drains your blood. If you roll a 1 on an attack roll made with the weapon, the leeches carved into the handle animate and crawl down your throat—infesting you with throat leeches (a disease). You must succeed on a DC 12 Constitution saving throw or gain 1 level of exhaustion that can only be removed by succeeding on a DC 12 Constitution saving throw upon completing a long rest. If the saving throw fails, you gain another level of exhaustion. If a successful saving throw reduces your exhaustion level below 1, you recover from the disease."
+					]
+				},
+				{
+					"type": "inset",
+					"name": "Dungeon Church Wiki",
+					"entries": [
+						"Learn more about the {@link Abi-Tseos's Machete in the wiki|https://lore.dungeon.church/doc/abi-teoss-machete-ZrSq7FcMTj}."
+					]
+				}
+        	]
+    	},	
+		{
 			"name": "Amulet of Betrayal",
 			"source": "DungeonChurch",
 			"page": 0,
@@ -1322,7 +1353,7 @@
 			"page": 0,
 			"baseItem": "longsword|phb",
 			"type": "M",
-			"rarity": "common",
+			"rarity": "uncommon",
 			"weight": 3,
 			"otherSources": [
 				{
