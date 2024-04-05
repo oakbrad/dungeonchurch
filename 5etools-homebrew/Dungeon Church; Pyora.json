@@ -2584,6 +2584,46 @@
 	],
 	"table": [
 		{
+			"name": "Pyoran Gods",
+			"source": "DungeonChurch",
+			"caption": "Gods within the realm of Pyora.",
+			"page": 0,
+			"colLabels": [
+				"d7",
+				"Deity"
+			],
+			"rows": [
+				[
+					"1",
+					"{@deity Abraxas|dungeonchurch}"
+				],
+				[
+					"2",
+					"{@deity Anhon|dungeonchurch}"
+				],
+				[
+					"3",
+					"{@deity Azrael|dungeonchurch}"
+				],
+				[
+					"4",
+					"{@deity Ostara|dungeonchurch}"
+				],
+				[
+					"5",
+					"{@deity Proteus|dungeonchurch}"
+				],
+				[
+					"6",
+					"{@deity Raven Queen|dungeonchurch}"
+				],
+				[
+					"7",
+					"{@deity Selûne|dungeonchurch}"
+				]
+			]
+		},
+		{
 			"name": "Pyoran Potions",
 			"source": "DungeonChurch",
 			"caption": "Potions specific to the realm of Pyora.",

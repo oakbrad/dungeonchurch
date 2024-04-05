@@ -55,6 +55,7 @@ Our homebrew setting of Pyora, for use with 5eTools. This content auto-loads int
 * Hazards / Traps
     * [Sapphire Nightshade Grove](https://lore.dungeon.church/doc/sapphire-nightshade-Qvbjiqksvy)
 * Tables
+    * Pyoran Gods
     * Pyoran Potions
 * [House Rules](https://lore.dungeon.church/doc/house-rules-OhKbZs6UV4)
     * Long & Short Rests
