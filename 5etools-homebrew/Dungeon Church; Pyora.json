@@ -2233,6 +2233,23 @@
 			]
 		},
 		{
+			"name": "Increase HP When Leveling Up",
+			"source": "DungeonChurch",
+			"page": 0,
+			"ruleType": "V",
+			"entries": [
+				"Roll your hit die. You may take either the number you rolled, or the average roll, whichever is higher. The average roll of your hit die is calculated as (rounded down):",
+				"( ( Max Die Roll + 1 ) / 2 )",
+				{
+					"type": "inset",
+					"name": "Dungeon Church Wiki",
+					"entries": [
+						"Learn more about {@link House Rules in the wiki|https://lore.dungeon.church/doc/house-rules-OhKbZs6UV4}."
+					]
+				}
+			]
+		},
+		{
 			"name": "Inspiration",
 			"source": "DungeonChurch",
 			"page": 0,
@@ -2258,6 +2275,13 @@
 					"name": "Losing Inspiration",
 					"entries": [
 						"You lose Inspiration at the start of a Long Rest"
+					]
+				},
+				{
+					"type": "inset",
+					"name": "Dungeon Church Wiki",
+					"entries": [
+						"Learn more about {@link House Rules in the wiki|https://lore.dungeon.church/doc/house-rules-OhKbZs6UV4}."
 					]
 				}
 			]
