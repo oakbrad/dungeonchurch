@@ -50,7 +50,13 @@ Our homebrew setting of Pyora, for use with 5eTools. This content auto-loads int
     * [Shield of Missile Deflection](https://lore.dungeon.church/doc/shield-of-missile-deflection-cltEpG9HRg)
     * [Skeleton Key](https://lore.dungeon.church/doc/skeleton-key-aCKEViKMZf)
 * Bestiary
+    * [Lamont Solmar](https://lore.dungeon.church/doc/lamont-solmar-GLrWBoIX5h)
     * [Sap Ooze](https://lore.dungeon.church/doc/sap-ooze-eGVX8QPLEh)
+* [House Rules](https://lore.dungeon.church/doc/house-rules-OhKbZs6UV4)
+    * Long & Short Rests
+    * Increase Max HP When Leveling Up
+    * Inspiration
+    * Sorcerer: Wild Magic Surge
 
 # Resources
 * [5eTools Homebrew Wiki](https://wiki.tercept.net/en/Homebrew/TableOfReference) Reference of objects and their properties
