@@ -1387,6 +1387,34 @@
 			}
 		},
 		{
+			"name": "Fiz's Flute",
+			"source": "DungeonChurch",
+			"page": 0,
+			"type": "INS",
+			"rarity": "legendary",
+			"entries": [
+				"A magical flute that legends claim can slow the passage of time. Once wielded by the notorious trash bard {@link Fiz Junkbrand|https://lore.dungeon.church/doc/fiz-junkbrand-6fvhYAH5OE}, ruler of the trash gangs in the abandoned city of {@link Galmaarden|https://lore.dungeon.church/doc/new-galmaarden-03tcpxxc2t}.",
+				{
+					"type": "inset",
+					"name": "Dungeon Church Wiki",
+					"entries": [
+						"Learn more about {@link Fiz's Flute in the wiki|https://lore.dungeon.church/doc/fizs-flute-ANcBt7lLmj}."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-fizs-flute.png"
+						}
+					}
+				]
+			}
+		},
+		{
 			"name": "Shield of Missile Deflection",
 			"source": "DungeonChurch",
 			"page": 0,
