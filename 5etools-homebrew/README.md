@@ -21,6 +21,7 @@ Our homebrew setting for use with 5eTools.
     * [Ravenfolk](https://lore.dungeon.church/doc/ravenfolk-2FqUStq1FR)
     * [Tribeborn](https://lore.dungeon.church/doc/tribeborn-KVgPsdxk3f)
 * Deities
+    * [Abraxas](https://lore.dungeon.church/doc/iron-riders-of-abraxas-P77pTaxjou)
 * Items
     * [Abi Teos's Machete](https://lore.dungeon.church/doc/abi-teoss-machete-ZrSq7FcMTj)
     * [Amulet of Betrayal](https://lore.dungeon.church/doc/amulet-of-betrayal-vY1rCwAwHh)

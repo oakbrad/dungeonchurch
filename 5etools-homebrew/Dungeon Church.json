@@ -1061,6 +1061,39 @@
 			}
 		}
 	],
+	"deity": [
+		{
+			"name": "Abraxas",
+			"title": "God of War",
+			"source": "DungeonChurch",
+			"pantheon": "Pyora",
+			"page": 0,
+			"alignment": [
+				"L",
+				"N"
+			],
+			"domains": [
+				"War",
+				"Oaths",
+				"Male"
+
+			],
+			"symbol": "Rooster taming a dragon with a whip",
+			"symbolImg": {
+				"type": "image",
+				"href": {
+					"type": "external",
+					"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/deity-abraxas.png"
+				},
+				"style": "deity-symbol",
+				"title": ""
+			},
+			"entries": [
+				"God of war and martial classes, patron of {@link Iron Riders of Abraxas|https://lore.dungeon.church/doc/iron-riders-of-abraxas-P77pTaxjou}, slayer of dragons. He is said to be the neutral arbiter of the other gods, instilling justice in the planes with his whip.",
+				"Many call on him to witness their oaths, in hope of currying his favor (and wrath) if the other party does not hold up their end."
+			]
+		}
+	],
 	"monster": [
 		{
 			"name": "Sap Ooze",
