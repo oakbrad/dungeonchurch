@@ -8,7 +8,7 @@
 				"version": "0.2",
 				"url": "https://www.dungeon.church",
 				"authors": [
-					"Brad Wenner"
+					"Brad Wenner, Elizabeth Berryhill, Steve Streisguth, Irving Pham, Matthew Thompson"
 				],
 				"color": "a90001"
 			}
@@ -1078,7 +1078,7 @@
 				"Male"
 
 			],
-			"symbol": "Rooster taming a dragon with a whip",
+			"symbol": "Rooster whipping a dragon",
 			"symbolImg": {
 				"type": "image",
 				"href": {
@@ -1091,6 +1091,42 @@
 			"entries": [
 				"God of war and martial classes, patron of {@link Iron Riders of Abraxas|https://lore.dungeon.church/doc/iron-riders-of-abraxas-P77pTaxjou}, slayer of dragons. He is said to be the neutral arbiter of the other gods, instilling justice in the planes with his whip.",
 				"Many call on him to witness their oaths, in hope of currying his favor (and wrath) if the other party does not hold up their end."
+			]
+		},
+		{
+			"name": "Ostara",
+			"title": "The Trickster",
+			"source": "DungeonChurch",
+			"pantheon": "Pyora",
+			"page": 0,
+			"alignment": [
+				"C",
+				"N"
+			],
+			"domains": [
+				"Pleasure",
+				"Seasons",
+				"Luck",
+				"Dreams"
+			],
+			"altNames":[
+				"The Traveler",
+				"The Trickster"
+			],
+			"symbol": "Triangle, Hares, Things that come in Threes",
+			"symbolImg": {
+				"type": "image",
+				"href": {
+					"type": "external",
+					"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/deity-ostara.png"
+				},
+				"style": "deity-symbol",
+				"title": ""
+			},
+			"entries": [
+				"Goddess of the changing seasons who represents uncontrollable wild places, hedonistic pleasure, the weather, and the domain between reality and illusion. Ostara is predictably unreliable, a force for both good & evil that often comes too early or too late, and usually in the form of tricks or riddles. As opposed to the orderly chaotic good of {@link Selune|https://lore.dungeon.church/doc/selune-wFfmk6l5Ba} who controls the rhythm of the moon and tides in the night, Ostara is true chaos that straddles the line between dreams and the light of dawn - it’s never clear if her attention is for favor or for ill. Possibly, it’s both.",
+				"It is said in legends when she appears as a human (always just before dawn), she takes the form of an ageless blonde with a gossamer dress made from frost, riding either a hare or a nightingale, disappearing at first light.",
+				"A common superstition is: Seeing a hare or a nightingale on a journey is considered either a good or bad omen, depending on the circumstances."
 			]
 		}
 	],
