@@ -1511,6 +1511,59 @@
 			}
 		},
 		{
+			"name": "Night Messenger's Cloak",
+			"source": "DungeonChurch",
+			"page": 0,
+			"type": "LA",
+			"rarity": "uncommon",
+			"wondrous": true,
+			"otherSources": [
+				{
+					"source": "KTftS",
+					"page": 0
+				}
+			],
+			"attachedSpells": [
+				"find steed"
+			],
+			"entries": [
+				"This ankle length purple woolen cloak has a high, flared collar and an elbow length capelet. It has wide, open sleeves and a row of large, silver buttons down one side. At the front corners of the capelet, shadowy horses in rearing stance appear in silver thread.",
+				"Worn by members of {@link The Night Messengers|https://lore.dungeon.church/doc/the-night-messengers-1lb9etph9O}.",
+				{
+					"type": "entries",
+					"name": "Shadow Touched Steed",
+					"entries": [
+						"You can, at will, use the coat cast the spell {@spell Find Steed} to summon a shadow-touched fey mount of your preferred size and type. Summoning the steed takes 1 round. Removing the cloak causes your steed to be dismissed."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Witchlight Sight",
+					"entries": [
+						"You can see and sense ley lines and magical trails."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Shadow Sense",
+					"entries": [
+						"You have advantage on {@skill Survival} checks made to navigate at night."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-night-messenger-cloak.png"
+						}
+					}
+				]
+			}
+		},
+		{
 			"name": "Shield of Missile Deflection",
 			"source": "DungeonChurch",
 			"page": 0,
