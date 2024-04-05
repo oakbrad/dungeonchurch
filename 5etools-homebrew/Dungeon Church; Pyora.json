@@ -2211,5 +2211,56 @@
 				]
 			}
 		}
+	],
+	"variantrule": [
+		{
+			"name": "Long & Short Rests",
+			"source": "DungeonChurch",
+			"page": 0,
+			"ruleType": "V",
+			"entries": [
+				"At the end of both Long & Short rests, a character can spend one or more Hit Dice, up to the character's maximum number of Hit Dice (same as your level). For each Hit Die spent this way, the player rolls the die and adds the CON modifier to it. The player can decide to spend additional die after each roll.",
+				"On a long rest, the character also regains spent Hit Dice, up to half the character's level (rounded down).",
+				"If sleeping in medium or heavy armor, you regain a quarter of your Hit Dice (minimum one).",
+				"Long rests taken in town or otherwise safe place regain all Hit Dice.",
+				{
+					"type": "inset",
+					"name": "Dungeon Church Wiki",
+					"entries": [
+						"Learn more about {@link House Rules in the wiki|https://lore.dungeon.church/doc/house-rules-OhKbZs6UV4}."
+					]
+				}
+			]
+		},
+		{
+			"name": "Inspiration",
+			"source": "DungeonChurch",
+			"page": 0,
+			"ruleType": "V",
+			"entries": [
+				"When you have Inspiration, you can expend it to give yourself Advantage on a d20 Test. You must decide to do so before rolling.",
+				{
+					"type": "entries",
+					"name": "Gaining Inspiration",
+					"entries": [
+						"The DM rewards inspiration for excellent role playing and other whims."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "One at a Time",
+					"entries": [
+						"You can have one Inspiration at a time. If something gives you Inspiration while you already have it, you can give Inspiration to a player in your group who lacks it."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Losing Inspiration",
+					"entries": [
+						"You lose Inspiration at the start of a Long Rest"
+					]
+				}
+			]
+		}
 	]
 }
