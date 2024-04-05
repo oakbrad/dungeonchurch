@@ -1,7 +1,7 @@
 # Dungeon Church Homebrew
 Our homebrew setting for use with 5eTools.
 
-```https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/Dungeon%20Church.json```
+```https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/Dungeon%20Church;%20Pyora.json```
 # Contents
 * Books
     * [Dungeon Church Zine 1](https://www.dungeon.church/zine-no1/)
