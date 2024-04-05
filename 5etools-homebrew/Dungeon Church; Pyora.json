@@ -2561,5 +2561,25 @@
 				}
 			]
 		}
+	],
+	"hazard": [
+		{
+			"name": "Sapphire Nightshade Grove",
+			"source": "DungeonChurch",
+			"page": 0,
+			"entries": [
+				"{@item Sapphire Nightshade|dungeonchurch} is a plant that thrives on the darkness and gloom of deep forest, where other things die and rot. It feeds on the insecurities, fears, and distress projected by the living beings that pass through it.",
+				"Sapphire Nightshade groves are difficult terrain.",
+				"When a player passes through (or very close to) Sapphire Nightshade plants, they must make a DC 15 Constitution check. On a failure, they experience a psychadelic effect that brings them back in their memory to a difficult time, embarassing moment, or other insecurity from their past. On a success or subsequent exposures, they are immune for 24 hours.",
+				{
+					"type": "inset",
+					"name": "Dungeon Church Wiki",
+					"entries": [
+						"Learn more about {@link Sapphire Nightshade in the wiki|https://lore.dungeon.church/doc/sapphire-nightshade-Qvbjiqksvy}."
+					]
+				}
+			],
+			"trapHazType": "WLD"
+		}
 	]
 }

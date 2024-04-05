@@ -52,6 +52,8 @@ Our homebrew setting of Pyora, for use with 5eTools. This content auto-loads int
 * Bestiary
     * [Lamont Solmar](https://lore.dungeon.church/doc/lamont-solmar-GLrWBoIX5h)
     * [Sap Ooze](https://lore.dungeon.church/doc/sap-ooze-eGVX8QPLEh)
+* Hazards / Traps
+    * [Sapphire Nightshade Grove](https://lore.dungeon.church/doc/sapphire-nightshade-Qvbjiqksvy)
 * [House Rules](https://lore.dungeon.church/doc/house-rules-OhKbZs6UV4)
     * Long & Short Rests
     * Increase Max HP When Leveling Up
