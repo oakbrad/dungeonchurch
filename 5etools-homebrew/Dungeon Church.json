@@ -1319,10 +1319,72 @@
 					"type": "inset",
 					"name": "Dungeon Church Wiki",
 					"entries": [
-						"Learn more about the {@link Cirilla's Gift in the wiki|https://lore.dungeon.church/doc/cirillas-gift-pKEY4nYJDS}."
+						"Learn more about {@link Cirilla's Gift in the wiki|https://lore.dungeon.church/doc/cirillas-gift-pKEY4nYJDS}."
 					]
 				}
 			]
+		},
+		{
+			"name": "Collector of Souls",
+			"source": "DungeonChurch",
+			"page": 0,
+			"type": "OTH",
+			"rarity": "legendary",
+			"tier": "major",
+			"entries": [
+				"A black obsidian pyramid covered in runes. Said to be activated by the fresh blood of a dragon, by which it gains the power to collect and free the souls of the draconic damned.",
+				{
+					"type": "inset",
+					"name": "Dungeon Church Wiki",
+					"entries": [
+						"Learn more about the {@link Collector of Souls in the wiki|https://lore.dungeon.church/doc/collector-of-souls-XA0hpJ7gfE}."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-collector-of-souls.png"
+						}
+					}
+				],
+				"entries": [
+					"Said to have been created by {@link Proteus|https://lore.dungeon.church/doc/proteus-Apiz4CreFn}, the sahuagin used it as a {@link payment for the illicit arms|https://lore.dungeon.church/doc/session-12-13-the-forge-of-fury-m1dOelbiNy#h-the-deal} the gnomes manufactured using the {@link abandoned dwarven forge|https://lore.dungeon.church/doc/the-old-mine-ndIfgvk1B6} near {@link Saltmarsh|https://lore.dungeon.church/doc/saltmarsh-GkGI6ISio5}.",
+					"It later reappeared when a {@link gnomish company|https://lore.dungeon.church/doc/the-sunless-temple-1-nine-of-cups-cBaQBejsRH} was tasked with clearing a section of the {@link Sunless Temple|https://lore.dungeon.church/doc/sunless-temple-yS5i3gqWiO} that was leaking monsters and mayhem into their {@link Underdark|https://lore.dungeon.church/doc/underdark-Lu1sEFgEWw} territory.",
+					"Adventurers associated with the {@link Gold Scale Co.|https://lore.dungeon.church/doc/gold-scale-company-m1WdlmIYwP} received this relic from the gnomes in the Temple and used it to free the dragonborn souls enslaved by the {@link Knight of Night|https://lore.dungeon.church/doc/lamont-solmar-GLrWBoIX5h}."
+				]
+			}
+		},
+		{
+			"name": "Dimensional Glasses",
+			"source": "DungeonChurch",
+			"page": 0,
+			"type": "OTH",
+			"rarity": "very rare",
+			"entries": [
+				"A set of glasses that look like a kaleidoscope from the outside. Looking through them shows vignettes of various planes of existence regularly swapping, overlayed onto the environment around you. They can also be held in place by a switch, useful for creatures feeling homesick.",
+				{
+					"type": "inset",
+					"name": "Dungeon Church Wiki",
+					"entries": [
+						"Learn more about the {@link Dimensional Glasses in the wiki|https://lore.dungeon.church/doc/dimensional-glasses-953LlRzRKE}."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-dimensional-glasses.png"
+						}
+					}
+				]
+			}
 		},
 		{
 			"name": "Shield of Missile Deflection",
