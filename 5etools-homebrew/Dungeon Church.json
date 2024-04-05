@@ -1244,7 +1244,7 @@
 			"reqAttune": "by reading the scrawled phrase on the hilt.",
 			"weight": 3,
 			"weaponCategory": "martial",
-			"bonusWeapon": "3",
+			"bonusWeapon": "+3",
         	"entries": [
             	"You gain a +3 bonus to attack and damage rolls made with this magic weapon. In addition, the weapon ignores resistance to slashing damage and deals an extra {@dice 2d8} slashing damage to plants and Plant creatures.",
 				"The 17-inch blade of this tool-weapon appears deceptively dull and chipped, its hilt is carved azabache (a mystical stone believed to ward off malevolent spirits), and its handle is carved with a disturbing depiction of writhing, bloated leeches. The bohika (shaman) after which the weapon is named used it to wantonly cut down selva and conduct excessive ritual sacrifice to their patron. A lock of unmarred blonde hair dangles from the pommel, its significance lost to time. If the blade is held at the right angle in light, a scrawled phrase appears on the hilt: “A mi, volpal” which translates from its indigenous tongue as “A blade for me.”",
@@ -1381,6 +1381,44 @@
 						"href": {
 							"type": "external",
 							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-dimensional-glasses.png"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Fist of Durradin",
+			"source": "DungeonChurch",
+			"page": 0,
+			"otherSources": [
+				{
+					"source": "BMT",
+					"page": 37
+				}
+			],
+			"baseItem": "flail|phb",
+			"type": "M",
+			"rarity": "very rare",
+			"reqAttune": true,
+			"bonusWeapon": "+1",
+			"entries": [
+				"A mythical flail forged by the dwarves long ago. It is said to be modeled after the hand of {@link King Durradin|https://lore.dungeon.church/doc/king-durradin-SGe3lRM9BN}, though there is no record of the king himself wielding the weapon in battle. Still, the weight of the flail feels light and easy to wield for how heavy it weighs on the scale compared to stone or iron of equal portion.",
+				"Upon connection with the target, the fist makes a loud ‘POW!’ noise.",
+				{
+					"type": "inset",
+					"name": "Dungeon Church Wiki",
+					"entries": [
+						"Learn more about the {@link Fist of Durradin in the wiki|https://lore.dungeon.church/doc/fist-of-durradin-GrRsr84scL}."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-fist-of-durradin.png"
 						}
 					}
 				]
