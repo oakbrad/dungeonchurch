@@ -2581,5 +2581,23 @@
 			],
 			"trapHazType": "WLD"
 		}
+	],
+	"table": [
+		{
+			"name": "Pyoran Potions",
+			"source": "DungeonChurch",
+			"caption": "Potions specific to the realm of Pyora.",
+			"page": 0,
+			"colLabels": [
+				"d1",
+				"Potion"
+			],
+			"rows": [
+				[
+					"1",
+					"{@item Potion of Undead|dungeonchurch}"
+				]
+			]
+		}
 	]
 }
