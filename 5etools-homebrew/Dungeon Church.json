@@ -852,9 +852,9 @@
 			"hasFluff": true,
 			"fluff": {
 				"entries": [
-					"Forged by the Frst Dragon Emperor as an unholy magical corruption of humanity, the slaves that conquered and then built the First Empire.",
+					"Forged by the {@link First Dragon Emperor|https://lore.dungeon.church/doc/dragon-empire-odzVqtQPbm#h-emperors} as an unholy magical corruption of humanity, the slaves that conquered and then built the First Empire.",
 					"Finally freed of their wyrm master, the former conscripts have since proven their resilience and independent nature despite lingering doubts about their true allegiances.",
-					"Many of the dispossessed dragonborn have been instrumental in reclaiming the abandoned dwarven port of New Galmaarden and building a thriving free city where it is said, 'every man a king.' ",
+					"Many of the dispossessed dragonborn have been instrumental in reclaiming the abandoned dwarven port of {@link New Galmaarden|https://lore.dungeon.church/doc/new-galmaarden-03tcpxxc2t} and building a thriving free city where it is said, 'every man a king.' ",
 					"Others have sought to create a new history and culture that they were denied, living tribal lives in the wilderness.",
 					{
 						"type": "inset",
