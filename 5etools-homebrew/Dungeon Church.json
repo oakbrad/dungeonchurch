@@ -1524,6 +1524,60 @@
 			]
 		},
 		{
+			"name": "Minor Belt of Dwarvenkind",
+			"source": "DungeonChurch",
+			"otherSources": [
+				{
+					"source": "DMG",
+					"page": 155
+				}
+			],
+			"page": 0,
+			"type": "LA",
+			"rarity": "very rare",
+			"wondrous": true,
+			"tier": "major",
+			"reqAttune": true,
+			"ability": {
+				"con": 1
+			},
+			"entries": [
+				"A fine woven leather belt of the craftsmanship that all dwarven goods are known for. It's thick, durable leather is meant to hold up the stout belly of a dwarf. Only fits Small or Medium creatures.",
+				{
+					"type": "entries",
+					"name": "Friend of the Dwarves",
+					"entries": [
+						"You gain advantage on social interactions when interacting with Dwarves."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Dwarf's Pride",
+					"entries": [
+						"While attuned to the belt, you have a 50 percent chance ({@coinflip}}) each day at dawn of growing a full beard if you're capable of growing one, or a visibly thicker beard if you already have one."
+					]
+				},
+				{
+					"type": "inset",
+					"name": "Dungeon Church Wiki",
+					"entries": [
+						"Learn more about the {@link Minor Belt of Dwarvenkind in the wiki|https://lore.dungeon.church/doc/minor-belt-of-dwarvenkind-7pgPJfXTwh}."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-minor-belt-of-dwarvenkind.png"
+						}
+					}
+				]
+			}
+		},
+		{
 			"name": "Monster Identification Cards",
 			"source": "DungeonChurch",
 			"page": 0,
