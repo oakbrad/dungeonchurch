@@ -1433,6 +1433,34 @@
 			]
 		},
 		{
+			"name": "Monster Identification Cards",
+			"source": "DungeonChurch",
+			"page": 0,
+			"type": "GS",
+			"rarity": "legendary",
+			"entries": [
+				"A set of magical cards from the {@link Saltmarsh|https://lore.dungeon.church/doc/saltmarsh-GkGI6ISio5} library that helps adventurers rapidly identify monsters that they are likely to happen upon during the course of their work. When using a card to identify a monster, the user reads the words ‘monstrum novi’ on the front of the card and holds the card so that the card has a view of the monster. On the face of the card will appear the name of the monster, it’s disposition, and a fact of the DM’s choosing. The card then dissolves after 30 minutes, hopefully allowing time for the user to share the information with their cohorts for an advantage in battle or for record keeping.",
+				{
+					"type": "inset",
+					"name": "Dungeon Church Wiki",
+					"entries": [
+						"Learn more about the {@link Monster Identification Cards in the wiki|https://lore.dungeon.church/doc/monster-identification-cards-gfyYKrdZLJ}."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-monster-id-cards.png"
+						}
+					}
+				]
+			}
+		},
+		{
 			"name": "Shield of Missile Deflection",
 			"source": "DungeonChurch",
 			"page": 0,
