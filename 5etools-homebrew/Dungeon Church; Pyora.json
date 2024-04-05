@@ -1075,13 +1075,17 @@
 				"L",
 				"N"
 			],
+			"altNames": [
+				"Dragon Slayer",
+				"Cock of Striborg"
+			],
 			"domains": [
 				"War",
 				"Oaths",
-				"Male"
+				"Masculinity"
 
 			],
-			"symbol": "Rooster whipping a dragon",
+			"symbol": "Rooster whipping a dragon, Scale encircled by Whip",
 			"symbolImg": {
 				"type": "image",
 				"href": {
@@ -1218,7 +1222,8 @@
 				"title": ""
 			},
 			"entries": [
-				"Goddess of the changing seasons who represents uncontrollable wild places, hedonistic pleasure, the weather, and the domain between reality and illusion. Ostara is predictably unreliable, a force for both good & evil that often comes too early or too late, and usually in the form of tricks or riddles. As opposed to the orderly chaotic good of {@link Selune|https://lore.dungeon.church/doc/selune-wFfmk6l5Ba} who controls the rhythm of the moon and tides in the night, Ostara is true chaos that straddles the line between dreams and the light of dawn - it’s never clear if her attention is for favor or for ill. Possibly, it’s both.",
+				"Goddess of the changing seasons who represents uncontrollable wild places, hedonistic pleasure, the weather, and the domain between reality and illusion. Ostara is predictably unreliable, a force for both good & evil that often comes too early or too late, and usually in the form of tricks or riddles.",
+				"As opposed to the orderly chaotic good of {@link Selune|https://lore.dungeon.church/doc/selune-wFfmk6l5Ba} who controls the rhythm of the moon and tides in the night, Ostara is true chaos that straddles the line between dreams and the light of dawn - it’s never clear if her attention is for favor or for ill. Possibly, it’s both.",
 				"It is said in legends when she appears as a human (always just before dawn), she takes the form of an ageless blonde with a gossamer dress made from frost, riding either a hare or a nightingale, disappearing at first light.",
 				"A common superstition is: Seeing a hare or a nightingale on a journey is considered either a good or bad omen, depending on the circumstances.",
 				{
@@ -1261,7 +1266,7 @@
 			},
 			"entries": [
 				"God of the seas who is said to hold the key to the ocean and thus power over all living things. His domain is the eternal, the ancient unknown, and stability - the rock lost sailors cling to. His beard is longer than time and changes shapes as often as the waves.",
-				"He is engaged in a never ending struggle with the cycle of the tides, as each night {{@link Selune’s|https://lore.dungeon.church/doc/selune-wFfmk6l5Ba} waves pull the oceans apart and and spread madness and change throughout the world.",
+				"He is engaged in a never ending struggle with the cycle of the tides, as each night {@link Selune’s|https://lore.dungeon.church/doc/selune-wFfmk6l5Ba} waves pull the oceans apart and and spread madness and change throughout the world.",
 				{
 					"type": "inset",
 					"name": "Dungeon Church Wiki",
@@ -1302,13 +1307,14 @@
 				"title": ""
 			},
 			"entries": [
-				"God of the seas who is said to hold the key to the ocean and thus power over all living things. His domain is the eternal, the ancient unknown, and stability - the rock lost sailors cling to. His beard is longer than time and changes shapes as often as the waves.",
-				"He is engaged in a never ending struggle with the cycle of the tides, as each night {{@link Selune’s|https://lore.dungeon.church/doc/selune-wFfmk6l5Ba} waves pull the oceans apart and and spread madness and change throughout the world.",
+				"A deity who rules in the ethereal fey magic of the far planes.",
+				"The Raven Queen, a deity shrouded in mystery, presides over the moment of transition between life and death. Her followers believe she is the guardian of the line between the living and the dead, watching over all those souls who cross it’s boundary. In Pyora, she is often associated with bad omens or bad luck.",
+				"The Raven Queen was once a powerful sorceress whose jealousy led her to a fateful act against her lover, {@link Eve|https://lore.dungeon.church/doc/eve-QQyGI5YbZc}. In a singular moment of possessive rage, she clipped Eve's wings, scattering the feathers across the planes where they transformed into the {@race Ravenfolk|dungeonchurch}.",
 				{
 					"type": "inset",
 					"name": "Dungeon Church Wiki",
 					"entries": [
-						"Learn more about {@link Proteus in the wiki|https://lore.dungeon.church/doc/proteus-Apiz4CreFn}."
+						"Learn more about {@link the Raven Queen in the wiki|https://lore.dungeon.church/doc/raven-queen-95zkXkC4gg}."
 					]
 				}
 			]
@@ -1337,7 +1343,7 @@
 				"type": "image",
 				"href": {
 					"type": "external",
-					"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/deity-selune.png"
+					"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/deity-selune.jpg"
 				},
 				"style": "deity-symbol",
 				"title": ""
