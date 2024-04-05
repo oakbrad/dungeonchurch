@@ -24,6 +24,7 @@ Our homebrew setting for use with 5eTools.
 * Items
     * [Amulet of Betrayal](https://lore.dungeon.church/doc/amulet-of-betrayal-vY1rCwAwHh)
     * [Longsword of the Dragon Empire](https://lore.dungeon.church/doc/longsword-of-the-dragon-empire-WNp5oBATI3)
+    * [Shield of Missile Deflection](https://lore.dungeon.church/doc/shield-of-missile-deflection-cltEpG9HRg)
     * [Skeleton Key](https://lore.dungeon.church/doc/skeleton-key-aCKEViKMZf)
 * Bestiary
     * [Sap Ooze](https://lore.dungeon.church/doc/sap-ooze-eGVX8QPLEh)

@@ -1275,6 +1275,48 @@
 				}
 		},
 		{
+			"name": "Shield of Missile Deflection",
+			"source": "DungeonChurch",
+			"page": 0,
+			"type": "S",
+			"tier": "major",
+			"rarity": "rare",
+			"otherSources": [
+				{
+					"source": "DMG",
+					"page": 200
+				}
+			],
+			"reqAttune": true,
+			"curse": false,
+			"weight": 6,
+			"ac": 2,
+			"entries": [
+				"While holding this shield, you have resistance to damage from ranged weapon attacks.",
+				{
+					"type": "inset",
+					"name": "Dungeon Church Wiki",
+					"entries": [
+						"Learn more about the {@link Longsword of the Dragon Empire in the wiki|https://lore.dungeon.church/doc/longsword-of-the-dragon-empire-WNp5oBATI3}."
+					]
+				}
+			],
+			"lootTables": [
+				"Magic Item Table G"
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-shield-of-missile-deflection.png"
+						}
+					}
+				]
+			}
+		},
+		{
 			"name": "Longsword of the Dragon Empire",
 			"source": "DungeonChurch",
 			"page": 0,
