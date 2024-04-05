@@ -23,6 +23,7 @@ Our homebrew setting for use with 5eTools.
 * Deities
     * [Abraxas](https://lore.dungeon.church/doc/iron-riders-of-abraxas-P77pTaxjou)
     * [Anhon](https://lore.dungeon.church/doc/anhon-NB2cmmeCOh)
+    * [Azrael](https://lore.dungeon.church/doc/azrael-ENK1L9l9rm)
     * [Ostara](https://lore.dungeon.church/doc/ostara-pPhCdlIg9G)
     * [Proteus](https://lore.dungeon.church/doc/proteus-Apiz4CreFn)
     * [Raven Queen](https://lore.dungeon.church/doc/raven-queen-95zkXkC4gg)

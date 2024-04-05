@@ -1140,6 +1140,51 @@
 			]
 		},
 		{
+			"name": "Azrael",
+			"title": "The Pathfinder",
+			"source": "DungeonChurch",
+			"pantheon": "Pyora",
+			"page": 0,
+			"alignment": [
+				"N",
+				"E"
+			],
+			"domains": [
+				"Alchemy",
+				"Dark Magic",
+				"Coin Flips",
+				"Fate"
+			],
+			"altNames":[
+				"The Pathfinder",
+				"The Hooded Menace",
+				"The Final Ferryman"
+			],
+			"symbol": "Black Candle, Rainbows, Hooded Rider or Ferryman",
+			"symbolImg": {
+				"type": "image",
+				"href": {
+					"type": "external",
+					"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/deity-azrael.png"
+				},
+				"style": "deity-symbol",
+				"title": ""
+			},
+			"entries": [
+				"A hooded figure, wreathed in dark mist, carrying a scroll upon which the name of every living being is written at birth, a black candle floats behind its head, the spectral flame slowly cycling through every hue in the spectrum.",
+				"Sometimes appears as a rider atop a blindfolded stallion the color of the void, other times as a ferryman guiding a barge constructed from the ribs of a giant, lashed together by slowly-writhing, oily sinew.",
+				"To look within the hood is to behold endless cosmos, a vision so terrible one can never again turn their gaze to anything else, as they join the Pathfinder on their final journey from this mortal realm, and their name is erased from its scroll.",
+				"Patron of scribes, alchemists and cupbearers, often associated with cats, owls, lost coins and cloudless nights.",
+				{
+					"type": "inset",
+					"name": "Dungeon Church Wiki",
+					"entries": [
+						"Learn more about {@link Azrael in the wiki|https://lore.dungeon.church/doc/azrael-ENK1L9l9rm}."
+					]
+				}
+			]
+		},
+		{
 			"name": "Ostara",
 			"title": "The Trickster",
 			"source": "DungeonChurch",
