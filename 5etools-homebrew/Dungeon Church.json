@@ -1245,6 +1245,9 @@
 			"weight": 3,
 			"weaponCategory": "martial",
 			"bonusWeapon": "+3",
+			"dmg1": "1d6",
+			"dmg2": "2d8",
+			"dmgType": "S",
         	"entries": [
             	"You gain a +3 bonus to attack and damage rolls made with this magic weapon. In addition, the weapon ignores resistance to slashing damage and deals an extra {@dice 2d8} slashing damage to plants and Plant creatures.",
 				"The 17-inch blade of this tool-weapon appears deceptively dull and chipped, its hilt is carved azabache (a mystical stone believed to ward off malevolent spirits), and its handle is carved with a disturbing depiction of writhing, bloated leeches. The bohika (shaman) after which the weapon is named used it to wantonly cut down selva and conduct excessive ritual sacrifice to their patron. A lock of unmarred blonde hair dangles from the pommel, its significance lost to time. If the blade is held at the right angle in light, a scrawled phrase appears on the hilt: “A mi, volpal” which translates from its indigenous tongue as “A blade for me.”",
@@ -1329,7 +1332,9 @@
 			"source": "DungeonChurch",
 			"page": 0,
 			"type": "OTH",
+			"weight": 4,
 			"rarity": "legendary",
+			"wondrous": true,
 			"tier": "major",
 			"entries": [
 				"A black obsidian pyramid covered in runes. Said to be activated by the fresh blood of a dragon, by which it gains the power to collect and free the souls of the draconic damned.",
@@ -1364,6 +1369,7 @@
 			"page": 0,
 			"type": "OTH",
 			"rarity": "very rare",
+			"wondrous": true,
 			"entries": [
 				"A set of glasses that look like a kaleidoscope from the outside. Looking through them shows vignettes of various planes of existence regularly swapping, overlayed onto the environment around you. They can also be held in place by a switch, useful for creatures feeling homesick.",
 				{
@@ -1399,11 +1405,22 @@
 			"baseItem": "flail|phb",
 			"type": "M",
 			"rarity": "very rare",
+			"weight": 2,
 			"reqAttune": true,
 			"bonusWeapon": "+1",
+			"dmg1": "1d8",
+			"dmg2": "2d8",
+			"dmgType": "B",
 			"entries": [
+				"You gain a +1 bonus to attack and damage rolls made with this magic weapon, and it deals double damage to objects and structures.",
 				"A mythical flail forged by the dwarves long ago. It is said to be modeled after the hand of {@link King Durradin|https://lore.dungeon.church/doc/king-durradin-SGe3lRM9BN}, though there is no record of the king himself wielding the weapon in battle. Still, the weight of the flail feels light and easy to wield for how heavy it weighs on the scale compared to stone or iron of equal portion.",
-				"Upon connection with the target, the fist makes a loud ‘POW!’ noise.",
+				{
+					"type": "entries",
+					"name": "POW!",
+					"entries": [
+						"When you hit a creature for the first time with this weapon, you can force the creature to make a DC 15 Constitution saving throw. On a failed save, the creature is surprised for one round."
+					]
+				},
 				{
 					"type": "inset",
 					"name": "Dungeon Church Wiki",
@@ -1429,6 +1446,7 @@
 			"source": "DungeonChurch",
 			"page": 0,
 			"type": "INS",
+			"weight": 2,
 			"rarity": "legendary",
 			"entries": [
 				"A magical flute that legends claim can slow the passage of time. Once wielded by the notorious trash bard {@link Fiz Junkbrand|https://lore.dungeon.church/doc/fiz-junkbrand-6fvhYAH5OE}, ruler of the trash gangs in the abandoned city of {@link Galmaarden|https://lore.dungeon.church/doc/new-galmaarden-03tcpxxc2t}.",
@@ -1508,8 +1526,10 @@
 		{
 			"name": "Mage Bane",
 			"source": "DungeonChurch",
+			"baseItem": "longsword|phb",
 			"page": 0,
 			"type": "M",
+			"weight": 3,
 			"rarity": "legendary",
 			"entries": [
 				"A blasphemous weapon, made in secret by the Dwarf Council of {@link Durandar|https://lore.dungeon.church/doc/durandar-sWDxZHDVIC} behind the back of {@link King Wisebeard|https://lore.dungeon.church/doc/king-olfgard-wisebeard-S0YDu9xGHy}.",
@@ -1533,6 +1553,7 @@
 				}
 			],
 			"page": 0,
+			"weight": 1,
 			"type": "LA",
 			"rarity": "very rare",
 			"wondrous": true,
@@ -1554,7 +1575,7 @@
 					"type": "entries",
 					"name": "Dwarf's Pride",
 					"entries": [
-						"While attuned to the belt, you have a 50 percent chance ({@coinflip}}) each day at dawn of growing a full beard if you're capable of growing one, or a visibly thicker beard if you already have one."
+						"While attuned to the belt, you have a 50 percent chance ({@coinflip}) each day at dawn of growing a full beard if you're capable of growing one, or a visibly thicker beard if you already have one."
 					]
 				},
 				{
@@ -1582,7 +1603,7 @@
 			"source": "DungeonChurch",
 			"page": 0,
 			"type": "GS",
-			"rarity": "legendary",
+			"rarity": "common",
 			"entries": [
 				"A set of magical cards from the {@link Saltmarsh|https://lore.dungeon.church/doc/saltmarsh-GkGI6ISio5} library that helps adventurers rapidly identify monsters that they are likely to happen upon during the course of their work. When using a card to identify a monster, the user reads the words ‘monstrum novi’ on the front of the card and holds the card so that the card has a view of the monster. On the face of the card will appear the name of the monster, it’s disposition, and a fact of the DM’s choosing. The card then dissolves after 30 minutes, hopefully allowing time for the user to share the information with their cohorts for an advantage in battle or for record keeping.",
 				{
@@ -1611,6 +1632,7 @@
 			"page": 0,
 			"type": "LA",
 			"rarity": "uncommon",
+			"weight": 4,
 			"wondrous": true,
 			"otherSources": [
 				{
