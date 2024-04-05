@@ -1101,6 +1101,45 @@
 			]
 		},
 		{
+			"name": "Anhon",
+			"title": "God of the Sun",
+			"source": "DungeonChurch",
+			"pantheon": "Pyora",
+			"page": 0,
+			"alignment": [
+				"N"
+			],
+			"domains": [
+				"Sun",
+				"Celestial Bodies",
+				"Laughter"
+			],
+			"altNames":[
+				"Precocious Son",
+				"The Traveler"
+			],
+			"symbol": "Sun, Compass, Sun Dial",
+			"symbolImg": {
+				"type": "image",
+				"href": {
+					"type": "external",
+					"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/deity-anhon.png"
+				},
+				"style": "deity-symbol",
+				"title": ""
+			},
+			"entries": [
+				"This god of summer takes the form of a young man. He is inhumanly tall and has a wide-chested build. Anhon has short yellow hair, narrow brown eyes, and tan skin. He is usually portrayed as wearing a flattering costume that is mostly scarlet in color. Anhon wears a gold bracelet of intricate geometric design and carries a compass. Anhon is occasionally precocious with a neutral alignment.",
+				{
+					"type": "inset",
+					"name": "Dungeon Church Wiki",
+					"entries": [
+						"Learn more about {@link Anhon in the wiki|https://lore.dungeon.church/doc/anhon-NB2cmmeCOh}."
+					]
+				}
+			]
+		},
+		{
 			"name": "Ostara",
 			"title": "The Trickster",
 			"source": "DungeonChurch",
