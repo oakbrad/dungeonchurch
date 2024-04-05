@@ -326,7 +326,7 @@
 			"source": "DungeonChurch",
 			"page": 0,
 			"entries": [
-				"A secret, whistled language used by the Gnomish resistance movement Hand of Adalind."
+				"A secret, whistled language used by the Gnomish resistance movement {@link Hand of Adalind|https://lore.dungeon.church/doc/hand-of-adalind-kFepjGY6vb}."
 			],
 			"type": "secret",
 			"typicalSpeakers": [
@@ -338,7 +338,7 @@
 			"source": "DungeonChurch",
 			"page": 0,
 			"entries": [
-				"Tribal is a harsh, grating language with hard consonants used in the tribes of the southwest. It has no script of its own but is written in the Dwarvish script."
+				"Tribal is a harsh, grating language with hard consonants used mostly by the {@race Tribeborn|dungeonchurch} of the southwest. It has no script of its own but is written in the Dwarvish script."
 			],
 			"type": "exotic",
 			"typicalSpeakers": [
@@ -726,7 +726,7 @@
 			"fluff": {
 				"entries": [
 					"Few live amid so much rumor, suspicion, and outright falsehood as the ravenfolk. Depending on whom you ask, they might condemn the ravenfolk as nomads bearing misfortune or praise them as messengers from the gods. Ravenfolk are loyal comrades and treacherous thieves, brave warriors and contemptible cowards. They are despised for their strange and secretive nature, and criticized for having no true culture - only mimicry. These contradictions conceal a greater mystery few understand or know.",
-					"The Ravenfolk are the ethereal wanderers and messengers of Pyora, born from the celestial drama of deities and their caprices. They emerged from the feathers of Eve, the winged consort of the Raven Queen, who, in a fit of jealousy clipped Eve's wings to keep her faithful. These feathers, cast into the nether regions of the planes, took on life and consciousness, becoming the Ravenfolk.",
+					"The Ravenfolk are the ethereal wanderers and messengers of Pyora, born from the celestial drama of deities and their caprices. They emerged from the feathers of {@link Eve|https://lore.dungeon.church/doc/eve-QQyGI5YbZc}, the winged consort of the {@deity Raven Queen|dungeonchurch}, who, in a fit of jealousy clipped Eve's wings to keep her faithful. These feathers, cast into the nether regions of the planes, took on life and consciousness, becoming the {@race Ravenfolk|dungeonchurch}.",
 					"Cast out from their home, the Ravenfolk traverse the myriad planes of existence, seeking redemption and a path back to the favor of the Raven Queen.",
 					{
 						"type": "inset",
@@ -950,9 +950,9 @@
 			"entries": [
 				{
 					"type": "entries",
-					"name": "Brisk Footeed",
+					"name": "Brisk Footed",
 					"entries": [
-						"Your base walking speed increases to 30 feet."
+						"Your base walking speed is 30 feet."
 					]
 				},
 				{
@@ -973,7 +973,7 @@
 			"fluff": {
 				"entries": [
 					"Road dwarves appears closely related to their mountain brethren. They maintain dwarven traditions and customs, and typically organize themselves in clans.",
-					"However, centuries of adaption to traveling the winding roads stretching across the lands has created a distinct subset of dwarf. Road dwarves, whether living as wandering mercantile clans or exiles banished from their homeland in Durandar, use their natural charms and swift journeying to build their fortune and make a name for themselves.",
+					"However, centuries of adaption to traveling the winding roads stretching across the lands has created a distinct subset of dwarf. Road dwarves, whether living as wandering mercantile clans or exiles banished from their homeland in {@link Durandar|https://lore.dungeon.church/doc/durandar-sWDxZHDVIC}, use their natural charms and swift journeying to build their fortune and make a name for themselves.",
 					{
 						"type": "inset",
 						"name": "Dungeon Church Wiki",
@@ -2065,7 +2065,7 @@
 				}
 			],
 			"entries": [
-				"When you drink this potion, make a DC 15 Constitution saving throw. On a success, you take {@dice 4d8} necrotic damage and gain 1 point of exhaustion. If the damage dealt on a success reduces you to zero hit points, you instead suffer the effects of a failure.",
+				"When you drink this potion, make a DC 15 Constitution saving throw. On a success, you take {@dice 4d8} necrotic damage and gain one level of exhaustion. If the damage dealt on a success reduces you to zero hit points, you instead suffer the effects of a failure.",
 				"On a failure, you fall to zero hit points and cannot receive any magical healing for 8 hours. If you die within 8 hours of drinking this potion, you become a zombie.",
 				{
 					"type": "inset",

@@ -1,7 +1,8 @@
 # Dungeon Church Homebrew
-Our homebrew setting for use with 5eTools.
+Our homebrew setting of Pyora, for use with 5eTools. This content auto-loads into our mirror at <a href=https://5e.dungeon.church>https://5e.dungeon.church</a>
 
-```https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/Dungeon%20Church;%20Pyora.json```
+```https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/Dungeon Church; Pyora.json```
+
 # Contents
 * Books
     * [Dungeon Church Zine 1](https://www.dungeon.church/zine-no1/)
