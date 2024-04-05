@@ -2045,6 +2045,40 @@
 			}
 		},
 		{
+			"name": "Potion of Undeath",
+			"type": "P",
+			"rarity": "rare",
+			"source": "DungeonChurch",
+			"otherSources": [
+				{
+					"source": "JafnerBrew",
+					"page": 0
+				}
+			],
+			"entries": [
+				"When you drink this potion, make a DC 15 Constitution saving throw. On a success, you take {@dice 4d8} necrotic damage and gain 1 point of exhaustion. If the damage dealt on a success reduces you to zero hit points, you instead suffer the effects of a failure.",
+				"On a failure, you fall to zero hit points and cannot receive any magical healing for 8 hours. If you die within 8 hours of drinking this potion, you become a zombie.",
+				{
+					"type": "inset",
+					"name": "Dungeon Church Wiki",
+					"entries": [
+						"Learn more about the {@link Potion of Undeath in the wiki|https://lore.dungeon.church/doc/potion-of-undeath-RkXumhgmhW}."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-potion-of-undeath.png"
+						}
+					}
+				]
+			}
+		},
+		{
 			"name": "Ring of Prestidigitation",
 			"type": "RG",
 			"weight": 1,
@@ -2058,7 +2092,14 @@
 				}
 			],
 			"entries": [
-				"While wearing this ring, you can cast the {@spell prestidigitation} spell at will."
+				"While wearing this ring, you can cast the {@spell prestidigitation} spell at will.",
+				{
+					"type": "inset",
+					"name": "Dungeon Church Wiki",
+					"entries": [
+						"Learn more about the {@link Ring of Prestidigitation in the wiki|https://lore.dungeon.church/doc/ring-of-prestidigitation-RrfeGNnCzv}."
+					]
+				}
 			]
 		},
 		{
