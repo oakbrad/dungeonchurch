@@ -1090,7 +1090,14 @@
 			},
 			"entries": [
 				"God of war and martial classes, patron of {@link Iron Riders of Abraxas|https://lore.dungeon.church/doc/iron-riders-of-abraxas-P77pTaxjou}, slayer of dragons. He is said to be the neutral arbiter of the other gods, instilling justice in the planes with his whip.",
-				"Many call on him to witness their oaths, in hope of currying his favor (and wrath) if the other party does not hold up their end."
+				"Many call on him to witness their oaths, in hope of currying his favor (and wrath) if the other party does not hold up their end.",
+				{
+					"type": "inset",
+					"name": "Dungeon Church Wiki",
+					"entries": [
+						"Learn more about {@link Abraxas in the wiki|https://lore.dungeon.church/doc/abraxas-uKXAkU30vX}."
+					]
+				}
 			]
 		},
 		{
@@ -1126,7 +1133,97 @@
 			"entries": [
 				"Goddess of the changing seasons who represents uncontrollable wild places, hedonistic pleasure, the weather, and the domain between reality and illusion. Ostara is predictably unreliable, a force for both good & evil that often comes too early or too late, and usually in the form of tricks or riddles. As opposed to the orderly chaotic good of {@link Selune|https://lore.dungeon.church/doc/selune-wFfmk6l5Ba} who controls the rhythm of the moon and tides in the night, Ostara is true chaos that straddles the line between dreams and the light of dawn - it’s never clear if her attention is for favor or for ill. Possibly, it’s both.",
 				"It is said in legends when she appears as a human (always just before dawn), she takes the form of an ageless blonde with a gossamer dress made from frost, riding either a hare or a nightingale, disappearing at first light.",
-				"A common superstition is: Seeing a hare or a nightingale on a journey is considered either a good or bad omen, depending on the circumstances."
+				"A common superstition is: Seeing a hare or a nightingale on a journey is considered either a good or bad omen, depending on the circumstances.",
+				{
+					"type": "inset",
+					"name": "Dungeon Church Wiki",
+					"entries": [
+						"Learn more about {@link Ostara in the wiki|https://lore.dungeon.church/doc/ostara-pPhCdlIg9G}."
+					]
+				}
+			]
+		},
+		{
+			"name": "Proteus",
+			"title": "God of the Sea",
+			"source": "DungeonChurch",
+			"pantheon": "Pyora",
+			"page": 0,
+			"alignment": [
+				"L",
+				"G"
+			],
+			"domains": [
+				"Ocean",
+				"Stability",
+				"Eternity"
+			],
+			"altNames":[
+				"The Key Holder",
+				"Old Man Gloom"
+			],
+			"symbol": "Keys, Ouroboros, Bearded Merman",
+			"symbolImg": {
+				"type": "image",
+				"href": {
+					"type": "external",
+					"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/deity-proteus.png"
+				},
+				"style": "deity-symbol",
+				"title": ""
+			},
+			"entries": [
+				"God of the seas who is said to hold the key to the ocean and thus power over all living things. His domain is the eternal, the ancient unknown, and stability - the rock lost sailors cling to. His beard is longer than time and changes shapes as often as the waves.",
+				"He is engaged in a never ending struggle with the cycle of the tides, as each night {{@link Selune’s|https://lore.dungeon.church/doc/selune-wFfmk6l5Ba} waves pull the oceans apart and and spread madness and change throughout the world.",
+				{
+					"type": "inset",
+					"name": "Dungeon Church Wiki",
+					"entries": [
+						"Learn more about {@link Proteus in the wiki|https://lore.dungeon.church/doc/proteus-Apiz4CreFn}."
+					]
+				}
+			]
+		},
+		{
+			"name": "Raven Queen",
+			"title": "Goddess of Death",
+			"source": "DungeonChurch",
+			"pantheon": "Pyora",
+			"page": 0,
+			"alignment": [
+				"L",
+				"E"
+			],
+			"domains": [
+				"Death",
+				"Transitions",
+				"Jealousy",
+				"Undead"
+			],
+			"altNames":[
+				"The Jealous One",
+				"Queen of Death"
+			],
+			"symbol": "Feathers, Skulls, Ravens",
+			"symbolImg": {
+				"type": "image",
+				"href": {
+					"type": "external",
+					"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/deity-ravenqueen.png"
+				},
+				"style": "deity-symbol",
+				"title": ""
+			},
+			"entries": [
+				"God of the seas who is said to hold the key to the ocean and thus power over all living things. His domain is the eternal, the ancient unknown, and stability - the rock lost sailors cling to. His beard is longer than time and changes shapes as often as the waves.",
+				"He is engaged in a never ending struggle with the cycle of the tides, as each night {{@link Selune’s|https://lore.dungeon.church/doc/selune-wFfmk6l5Ba} waves pull the oceans apart and and spread madness and change throughout the world.",
+				{
+					"type": "inset",
+					"name": "Dungeon Church Wiki",
+					"entries": [
+						"Learn more about {@link Proteus in the wiki|https://lore.dungeon.church/doc/proteus-Apiz4CreFn}."
+					]
+				}
 			]
 		}
 	],

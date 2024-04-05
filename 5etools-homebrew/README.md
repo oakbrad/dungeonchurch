@@ -24,6 +24,7 @@ Our homebrew setting for use with 5eTools.
     * [Abraxas](https://lore.dungeon.church/doc/iron-riders-of-abraxas-P77pTaxjou)
     * [Ostara](https://lore.dungeon.church/doc/ostara-pPhCdlIg9G)
     * [Proteus](https://lore.dungeon.church/doc/proteus-Apiz4CreFn)
+    * [Raven Queen](https://lore.dungeon.church/doc/raven-queen-95zkXkC4gg)
 * Items
     * [Abi Teos's Machete](https://lore.dungeon.church/doc/abi-teoss-machete-ZrSq7FcMTj)
     * [Amulet of Betrayal](https://lore.dungeon.church/doc/amulet-of-betrayal-vY1rCwAwHh)
