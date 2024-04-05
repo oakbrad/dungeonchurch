@@ -1641,6 +1641,35 @@
 			}
 		},
 		{
+			"name": "Sapphire Nightshade",
+			"source": "DungeonChurch",
+			"page": 0,
+			"type": "OTH",
+			"rarity": "common",
+			"entries": [
+				"In the depths of the {@link Dreadwood|https://lore.dungeon.church/doc/dreadwood-GcfKdBzGyT}, there is rumored to be a rare plant that has thrived in conditions where other flora, fauna and explorers have perished and expired. Adapting to the environment of minimal light and lack of traditional nutrients, this plant has adapted over the centuries by feeding off the insecurities, fears and distress projected by the living beings that pass through this difficult terrain.",
+				"Used by some to make a powerful, psychadelic poison.",
+				{
+					"type": "inset",
+					"name": "Dungeon Church Wiki",
+					"entries": [
+						"Learn more about {@link Sapphire Nightshade in the wiki|https://lore.dungeon.church/doc/sapphire-nightshade-Qvbjiqksvy}."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-sapphire-nightshade.png"
+						}
+					}
+				]
+			}
+		},
+		{
 			"name": "Shield of Missile Deflection",
 			"source": "DungeonChurch",
 			"page": 0,
