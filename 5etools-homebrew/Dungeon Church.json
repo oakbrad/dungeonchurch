@@ -1309,6 +1309,46 @@
 					]
 				}
 			]
+		},
+		{
+			"name": "Selûne",
+			"title": "Mother of Madness",
+			"source": "DungeonChurch",
+			"pantheon": "Pyora",
+			"page": 0,
+			"alignment": [
+				"C",
+				"E"
+			],
+			"domains": [
+				"Fertility",
+				"Tides",
+				"Lycanthropy",
+				"Entropy"
+			],
+			"altNames":[
+				"Mother of Madness"
+			],
+			"symbol": "Moon, Ouroboros, Naked Female",
+			"symbolImg": {
+				"type": "image",
+				"href": {
+					"type": "external",
+					"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/deity-selune.png"
+				},
+				"style": "deity-symbol",
+				"title": ""
+			},
+			"entries": [
+				"Goddess of the moon. Hers was the moon's mysterious power, the heavenly force that governed the world's tides and a mother's reproductive cycles, caused lycanthropes to shift form, and drew one to the brink of madness, and back again.",
+				{
+					"type": "inset",
+					"name": "Dungeon Church Wiki",
+					"entries": [
+						"Learn more about {@link Selune in the wiki|https://lore.dungeon.church/doc/selune-wFfmk6l5Ba}."
+					]
+				}
+			]
 		}
 	],
 	"monster": [
