@@ -1,0 +1,69 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "DungeonChurch",
+				"abbreviation": "CHURCH",
+				"full": "Dungeon Church",
+				"version": "0.1",
+				"url": "https://en.wikipedia.org/wiki/Rider%E2%80%93Waite_Tarot",
+				"authors": [
+					"A.E. Waite","Pamela Colman Smith"
+				],
+				"convertedBy": [
+					"Brad Wenner, Dungeon Church"
+				],
+				"color": "a90001",
+                "dateReleased": "1909-01-01"
+			}
+		],
+		"dateAdded": 0,
+		"dateLastModified": 0
+	},
+    "deck": [
+        {
+            "name": "Rider-Waite Tarot",
+            "source": "CHURCH",
+            "cards": [
+                "Ace of Cups|Rider-Waite Tarot|CHURCH"
+            ],
+            "back": {
+                "type": "image",
+                "width": 0,
+                "height": 0,
+                "href": {
+                    "type": "external",
+                    "url": "https://url",
+                },
+                "altText": "alt"
+            },
+            "entries": [
+                {
+                    "type": "section",
+                    "entries": [
+                        "Deck description."
+                    ]
+                }
+            ]
+        }
+    ],
+    "card": [
+        {
+			"name": "Ace of Cups",
+			"source": "DungeonChurch",
+			"set": "Corrupted Tarot",
+			"suit": "Cups",
+			"value": 1,
+			"valueName": "ace",
+			"face": {
+				"type": "image",
+				"width": 608,
+				"height": 1024,
+				"href": {
+					"type": "external",
+					"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/WWCT/Ace-of-Cups.jpg"
+				},
+				"credit": "{@link Nataša Ilinčić|https://natasailincic.com/}"
+		}
+    ]
+}
