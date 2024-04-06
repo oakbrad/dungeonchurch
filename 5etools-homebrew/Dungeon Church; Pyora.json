@@ -551,6 +551,10 @@
 			"size": [
 				"M"
 			],
+			"soundClip": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/pron-pyoran.mp3"
+			},
 			"ability": [
 				{
 					"choose": {
@@ -583,10 +587,6 @@
 					"anyStandard": 1
 				}
 			],
-			"soundClip": {
-				"type": "internal",
-				"path": "races/human.mp3"
-			},
 			"entries": [
 				{
 					"name": "Age",
@@ -678,7 +678,11 @@
 					"common": true,
 					"anyStandard": 3
 				}
-			],
+			]
+			"soundClip": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/pron-ravenfolk.mp3"
+			},,
 			"entries": [
 				{
 					"name": "Age",
@@ -776,7 +780,11 @@
 					"common": true,
 					"tribal": true
 				}
-			],
+			]
+			"soundClip": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/pron-tribeborn.mp3"
+			},,
 			"entries": [
 				{
 					"name": "Age",
@@ -852,7 +860,10 @@
 			"raceName": "Dragonborn",
 			"raceSource": "PHB",
 			"page": 0,
-			"hasFluff": true,
+			"soundClip": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/pron-pyoran.mp3"
+			},
 			"fluff": {
 				"entries": [
 					"Forged by the {@link First Dragon Emperor|https://lore.dungeon.church/doc/dragon-empire-odzVqtQPbm#h-emperors} as an unholy magical corruption of humanity, the slaves that conquered and then built the First Empire.",
@@ -1032,6 +1043,10 @@
 					}
 				}
 			],
+			"soundClip": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/pron-durandar.mp3"
+			},
 			"entries": [
 				{
 					"type": "entries",
