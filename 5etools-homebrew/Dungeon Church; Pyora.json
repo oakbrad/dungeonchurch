@@ -2021,6 +2021,53 @@
 			}
 		},
 		{
+			"name": "Fedora of Disguise",
+			"source": "DungeonChurch",
+			"otherSources": [
+				{
+					"source": "DMG",
+					"page": 173
+				}
+			],
+			"page": 0,
+			"srd": true,
+			"tier": "major",
+			"rarity": "uncommon",
+			"reqAttune": true,
+			"wondrous": true,
+			"entries": [
+				"This hat is patched together out of a motley of many colors and types of materials, forming it into a lumpy fedora shape head covering.",
+				"While wearing this fedora, you can use an action to cast the {@spell disguise self} spell from it once a day. The spell ends if the hat is removed.",
+				{
+					"type": "inset",
+					"name": "Dungeon Church Wiki",
+					"entries": [
+						"Learn more about the {@link Fedora of Disguise in the wiki|https://lore.dungeon.church/doc/fedora-of-disguise-c7i4G0ePRf}."
+					]
+				}
+			],
+			"optionalfeatures": [
+				"replicate magic item|tce"
+			],
+			"attachedSpells": [
+				"disguise self"
+			],
+			"lootTables": [
+				"Magic Item Table F"
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-fedora-of-disguise.png"
+						}
+					}
+				]
+			}
+		},
+		{
 			"name": "Longsword of the Dragon Empire",
 			"source": "DungeonChurch",
 			"page": 0,

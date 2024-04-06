@@ -35,6 +35,7 @@ Our homebrew setting of Pyora, for use with 5eTools. This content auto-loads int
     * [Cirilla's Gift](https://lore.dungeon.church/doc/cirillas-gift-pKEY4nYJDS)
     * [Collector of Souls](https://lore.dungeon.church/doc/collector-of-souls-XA0hpJ7gfE)
     * [Dimensional Glasses](https://lore.dungeon.church/doc/dimensional-glasses-953LlRzRKE)
+    * [Fedora of Disguise](https://lore.dungeon.church/doc/fedora-of-disguise-c7i4G0ePRf)
     * [Fist of Durradin](https://lore.dungeon.church/doc/fist-of-durradin-GrRsr84scL)
     * [Fiz's Flute](https://lore.dungeon.church/doc/fizs-flute-ANcBt7lLmj)
     * [Longsword of the Dragon Empire](https://lore.dungeon.church/doc/longsword-of-the-dragon-empire-WNp5oBATI3)
