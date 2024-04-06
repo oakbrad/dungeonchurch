@@ -2037,7 +2037,7 @@
 			"wondrous": true,
 			"entries": [
 				"This hat is patched together out of a motley of many colors and types of materials, forming it into a lumpy fedora shape head covering.",
-				"While wearing this fedora, you can use an action to cast the {@spell disguise self} spell from it once a day. The spell ends if the hat is removed.",
+				"While wearing this fedora, you can use an action to cast the {@spell disguise self} spell from it once a day. The spell ends if the hat is removed. The hat's potential renews at dawn.",
 				{
 					"type": "inset",
 					"name": "Dungeon Church Wiki",
@@ -2052,6 +2052,8 @@
 			"attachedSpells": [
 				"disguise self"
 			],
+			"charges": 1,
+			"recharge": "dawn",
 			"lootTables": [
 				"Magic Item Table F"
 			],
