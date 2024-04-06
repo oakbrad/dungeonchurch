@@ -1019,7 +1019,11 @@
 							"jeweler's tools",
 							"painter's supplies",
 							"weaver's tools",
-							"glassblower's tools"
+							"glassblower's tools",
+							"calligrapher's supplies",
+							"cartographer's tools",
+							"leatherworker's tools",
+							"potter's tools"
 						],
 						"count": 2
 					}
@@ -1030,7 +1034,8 @@
 					"type": "entries",
 					"name": "Durandian Ingenuity",
 					"entries": [
-						"You gain an additional artisan tool proficiency {@item tinker's tools|phb}, {@item alchemist's supplies|phb}, {@item carpenter's tools|phb}, {@item cook's utensils|phb}, {@item jeweler's tools|phb}, {@item painter's supplies|phb}, {@item weaver's tools|phb}, or {@item glassblower's tools|phb}"
+						"You gain an additional {@item artisan's tools|phb|artisan tool} proficiencies, due to the Kingdom's emphasize on craft and trades. You may alternately choose one musical instrument to be proficient instead."
+
 					]
 				},
 				{
