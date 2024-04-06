@@ -34,6 +34,7 @@ Our homebrew setting of Pyora, for use with 5eTools. This content auto-loads int
     * [Amulet of Betrayal](https://lore.dungeon.church/doc/amulet-of-betrayal-vY1rCwAwHh)
     * [Cirilla's Gift](https://lore.dungeon.church/doc/cirillas-gift-pKEY4nYJDS)
     * [Collector of Souls](https://lore.dungeon.church/doc/collector-of-souls-XA0hpJ7gfE)
+    * [Dagger of Profuse Bleeding](https://lore.dungeon.church/doc/dagger-of-profuse-bleeding-uXUIGCXKkL)
     * [Dimensional Glasses](https://lore.dungeon.church/doc/dimensional-glasses-953LlRzRKE)
     * [Fedora of Disguise](https://lore.dungeon.church/doc/fedora-of-disguise-c7i4G0ePRf)
     * [Fist of Durradin](https://lore.dungeon.church/doc/fist-of-durradin-GrRsr84scL)

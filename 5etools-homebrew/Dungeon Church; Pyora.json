@@ -1914,6 +1914,46 @@
 			}
 		},
 		{
+			"name": "Dagger of Profuse Bleeding",
+			"source": "DungeonChurch",
+			"page": 0,
+			"baseItem": "dagger|PHB",
+			"type": "M",
+			"rarity": "very rare",
+			"weight": 1,
+			"weaponCategory": "simple",
+			"property": [
+				"F",
+				"L",
+				"T"
+			],
+			"range": "20/60",
+			"dmg1": "1d4",
+			"dmgType": "P",
+			"entries": [
+				"This obsidian dagger has a wicked, serrated edge to it that rends flesh as it cuts.",
+				"When you hit a creature with this magic weapon, it causes the target to bleed profusely at even the slightest injury. Because of the amount of blood, they are unable to heal themselves by medicine or magic on their next turn.",
+				{
+					"type": "inset",
+					"name": "Dungeon Church Wiki",
+					"entries": [
+						"Learn more about the {@link Dagger of Profuse Bleeding in the wiki|https://lore.dungeon.church/doc/dagger-of-profuse-bleeding-uXUIGCXKkL}."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-dagger-of-profuse-bleeding.png"
+						}
+					}
+				]
+			}
+		},
+		{
 			"name": "Dimensional Glasses",
 			"source": "DungeonChurch",
 			"page": 0,
