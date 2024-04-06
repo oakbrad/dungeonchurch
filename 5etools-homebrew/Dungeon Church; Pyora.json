@@ -726,7 +726,7 @@
 			"fluff": {
 				"entries": [
 					"Few live amid so much rumor, suspicion, and outright falsehood as the ravenfolk. Depending on whom you ask, they might condemn the ravenfolk as nomads bearing misfortune or praise them as messengers from the gods. Ravenfolk are loyal comrades and treacherous thieves, brave warriors and contemptible cowards. They are despised for their strange and secretive nature, and criticized for having no true culture - only mimicry. These contradictions conceal a greater mystery few understand or know.",
-					"The Ravenfolk are the ethereal wanderers and messengers of Pyora, born from the celestial drama of deities and their caprices. They emerged from the feathers of {@link Eve|https://lore.dungeon.church/doc/eve-QQyGI5YbZc}, the winged consort of the {@deity Raven Queen|dungeonchurch}, who, in a fit of jealousy clipped Eve's wings to keep her faithful. These feathers, cast into the nether regions of the planes, took on life and consciousness, becoming the {@race Ravenfolk|dungeonchurch}.",
+					"The Ravenfolk are the ethereal wanderers and messengers of Pyora, born from the celestial drama of deities and their caprices. They emerged from the feathers of {@link Eve|https://lore.dungeon.church/doc/eve-QQyGI5YbZc}, the winged consort of the {@deity Raven Queen|pyora|dungeonchurch}, who, in a fit of jealousy clipped Eve's wings to keep her faithful. These feathers, cast into the nether regions of the planes, took on life and consciousness, becoming the {@race Ravenfolk|dungeonchurch}.",
 					"Cast out from their home, the Ravenfolk traverse the myriad planes of existence, seeking redemption and a path back to the favor of the Raven Queen.",
 					{
 						"type": "inset",
@@ -2287,6 +2287,9 @@
 					"page": 0
 				}
 			],
+			"lootTables": [
+				"Pyoran Potions|dungeonchurch"
+			],
 			"entries": [
 				"When you drink this potion, make a DC 15 Constitution saving throw. On a success, you take {@dice 4d8} necrotic damage and gain one level of exhaustion. If the damage dealt on a success reduces you to zero hit points, you instead suffer the effects of a failure.",
 				"On a failure, you fall to zero hit points and cannot receive any magical healing for 8 hours. If you die within 8 hours of drinking this potion, you become a {@creature zombie}.",
@@ -2595,31 +2598,31 @@
 			"rows": [
 				[
 					"1",
-					"{@deity Abraxas|dungeonchurch}"
+					"{@deity Abraxas|pyora|dungeonchurch}"
 				],
 				[
 					"2",
-					"{@deity Anhon|dungeonchurch}"
+					"{@deity Anhon|pyora|dungeonchurch}"
 				],
 				[
 					"3",
-					"{@deity Azrael|dungeonchurch}"
+					"{@deity Azrael|pyora|dungeonchurch}"
 				],
 				[
 					"4",
-					"{@deity Ostara|dungeonchurch}"
+					"{@deity Ostara|pyora|dungeonchurch}"
 				],
 				[
 					"5",
-					"{@deity Proteus|dungeonchurch}"
+					"{@deity Proteus|pyora|dungeonchurch}"
 				],
 				[
 					"6",
-					"{@deity Raven Queen|dungeonchurch}"
+					"{@deity Raven Queen|pyora|dungeonchurch}"
 				],
 				[
 					"7",
-					"{@deity Selûne|dungeonchurch}"
+					"{@deity Selûne|pyora|dungeonchurch}"
 				]
 			]
 		},
@@ -2635,7 +2638,7 @@
 			"rows": [
 				[
 					"1",
-					"{@item Potion of Undead|dungeonchurch}"
+					"{@item Potion of Undeath|dungeonchurch}"
 				]
 			]
 		}
