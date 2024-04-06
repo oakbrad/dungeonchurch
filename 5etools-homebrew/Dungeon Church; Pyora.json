@@ -2277,6 +2277,37 @@
 			}
 		},
 		{
+			"name": "Potion of Midnight Oil",
+			"type": "P",
+			"rarity": "uncommon",
+			"source": "DungeonChurch",
+			"lootTables": [
+				"Pyoran Potions|dungeonchurch"
+			],
+			"entries": [
+				"This sludgy, black liquid sloshes with it's own heavy gravity within the bottle. When a humanoid drinks this potion, they gain the benefits of a Long rest. When you complete a long rest after drinking this potion, you gain one level of {@condition exhaustion}.",
+				"Drinking more than one Midnight Oil potion at a time has the opposite effect, and puts the drinker to magical sleep for 8 hours and they gain {@dice 1d4} levels of exhaustion upon waking.",
+				{
+					"type": "inset",
+					"name": "Dungeon Church Wiki",
+					"entries": [
+						"Learn more about the {@link Potion of Midnight Oil in the wiki|https://lore.dungeon.church/doc/potion-of-midnight-oil-4PiTnJSnnP}."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-potion-of-midnight-oil.png"
+						}
+					}
+				]
+			}
+		},
+		{
 			"name": "Potion of Undeath",
 			"type": "P",
 			"rarity": "rare",
@@ -2632,13 +2663,17 @@
 			"caption": "Potions specific to the realm of Pyora.",
 			"page": 0,
 			"colLabels": [
-				"d1",
-				"Potion"
+				"d2",
+				"Potions"
 			],
 			"rows": [
 				[
 					"1",
 					"{@item Potion of Undeath|dungeonchurch}"
+				],
+				[
+					"2",
+					"{@item Potion of Midnight Oil|dungeonchurch}"
 				]
 			]
 		}

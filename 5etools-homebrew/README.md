@@ -45,6 +45,7 @@ Our homebrew setting of Pyora, for use with 5eTools. This content auto-loads int
     * [Nightshade's Ring](https://lore.dungeon.church/doc/nightshades-ring-D07HSUmuuy)
     * [Painting of Lamont Solmar](https://lore.dungeon.church/doc/painting-of-lamont-solmar-h8zc7ZQfRp)
     * [Potion of Undeath](https://lore.dungeon.church/doc/potion-of-undeath-RkXumhgmhW)
+    * [Potion of Midnight Oil](https://lore.dungeon.church/doc/potion-of-midnight-oil-4PiTnJSnnP)
     * [Ring of Prestidigitation](https://lore.dungeon.church/doc/ring-of-prestidigitation-RrfeGNnCzv)
     * [Sapphire Nightshade](https://lore.dungeon.church/doc/sapphire-nightshade-Qvbjiqksvy)
     * [Shield of Missile Deflection](https://lore.dungeon.church/doc/shield-of-missile-deflection-cltEpG9HRg)
