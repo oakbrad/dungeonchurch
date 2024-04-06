@@ -952,8 +952,11 @@
 					"type": "entries",
 					"name": "Brisk Footed",
 					"entries": [
-						"Your base walking speed is 30 feet."
-					]
+						"Your base walking speed is 30 feet. Your speed is not reduced by wearing heavy armor."
+					],
+					"data": {
+						"overwrite": "Speed"
+					}	
 				},
 				{
 					"type": "entries",
@@ -1034,16 +1037,21 @@
 					"type": "entries",
 					"name": "Durandian Ingenuity",
 					"entries": [
-						"You gain an additional {@item artisan's tools|phb|artisan tool} proficiencies, due to the Kingdom's emphasize on craft and trades. You may alternately choose one musical instrument to be proficient instead."
-
-					]
+						"You are proficient in two {@item artisan's tools|phb}, due to the Kingdom's emphasize on craft and trades. You may alternately choose one {@item musical instrument|phb} to be proficient instead."
+					],
+					"data": {
+						"overwrite": "Tool Proficiency"
+					}	
 				},
 				{
 					"type": "entries",
-					"name": "Dwarven Armor Training",
+					"name": "Kingdom Training",
 					"entries": [
-						"You have proficiency with light and medium armor."
-					]
+						"All dwarves in the kingdom are trained in basic martial arts. You have proficiency with the {@item battleaxe|phb, {@item handaxe|phb}, {@item light hammer|phb}, and {@item warhammer}. You also have proficiency with light and medium armor."
+					],
+					"data": {
+						"overwrite": "Dwarven Combat Training"
+					}
 				}
 			],
 			"heightAndWeight": {
