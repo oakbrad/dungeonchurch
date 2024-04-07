@@ -395,6 +395,10 @@
 					"anyStandard": 2
 				}
 			],
+			"soundClip": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/pron-elfmarked.mp3"
+			},
 			"entries": [
 				{
 					"name": "Age",
@@ -1062,7 +1066,7 @@
 					"type": "entries",
 					"name": "Kingdom Training",
 					"entries": [
-						"All dwarves in the kingdom are trained in basic martial arts. You have proficiency with the {@item battleaxe|phb, {@item handaxe|phb}, {@item light hammer|phb}, and {@item warhammer}. You also have proficiency with light and medium armor."
+						"All dwarves in the kingdom are trained in basic martial arts. You have proficiency with the {@item battleaxe|phb}, {@item handaxe|phb}, {@item light hammer|phb}, and {@item warhammer}. You also have proficiency with light and medium armor."
 					],
 					"data": {
 						"overwrite": "Dwarven Combat Training"
@@ -2812,7 +2816,7 @@
 			"rows": [
 				[
 					"1",
-					"{@item abi-tseos's machete|dungeonchurch}"
+					"{@item Abi-Tseos's Machete|dungeonchurch}"
 				],
 				[
 					"2",
