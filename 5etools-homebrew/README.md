@@ -63,6 +63,7 @@ Our homebrew setting of Pyora, for use with 5eTools. This content auto-loads int
 * Tables
     * Pyoran Gods
     * Pyoran Magic Items
+    * Pyoran Monsters
     * Pyoran Potions
 * [House Rules](https://lore.dungeon.church/doc/house-rules-OhKbZs6UV4)
     * Long & Short Rests

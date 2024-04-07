@@ -3068,6 +3068,26 @@
 
 		},
 		{
+			"name": "Pyoran Monsters",
+			"source": "DungeonChurch",
+			"caption": "Monsters known to inhabit the realm of Pyora.",
+			"page": 0,
+			"colLabels": [
+				"d2",
+				"Monster"
+			],
+			"rows": [
+				[
+					"1",
+					"{@creature Hellion|dungeonchurch}"
+				],
+				[
+					"2",
+					"{@creature Sap Ooze|dungeonchurch}"
+				]
+			]
+		},
+		{
 			"name": "Pyoran Gods",
 			"source": "DungeonChurch",
 			"caption": "Gods within the realm of Pyora.",
