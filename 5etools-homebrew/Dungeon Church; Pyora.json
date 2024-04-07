@@ -1785,7 +1785,7 @@
 	],
 	"item": [
 		{
-        	"name": "Abi-Tseo's Machete",
+        	"name": "Abi-Tseos's Machete",
         	"source": "DungeonChurch",
         	"page": 0,
         	"baseItem": "scimitar|PHB",
@@ -2812,7 +2812,7 @@
 			"rows": [
 				[
 					"1",
-					"{@item abi-tseo's machete|dungeonchurch}"
+					"{@item abi-tseos's machete|dungeonchurch}"
 				],
 				[
 					"2",
