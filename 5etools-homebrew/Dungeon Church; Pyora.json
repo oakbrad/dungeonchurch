@@ -1798,6 +1798,9 @@
 			"dmg1": "1d6",
 			"dmg2": "2d8",
 			"dmgType": "S",
+			"lootTables": [
+				"Pyoran Magic Items|dungeonchurch"
+			],
         	"entries": [
             	"You gain a +3 bonus to attack and damage rolls made with this magic weapon. In addition, the weapon ignores resistance to slashing damage and deals an extra {@dice 2d8} slashing damage to plants and Plant creatures.",
 				"The 17-inch blade of this tool-weapon appears deceptively dull and chipped, its hilt is carved azabache (a mystical stone believed to ward off malevolent spirits), and its handle is carved with a disturbing depiction of writhing, bloated leeches. The bohika (shaman) after which the weapon is named used it to wantonly cut down selva and conduct excessive ritual sacrifice to their patron. A lock of unmarred blonde hair dangles from the pommel, its significance lost to time. If the blade is held at the right angle in light, a scrawled phrase appears on the hilt: “A mi, volpal” which translates from its indigenous tongue as “A blade for me.”",
@@ -1832,6 +1835,9 @@
 			"rarity": "very rare",
 			"reqAttune": true,
 			"wondrous": true,
+			"lootTables": [
+				"Pyoran Magic Items|dungeonchurch"
+			],
 			"entries": [
 				"You can use a bonus action to move one of the following conditions from yourself to an ally within 60 feet of you: {@condition blinded}, {@condition deafened}, {@condition frightened}, {@condition poisoned}, {@condition stunned}, {@condition exhaustion}. When transferring {@condition exhaustion}, move all your {@condition exhaustion} levels. If the chosen ally is immune to a transferred condition, the transfer fails.",
 				"This item was once owned by the vampire knight {@link Lamont Solmar|https://lore.dungeon.church/doc/lamont-solmar-GLrWBoIX5h}, who served the {@link Lady Nightshade|https://lore.dungeon.church/doc/lady-nightshade-3kjLNj2Zbs}.",
@@ -1865,6 +1871,9 @@
 			"type": "RG",
 			"rarity": "legendary",
 			"tier": "major",
+			"lootTables": [
+				"Pyoran Magic Items|dungeonchurch"
+			],
 			"entries": [
 				"Cirilla's gift is a ring that was worn by the elven battle mage {@link Cirilla of Avalon|https://lore.dungeon.church/doc/cirrilla-of-house-naberius-Rx97WvltxP} during the Dragon Wars. After facing a series of defeats on the open battle field, a small group of allies brought the war to the dragon's den. Amongst these was the future dragonborn leader {@link Razorback|https://lore.dungeon.church/doc/razorback-the-uniter-O3oe7NBQqK}.",
 				"In an attempt to ambush the dragon, Cirilla sacrificed her life in order to save the lives of her friends and defeat the dragon. This set off a cascade of magical effects that resulted in an explosion so powerful that a piece of Cirilla's soul became embedded in the ring, thus imbuing it with its potent and volatile properties.",
@@ -1886,6 +1895,9 @@
 			"rarity": "legendary",
 			"wondrous": true,
 			"tier": "major",
+			"lootTables": [
+				"Pyoran Magic Items|dungeonchurch"
+			],
 			"entries": [
 				"A black obsidian pyramid covered in runes. Said to be activated by the fresh blood of a dragon, by which it gains the power to collect and free the souls of the draconic damned.",
 				{
@@ -1930,9 +1942,18 @@
 			"range": "20/60",
 			"dmg1": "1d4",
 			"dmgType": "P",
+			"lootTables": [
+				"Pyoran Magic Items|dungeonchurch"
+			],
 			"entries": [
 				"This obsidian dagger has a wicked, serrated edge to it that rends flesh as it cuts.",
-				"When you hit a creature with this magic weapon, it causes the target to bleed profusely at even the slightest injury. Because of the amount of blood, they are unable to heal themselves by medicine or magic on their next turn.",
+				{
+					"name": "Wicked Edge",
+					"type": "entries",
+					"entries": [
+						"When you hit a creature with this magic weapon, it causes the target to bleed profusely at even the slightest injury. Because of the amount of blood, they are unable to heal themselves by medicine or magic on their next turn."
+					]
+				},
 				{
 					"type": "inset",
 					"name": "Dungeon Church Wiki",
@@ -1960,6 +1981,9 @@
 			"type": "OTH",
 			"rarity": "very rare",
 			"wondrous": true,
+			"lootTables": [
+				"Pyoran Magic Items|dungeonchurch"
+			],
 			"entries": [
 				"A set of glasses that look like a kaleidoscope from the outside. Looking through them shows vignettes of various planes of existence regularly swapping, overlayed onto the environment around you. They can also be held in place by a switch, useful for creatures feeling homesick.",
 				{
@@ -1977,6 +2001,57 @@
 						"href": {
 							"type": "external",
 							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-dimensional-glasses.png"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Fedora of Disguise",
+			"source": "DungeonChurch",
+			"otherSources": [
+				{
+					"source": "DMG",
+					"page": 173
+				}
+			],
+			"page": 0,
+			"srd": true,
+			"tier": "major",
+			"rarity": "uncommon",
+			"weight": 1,
+			"reqAttune": true,
+			"wondrous": true,
+			"entries": [
+				"This hat is patched together out of a motley of many colors and types of materials, forming it into a lumpy fedora shape head covering.",
+				"While wearing this fedora, you can use an action to cast the {@spell disguise self} spell from it once a day. The spell ends if the hat is removed. The hat's potential renews at dawn.",
+				{
+					"type": "inset",
+					"name": "Dungeon Church Wiki",
+					"entries": [
+						"Learn more about the {@link Fedora of Disguise in the wiki|https://lore.dungeon.church/doc/fedora-of-disguise-c7i4G0ePRf}."
+					]
+				}
+			],
+			"optionalfeatures": [
+				"replicate magic item|tce"
+			],
+			"attachedSpells": [
+				"disguise self"
+			],
+			"charges": 1,
+			"recharge": "dawn",
+			"lootTables": [
+				"Magic Item Table F",
+				"Pyoran Magic Items|dungeonchurch"
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-fedora-of-disguise.png"
 						}
 					}
 				]
@@ -2001,6 +2076,9 @@
 			"dmg1": "1d8",
 			"dmg2": "2d8",
 			"dmgType": "B",
+			"lootTables": [
+				"Pyoran Magic Items|dungeonchurch"
+			],
 			"entries": [
 				"You gain a +1 bonus to attack and damage rolls made with this magic weapon, and it deals double damage to objects and structures.",
 				"A mythical flail forged by the dwarves long ago. It is said to be modeled after the hand of {@link King Durradin|https://lore.dungeon.church/doc/king-durradin-SGe3lRM9BN}, though there is no record of the king himself wielding the weapon in battle. Still, the weight of the flail feels light and easy to wield for how heavy it weighs on the scale compared to stone or iron of equal portion.",
@@ -2038,6 +2116,9 @@
 			"type": "INS",
 			"weight": 2,
 			"rarity": "legendary",
+			"lootTables": [
+				"Pyoran Magic Items|dungeonchurch"
+			],
 			"entries": [
 				"A magical flute that legends claim can slow the passage of time. Once wielded by the notorious trash bard {@link Fiz Junkbrand|https://lore.dungeon.church/doc/fiz-junkbrand-6fvhYAH5OE}, ruler of the trash gangs in the abandoned city of {@link Galmaarden|https://lore.dungeon.church/doc/new-galmaarden-03tcpxxc2t}.",
 				{
@@ -2055,55 +2136,6 @@
 						"href": {
 							"type": "external",
 							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-fizs-flute.png"
-						}
-					}
-				]
-			}
-		},
-		{
-			"name": "Fedora of Disguise",
-			"source": "DungeonChurch",
-			"otherSources": [
-				{
-					"source": "DMG",
-					"page": 173
-				}
-			],
-			"page": 0,
-			"srd": true,
-			"tier": "major",
-			"rarity": "uncommon",
-			"reqAttune": true,
-			"wondrous": true,
-			"entries": [
-				"This hat is patched together out of a motley of many colors and types of materials, forming it into a lumpy fedora shape head covering.",
-				"While wearing this fedora, you can use an action to cast the {@spell disguise self} spell from it once a day. The spell ends if the hat is removed. The hat's potential renews at dawn.",
-				{
-					"type": "inset",
-					"name": "Dungeon Church Wiki",
-					"entries": [
-						"Learn more about the {@link Fedora of Disguise in the wiki|https://lore.dungeon.church/doc/fedora-of-disguise-c7i4G0ePRf}."
-					]
-				}
-			],
-			"optionalfeatures": [
-				"replicate magic item|tce"
-			],
-			"attachedSpells": [
-				"disguise self"
-			],
-			"charges": 1,
-			"recharge": "dawn",
-			"lootTables": [
-				"Magic Item Table F"
-			],
-			"fluff": {
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-fedora-of-disguise.png"
 						}
 					}
 				]
@@ -2133,6 +2165,9 @@
 			"dmg1": "1d8",
 			"dmgType": "S",
 			"dmg2": "1d10",
+			"lootTables": [
+				"Pyoran Magic Items|dungeonchurch"
+			],
 			"entries": [
 				"A fine blade with a dark steel hilt in the shape of dragon wings. Issued to officers in the {@link Dragon Empire's|https://lore.dungeon.church/doc/dragon-empire-odzVqtQPbm} army, it pulses with a small amount of the draconic fire magic that they are forged in.",
 				{
@@ -2170,6 +2205,9 @@
 			"type": "M",
 			"weight": 3,
 			"rarity": "legendary",
+			"lootTables": [
+				"Pyoran Magic Items|dungeonchurch"
+			],
 			"entries": [
 				"A blasphemous weapon, made in secret by the Dwarf Council of {@link Durandar|https://lore.dungeon.church/doc/durandar-sWDxZHDVIC} behind the back of {@link King Wisebeard|https://lore.dungeon.church/doc/king-olfgard-wisebeard-S0YDu9xGHy}.",
 				"Formed from a magical, ancient crystal to wield against wizards or magicians who would try to use their influence on the Kingdom.",
@@ -2201,6 +2239,9 @@
 			"ability": {
 				"con": 1
 			},
+			"lootTables": [
+				"Pyoran Magic Items|dungeonchurch"
+			],
 			"entries": [
 				"A fine woven leather belt of the craftsmanship that all dwarven goods are known for. It's thick, durable leather is meant to hold up the stout belly of a dwarf. Only fits Small or Medium creatures.",
 				{
@@ -2243,6 +2284,9 @@
 			"page": 0,
 			"type": "GS",
 			"rarity": "common",
+			"lootTables": [
+				"Pyoran Magic Items|dungeonchurch"
+			],
 			"entries": [
 				"A set of magical cards from the {@link Saltmarsh|https://lore.dungeon.church/doc/saltmarsh-GkGI6ISio5} library that helps adventurers rapidly identify monsters that they are likely to happen upon during the course of their work. When using a card to identify a monster, the user reads the words ‘monstrum novi’ on the front of the card and holds the card so that the card has a view of the monster. On the face of the card will appear the name of the monster, it’s disposition, and a fact of the DM’s choosing. The card then dissolves after 30 minutes, hopefully allowing time for the user to share the information with their cohorts for an advantage in battle or for record keeping.",
 				{
@@ -2281,6 +2325,9 @@
 			],
 			"attachedSpells": [
 				"find steed"
+			],
+			"lootTables": [
+				"Pyoran Magic Items|dungeonchurch"
 			],
 			"entries": [
 				"This ankle length purple woolen cloak has a high, flared collar and an elbow length capelet. It has wide, open sleeves and a row of large, silver buttons down one side. At the front corners of the capelet, shadowy horses in rearing stance appear in silver thread.",
@@ -2333,6 +2380,9 @@
 			"type": "RG",
 			"rarity": "very rare",
 			"curse": true,
+			"lootTables": [
+				"Pyoran Magic Items|dungeonchurch"
+			],
 			"entries": [
 				"A sapphire encircled in silver by the leaves of a nightshade plant.",
 				"{@link Lady Nightshade|https://lore.dungeon.church/doc/lady-nightshade-3kjLNj2Zbs} has enchanted this ring so that she knows both the location and the inner emotional state of the person who wears it.",
@@ -2364,6 +2414,9 @@
 			"rarity": "rare",
 			"value": 250000,
 			"weight": 8,
+			"lootTables": [
+				"Pyoran Magic Items|dungeonchurch"
+			],
 			"entries": [
 				{
 					"type": "entries",
@@ -2397,9 +2450,11 @@
 			"name": "Potion of Midnight Oil",
 			"type": "P",
 			"rarity": "uncommon",
+			"weight": 1,
 			"source": "DungeonChurch",
 			"lootTables": [
-				"Pyoran Potions|dungeonchurch"
+				"Pyoran Potions|dungeonchurch",
+				"Pyoran Magic Items|dungeonchurch"
 			],
 			"entries": [
 				"This sludgy, black liquid sloshes with it's own heavy gravity within the bottle. When a humanoid drinks this potion, they gain the benefits of a Long rest. When you complete a long rest after drinking this potion, you gain one level of {@condition exhaustion}.",
@@ -2429,6 +2484,7 @@
 			"type": "P",
 			"rarity": "rare",
 			"source": "DungeonChurch",
+			"weight": 1,
 			"otherSources": [
 				{
 					"source": "JafnerBrew",
@@ -2436,7 +2492,8 @@
 				}
 			],
 			"lootTables": [
-				"Pyoran Potions|dungeonchurch"
+				"Pyoran Potions|dungeonchurch",
+				"Pyroran Magic Items|dungeonchurch"
 			],
 			"entries": [
 				"When you drink this potion, make a DC 15 Constitution saving throw. On a success, you take {@dice 4d8} necrotic damage and gain one level of exhaustion. If the damage dealt on a success reduces you to zero hit points, you instead suffer the effects of a failure.",
@@ -2464,7 +2521,6 @@
 		{
 			"name": "Ring of Prestidigitation",
 			"type": "RG",
-			"weight": 1,
 			"tier": "minor",
 			"rarity": "common",
 			"source": "DungeonChurch",
@@ -2473,6 +2529,9 @@
 					"source": "JafnerBrew",
 					"page": 0
 				}
+			],
+			"lootTables": [
+				"Pyoran Magic Items|dungeonchurch"
 			],
 			"entries": [
 				"While wearing this ring, you can cast the {@spell prestidigitation} spell at will.",
@@ -2491,6 +2550,9 @@
 			"page": 0,
 			"type": "OTH",
 			"rarity": "common",
+			"lootTables": [
+				"Pyoran Magic Items|dungeonchurch"
+			],
 			"entries": [
 				"In the depths of the {@link Dreadwood|https://lore.dungeon.church/doc/dreadwood-GcfKdBzGyT}, there is rumored to be a rare plant that has thrived in conditions where other flora, fauna and explorers have perished and expired. Adapting to the environment of minimal light and lack of traditional nutrients, this plant has adapted over the centuries by feeding off the insecurities, fears and distress projected by the living beings that pass through this difficult terrain.",
 				"Used by some to make a powerful, psychadelic poison.",
@@ -2542,7 +2604,8 @@
 				}
 			],
 			"lootTables": [
-				"Magic Item Table G"
+				"Magic Item Table G",
+				"Pyoran Magic Items|dungeonchurch"
 			],
 			"fluff": {
 				"images": [
@@ -2563,6 +2626,9 @@
 			"tier": "major",
 			"rarity": "legendary",
 			"wondrous": true,
+			"lootTables": [
+				"Pyoran Magic Items|dungeonchurch"
+			],
 			"entries": [
 				"A magical key that can make a perfect copy of any other key. The Key must touch the key it's copying, and it can only change form once every 24 hours.",
 				{
@@ -2734,6 +2800,107 @@
 		}
 	],
 	"table": [
+		{
+			"name": "Pyoran Magic Items",
+			"source": "DungeonChurch",
+			"caption": "Items and relics uncovered in the world of Pyora.",
+			"page": 0,
+			"colLabels": [
+				"d22",
+				"Item"
+			],
+			"rows": [
+				[
+					"1",
+					"{@item abi-tseo's machete|dungeonchurch}"
+				],
+				[
+					"2",
+					"{@item Amulet of Betrayal|dungeonchurch}"
+				],
+				[
+					"3",
+					"{@item Cirilla's Gift|dungeonchurch}"
+				],
+				[
+					"4",
+					"{@item Collector of Souls|dungeonchurch}"
+				],
+				[
+					"5",
+					"{@item Dagger of Profuse Bleeding|dungeonchurch}"
+				],
+				[
+					"6",
+					"{@item Dimensional Glasses|dungeonchurch}"
+				],
+				[
+					"7",
+					"{@item Fedora of Disguise|dungeonchurch}"
+				],
+				[
+					"8",
+					"{@item Fist of Durradin|dungeonchurch}"
+				],
+				[
+					"9",
+					"{@item Fiz's Flute|dungeonchurch}"
+				],
+				[
+					"10",
+					"{@item Longsword of the Dragon Empire|dungeonchurch}"
+				],
+				[
+					"11",
+					"{@item Mage Bane|dungeonchurch}"
+				],
+				[
+					"12",
+					"{@item Minor Belt of Dwarvenkind|dungeonchurch}"
+				],
+				[
+					"13",
+					"{@item Monster Identification Cards|dungeonchurch}"
+				],
+				[
+					"14",
+					"{@item Night Messenger's Cloak|dungeonchurch}"
+				],
+				[
+					"15",
+					"{@item Nightshade's Ring|dungeonchurch}"
+				],
+				[
+					"16",
+					"{@item Painting of Lamont Solmar|dungeonchurch}"
+				],
+				[
+					"17",
+					"{@item Potion of Midnight Oil|dungeonchurch}"
+				],
+				[
+					"18",
+					"{@item Potion of Undeath|dungeonchurch}"
+				],
+				[
+					"19",
+					"{@item Ring of Prestidigitation|dungeonchurch}"
+				],
+				[
+					"20",
+					"{@item Sapphire Nightshade|dungeonchurch}"
+				],
+				[
+					"21",
+					"{@item Shield of Missile Deflection|dungeonchurch}"
+				],
+				[
+					"22",
+					"{@item Skeleton Key|dungeonchurch}"
+				]
+			]
+
+		},
 		{
 			"name": "Pyoran Gods",
 			"source": "DungeonChurch",
