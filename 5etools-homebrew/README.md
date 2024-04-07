@@ -53,6 +53,7 @@ Our homebrew setting of Pyora, for use with 5eTools. This content auto-loads int
     * [Shield of Missile Deflection](https://lore.dungeon.church/doc/shield-of-missile-deflection-cltEpG9HRg)
     * [Skeleton Key](https://lore.dungeon.church/doc/skeleton-key-aCKEViKMZf)
 * Bestiary
+    * [Hellion](https://lore.dungeon.church/doc/hellion-cmTM1BgZSd)
     * [Lamont Solmar](https://lore.dungeon.church/doc/lamont-solmar-GLrWBoIX5h)
     * [Sap Ooze](https://lore.dungeon.church/doc/sap-ooze-eGVX8QPLEh)
 * Hazards / Traps

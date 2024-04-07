@@ -1394,6 +1394,168 @@
 	],
 	"monster": [
 		{
+			"name": "Hellion",
+			"source": "DungeonChurch",
+			"page": 0,
+			"otherSources": [
+				{
+					"source": "ToA"
+				},
+				{
+					"source": "MM"
+				},
+				{
+					"source": "WDH"
+				},
+				{
+					"source": "BGDIA"
+				},
+				{
+					"source": "KftGV"
+				},
+				{
+					"source": "PSI"
+				}
+			],
+			"size": [
+				"S"
+			],
+			"type": {
+				"type": "fiend",
+				"tags": [
+					"devil"
+				]
+			},
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 22,
+				"formula": "5d6 + 5"
+			},
+			"speed": {
+				"walk": 20,
+				"fly": 40
+			},
+			"str": 10,
+			"dex": 15,
+			"con": 12,
+			"int": 11,
+			"wis": 14,
+			"cha": 8,
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 12,
+			"resist": [
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks that aren't silvered",
+					"cond": true
+				}
+			],
+			"immune": [
+				"psychic",
+				"poison"
+			],
+			"conditionImmune": [
+				"poisoned",
+				"frightened"
+			],
+			"languages": [
+				"Infernal",
+				"telepathy 120 ft."
+			],
+			"cr": "2",
+			"trait": [
+				{
+					"name": "Devil's Sight",
+					"entries": [
+						"Magical darkness doesn't impede the devil's darkvision."
+					]
+				},
+				{
+					"name": "Flyby",
+					"entries": [
+						"The devil doesn't provoke an opportunity attack when it flies out of an enemy's reach."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The devil has advantage on saving throws against spells and other magical effects."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The devil makes two attacks: one with its bite and one with its fork"
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@h}5 ({@damage 2d4}) slashing damage."
+					]
+				},
+				{
+					"name": "Fork",
+					"entries": [
+						"{@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@h}3 ({@damage 1d6}) piercing damage."
+					]
+				},
+				{
+					"name": "Vicious Mockery",
+					"entries": [
+						"If the devil did not Bite this turn, it may use {@spell Vicious Mockery}."
+					]
+				}
+			],
+			"soundClip": {
+				"type": "internal",
+				"path": "bestiary/spined-devil.mp3"
+			},
+			"traitTags": [
+				"Devil's Sight",
+				"Flyby",
+				"Magic Resistance"
+			],
+			"senseTags": [
+				"SD"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"I",
+				"TP"
+			],
+			"damageTags": [
+				"F",
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MW",
+				"RW"
+			]
+		},
+		{
 			"name": "Lamont Solmar",
 			"source": "DungeonChurch",
 			"page": 0,
