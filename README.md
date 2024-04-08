@@ -10,6 +10,7 @@ Dungeon Church's ***Pyora*** setting as <a href="/5etools-homebrew/Dungeon Churc
 - [Outline](https://www.getoutline.com/) - lore wiki for our homebrew setting
     - [Drawio](https://github.com/jgraph/docker-drawio) - diagramming integration
 - [5E Tools](https://github.com/Jafner/5etools-docker) - Community compilation of D&D content and tools
+- [Homebrewery](https://github.com/naturalcrit/homebrewery) - Convert Markdown (from Outline or 5ETools) to nice pages for print
 - Discord - private group chat *(<a href=https://github.com/oakbrad/dungeonchurch/issues/6>not self hosted</a>)*
     - [Sesh.FYI](https://sesh.fyi/) - RSVP and calendar bot *(<a href=https://github.com/oakbrad/dungeonchurch/issues/7>not self hosted</a>)*
     - [Red Bot](https://github.com/Cog-Creators/Red-DiscordBot) - the self hosted, extensible Discord bot to rule them all

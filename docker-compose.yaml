@@ -88,6 +88,33 @@ services:
     networks:
       - public-proxy
 
+# HOMEBREWERY
+# https://github.com/naturalcrit/homebrewery
+  homebrewdb:
+    image: mongo:latest
+    container_name: homebrewdb
+    volumes:
+      - /home/ubuntu/homebrewery/db:/data/db
+    networks:
+      - homebrew-internal
+  homebrew:
+    restart: unless-stopped
+    container_name: homebrew
+    # FIRST: clone the repo, then pull node:18-alpine
+    # git clone https://github.com/naturalcrit/homebrewery
+    # docker pull node:18-alpine
+    build:
+      context: ./homebrewery
+      dockerfile: Dockerfile
+    image: homebrewery
+    depends_on:
+      - homebrewdb
+    environment:
+      MONGODB_URI: mongodb://homebrewdb/homebrewery
+    networks:
+      - homebrew-internal
+      - public-proxy
+
 # OUTLINE STACK
 #
 # DB FOR OUTLINE
@@ -244,3 +271,4 @@ networks:
   public-proxy:
   internal-db:
   outline-internal:
+  homebrew-internal:
