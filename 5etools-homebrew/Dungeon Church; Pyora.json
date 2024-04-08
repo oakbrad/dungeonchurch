@@ -1394,7 +1394,7 @@
 	],
 	"monster": [
 		{
-			"name": "Hellion",
+			"name": "Hellion Child",
 			"source": "DungeonChurch",
 			"page": 0,
 			"otherSources": [
@@ -2507,7 +2507,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "Witchlight Sight",
+					"name": "Witchsight",
 					"entries": [
 						"You can see and sense ley lines and magical trails."
 					]
@@ -2856,7 +2856,7 @@
 			]
 		},
 		{
-			"name": "Witchlight Sight",
+			"name": "Witchsight",
 			"source": "DungeonChurch",
 			"page": 0,
 			"ruleType": "O",
@@ -2927,7 +2927,7 @@
 	],
 	"optionalfeature": [
 		{
-			"name": "Witchlight Sight",
+			"name": "Witchsight",
 			"source": "DungeonChurch",
 			"page": 0,
 			"featureType": [
@@ -3079,7 +3079,7 @@
 			"rows": [
 				[
 					"1",
-					"{@creature Hellion|dungeonchurch}"
+					"{@creature Hellion Child|dungeonchurch}"
 				],
 				[
 					"2",
