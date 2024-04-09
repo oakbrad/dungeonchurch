@@ -2711,6 +2711,38 @@
 			]
 		},
 		{
+			"name": "Ring of Water Breathing",
+			"type": "RG",
+			"tier": "minor",
+			"rarity": "uncommon",
+			"source": "DungeonChurch",
+			"value": 1500,
+			"lootTables": [
+				"Pyoran Magic Items|dungeonchurch"
+			],
+			"entries": [
+				"While wearing this ring, you gain the benefits of a spell of {@spell Water Breathing} on yourself at will without having to cast it. Despite being able to breathe underwater, you cannot speak.",
+				{
+					"type": "inset",
+					"name": "Dungeon Church Wiki",
+					"entries": [
+						"Learn more about the {@link Ring of Water Breathing in the wiki|https://lore.dungeon.church/doc/ring-of-water-breathing-hgx2rNwFjj}."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-ring-of-water-breathing.png"
+						}
+					}
+				]
+			}
+		},
+		{
 			"name": "Sapphire Nightshade",
 			"source": "DungeonChurch",
 			"page": 0,
@@ -2972,7 +3004,7 @@
 			"caption": "Items and relics uncovered in the world of Pyora.",
 			"page": 0,
 			"colLabels": [
-				"d22",
+				"d23",
 				"Item"
 			],
 			"rows": [
@@ -3063,6 +3095,10 @@
 				[
 					"22",
 					"{@item Skeleton Key|dungeonchurch}"
+				],
+				[
+					"23",
+					"{@item Ring of Water Breathing|dungeonchurch}"
 				]
 			]
 
