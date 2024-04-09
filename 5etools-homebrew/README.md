@@ -35,6 +35,7 @@ Or import:
 * Items
     * [Abi Teos's Machete](https://lore.dungeon.church/doc/abi-teoss-machete-ZrSq7FcMTj)
     * [Amulet of Betrayal](https://lore.dungeon.church/doc/amulet-of-betrayal-vY1rCwAwHh)
+    * [Brooch of Witchsight](https://lore.dungeon.church/doc/brooch-of-witchsight-Do7tfU7V9e)
     * [Cirilla's Gift](https://lore.dungeon.church/doc/cirillas-gift-pKEY4nYJDS)
     * [Collector of Souls](https://lore.dungeon.church/doc/collector-of-souls-XA0hpJ7gfE)
     * [Dagger of Profuse Bleeding](https://lore.dungeon.church/doc/dagger-of-profuse-bleeding-uXUIGCXKkL)

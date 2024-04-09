@@ -2120,6 +2120,54 @@
 				}
 		},
 		{
+			"name": "Brooch of Witchsight",
+			"source": "DungeonChurch",
+			"page": 0,
+			"rarity": "very rare",
+			"tier": "major",
+			"lootTables": [
+				"Pyoran Magic Items|dungeonchurch"
+			],
+			"entries": [
+				"This ornate brooch is crafted from a dark metal clutching its centerpiece gem - a mesmerizing sapphire that pulses with a spectral light. Inside the gem is a crystalized, unblinking human eyeball - about the size of a child’s.",
+				{
+					"name": "Witchsight",
+					"type": "entries",
+					"entries": [
+						"While wearing and attuned to the brooch, the wearer gains {@variantrule Witchsight|dungeonchurch} and can see magical ley lines as glowing paths or streams of energy that traverse the land within a range of 100’."
+					]
+				},
+				{
+					"name": "Navigate the Arcane",
+					"type": "entries",
+					"entries": [
+						"The wearer gains advantage on Intelligence (Arcana) checks made to navigate or understand the properties of magical locations, including detecting the presence of nearby portals, enchantments, or areas of strong magical influence."
+					]
+				},
+				{
+					"name": "Attunement",
+					"type": "entries",
+					"entries": [
+						"To attune to the brooch, you must spend a Long Rest meditating on the arcane in an area where ley lines are present."
+					]
+				}
+			],
+			"fluff":
+				{
+					"name": "Brooch of Witchsight",
+					"source": "DungeonChurch",
+					"images": [
+						{
+							"type": "image",
+							"href": {
+								"type": "external",
+								"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-brooch-of-witchsight.png"
+							}
+						}
+					]
+				}
+		},
+		{
 			"name": "Cirilla's Gift",
 			"source": "DungeonChurch",
 			"page": 0,
@@ -3093,7 +3141,7 @@
 			"caption": "Items and relics uncovered in the world of Pyora.",
 			"page": 0,
 			"colLabels": [
-				"d23",
+				"d24",
 				"Item"
 			],
 			"rows": [
@@ -3188,6 +3236,10 @@
 				[
 					"23",
 					"{@item Ring of Water Breathing|dungeonchurch}"
+				],
+				[
+					"24",
+					"{@item Brooch of Witchsight|dungeonchurch}"
 				]
 			]
 
