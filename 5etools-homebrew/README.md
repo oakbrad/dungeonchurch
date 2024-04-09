@@ -43,6 +43,7 @@ Or import:
     * [Fedora of Disguise](https://lore.dungeon.church/doc/fedora-of-disguise-c7i4G0ePRf)
     * [Fist of Durradin](https://lore.dungeon.church/doc/fist-of-durradin-GrRsr84scL)
     * [Fiz's Flute](https://lore.dungeon.church/doc/fizs-flute-ANcBt7lLmj)
+    * [Gnomish Tea Set](https://lore.dungeon.church/doc/gnomish-tea-set-HrqDVlit6V)
     * [Longsword of the Dragon Empire](https://lore.dungeon.church/doc/longsword-of-the-dragon-empire-WNp5oBATI3)
     * [Mage Bane](https://lore.dungeon.church/doc/mage-bane-vvIjgk9BDu)
     * [Minor Belt of Dwarvenkind](https://5e.dungeon.church/items.html#belt%20of%20dwarvenkind_dmg)

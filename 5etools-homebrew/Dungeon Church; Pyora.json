@@ -459,7 +459,7 @@
 			}
 		},
 		{
-			"name": "Halfling",
+			"name": "Halfling (Pyoran)",
 			"source": "DungeonChurch",
 			"page": 0,
 			"size": [
@@ -532,6 +532,13 @@
 						"You can speak, read, and write Common and Gnomish. The Gnomish language isn't secret, but halflings are loath to share it with others. They write very little, so they don't have a rich body of literature. Their oral tradition, however, is very strong. Almost all halflings speak Common to converse with the people in whose lands they dwell or through which they are traveling."
 					],
 					"type": "entries"
+				},
+				{
+					"type": "entries",
+					"name": "Stone Tea",
+					"entries": [
+						"You have proficiency with {@item Gnomish Tea Set|dungeonchurch}. Gnomes and halflings who come from Underdark society know the secret of the Stone Tea brew, and an individual with a week’s preparation time and the proper ingredients can summon enough magic to imbue a single tea ceremony ritual with {@spell Stone Shape}. However, Stone Tea is known to induce erratic behavior individuals who are regularly exposed to sunlight."
+					]
 				}
 			],
 			"fluff": {
@@ -905,6 +912,13 @@
 				},
 				{
 					"type": "entries",
+					"name": "Stone Tea",
+					"entries": [
+						"You have proficiency with {@item Gnomish Tea Set|dungeonchurch}. Gnomes and halflings who come from Underdark society know the secret of the Stone Tea brew, and an individual with a week’s preparation time and the proper ingredients can summon enough magic to imbue a single tea ceremony ritual with {@spell Stone Shape}. However, Stone Tea is known to induce erratic behavior individuals who are regularly exposed to sunlight."
+					]
+				},
+				{
+					"type": "entries",
 					"name": "Tinker",
 					"entries": [
 						"You have proficiency with {@item tinker's tools|phb}. Using those tools, you can spend 1 hour and 10 gp worth of materials to construct a Tiny clockwork device (AC 5, 1 hp). The device ceases to function after 24 hours (unless you spend 1 hour repairing it to keep the device functioning), or when you use your action to dismantle it; at that time, you can reclaim the materials used to create it. You can have up to three such devices active at a time.",
@@ -938,6 +952,8 @@
 			"fluff": {
 				"entries": [
 					"The diminutive little people, gnomes live below ground and guard their homeland with a jealous secrecy that few have glimpsed. Their dealings with the civilizations above ground is limited to trade, where they are known for intricate craftsmanship and ingenious devices. Some gnomes have come to live on the surface and assimilate to human life - known as halflings - as in half-humans.",
+					"The gnomes are masters of the tea ceremony, and it is rare to find even a halfling on the surface who does not travel with their tea set. While most are made of metal because of it’s durability, each tea set is handcrafted and unique to the person. Some are highly polished works of art, others are more functional in nature and so modified over the years by their user they more resemble some type of clockwork.",
+					"Gnomes of the Underdark are known to use their tea sets in communal rituals that allow them to {@spell Stone Shape} en masse. If enough gnomes participate in this ritual, they can effectively tunnel and travel through solid stone. The exact nature of this Stone Tea and it’s ceremony are a tightly guarded gnomish secret.",
 					{
 						"type": "inset",
 						"name": "Dungeon Church Lore",
@@ -2453,6 +2469,49 @@
 			}
 		},
 		{
+			"name": "Gnomish Tea Set",
+			"source": "DungeonChurch",
+			"page": 0,
+			"tier": "minor",
+			"type": "T",
+			"rarity": "common",
+			"attachedSpells": [
+				"stone shape"
+			],
+			"lootTables": [
+				"Pyoran Magic Items|dungeonchurch"
+			],
+			"entries": [
+				"The gnomes are masters of the tea ceremony, and it is rare to find even a halfling on the surface who does not travel with their tea set. While most are made of metal because of it’s durability, each tea set is handcrafted and unique to the person. Some are highly polished works of art, others are more functional in nature and so modified over the years by their user they more resemble some type of clockwork.",
+				"{@race Gnome (Rock)|dungeonchurch|Gnomes} are known to use their tea sets in communal rituals that allow them to {@spell Stone Shape} en masse. If enough gnomes participate in this ritual, they can effectively tunnel and travel through solid stone. The exact nature of this Stone Tea and it’s ceremony are a tightly guarded gnomish secret.",
+				{
+					"type": "entries",
+					"name": "Stone Tea",
+					"entries": [
+						"Gnomes and halflings who come from Underdark society know the secret of this brew, and an individual with a week’s preparation time and the proper ingredients can summon enough magic to imbue a single tea ceremony ritual with {@spell Stone Shape}. However, Stone Tea is known to induce erratic behavior individuals who are regularly exposed to sunlight."
+					]
+				},
+				{
+					"type": "inset",
+					"name": "Dungeon Church Lore",
+					"entries": [
+						"Learn more about the {@link Gnomish Tea Set in the wiki|https://lore.dungeon.church/doc/gnomish-tea-set-HrqDVlit6V}."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-gnomish-tea-set.png"
+						}
+					}
+				]
+			}
+		},
+		{
 			"name": "Longsword of the Dragon Empire",
 			"source": "DungeonChurch",
 			"page": 0,
@@ -2942,7 +3001,7 @@
 					"type": "inset",
 					"name": "Dungeon Church Lore",
 					"entries": [
-						"Learn more about the {@link Longsword of the Dragon Empire in the wiki|https://lore.dungeon.church/doc/longsword-of-the-dragon-empire-WNp5oBATI3}."
+						"Learn more about the {@link Shield of Missile Deflection in the wiki|https://lore.dungeon.church/doc/shield-of-missile-deflection-cltEpG9HRg}."
 					]
 				}
 			],
@@ -3149,7 +3208,7 @@
 			"caption": "Items and relics uncovered in the world of Pyora.",
 			"page": 0,
 			"colLabels": [
-				"d24",
+				"d25",
 				"Item"
 			],
 			"rows": [
@@ -3248,6 +3307,10 @@
 				[
 					"24",
 					"{@item Brooch of Witchsight|dungeonchurch}"
+				],
+				[
+					"25",
+					"{@item Gnomish Tea Set|dungeonchurch}"
 				]
 			]
 
