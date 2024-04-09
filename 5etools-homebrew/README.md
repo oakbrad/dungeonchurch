@@ -1,6 +1,9 @@
 # Dungeon Church Homebrew
-Our homebrew setting of Pyora, for use with 5eTools. This content auto-loads into our mirror at <a href=https://5e.dungeon.church>https://5e.dungeon.church</a>
+Our homebrew setting of Pyora, for use with 5eTools. 
 
+*This content auto-loads into our mirror at <a href=https://5e.dungeon.church>https://5e.dungeon.church</a>*
+
+Or import:
 ```https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/Dungeon Church; Pyora.json```
 
 # Contents
@@ -54,6 +57,7 @@ Our homebrew setting of Pyora, for use with 5eTools. This content auto-loads int
     * [Shield of Missile Deflection](https://lore.dungeon.church/doc/shield-of-missile-deflection-cltEpG9HRg)
     * [Skeleton Key](https://lore.dungeon.church/doc/skeleton-key-aCKEViKMZf)
 * Bestiary
+    * [Dire Boar](https://lore.dungeon.church/doc/dire-boar-ICD17iMkzY)
     * [Hellion Child](https://lore.dungeon.church/doc/hellion-cmTM1BgZSd)
     * [Lamont Solmar](https://lore.dungeon.church/doc/lamont-solmar-GLrWBoIX5h)
     * [Sap Ooze](https://lore.dungeon.church/doc/sap-ooze-eGVX8QPLEh)
@@ -71,7 +75,7 @@ Our homebrew setting of Pyora, for use with 5eTools. This content auto-loads int
     * Increase Max HP When Leveling Up
     * Inspiration
     * Sorcerer: Wild Magic Surge
-    * Witchlight Sight
+    * Witchsight
 
 # Resources
 * [5eTools Homebrew Wiki](https://wiki.tercept.net/en/Homebrew/TableOfReference) Reference of objects and their properties

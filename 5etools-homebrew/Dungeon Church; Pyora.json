@@ -1394,6 +1394,101 @@
 	],
 	"monster": [
 		{
+			"name": "Dire Boar",
+			"source": "DungeonChurch",
+			"size": [
+				"L"
+			],
+			"type": "beast",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 59,
+				"formula": "7d10 + 21"
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 20,
+			"dex": 10,
+			"con": 17,
+			"int": 2,
+			"wis": 13,
+			"cha": 8,
+			"passive": 14,
+			"cr": "5",
+			"trait": [
+				{
+					"name": "Charge",
+					"entries": [
+						"If the dire boar moves at least 20 feet straight toward a target and then hits it with a tusk attack on the same turn, the target takes an extra 7 ({@damage 2d6}) slashing damage. If the target is a creature, it must succeed on a {@dc 13} Strength saving throw or be knocked {@condition prone}."
+					]
+				},
+				{
+					"name": "Relentless (Recharges after a Short or Long Rest)",
+					"entries": [
+						"If the dire boar takes 10 damage or less that would reduce it to 0 hit points, it is reduced to 1 hit point instead."
+					]
+				},
+				{
+					"name": "Survival Instinct",
+					"entries": [
+						"The dire boar has advantage on Survival (Wisdom) checks."
+					]
+				},
+				{
+					"name": "Blood Frenzy",
+					"entries": [
+						"The dire boar has advantage on melee attack rolls against any creature that doesn't have all its hit points"
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The dire boar makes two attacks with it's tusks."
+					]
+				},
+				{
+					"name": "Tusk",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}7 ({@damage 2d6}) slashing damage."
+					]
+				}
+			],
+			"environment": [
+				"grassland",
+				"forest",
+				"hill"
+			],
+			"traitTags": [
+				"Charge"
+			],
+			"damageTags": [
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"prone"
+			],
+			"savingThrowForced": [
+				"strength"
+			],
+			"hasToken": true
+		},
+		{
 			"name": "Hellion Child",
 			"source": "DungeonChurch",
 			"page": 0,
@@ -1477,6 +1572,7 @@
 			],
 			"languages": [
 				"Infernal",
+				"Whatever it spoke in Life",
 				"telepathy 120 ft."
 			],
 			"cr": "2",
@@ -1484,19 +1580,19 @@
 				{
 					"name": "Devil's Sight",
 					"entries": [
-						"Magical darkness doesn't impede the devil's darkvision."
+						"Magical darkness doesn't impede the hellion's darkvision."
 					]
 				},
 				{
 					"name": "Flyby",
 					"entries": [
-						"The devil doesn't provoke an opportunity attack when it flies out of an enemy's reach."
+						"The hellion doesn't provoke an opportunity attack when it flies out of an enemy's reach."
 					]
 				},
 				{
 					"name": "Magic Resistance",
 					"entries": [
-						"The devil has advantage on saving throws against spells and other magical effects."
+						"The hellion has advantage on saving throws against spells and other magical effects."
 					]
 				}
 			],
@@ -1504,7 +1600,7 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"The devil makes two attacks: one with its bite and one with its fork"
+						"The hellion makes two attacks: one with its bite and one with its fork"
 					]
 				},
 				{
@@ -1520,16 +1616,12 @@
 					]
 				},
 				{
-					"name": "Vicious Mockery",
+					"name": "Rebellious Tongue",
 					"entries": [
-						"If the devil did not Bite this turn, it may use {@spell Vicious Mockery}."
+						"If the hellion did not Bite this turn, it may use {@spell Vicious Mockery}."
 					]
 				}
 			],
-			"soundClip": {
-				"type": "internal",
-				"path": "bestiary/spined-devil.mp3"
-			},
 			"traitTags": [
 				"Devil's Sight",
 				"Flyby",
@@ -1773,10 +1865,7 @@
 			],
 			"savingThrowForced": [
 				"wisdom"
-			],
-			"hasToken": true,
-			"hasFluff": true,
-			"hasFluffImages": true
+			]
 		},
 		{
 			"name": "Sap Ooze",
