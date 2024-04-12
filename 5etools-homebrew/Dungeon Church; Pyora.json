@@ -283,7 +283,7 @@
 						},
 						{
 							"type": "entries",
-							"name": "{@race Gnome (Rock)|dungeonchurch|Gnomes} & {@race Halfling|dungeonchurch|Halflings}",
+							"name": "{@race Gnome (Rock)|dungeonchurch|Gnomes} & {@race Halfling (Pyoran)|dungeonchurch|Halflings}",
 							"page": 0,
 							"entries": [
 								"The diminutive little people, gnomes live below ground and guard their homeland with a jealous secrecy that few have glimpsed.",
@@ -2413,7 +2413,7 @@
 					"type": "entries",
 					"name": "POW!",
 					"entries": [
-						"When you hit a creature for the first time with this weapon, you can force the creature to make a DC 15 Constitution saving throw. On a failed save, the creature is surprised for one round."
+						"When you hit a creature for the first time with this weapon, you can force the creature to make a DC 15 Constitution saving throw. On a failed save, the creature is stunned for one round. Deafened creatures are immune. All other creatures who can hear this noise cannot be surprised by it."
 					]
 				},
 				{
@@ -2488,7 +2488,7 @@
 					"type": "entries",
 					"name": "Stone Tea",
 					"entries": [
-						"Gnomes and halflings who come from Underdark society know the secret of this brew, and an individual with a week’s preparation time and the proper ingredients can summon enough magic to imbue a single tea ceremony ritual with {@spell Stone Shape}. However, Stone Tea is known to induce erratic behavior individuals who are regularly exposed to sunlight."
+						"Gnomes and halflings who come from Underdark society know the secret of this brew, and an individual with a week’s preparation time and the proper ingredients can summon enough magic to imbue a single tea ceremony ritual with {@spell Stone Shape}. However, Stone Tea is known to induce erratic behavior in individuals who are regularly exposed to sunlight."
 					]
 				},
 				{
@@ -2844,6 +2844,44 @@
 						"href": {
 							"type": "external",
 							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-potion-of-midnight-oil.png"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Potion of Oblivion",
+			"type": "P",
+			"rarity": "rare",
+			"source": "DungeonChurch",
+			"weight": 1,
+			"otherSources": [
+				{
+					"source": "KaziqueksAlchemy",
+					"page": 0
+				}
+			],
+			"lootTables": [
+				"Pyoran Potions|dungeonchurch",
+				"Pyroran Magic Items|dungeonchurch"
+			],
+			"entries": [
+				"This bottled brew is shaped like an hourglass. When this potion is consumed, it erases the short term memory from the creature's mind. The creature makes a DC 20 Intelligence saving throw. On a success, there is no effect. On a failure, the creature forgets a period of time equal to the number rolled.",
+				{
+					"type": "inset",
+					"name": "Dungeon Church Lore",
+					"entries": [
+						"Learn more about the {@link Potion of Oblivion in the wiki|https://lore.dungeon.church/doc/potion-of-oblivion-DBhlvDmtCl}."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-potion-of-oblivion.png"
 						}
 					}
 				]
@@ -3208,7 +3246,7 @@
 			"caption": "Items and relics uncovered in the world of Pyora.",
 			"page": 0,
 			"colLabels": [
-				"d25",
+				"d26",
 				"Item"
 			],
 			"rows": [
@@ -3311,6 +3349,10 @@
 				[
 					"25",
 					"{@item Gnomish Tea Set|dungeonchurch}"
+				],
+				[
+					"26",
+					"{@item Potion of Oblivion|dungeonchurch}"
 				]
 			]
 
@@ -3392,6 +3434,10 @@
 				[
 					"2",
 					"{@item Potion of Midnight Oil|dungeonchurch}"
+				],
+				[
+					"3",
+					"{@item Potion of Oblivion|dungeonchurch}"
 				]
 			]
 		}
