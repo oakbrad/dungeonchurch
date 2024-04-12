@@ -2927,6 +2927,39 @@
 			}
 		},
 		{
+			"name": "Rationing Spice",
+			"type": "OTH",
+			"tier": "minor",
+			"rarity": "common",
+			"source": "DungeonChurch",
+			"value": 2500,
+			"lootTables": [
+				"Pyoran Magic Items|dungeonchurch"
+			],
+			"entries": [
+				"When applied liberally to food, this reddish powder gives the consumer the feeling that they are eating twice as much and so are satiated on half a normal ration. After three days of eating enchantment spiced food, the consumer must eat a full, hot meal or take one level of exhaustion per day until they do.",
+				"Originally developed under the Dragon Empire to stretch their 'labor inputs', it has become a common performance enhancing supplement for soldiers, adventurers, and outdoorsmen of all types.",
+				{
+					"type": "inset",
+					"name": "Dungeon Church Lore",
+					"entries": [
+						"Learn more about {@link Rationing Spice in the wiki|https://lore.dungeon.church/doc/rationing-spice-iguPtdfdS2}."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-rationing-spice.png"
+						}
+					}
+				]
+			}
+		},
+		{
 			"name": "Ring of Prestidigitation",
 			"type": "RG",
 			"tier": "minor",
@@ -3277,7 +3310,7 @@
 			"caption": "Items and relics uncovered in the world of Pyora.",
 			"page": 0,
 			"colLabels": [
-				"d27",
+				"d28",
 				"Item"
 			],
 			"rows": [
@@ -3388,6 +3421,10 @@
 				[
 					"27",
 					"{@item Sphere of Everlasting Ice|dungeonchurch}"
+				],
+				[
+					"28",
+					"{@item Rationing Spice|dungeonchurch}"
 				]
 			]
 
