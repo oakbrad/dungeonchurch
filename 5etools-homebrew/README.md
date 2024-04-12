@@ -57,6 +57,7 @@ Or import:
     * [Ring of Prestidigitation](https://lore.dungeon.church/doc/ring-of-prestidigitation-RrfeGNnCzv)
     * [Ring of Water Breathing](https://lore.dungeon.church/doc/ring-of-water-breathing-hgx2rNwFjj)
     * [Sapphire Nightshade](https://lore.dungeon.church/doc/sapphire-nightshade-Qvbjiqksvy)
+    * [Sphere of Everlasting Ice](https://lore.dungeon.church/doc/sphere-of-everlasting-ice-hjFNSWJiwx)
     * [Shield of Missile Deflection](https://lore.dungeon.church/doc/shield-of-missile-deflection-cltEpG9HRg)
     * [Skeleton Key](https://lore.dungeon.church/doc/skeleton-key-aCKEViKMZf)
 * Bestiary

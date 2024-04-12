@@ -3017,6 +3017,37 @@
 			}
 		},
 		{
+			"name": "Sphere of Everlasting Ice",
+			"source": "DungeonChurch",
+			"page": 0,
+			"type": "OTH",
+			"rarity": "rare",
+			"lootTables": [
+				"Pyoran Magic Items|dungeonchurch"
+			],
+			"entries": [
+				"A magical sphere of ice that’s cold to the touch but never melts. Just big enough to ice your beverage without it turning to ice itself.",
+				{
+					"type": "inset",
+					"name": "Dungeon Church Lore",
+					"entries": [
+						"Learn more about {@link Sphere of Everlasting Ice in the wiki|https://lore.dungeon.church/doc/sphere-of-everlasting-ice-hjFNSWJiwx}."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-sphere-of-everlasting-ice.png"
+						}
+					}
+				]
+			}
+		},
+		{
 			"name": "Shield of Missile Deflection",
 			"source": "DungeonChurch",
 			"page": 0,
@@ -3246,7 +3277,7 @@
 			"caption": "Items and relics uncovered in the world of Pyora.",
 			"page": 0,
 			"colLabels": [
-				"d26",
+				"d27",
 				"Item"
 			],
 			"rows": [
@@ -3353,6 +3384,10 @@
 				[
 					"26",
 					"{@item Potion of Oblivion|dungeonchurch}"
+				],
+				[
+					"27",
+					"{@item Sphere of Everlasting Ice|dungeonchurch}"
 				]
 			]
 
@@ -3423,7 +3458,7 @@
 			"caption": "Potions specific to the realm of Pyora.",
 			"page": 0,
 			"colLabels": [
-				"d2",
+				"d3",
 				"Potions"
 			],
 			"rows": [
