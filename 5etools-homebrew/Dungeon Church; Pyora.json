@@ -2927,6 +2927,41 @@
 			}
 		},
 		{
+			"name": "Potion of the Mossy Oak",
+			"type": "P",
+			"rarity": "rare",
+			"source": "DungeonChurch",
+			"weight": 1,
+			"lootTables": [
+				"Pyoran Potions|dungeonchurch",
+				"Pyroran Magic Items|dungeonchurch"
+			],
+			"attachedSpells": [
+				"speak with plants"
+			],
+			"entries": [
+				"This deep green potion is thick with suspended bits of bark and leaf. When consumed, it grants the drinker the ability to blend seamlessly with natural surroundings, providing advantage on Stealth checks made in forested areas for 1 hour. Additionally, the potion allows the drinker to communicate with plant life using {@spell Speak with Plants}.",
+				{
+					"type": "inset",
+					"name": "Dungeon Church Lore",
+					"entries": [
+						"Learn more about the {@link Potion of the Mossy Oak in the wiki|https://lore.dungeon.church/doc/potion-of-the-mossy-oak-EUrhe6nCRs}."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-potion-of-mossy-oak.png"
+						}
+					}
+				]
+			}
+		},
+		{
 			"name": "Rationing Spice",
 			"type": "OTH",
 			"tier": "minor",
@@ -3342,7 +3377,7 @@
 			"caption": "Items and relics uncovered in the world of Pyora.",
 			"page": 0,
 			"colLabels": [
-				"d30",
+				"d31",
 				"Item"
 			],
 			"rows": [
@@ -3465,6 +3500,10 @@
 				[
 					"30",
 					"{@item Spores of Delirium|dungeonchurch}"
+				],
+				[
+					"31",
+					"{@item Potion of the Mossy Oak|dungeonchurch}"
 				]
 			]
 
@@ -3535,8 +3574,8 @@
 			"caption": "Potions specific to the realm of Pyora.",
 			"page": 0,
 			"colLabels": [
-				"d4",
-				"Potions"
+				"d5",
+				"Potion"
 			],
 			"rows": [
 				[
@@ -3554,6 +3593,10 @@
 				[
 					"4",
 					"{@item Spores of Delirium|dungeonchurch}"
+				],
+				[
+					"5",
+					"{@item Potion of the Mossy Oak|dungeonchurch}"
 				]
 			]
 		}
