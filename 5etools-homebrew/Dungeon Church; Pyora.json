@@ -2936,9 +2936,6 @@
 				"Pyoran Potions|dungeonchurch",
 				"Pyroran Magic Items|dungeonchurch"
 			],
-			"attachedSpells": [
-				"speak with plants"
-			],
 			"entries": [
 				"This deep green potion is thick with suspended bits of bark and leaf. When consumed, it grants the drinker the ability to blend seamlessly with natural surroundings, providing advantage on Stealth checks made in forested areas for 1 hour. Additionally, the potion allows the drinker to communicate with plant life using {@spell Speak with Plants}.",
 				{
@@ -3161,7 +3158,6 @@
 				}
 			],
 			"reqAttune": true,
-			"curse": false,
 			"weight": 6,
 			"ac": 2,
 			"entries": [
