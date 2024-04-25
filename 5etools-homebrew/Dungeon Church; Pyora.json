@@ -3081,6 +3081,38 @@
 			}
 		},
 		{
+			"name": "Spores of Delirium",
+			"type": "P",
+			"rarity": "uncommon",
+			"source": "DungeonChurch",
+			"weight": 1,
+			"lootTables": [
+				"Pyoran Potions|dungeonchurch",
+				"Pyroran Magic Items|dungeonchurch"
+			],
+			"entries": [
+				"This potion is brewed from the rare Violet Frenzy mushrooms that grow only in moonlit clearings of the Dreadwood. The concoction emits a mesmerizing purple haze when opened and exposed to oxygen. Upon consumption, it induces a state of heightened awareness mixed with intense hallucinations. For 30 minutes, the drinker gains the ability to see invisible entities and gains advantage on Perception checks. However, during this period it becomes possible to also have hallucinations. DM will make a private DC 15 Wisdom for the imbiber, and on a failure will introduce hallucinations or false memories at their discretion.",
+				{
+					"type": "inset",
+					"name": "Dungeon Church Lore",
+					"entries": [
+						"Learn more about the {@link Spores of Delirium in the wiki|https://lore.dungeon.church/doc/spores-of-delirium-JpyH7CL4vS}."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-spores-of-delirium.png"
+						}
+					}
+				]
+			}
+		},
+		{
 			"name": "Shield of Missile Deflection",
 			"source": "DungeonChurch",
 			"page": 0,
@@ -3310,7 +3342,7 @@
 			"caption": "Items and relics uncovered in the world of Pyora.",
 			"page": 0,
 			"colLabels": [
-				"d28",
+				"d30",
 				"Item"
 			],
 			"rows": [
@@ -3425,6 +3457,14 @@
 				[
 					"28",
 					"{@item Rationing Spice|dungeonchurch}"
+				],
+				[
+					"29",
+					"{@item Entrancing Mirror|dungeonchurch}"
+				],
+				[
+					"30",
+					"{@item Spores of Delirium|dungeonchurch}"
 				]
 			]
 
@@ -3495,7 +3535,7 @@
 			"caption": "Potions specific to the realm of Pyora.",
 			"page": 0,
 			"colLabels": [
-				"d3",
+				"d4",
 				"Potions"
 			],
 			"rows": [
@@ -3510,6 +3550,10 @@
 				[
 					"3",
 					"{@item Potion of Oblivion|dungeonchurch}"
+				],
+				[
+					"4",
+					"{@item Spores of Delirium|dungeonchurch}"
 				]
 			]
 		}
