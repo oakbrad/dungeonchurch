@@ -3051,6 +3051,49 @@
 			}
 		},
 		{
+			"name": "Entrancing Mirror",
+			"source": "DungeonChurch",
+			"tier": "major",
+			"weight": 3,
+			"reqAttune": false,
+			"wondrous": true,
+			"entries": [
+				"These small, handheld mirrors project an inviting, soft blue glow from their surface. When a creature gazes into the mirror, they are presented with a convincing, but distorted, view of themselves and their place in the world. Creatures who gaze habitually into the entrancing mirror come to be susceptible to internalizing it’s false reflection.",
+				"For this reason, entrancing mirrors are usually created by unscrupulous warlocks or narcissistic artificers who put them out into the world to feed on the life force that the gazers put into the mirrors. With enough entrancing mirrors in circulation, some of these dark practitioners are able to influence entire populations and thus bend reality closer to the false reflections they conjure.",
+				{
+					"name": "Creeping Influence",
+					"type": "entries",
+					"entries": [
+						"Each time a creature gazes into the entrancing mirror, they learn something new, interesting, or delightful but must make a DC 10 Intelligence saving throw. After accumulating 3 fails, they start to identify with the desires of the entrancing mirror’s creator and come under the influence of a {@spell Suggestion} spell. This effect lasts 72 hours, and each subsequent use of the mirror extends this period another 72 hours."
+					]
+				},
+				{
+					"type": "inset",
+					"name": "Dungeon Church Lore",
+					"entries": [
+						"Learn more about the {@link Entrancing Mirror in the wiki|https://lore.dungeon.church/doc/entrancing-mirror-LEDVsFaum5}."
+					]
+				}
+			],
+			"attachedSpells": [
+				"suggestion"
+			],
+			"lootTables": [
+				"Pyoran Magic Items|dungeonchurch"
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-entrancing-mirror.png"
+						}
+					}
+				]
+			}
+		},
+		{
 			"name": "Fedora of Disguise",
 			"source": "DungeonChurch",
 			"otherSources": [
@@ -4143,7 +4186,7 @@
 			"caption": "Items and relics uncovered in the world of Pyora.",
 			"page": 0,
 			"colLabels": [
-				"d32",
+				"d33",
 				"Item"
 			],
 			"rows": [
@@ -4274,6 +4317,10 @@
 				[
 					"32",
 					"{@item Ley Line Lens|dungeonchurch}"
+				],
+				[
+					"33",
+					"{@item Entrancing Mirror|dungeonchurch}"
 				]
 			]
 
