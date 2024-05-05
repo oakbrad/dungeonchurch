@@ -1664,6 +1664,723 @@
 			]
 		},
 		{
+			"name": "Iron Rider Hunter",
+			"source": "DungeonChurch",
+			"otherSources": [
+				{
+					"source": "GHMG"
+				}
+			],
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any race"
+				]
+			},
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"{@item chain shirt|phb}"
+					]
+				}
+			],
+			"hp": {
+				"average": 26,
+				"formula": "4d8 + 8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 13,
+			"dex": 15,
+			"con": 14,
+			"int": 12,
+			"wis": 13,
+			"cha": 10,
+			"skill": {
+				"investigation": "+3",
+				"perception": "+3",
+				"religion": "+3",
+				"survival": "+3"
+			},
+			"passive": 13,
+			"languages": [
+				"any two languages"
+			],
+			"cr": "1",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"type": "spellcasting",
+					"headerEntries": [
+						"The Iron Rider hunter is a 3rd-level spellcaster. Its spellcasting ability is Wisdom. The hunter knows the following ranger spells:"
+					],
+					"spells": {
+						"1": {
+							"slots": 3,
+							"spells": [
+								"{@spell detect magic}",
+								"{@spell hunter's mark}",
+								"{@spell protection from evil and good}"
+							]
+						}
+					},
+					"ability": "wis"
+				}
+			],
+			"trait": [
+				{
+					"name": "Iron Rider's Awareness",
+					"entries": [
+						"The Iron Rider hunter can expend a 1st-level ranger spell slot to sense for 1 minute whether arcane or innate spellcasters, aberrations, fey, and fiends are within 1 mile. This trait doesn't reveal the creatures' locations or numbers."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The Iron Rider hunter makes two shortsword attacks, provided it has a {@item shortsword|PHB} in each hand."
+					]
+				},
+				{
+					"name": "Shortsword",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage and 2 ({@damage 1d4}) psychic damage, or 5 ({@damage 2d4}) psychic damage if the target is {@status concentration||concentrating} on a spell."
+					]
+				},
+				{
+					"name": "Longbow",
+					"entries": [
+						"{@atk rw} {@hit 4} to hit, ranged 150/600 ft., one target. {@h}6 ({@damage 1d8 + 2}) piercing damage and 2 ({@damage 1d4}) psychic damage, or 5 ({@damage 2d4}) psychic damage if the target is {@status concentration||concentrating} on a spell."
+					]
+				}
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/GHMG/Tokens/InquisitorHunter.webp"
+			},
+			"attachedItems": [
+				"longbow|phb",
+				"shortsword|phb"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"X"
+			],
+			"damageTags": [
+				"P",
+				"Y"
+			],
+			"spellcastingTags": [
+				"CR"
+			],
+			"miscTags": [
+				"MLW",
+				"MW",
+				"RNG",
+				"RW"
+			]
+		},
+		{
+			"name": "Iron Rider Judge",
+			"source": "DungeonChurch",
+			"otherSources": [
+				{
+					"source": "GHMG"
+				}
+			],
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any race"
+				]
+			},
+			"alignment": [
+				"L",
+				"G",
+				"NY",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"{@item plate armor|PHB|plate}"
+					]
+				}
+			],
+			"hp": {
+				"average": 112,
+				"formula": "15d8 + 45"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 18,
+			"dex": 10,
+			"con": 16,
+			"int": 12,
+			"wis": 14,
+			"cha": 16,
+			"skill": {
+				"insight": "+6",
+				"investigation": "+5",
+				"perception": "+6",
+				"religion": "+5"
+			},
+			"passive": 16,
+			"languages": [
+				"any two languages"
+			],
+			"cr": "9",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"type": "spellcasting",
+					"headerEntries": [
+						"The Iron Rider judge is a 12th-level spellcaster. Its spellcasting ability is Charisma (spell save {@dc 14}). The judge has the following paladin spells prepared:"
+					],
+					"spells": {
+						"1": {
+							"slots": 4,
+							"spells": [
+								"{@spell detect magic}",
+								"{@spell hunter's mark}",
+								"{@spell protection from evil and good}"
+							]
+						},
+						"2": {
+							"slots": 3,
+							"spells": [
+								"{@spell detect thoughts}",
+								"{@spell lesser restoration}"
+							]
+						},
+						"3": {
+							"slots": 3,
+							"spells": [
+								"{@spell dispel magic}",
+								"{@spell remove curse}"
+							]
+						}
+					},
+					"ability": "cha"
+				}
+			],
+			"trait": [
+				{
+					"name": "Aura of Clarity",
+					"entries": [
+						"While within 10 feet of a conscious Iron Rider judge, creatures of the judge's choice can't be {@condition blinded} or {@condition frightened}, and creatures and objects can be {@condition invisible} only if the judge allows it."
+					]
+				},
+				{
+					"name": "Brand Heretic (Recharges after a Short or Long Rest)",
+					"entries": [
+						"As a bonus action, the Iron Rider judge chooses one creature the judge can see within 30 feet of it. The judge marks the target as a heretic. For 1 minute, the judge's weapon attack rolls against the heretic score a critical hit on a roll of 19 or 20. At the start of each of the heretic's turns, the judge can use a reaction to make one weapon attack against the heretic."
+					]
+				},
+				{
+					"name": "Smite",
+					"entries": [
+						"When the Iron Rider judge hits with a melee weapon attack, it can expend one spell slot to deal extra radiant damage. The extra damage is 9 ({@dice 2d8}) for a 1stlevel spell slot, 13 ({@dice 3d8}) for a 2nd-level one, and 18 ({@dice 4d8}) for a 3rd level slot."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The judge makes two greatsword attacks."
+					]
+				},
+				{
+					"name": "Greatsword",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d6 + 4}) slashing damage and 4 ({@damage 1d8}) radiant damage."
+					]
+				}
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/GHMG/Tokens/InquisitorJudge.webp"
+			},
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"X"
+			],
+			"damageTags": [
+				"R",
+				"S"
+			],
+			"spellcastingTags": [
+				"CP"
+			],
+			"miscTags": [
+				"MLW",
+				"MW"
+			],
+			"savingThrowForcedSpell": [
+				"wisdom"
+			]
+		},
+		{
+			"name": "Iron Rider Knight",
+			"source": "DungeonChurch",
+			"otherSources": [
+				{
+					"source": "GHMB"
+				}
+			],
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any race"
+				]
+			},
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"{@item chain mail|PHB}",
+						"{@item shield|PHB}"
+					]
+				}
+			],
+			"hp": {
+				"average": 65,
+				"formula": "10d8 + 20"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 16,
+			"dex": 11,
+			"con": 14,
+			"int": 12,
+			"wis": 15,
+			"cha": 13,
+			"skill": {
+				"insight": "+4",
+				"investigation": "+3",
+				"perception": "+4"
+			},
+			"passive": 14,
+			"languages": [
+				"any two languages"
+			],
+			"cr": "3",
+			"trait": [
+				{
+					"name": "Brave",
+					"entries": [
+						"The Iron Rider knight has advantage on saving throws against being {@condition frightened}."
+					]
+				},
+				{
+					"name": "Discerning",
+					"entries": [
+						"The Iron Rider knight has advantage on saving throws against illusions."
+					]
+				},
+				{
+					"name": "Mark",
+					"entries": [
+						"When the Iron Rider knight hits a creature with a melee weapon attack, the knight marks that creature until the end of the knight's next turn. The mark ends early if the knight becomes {@condition incapacitated} or dies, or someone else marks the same creature. While the marked creature is within the knight's reach, it has disadvantage on attack rolls against creatures other than the knight."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The Iron Rider knight makes two attacks."
+					]
+				},
+				{
+					"name": "Longsword",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) slashing damage, or 8 ({@damage 1d10 + 3}) slashing damage if used with two hands to make a melee attack, and Mark."
+					]
+				},
+				{
+					"name": "Javelin",
+					"entries": [
+						"{@atk mw,rw} {@hit 5} to hit, reach 5 ft. or range 30/120 ft., one target. {@h}6 ({@damage 1d6 + 3}) piercing damage and, if used to make a melee attack, and Mark."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Marked Control",
+					"entries": [
+						"If a creature subjected to the Iron Rider knight's Mark moves while within 5 feet of the knight, the knight can make a melee attack against that creature. On a hit, the creature's speed drops to 0 until the end of their current turn."
+					]
+				}
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/GHMG/Tokens/InquisitorKnight.webp"
+			},
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"X"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MLW",
+				"MW",
+				"RW",
+				"THW"
+			]
+		},
+		{
+			"name": "Iron Rider Priest",
+			"source": "DungeonChurch",
+			"otherSources": [
+				{
+					"source": "GHMB"
+				}
+			],
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any race"
+				]
+			},
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"{@item ring mail|PHB}",
+						"{@item shield|PHB}"
+					]
+				}
+			],
+			"hp": {
+				"average": 39,
+				"formula": "6d8 + 12"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 12,
+			"dex": 11,
+			"con": 14,
+			"int": 13,
+			"wis": 16,
+			"cha": 12,
+			"skill": {
+				"insight": "+5",
+				"investigation": "+3",
+				"perception": "+5",
+				"religion": "+3"
+			},
+			"passive": 15,
+			"languages": [
+				"any two languages"
+			],
+			"cr": "2",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"type": "spellcasting",
+					"headerEntries": [
+						"The Iron Rider priest is a 6th-level spellcaster. Its spellcasting ability is Wisdom (spell save {@dc 13}, {@hit 5} to hit with spell attacks). It has the following cleric spells prepared:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell light}",
+								"{@spell sacred flame}",
+								"{@spell spare the dying}",
+								"{@spell thaumaturgy}"
+							]
+						},
+						"1": {
+							"slots": 4,
+							"spells": [
+								"{@spell cure wounds}",
+								"{@spell detect magic}",
+								"{@spell guiding bolt}",
+								"{@spell healing word}",
+								"{@spell protection from evil and good}"
+							]
+						},
+						"2": {
+							"slots": 3,
+							"spells": [
+								"{@spell lesser restoration}",
+								"{@spell see invisibility}",
+								"{@spell silence}",
+								"{@spell spiritual weapon}"
+							]
+						},
+						"3": {
+							"slots": 3,
+							"spells": [
+								"{@spell dispel magic}",
+								"{@spell remove curse}"
+							]
+						}
+					},
+					"ability": "wis"
+				}
+			],
+			"trait": [
+				{
+					"name": "Ward",
+					"entries": [
+						"If the Iron Rider priest casts a spell that causes creatures to regain hit points, the priest can also end the effects of one spell affecting one creature that regained hit points. The ended effects must be from a spell of a level equal to or lower than the spell slot the priest used to cast the healing spell."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Warhammer",
+					"entries": [
+						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d8 + 1}) bludgeoning damage and 4 ({@damage 1d8}) force damage, or 9 ({@damage 2d8}) force damage if the target is {@status concentration||concentrating} on a spell."
+					]
+				}
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/GHMG/Tokens/Iron RiderPriest.webp"
+			},
+			"languageTags": [
+				"X"
+			],
+			"damageTags": [
+				"B",
+				"O"
+			],
+			"damageTagsSpell": [
+				"O",
+				"R"
+			],
+			"spellcastingTags": [
+				"CC"
+			],
+			"miscTags": [
+				"MLW",
+				"MW"
+			],
+			"conditionInflictSpell": [
+				"deafened"
+			],
+			"savingThrowForcedSpell": [
+				"dexterity"
+			]
+		},
+		{
+			"name": "Iron Rider Warder",
+			"source": "DungeonChurch",
+			"otherSources": [
+				{
+					"source": "GHMB"
+				}
+			],
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any race"
+				]
+			},
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"{@item chain mail|PHB}",
+						"{@item shield|PHB}"
+					]
+				}
+			],
+			"hp": {
+				"average": 78,
+				"formula": "12d8 + 24"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 16,
+			"dex": 10,
+			"con": 14,
+			"int": 12,
+			"wis": 18,
+			"cha": 13,
+			"skill": {
+				"insight": "+7",
+				"investigation": "+4",
+				"religion": "+4",
+				"perception": "+7"
+			},
+			"passive": 17,
+			"languages": [
+				"any two languages"
+			],
+			"cr": "6",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"type": "spellcasting",
+					"headerEntries": [
+						"The Iron Rider warder is a 12th-level spellcaster. Its spellcasting ability is Wisdom (spell save {@dc 15}, {@hit 7} to hit with spell attacks). It has the following cleric spells prepared:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell light}",
+								"{@spell sacred flame}",
+								"{@spell spare the dying}",
+								"{@spell thaumaturgy}"
+							]
+						},
+						"1": {
+							"slots": 4,
+							"spells": [
+								"{@spell cure wounds}",
+								"{@spell detect magic}",
+								"{@spell guiding bolt}",
+								"{@spell healing word}",
+								"{@spell identify}",
+								"{@spell protection from evil and good}"
+							]
+						},
+						"2": {
+							"slots": 3,
+							"spells": [
+								"{@spell lesser restoration}",
+								"{@spell see invisibility}",
+								"{@spell silence}",
+								"{@spell spiritual weapon}",
+								"{@spell zone of truth}"
+							]
+						},
+						"3": {
+							"slots": 3,
+							"spells": [
+								"{@spell dispel magic}",
+								"{@spell remove curse}"
+							]
+						},
+						"4": {
+							"slots": 3,
+							"spells": [
+								"{@spell arcane eye}",
+								"{@spell locate creature}"
+							]
+						},
+						"5": {
+							"slots": 2,
+							"spells": [
+								"{@spell greater restoration}",
+								"{@spell mass cure wounds}"
+							]
+						},
+						"6": {
+							"slots": 1,
+							"spells": [
+								"{@spell true seeing}"
+							]
+						}
+					},
+					"ability": "wis"
+				}
+			],
+			"trait": [
+				{
+					"name": "Ward",
+					"entries": [
+						"If the Iron Rider warder casts a spell that causes creatures to regain hit points, the warder can also end the effects of one spell affecting one creature that regained hit points. The ended effects must be from a spell of a level equal to or lower than the spell slot the warder used to cast the healing spell."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The Iron Rider warder makes two warhammer attacks."
+					]
+				},
+				{
+					"name": "Warhammer",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) bludgeoning damage and 9 ({@damage 2d8}) force damage, or 13 ({@damage 3d8}) force damage if the target is {@status concentration||concentrating} on a spell."
+					]
+				}
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/GHMG/Tokens/InquisitorWarder.webp"
+			},
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"X"
+			],
+			"damageTags": [
+				"B",
+				"O"
+			],
+			"damageTagsSpell": [
+				"O",
+				"R"
+			],
+			"spellcastingTags": [
+				"CC"
+			],
+			"miscTags": [
+				"MLW",
+				"MW"
+			],
+			"conditionInflictSpell": [
+				"deafened"
+			],
+			"savingThrowForcedSpell": [
+				"charisma",
+				"dexterity"
+			]
+		},
+		{
 			"name": "Lamont Solmar",
 			"source": "DungeonChurch",
 			"page": 0,
@@ -3057,7 +3774,18 @@
 						"Learn more about the {@link Ring of Prestidigitation in the wiki|https://lore.dungeon.church/doc/ring-of-prestidigitation-RrfeGNnCzv}."
 					]
 				}
-			]
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-ring-of-prestidigitation.png"
+						}
+					}
+				]
+			}
 		},
 		{
 			"name": "Ring of Water Breathing",
