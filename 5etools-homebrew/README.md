@@ -44,6 +44,7 @@ Or import:
     * [Fist of Durradin](https://lore.dungeon.church/doc/fist-of-durradin-GrRsr84scL)
     * [Fiz's Flute](https://lore.dungeon.church/doc/fizs-flute-ANcBt7lLmj)
     * [Gnomish Tea Set](https://lore.dungeon.church/doc/gnomish-tea-set-HrqDVlit6V)
+    * [Ley Line Lens](https://lore.dungeon.church/doc/ley-line-lens-A8oN3yTn4x)
     * [Longsword of the Dragon Empire](https://lore.dungeon.church/doc/longsword-of-the-dragon-empire-WNp5oBATI3)
     * [Mage Bane](https://lore.dungeon.church/doc/mage-bane-vvIjgk9BDu)
     * [Minor Belt of Dwarvenkind](https://5e.dungeon.church/items.html#belt%20of%20dwarvenkind_dmg)
@@ -66,6 +67,11 @@ Or import:
 * Bestiary
     * [Dire Boar](https://lore.dungeon.church/doc/dire-boar-ICD17iMkzY)
     * [Hellion Child](https://lore.dungeon.church/doc/hellion-cmTM1BgZSd)
+    * Iron Rider Hunter
+    * Iron Rider Judge
+    * Iron Rider Knight
+    * Iron Rider Priest
+    * Iron Rider Warder
     * [Lamont Solmar](https://lore.dungeon.church/doc/lamont-solmar-GLrWBoIX5h)
     * [Sap Ooze](https://lore.dungeon.church/doc/sap-ooze-eGVX8QPLEh)
 * Hazards / Traps
