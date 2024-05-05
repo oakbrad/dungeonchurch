@@ -2512,6 +2512,48 @@
 			}
 		},
 		{
+			"name": "Ley Line Lens",
+			"source": "DungeonChurch",
+			"page": 0,
+			"rarity": "very rare",
+			"wondrous": true,
+			"tier": "major",
+			"lootTables": [
+				"Pyoran Magic Items|dungeonchurch"
+			],
+			"entries": [
+				"A focusing monolens with a slender, intricately carved silver frame, containing a ground crystal lens that refracts light into dazzling colors. When held up to the eye, the monocle reveals the hidden paths of ley lines.",
+				{
+					"name": "Witchsight",
+					"type": "entries",
+					"entries": [
+						"While looking through the lens, the wearer gains {@variantrule Witchsight|dungeonchurch} and can see magical ley lines as glowing paths or streams of energy that traverse the land within a range of 100’."
+					]
+				},
+				{
+					"type": "inset",
+					"name": "Dungeon Church Lore",
+					"entries": [
+						"Learn more about the {@link Ley Line Lens in the wiki|https://lore.dungeon.church/doc/ley-line-lens-A8oN3yTn4x}."
+					]
+				}
+			],
+			"fluff":
+				{
+					"name": "Ley Line Lens",
+					"source": "DungeonChurch",
+					"images": [
+						{
+							"type": "image",
+							"href": {
+								"type": "external",
+								"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-ley-line-lens.png"
+							}
+						}
+					]
+				}
+		},
+		{
 			"name": "Longsword of the Dragon Empire",
 			"source": "DungeonChurch",
 			"page": 0,
@@ -3373,7 +3415,7 @@
 			"caption": "Items and relics uncovered in the world of Pyora.",
 			"page": 0,
 			"colLabels": [
-				"d31",
+				"d32",
 				"Item"
 			],
 			"rows": [
@@ -3500,6 +3542,10 @@
 				[
 					"31",
 					"{@item Potion of the Mossy Oak|dungeonchurch}"
+				],
+				[
+					"32",
+					"{@item Ley Line Lens|dungeonchurch}"
 				]
 			]
 
