@@ -2748,6 +2748,13 @@
 										"entries": [
 											"A sap ooze can possess another creature by grappling it and oozing down its throat. Once inside, the sap ooze dominates its host and makes it bleed as the tree bled. Since the sap ooze takes no damage when its host is wounded, it's free to be as reckless as it likes. It might wander into a town to cause trouble. However, no matter how its new body is bandaged or cured, it never stops bleeding slowly. If the host body is killed, the sap oozes out during the next hour and either returns to its tree or seeks another host."
 										]
+									},
+									{
+										"type": "inset",
+										"name": "Dungeon Church Lore",
+										"entries": [
+											"Learn more about the {@link Sap Ooze in the wiki|https://lore.dungeon.church/doc/sap-ooze-eGVX8QPLEh}."
+										]
 									}
 								]
 							}
@@ -2769,6 +2776,141 @@
 				"C",
 				"F"
 			]
+		},
+		{
+			"name": "Zombie Raccoon",
+			"source": "DungeonChurch",
+			"size": [
+				"T"
+			],
+			"type": "undead",
+			"alignment": [
+				"C"
+			],
+			"ac": [
+				13
+			],
+			"hp": {
+				"average": 5,
+				"formula": "2d4"
+			},
+			"speed": {
+				"walk": 40,
+				"climb": 30
+			},
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"poisoned"
+			],
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"str": 3,
+			"dex": 15,
+			"con": 12,
+			"int": 5,
+			"wis": 12,
+			"cha": 7,
+			"skill": {
+				"perception": "+5",
+				"stealth": "+5",
+				"survival": "+4"
+			},
+			"passive": 15,
+			"cr": "1/8",
+			"trait": [
+				{
+					"name": "Keen Smell and Touch",
+					"entries": [
+						"The zombie raccoon has advantage on Wisdom ({@skill Perception}) checks that rely on smell or touch."
+					]
+				},
+				{
+					"name": "Undead Fortitude",
+					"entries": [
+						"If damage reduces the zombie raccoon to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, the zombie raccoon drops to 1 hit point instead."
+					]
+				},
+				{
+					"name": "Pack Tactics",
+					"entries": [
+						"The zombie raccoon has advantage on an attack roll against a creature if at least one of the raccoon's allies is within 5 feet of the creature and the ally isn't incapacitated."
+					]
+
+				}
+			],
+			"action": [
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one creature. {@h}1 ({@damage 1d4}) piercing damage."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one creature. {@h}1 ({@damage 1d4}) slashing damage."
+					]
+				}
+			],
+			"familiar": true,
+			"traitTags": [
+				"Keen Senses"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"fluff": {
+				"entries": [
+					"Once ordinary raccoons known for their curiosity and social behavior, these creatures have fallen victim to the scourge of undeath. Most Zombie Raccoons are transformed after scavenging on the remains of other undead creatures, consuming flesh that taints them. This transformation twists their natural instincts and chaotic nature into a more malevolent form.",
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Social Scavengers",
+										"entries": [
+											"Zombie raccoons often roam in packs, which makes them especially dangerous to livestock and humans alike. Their relentless hunger for flesh drives them to work together on ever more clever escapades, coordinating attacks with chilling cunning. Being one of the few animals other than primates to possess opposable thumbs, they have been known to work locks, doors, and set traps that belies their humble origins."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Undead Warning",
+										"entries": [
+											"The presence of Zombie Raccoons is often a herald of greater undead activity in the area. As they scavenge what is available, they unwittingly become spreaders of the corruption and quickly throw natural ecosystems out of balance."
+										]
+									}
+								]
+							},
+							{
+								"type": "inset",
+								"name": "Dungeon Church Lore",
+								"entries": [
+									"Learn more about the {@link Zombie Raccoon in the wiki|https://lore.dungeon.church/doc/zombie-raccoon-kRMzfO1jg9}."
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/bestiary-zombie-raccoon.png"
+						}
+					}
+				]
+			}
 		}
 	],
 	"item": [
@@ -3053,7 +3195,8 @@
 		{
 			"name": "Entrancing Mirror",
 			"source": "DungeonChurch",
-			"tier": "major",
+			"tier": "minor",
+			"rarity": "common",
 			"weight": 3,
 			"reqAttune": false,
 			"wondrous": true,
@@ -4331,7 +4474,7 @@
 			"caption": "Monsters known to inhabit the realm of Pyora.",
 			"page": 0,
 			"colLabels": [
-				"d2",
+				"d3",
 				"Monster"
 			],
 			"rows": [
@@ -4342,6 +4485,10 @@
 				[
 					"2",
 					"{@creature Sap Ooze|dungeonchurch}"
+				],
+				[
+					"3",
+					"{@creature Zombie Raccoon|dungeonchurch}"
 				]
 			]
 		},

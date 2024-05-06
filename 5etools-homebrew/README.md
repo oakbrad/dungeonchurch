@@ -75,6 +75,7 @@ Or import:
     * Iron Rider Warder
     * [Lamont Solmar](https://lore.dungeon.church/doc/lamont-solmar-GLrWBoIX5h)
     * [Sap Ooze](https://lore.dungeon.church/doc/sap-ooze-eGVX8QPLEh)
+    * [Zombie Raccoon](https://lore.dungeon.church/doc/zombie-raccoon-kRMzfO1jg9)
 * Hazards / Traps
     * [Sapphire Nightshade Grove](https://lore.dungeon.church/doc/sapphire-nightshade-Qvbjiqksvy)
 * Optional Features
