@@ -4835,6 +4835,50 @@
 					"Uncommon"
 				]
 			]
+		},
+		{
+			"name": "Pyoran Substances",
+			"source": "DungeonChurch",
+			"caption": "Illicit substances in the realm of Pyora.",
+			"page": 0,
+			"colLabels": [
+				"d8",
+				"Drug"
+			],
+			"rows": [
+				[
+					"1",
+					"Banshee Blight"
+				],
+				[
+					"2",
+					"Black Diamond"
+				],
+				[
+					"3",
+					"Dream Vine"
+				],
+				[
+					"4",
+					"Dwarven Glog"
+				],
+				[
+					"5",
+					"Nightshade Poison"
+				],
+				[
+					"6",
+					"{@item Rationing Spice|dungeonchurch}"
+				],
+				[
+					"7",
+					"Stone Tea"
+				],
+				[
+					"8",
+					"Never touched the stuff"
+				]
+			]
 		}
 
 	]

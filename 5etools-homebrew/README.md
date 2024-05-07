@@ -88,6 +88,7 @@ Or import:
     * Pyoran Monsters
     * Pyoran Potions
     * Pyoran Species
+    * [Pyoran Substances](https://lore.dungeon.church/doc/substances-uTUpOdUuKi)
     * Ravenfolk Mimicry
 * [House Rules](https://lore.dungeon.church/doc/house-rules-OhKbZs6UV4)
     * Long & Short Rests
