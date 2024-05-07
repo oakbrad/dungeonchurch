@@ -86,6 +86,7 @@ Or import:
     * [New Galmaarden Guilds](https://lore.dungeon.church/doc/new-galmaarden-civil-society-AjPbwTWHao)
     * Party Bonds
     * [Pyoran Gods](https://lore.dungeon.church/collection/pantheon-hqFFoBKyks)
+    * Pyoran Hometowns
     * [Pyoran Magic Items](https://lore.dungeon.church/collection/items-N65bPehkML)
     * [Pyoran Monsters](https://lore.dungeon.church/collection/bestiary-NEgxqdnHW5)
     * Pyoran Potions

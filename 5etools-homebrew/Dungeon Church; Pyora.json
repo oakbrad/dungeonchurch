@@ -4686,6 +4686,102 @@
 			]
 		},
 		{
+			"name": "Pyoran Gods",
+			"source": "DungeonChurch",
+			"caption": "Gods within the realm of Pyora.",
+			"page": 0,
+			"colLabels": [
+				"d8",
+				"Deity"
+			],
+			"rows": [
+				[
+					"1",
+					"{@deity Abraxas|pyora|dungeonchurch}"
+				],
+				[
+					"2",
+					"{@deity Anhon|pyora|dungeonchurch}"
+				],
+				[
+					"3",
+					"{@deity Azrael|pyora|dungeonchurch}"
+				],
+				[
+					"4",
+					"{@deity Ostara|pyora|dungeonchurch}"
+				],
+				[
+					"5",
+					"{@deity Proteus|pyora|dungeonchurch}"
+				],
+				[
+					"6",
+					"{@deity Raven Queen|pyora|dungeonchurch}"
+				],
+				[
+					"7",
+					"{@deity Selûne|pyora|dungeonchurch}"
+				],
+				[
+					"8",
+					"{@deity Siduri|pyora|dungeonchurch}"
+				]
+			]
+		},
+		{
+			"name": "Pyoran Hometown",
+			"source": "DungeonChurch",
+			"caption": "Places your character might originate from in the realm of Pyora.",
+			"page": 0,
+			"colLabels": [
+				"1d10",
+				"Location"
+			],
+			"rows": [
+				[
+					"1",
+					"{@link Striborg|https://lore.dungeon.church/doc/striborg-mZk9jSyJUV}"
+				],
+				[
+					"2",
+					"{@link The Fens|https://lore.dungeon.church/doc/the-fens-kGwQDJ8Sxp}"
+				],
+				[
+					"3",
+					"{@link New Galmaarden|https://lore.dungeon.church/doc/new-galmaarden-03tcpxxc2t}"
+				],
+				[
+					"4",
+					"{@link Durandar|https://lore.dungeon.church/doc/durandar-sWDxZHDVIC}"
+				],
+				[
+					"5",
+					"{@link Dreadwood|https://lore.dungeon.church/doc/dreadwood-GcfKdBzGyT}"
+				],
+				[
+					"6",
+					"{@link Saltmarsh|https://lore.dungeon.church/doc/saltmarsh-GkGI6ISio5}"
+				],
+				[
+					"7",
+					"The Tribelands"
+				],
+				[
+					"8",
+					"{@link Gnomish Underdark|https://lore.dungeon.church/doc/underdark-Lu1sEFgEWw}"
+				],
+				[
+					"9",
+					"Zobeck"
+				],
+				[
+					"10",
+					"Ship on the Azure Sea"
+				]
+			]
+		},
+		{
 			"name": "Pyoran Magic Items",
 			"source": "DungeonChurch",
 			"caption": "Items and relics uncovered in the world of Pyora.",
@@ -4854,50 +4950,7 @@
 				]
 			]
 		},
-		{
-			"name": "Pyoran Gods",
-			"source": "DungeonChurch",
-			"caption": "Gods within the realm of Pyora.",
-			"page": 0,
-			"colLabels": [
-				"d8",
-				"Deity"
-			],
-			"rows": [
-				[
-					"1",
-					"{@deity Abraxas|pyora|dungeonchurch}"
-				],
-				[
-					"2",
-					"{@deity Anhon|pyora|dungeonchurch}"
-				],
-				[
-					"3",
-					"{@deity Azrael|pyora|dungeonchurch}"
-				],
-				[
-					"4",
-					"{@deity Ostara|pyora|dungeonchurch}"
-				],
-				[
-					"5",
-					"{@deity Proteus|pyora|dungeonchurch}"
-				],
-				[
-					"6",
-					"{@deity Raven Queen|pyora|dungeonchurch}"
-				],
-				[
-					"7",
-					"{@deity Selûne|pyora|dungeonchurch}"
-				],
-				[
-					"8",
-					"{@deity Siduri|pyora|dungeonchurch}"
-				]
-			]
-		},
+	
 		{
 			"name": "Pyoran Potions",
 			"source": "DungeonChurch",
