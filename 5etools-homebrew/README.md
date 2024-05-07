@@ -82,6 +82,7 @@ Or import:
 * Optional Features
     * Witchsight
 * Tables
+    * I Know a Guy... in Pyora
     * Pyoran Gods
     * Pyoran Magic Items
     * Pyoran Monsters

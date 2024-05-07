@@ -4361,6 +4361,66 @@
 	],
 	"table": [
 		{
+			"name": "I Know a Guy... in Pyora",
+			"source": "DungeonChurch",
+			"caption": "You are in some way affiliated with a person who is involved in this organization.",
+			"page": 0,
+			"colLabels": [
+				"1d12",
+				"Organization"
+			],
+			"rows": [
+				[
+					"1",
+					"{@link Celestia de Lamour|https://lore.dungeon.church/doc/celestia-de-lamour-w5YwcY3B29}"
+				],
+				[
+					"2",
+					"{@link Arkwrights of Durandar|https://lore.dungeon.church/doc/arkwrights-guild-xpUNyD7GMm}"
+				],
+				[
+					"3",
+					"{@link Gold Scale Company|https://lore.dungeon.church/doc/gold-scale-company-m1WdlmIYwP}"
+				],
+				[
+					"4",
+					"{@link Hand of Adalind|https://lore.dungeon.church/doc/hand-of-adalind-kFepjGY6vb}"
+				],
+				[
+					"5",
+					"{@link Iron Riders|https://lore.dungeon.church/doc/iron-riders-of-abraxas-P77pTaxjou}"
+				],
+				[
+					"6",
+					"{@link Striborg House of Commons|https://lore.dungeon.church/doc/striborg-mZk9jSyJUV}"
+				],
+				[
+					"7",
+					"{@link Saltmarsh Council|https://lore.dungeon.church/doc/saltmarsh-council-8KxfpMfTQ0}"
+				],
+				[
+					"8",
+					"{@link Silver Suns|https://lore.dungeon.church/doc/the-silver-suns-Qtggev16EG}"
+				],
+				[
+					"9",
+					"{@link Storm Barons|https://lore.dungeon.church/doc/storm-barons-9bIflGjrAd}"
+				],
+				[
+					"10",
+					"{@link Striborg Navy|https://lore.dungeon.church/doc/striborg-navy-ndvIs6jZtX}"
+				],
+				[
+					"11",
+					"{@link The Night Messengers|https://lore.dungeon.church/doc/the-night-messengers-1lb9etph9O}"
+				],
+				[
+					"12",
+					"{@link Red Talon Society|https://lore.dungeon.church/doc/the-red-talon-society-tI9out85of}"
+				]
+			]
+		},
+		{
 			"name": "Ravenfolk Mimicry",
 			"source": "DungeonChurch",
 			"caption": "{@race Ravenfolk|dungeonchurch|Ravenfolk} can mimic any sound they've heard.",
