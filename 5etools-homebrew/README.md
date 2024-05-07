@@ -83,12 +83,13 @@ Or import:
     * Witchsight
 * Tables
     * I Know a Guy... in Pyora
+    * [New Galmaarden Guilds](https://lore.dungeon.church/doc/new-galmaarden-civil-society-AjPbwTWHao)
     * Party Bonds
-    * Pyoran Gods
-    * Pyoran Magic Items
-    * Pyoran Monsters
+    * [Pyoran Gods](https://lore.dungeon.church/collection/pantheon-hqFFoBKyks)
+    * [Pyoran Magic Items](https://lore.dungeon.church/collection/items-N65bPehkML)
+    * [Pyoran Monsters](https://lore.dungeon.church/collection/bestiary-NEgxqdnHW5)
     * Pyoran Potions
-    * Pyoran Species
+    * [Pyoran Species](https://lore.dungeon.church/collection/species-AkHU2MbLwO)
     * [Pyoran Substances](https://lore.dungeon.church/doc/substances-uTUpOdUuKi)
     * Ravenfolk Mimicry
 * [House Rules](https://lore.dungeon.church/doc/house-rules-OhKbZs6UV4)

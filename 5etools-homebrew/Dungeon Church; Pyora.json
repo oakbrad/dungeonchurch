@@ -4421,6 +4421,66 @@
 			]
 		},
 		{
+			"name": "New Galmaarden Guilds",
+			"source": "DungeonChurch",
+			"caption": "The interwoven web of organizations that makes up New Galmaarden's civil society.",
+			"page": 0,
+			"colLabels": [
+				"1d12",
+				"Organization"
+			],
+			"rows": [
+				[
+					"1",
+					"Society of Distinguished Wizards"
+				],
+				[
+					"2",
+					"Union of Independent Potion Brewers"
+				],
+				[
+					"3",
+					"Anonymous Legion of Locksmiths"
+				],
+				[
+					"4",
+					"{@link Longshoreman's Union|https://lore.dungeon.church/doc/longshoremans-union-of-new-galmaarden-s29wx1YOfo}"
+				],
+				[
+					"5",
+					"Amalgated Lithomancers"
+				],
+				[
+					"6",
+					"{@link Society of the Spectacle|https://lore.dungeon.church/doc/society-of-the-spectacle-CKrqvCifAH}"
+				],
+				[
+					"7",
+					"Fishmongers' Fellowship"
+				],
+				[
+					"8",
+					"The Most Diligent Order of the Streets"
+				],
+				[
+					"9",
+					"{@link New City Brewing Distributors|https://lore.dungeon.church/doc/new-city-brewing-distributors-pufN7D27wa}"
+				],
+				[
+					"10",
+					"Fraternal Order of Wandering Muses"
+				],
+				[
+					"11",
+					"Circles of Midwives"
+				],
+				[
+					"12",
+					"{@link The Silver Suns|https://lore.dungeon.church/doc/the-silver-suns-Qtggev16EG}"
+				]
+			]
+		},
+		{
 			"name": "Party Bonds",
 			"source": "DungeonChurch",
 			"caption": "One of these bonds you to a member of your party.",
