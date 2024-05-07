@@ -965,7 +965,7 @@
 			}
 		},
 		{
-			"name": "Road",
+			"name": "Hearth",
 			"source": "DungeonChurch",
 			"raceName": "Dwarf",
 			"raceSource": "PHB",
@@ -1006,13 +1006,15 @@
 			"hasFluff": true,
 			"fluff": {
 				"entries": [
-					"Road dwarves appears closely related to their mountain brethren. They maintain dwarven traditions and customs, and typically organize themselves in clans.",
-					"However, centuries of adaption to traveling the winding roads stretching across the lands has created a distinct subset of dwarf. Road dwarves, whether living as wandering mercantile clans or exiles banished from their homeland in {@link Durandar|https://lore.dungeon.church/doc/durandar-sWDxZHDVIC}, use their natural charms and swift journeying to build their fortune and make a name for themselves.",
+					"The dwarves of the Kingdom's diaspora are collectively known as hearth dwarves. Wherever they have made their homes in the lands of Pyora, what separates them from their brethren is that they live their lives, raise families, and explore the world outside the influence of the current Prophet-King in Durandar.",
+					"Many are found in port towns, where they settled incidentally along migration routes. Others never left the sea, and pledge their lives to the hearthship of their confederates rather than follow the faithful underground. Some are outcasts or seekers - sorcerers and wizards who must search for arcane knowledge outside the unsupportive dwarven guild system.",
+					"They tend to follow dwarven customs in one way or another, mixed with the local flavor of wherever they find themselves. Just as many hold to the old prophecies as those who kneel to the new gods. These dwarves are fond of formalizing their chosen clans as businesses, settlements, communes, companies, and pirate ships - their 'hearths' - which more often than not include non-dwarves.",
+					"Despite their independent nature and varied experiences, whatever wanderlust drives them to seek fortune and community on their own also gives them a reputation for being fiercely loyal to those they choose for friends.",
 					{
 						"type": "inset",
 						"name": "Dungeon Church Lore",
 						"entries": [
-							"Learn more about {@link Dwarves in the wiki|https://lore.dungeon.church/doc/dwarf-durandian-UOdggQRi6Y}."
+							"Learn more about {@link Hearth Dwarves in the wiki|https://lore.dungeon.church/doc/dwarf-hearth-JqwmFsdhFj}."
 						]
 					}
 				]
@@ -4324,6 +4326,119 @@
 	],
 	"table": [
 		{
+			"name": "Ravenfolk Mimicry",
+			"source": "DungeonChurch",
+			"caption": "{@race Ravenfolk|dungeonchurch|Ravenfolk} can mimic any sound they've heard.",
+			"page": 0,
+			"colLabels": [
+				"2d20",
+				"Manner",
+				"Sound"
+			],
+			"rows": [
+				[
+					"1",
+					"Sad",
+					"Town crier"
+				],
+				[
+					"2",
+					"Slowly",
+					"Hornet"
+				],
+				[
+					"3",
+					"Wheezing",
+					"Crying gnome child"
+				],
+				[
+					"4",
+					"Angry",
+					"Blacksmith hammering"
+				],
+				[
+					"5",
+					"Melodramatic",
+					"Owlbear's snore"
+				],
+				[
+					"6",
+					"Whisper",
+					"Horse whinny"
+				],
+				[
+					"7",
+					"Chant",
+					"Bard"
+				],
+				[
+					"8",
+					"Echo",
+					"Swords clanging"
+				],
+				[
+					"9",
+					"Bored",
+					"Auctioneer"
+				],
+				[
+					"10",
+					"Bellow",
+					"Fairy sneeze"
+				],
+				[
+					"11",
+					"Drunk",
+					"Lover's quarrel"
+				],
+				[
+					"12",
+					"Confused",
+					"Ringing bell"
+				],
+				[
+					"13",
+					"Thick accent",
+					"Dwarven curses"
+				],
+				[
+					"14",
+					"Yell",
+					"Rooster crow"
+				],
+				[
+					"15",
+					"Off key",
+					"Thieves' Cant"
+				],
+				[
+					"16",
+					"Dolorous",
+					"Steam whistle"
+				],
+				[
+					"17",
+					"Singing",
+					"Cleric's blessing"
+				],
+				[
+					"18",
+					"Rhyme",
+					"Breaking glass"
+				],
+				[
+					"19",
+					"Out of breath",
+					"Carnival barker"
+				],
+				[
+					"20",
+					"Drawl",
+					"{@spell Vicious Mockery}"
+				]
+			]
+		},
+		{
 			"name": "Pyoran Magic Items",
 			"source": "DungeonChurch",
 			"caption": "Items and relics uncovered in the world of Pyora.",
@@ -4563,6 +4678,65 @@
 					"{@item Potion of the Mossy Oak|dungeonchurch}"
 				]
 			]
+		},
+		{
+			"name": "Pyoran Species",
+			"source": "DungeonChurch",
+			"caption": "The diversity of Pyoran humanoids.",
+			"page": 0,
+			"colLabels": [
+				"d9",
+				"Species",
+				"Distribution"
+			],
+			"rows": [
+				[
+					"1",
+					"{@race Dragonborn (Pyoran)|dungeonchurch|Dragonborn}",
+					"Common"
+				],
+				[
+					"2",
+					"{@race Dragonborn (Pyoran)|dungeonchurch|Dragonborn}",
+					"Common"
+				],
+				[
+					"3",
+					"{@race Dwarf (Hearth)|dungeonchurch|Dwarf (Hearth)}",
+					"Common"
+				],
+				[
+					"4",
+					"{@race Elfmarked|dungeonchurch|Elfmarked}",
+					"Uncommon"
+				],
+				[
+					"5",
+					"{@race Gnome (Rock)|dungeonchurch|Gnome (Rock)}",
+					"Rare"
+				],
+				[
+					"6",
+					"{@race Halfling|dungeonchurch|Halfling}",
+					"Uncommon"
+				],
+				[
+					"7",
+					"{@race Human (Pyoran)|dungeonchurch|Human}",
+					"Common"
+				],
+				[
+					"8",
+					"{@race Ravenfolk|dungeonchurch|Ravenfolk}",
+					"Rare"
+				],
+				[
+					"9",
+					"{@race Tribeborn|dungeonchurch|Tribeborn}",
+					"Uncommon"
+				]
+			]
 		}
+
 	]
 }

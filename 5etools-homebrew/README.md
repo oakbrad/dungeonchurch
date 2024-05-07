@@ -32,6 +32,7 @@ Or import:
     * [Proteus](https://lore.dungeon.church/doc/proteus-Apiz4CreFn)
     * [Raven Queen](https://lore.dungeon.church/doc/raven-queen-95zkXkC4gg)
     * [Selûne](https://lore.dungeon.church/doc/selune-wFfmk6l5Ba)
+    * [Siduri](https://lore.dungeon.church/doc/siduri-UpLIvKAUoH)
 * Items
     * [Abi Teos's Machete](https://lore.dungeon.church/doc/abi-teoss-machete-ZrSq7FcMTj)
     * [Amulet of Betrayal](https://lore.dungeon.church/doc/amulet-of-betrayal-vY1rCwAwHh)
@@ -85,6 +86,8 @@ Or import:
     * Pyoran Magic Items
     * Pyoran Monsters
     * Pyoran Potions
+    * Pyoran Species
+    * Ravenfolk Mimicry
 * [House Rules](https://lore.dungeon.church/doc/house-rules-OhKbZs6UV4)
     * Long & Short Rests
     * Increase Max HP When Leveling Up
