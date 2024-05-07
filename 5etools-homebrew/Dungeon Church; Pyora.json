@@ -1408,6 +1408,41 @@
 					]
 				}
 			]
+		},
+		{
+			"name": "Siduri",
+			"title": "The Beer Runner",
+			"source": "DungeonChurch",
+			"pantheon": "Pyora",
+			"page": 0,
+			"alignment": [
+				"C",
+				"G"
+			],
+			"domains": [
+				"Fermentation", "Transformation","Festivals"
+			],
+			"altNames": [
+				"Brother Malt",
+				"Sister Sedition",
+				"The Beer Runner"
+			],
+			"symbol": "Overflowing Tankard, Hop Flowers, Maypoles",
+			"symbolImg": {
+				"type": "image",
+				"href": {
+					"type": "external",
+					"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/deity-siduri.png"
+				},
+				"style": "deity-symbol",
+				"title": ""
+			},
+			"entries": [
+				"Siduri is often depicted as a dwarf with a warm, inviting demeanor and a flowing beard adorned with jewels and hop vines, which are sacred to her. Their attire is vibrant and ever-changing, reflecting her fluid identity and the transformative nature of their domain.",
+				"In dwarven legends, Siduri was a crafty revolutionary who attempted a failed coup against the King. Imprisoned and waiting to be put to death, they escaped when the guards drank too much ale and fell asleep. Cursed to be on the run for eternity, Siduri grew a beard and changes identities to keep ahead of fate.",
+				"Siduri governs over fermentation, revelry, transformation, and joy. They are the patron of brewers, vintners, artists, thieves, and all who seek the joyful liberation found in festive gatherings or revolutions. Their name is invoked to ensure the success of crops used in brewing, the battle cries of rebels, and blessed as the host of many a joyful gathering.",
+				"Siduri’s most fervent followers are known to devote themselves to revolutionary causes of any and all types, no matter the grievance. A large part of their worship is organizing surreal parties, spontaneous parades, and theater troupes that transgress the taboo and occasionally veer into riots. For this reason, their temples and chapels are often persecuted or banned in large cities - widely seen as dangerous front groups for radical elements. The largest organized following is in New Galmaarden, where they are celebrated as a keeper of the New City’s spirit."
+			]
 		}
 	],
 	"monster": [
@@ -4613,7 +4648,7 @@
 			"caption": "Gods within the realm of Pyora.",
 			"page": 0,
 			"colLabels": [
-				"d7",
+				"d8",
 				"Deity"
 			],
 			"rows": [
@@ -4644,6 +4679,10 @@
 				[
 					"7",
 					"{@deity Selûne|pyora|dungeonchurch}"
+				],
+				[
+					"8",
+					"{@deity Siduri|pyora|dungeonchurch}"
 				]
 			]
 		},
