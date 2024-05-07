@@ -4421,6 +4421,98 @@
 			]
 		},
 		{
+			"name": "Party Bonds",
+			"source": "DungeonChurch",
+			"caption": "One of these bonds you to a member of your party.",
+			"page": 0,
+			"colLabels": [
+				"1d20",
+				"Bond"
+			],
+			"rows": [
+				[
+					"1",
+					"Is a sibling of"
+				],
+				[
+					"2",
+					"Was saved by"
+				],
+				[
+					"3",
+					"Served with"
+				],
+				[
+					"4",
+					"Adventured with"
+				],
+				[
+					"5",
+					"Is a friendly rival of"
+				],
+				[
+					"6",
+					"Protected by"
+			    ],
+				[
+					"7",
+					"Childhood friend of"
+				],
+				[
+					"8",
+					"Is magically bound to"
+				],
+				[
+					"9",
+					"Survived with"
+				],
+				[
+					"10",
+					"Escaped with"
+				],
+				[
+					"11",
+					"Apprentice of"
+				],
+				[
+					"12",
+					"Acolyte of"
+				],
+				[
+					"13",
+					"Idolizes"
+				],
+				[
+					"14",
+					"Drinking buddies with"
+				],
+				[
+					"15",
+					"Business associate of"
+				],
+				[
+					"16",
+					"Lost a bet to"
+				],
+				[
+					"17",
+					"Is indebted to"
+				],
+				[
+					"18",
+					"Was trained by"
+				],
+				[
+					"19",
+					"Dueling partner of"
+				],
+				[
+					"20",
+					"On the run with"
+				]
+			]
+		},
+		{
 			"name": "Ravenfolk Mimicry",
 			"source": "DungeonChurch",
 			"caption": "{@race Ravenfolk|dungeonchurch|Ravenfolk} can mimic any sound they've heard.",

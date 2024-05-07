@@ -83,6 +83,7 @@ Or import:
     * Witchsight
 * Tables
     * I Know a Guy... in Pyora
+    * Party Bonds
     * Pyoran Gods
     * Pyoran Magic Items
     * Pyoran Monsters
