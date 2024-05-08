@@ -428,8 +428,34 @@
 							"name": "The Story So Far",
 							"page": 0,
 							"entries": [
-								"Placeholder text"
-							]
+								"Our adventure begins with the party being attacked by {@creature sahuagin} on a shipping vessel en route to Saltmarsh's festival. {@link ❶|https://lore.dungeon.church/doc/session-1-welcome-to-saltmarsh-IyV6iGiiKu}",
+								"After washing ashore, they inquire for work and find out that the old alchemist's house south of town is haunted. They have an unfortunate run-in with weasels and pirates exploring it. {@link ❷|https://lore.dungeon.church/doc/session-2-the-alchemists-house-SZuX8SGc4n} Descending into the dungeon of tunnels underneath the house, they find strange evidence and secret chambers. {@link ❸|https://lore.dungeon.church/doc/session-3-beyond-skeletons-JXWlISUDem} But ultimately they come to discover that the 'ghosts' are mostly tricks being used to cover up a weapons smuggling operation. {@link ❹|https://lore.dungeon.church/doc/session-4-smugglers-den-ST0bY07Lz1}",
+								"The house now cleared of ghouls and pirates, the party returns to claim their bounty from the Council - and are informed the house will be put to auction. They confront the barkeep Kreb over the pirates trickery, and he offers them a better job as a favor for '{@i the Money Man}': become weapons smugglers themselves. {@link ❺|https://lore.dungeon.church/doc/session-5-town-business-XEOYTUfeOT}",
+								"Meeting their contact dockside, they disguise themselves as fishermen but are ambushed by a {@creature Gibbering Mouther} that almost does them in. They deliver their load of weapons to {@i The Sea Ghost} where they meet a leader of the lizardfolk named Zazok. {@link ❻|https://lore.dungeon.church/doc/session-6-the-sea-ghost-xKc8xzXOU5}",
+								"Back on dry land, Math implores the party to seek signs of his lost brother. After consulting his priestess of {@deity Selûne|pyora|dungeonchurch}, they are sent to locate stardust in the nearby Hool Marsh for use in a ritual. The party sets up a meeting with the '{@i the Money Man}': it turns out to be Gellan Primewater, an esteemed merchant, socialite, and prominent member of the Saltmarsh Council. He offers them financing to bid on the alchemist's house under one condition: they allow the smuggling to continue. {@link ❼|https://lore.dungeon.church/doc/session-7-stardust-Y1TgrrgS3t}",
+								"The party decides to investigate another member of the Council who is acting strangely - Eda Oweland. They follow the matriarch to her family crypt, where she uses dark magic to speak to her dead relatives. Escaping without notice, they face her later at the public auction for the house. The party wins the deed, and registers their new business: {@i The Gold Scale Company}. {@link ❽|https://lore.dungeon.church/doc/session-8-secrets-in-the-crypt-Jh9ytDvK6s}",
+								{
+									"type": "image",
+									"href": {
+										"type": "external",
+										"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/zine2/5etools-homebrew/static/zine2/gold-scale-co.png"
+									},
+									"title": "The Gold Scale Company just south of Saltmarsh"
+								},
+								"The mining captain, Mannistrad Copperlocks, demands help from the newly formed company: something is sabotaging their operation. They reluctantly take the job and make their way to the Miner's Camp, where they hear many rumors. In the night, the camp is terrorized by a fell antlered figure. {@link ❾|https://lore.dungeon.church/doc/session-9-miners-camp-Kqt1Hkswrk}",
+								"They begin their descent into the mine, and find a defeated band of Iron Riders on the first level. {@link ❿|https://lore.dungeon.church/doc/session-10-the-mountain-door-P1Nuv4seHZ} They are again ambushed by the demonic man with antlers. Deeper in the tunnels, they find a woman named Amelia having a nice dinner.",
+								"She tells Math his brother was with the Riders, but he went to Duskmire to meet the Lady Nightshade. Exploring further, they discover the sahuagin preparing crates of weapons for shipment. {@link ⓫|https://lore.dungeon.church/doc/session-11-plots-under-the-mountain-5QCSooTv6K}",
+								"The old dwarven forge is being worked by gnomes to sell counterfeit weapons to the sahuagin. {@link ⓬|https://lore.dungeon.church/doc/session-12-13-the-forge-of-fury-m1dOelbiNy} The party explores the ruins, but realizes the gnomes have blocked their exit. They follow an underground river to the lair of the dragon Narlgathra. Tharac convinces the dragon to fly them to safety. {@link ⓭|https://lore.dungeon.church/doc/session-12-13-the-forge-of-fury-m1dOelbiNy}",
+								"On the eve of the festival, the party attends a carnival & signs up to fight some {@creature Iron Rider Knight|dungeonchurch|Iron Riders} - they defeat Leuitenant Dan. Gellan invites them to attend a dinner aboard {@i The Dragon's Jubilee} to celebrate their success. {@link ⓮|https://lore.dungeon.church/doc/session-14-festivals-eve-VAcA8ZfizE}",
+								"The party dines with many important people aboard the ship, but the voyage turns dark when the attendees start to drop dead. {@link ⓯|https://lore.dungeon.church/doc/session-15-16-murder-on-the-jubilee-b5dYJiJkGZ} Accusations start to fly - Gellan is suspected. Investigating themselves, Hilmita comes up with a plan - make tea with holy water and serve it to the passengers. Skerrin Wavechaser is revealed as a shapeshifter - {@creature Lamont Solmar|dungeonchurch|the antlered vampire}. The party fights him on the deck of the boat as the sahuagin assault on Saltmarsh begins. {@link ⓰|https://lore.dungeon.church/doc/session-15-16-murder-on-the-jubilee-b5dYJiJkGZ}",
+								"With the town burning and people being murdered in the streets, the party seeks help from the wizard Keledek. His tower has become sentient and locked him out. The party enters and reasons with S.A.M. to help defend the town and drive back the bloodthirsty sahuagin. {@link ⓱|https://lore.dungeon.church/doc/session-17-the-fate-of-saltmarsh-mBiDgChv72}",
+								{
+									"type": "inset",
+									"entries": [
+										"This summarizes {@b Tier 1} of our Saltmarsh campaign. Full session summaries are available in our {@link collaborative lore wiki|https://lore.dungeon.church}"
+									]
+								}
+							]	
 						},
 						{
 							"type": "entries",
@@ -937,7 +963,7 @@
 									"{@deity Siduri|pyora|dungeonchurch}",
 									"The Beer Runner, Sister Sedition",
 									"CG",
-									"Fermentation, Transformation, Joy",
+									"Fermentation, Revolution, Joy",
 									"Hop Flowers, Tankards, Maypoles"
 								]
 							]
