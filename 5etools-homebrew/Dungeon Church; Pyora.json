@@ -686,7 +686,47 @@
 					"name": "Chapter 3: Lore",
 					"page": 0,
 					"entries": [
-						"Lore placeholder"
+						{
+							"type": "entries",
+							"name": "Avalon",
+							"page": 0,
+							"entries": [
+								{
+									"type": "image",
+									"href": {
+										"type": "external",
+										"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/zine2/5etools-homebrew/static/zine2/avalon.png"
+									},
+									"title": "Avalon during the Golden Age"
+								},
+								"The lost elven capital of Avalon was originally founded by the fey mage Estelar Thelen, who magically surfaced a great crystal shard from the rock beneath the old growth forest of Eowal'ath. The elves of the Golden Age of Magic built one of the greatest cities ever to exist in the material realm of Pyora. Elven society enthusiastically, though perhaps recklessly, embraced the arcane and the mechanical that the shard empowered - excelling at merging the two disciplines. Avalon featured many great magically enhanced technologies that have never been recreated in the realm.",
+								"The city came to consist of five spires emerging above the forest, within a valley encircled by glaciated mountains. The central spire levitated above the rest, featuring the great crystal. The spires were connected by a sophisticated system of magically powered gondolas.",
+								"In the subterranean tunnels from where the great crystal shard had first emerged, the elves built an elaborate network of teleportation channels. These allowed for instantaneous passage across the planes, at least to those with the magical knowledge to operate the arcane doors.",
+								"For most of it's existence, Avalon was a city of peace and prosperity. This ended abruptly when the First Dragon Emperor, avenging the death of his sister by the mage Cirilla, destroyed the city in a cataclysmic event known as {@i The Doom of Avalon}.",
+								"The Dragon Emperor unleashed the full force of his conscripted army. Residents retreated to the safety of the city, where a mass evacuation took place via the subterranean portals. Where they ended up, and how many escaped, remains unknown.",
+								"While the Dragonborn army enjoyed success in the initial offensive, the highly motivated defenders swelled and turned the tide against them. Many demoralized Dragonborn deserted their ranks to join Razorback's nascent abolitionist movement. The Emperor took it upon himself to intervene, using his breath weapon to destroy the crystal shard, setting off a powerful mushroom cloud of wild magic that leveled the city.",
+								"In the aftermath of the explosion, the land upon which the city once stood was laid to waste by arcane contamination, thus thwarting all attempts to rebuild. Over the centuries, the location was lost to the ages and the elven people never seen again…"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "The Confederacy of Hearthships",
+							"page": 0,
+							"entries": [
+								{
+									"type": "image",
+									"href": {
+										"type": "external",
+										"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/zine2/5etools-homebrew/static/zine2/confederacy.png"
+									},
+									"title": "Confederate ships gathered for a Captains' Council"
+								},
+								"The floating pirate nation of the hearthships has it’s origins in the descendants of the shipbuilders and sailors who carried the dwarven migration across the Azure Sea.",
+								"While historically the fleets were directly under the control of the Kingdom and the Arkwrights Guild, the confederacy was born when that official relationship ended. For their service in the migration, the dwarvish King gave sailors a choice: a pension in Durandar, or ownership of their hearthship. Those few who chose life on their ships ratified the first {@i Articles of Agreement} amongst themselves shortly after.",
+								"The Confederacy is not a traditional nation-state, but a loosely organized alliance of sovereign ships that agree to a common pirate's oath. While a plurality of confederate sailors are dwarves, anyone is free to join and many do. The Confederacy's {@i Articles} outlines their code of mutual defense, profit sharing, operating guidelines for councils, and standards for crew justice and discipline for those that betray or cheat their comrades. Each ship is autonomous, and relationships among ships in fleets is fluid - often coming together for a common purpose, like attacking a well fortified target and then dispersing.",
+								"Confederate ships often take safe harbor in small pirate settlements on the northernmost coasts of the sea, hiding in hidden coves from the patrols of the Striborg Navy. These temporary congregations of affiliated ships often become centers for Captain's Councils, serving as seasonal destinations for crews where they gather for sailor recruiting, confederate business, and a big party. These flotillas often stretch for miles and miles of ships tightly lashed together in a great rocking web, serving as the temporary, physical capitals of the Confederacy until they each take to the waves again."
+							]
+						}
 					]
 				},
 				{
