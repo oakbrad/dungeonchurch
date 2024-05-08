@@ -870,7 +870,78 @@
 					"name": "Appendix B: Gods of Pyora",
 					"page": 0,
 					"entries": [
-						"Placeholder"
+						{
+							"type": "table",
+							"colLabels": [
+								"Deity",
+								"A.K.A.",
+								"Alignment",
+								"Domains",
+								"Symbols"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-3 text-center"
+							],
+							"rows": [
+								[
+									"{@deity Abraxas|pyora|dungeonchurch}",
+									"Dragon Slayer, Cock of Striborg",
+									"LN",
+									"Masculinity, War, Oaths",
+									"Rooster, Scale & Whip"
+								],
+								[
+									"{@deity Anhon|pyora|dungeonchurch}",
+									"Precocious Son, The Traveler",
+									"N",
+									"Celestial Bodies, Laughter, Sun",
+									"Compass, Sun, Sun Dials"
+								],
+								[
+									"{@deity Azrael|pyora|dungeonchurch}",
+									"The Pathfinder, Hooded Menace",
+									"NE",
+									"Alchemy, Fate, Coin Flips",
+									"Black Candle, Rainbows, Horseman"
+								],
+								[
+									"{@deity Ostara|pyora|dungeonchurch}",
+									"The Trickster, The Traveler",
+									"CN",
+									"Dreams, Luck, Pleasure",
+									"Triangles, Hares, Threes"
+								],
+								[
+									"{@deity Proteus|pyora|dungeonchurch}",
+									"The Key Holder, Old Man Gloom",
+									"LG",
+									"Ocean, Eternity",
+									"Keys, Ouroboros, Bearded Merman"
+								],
+								[
+									"{@deity Raven Queen|pyora|dungeonchurch}",
+									"Jealous One, Queen of Death",
+									"LE",
+									"Undeath, Jealousy, Transitions",
+									"Ravens, Skulls, Feathers"
+								],
+								[
+									"{@deity Selûne|pyora|dungeonchurch}",
+									"Mother of Madness",
+									"CE",
+									"Fertility, Entropy, Lycanthropy",
+									"Moon, Ouroboros, Naked Female"
+								],
+								[
+									"{@deity Siduri|pyora|dungeonchurch}",
+									"The Beer Runner, Sister Sedition",
+									"CG",
+									"Fermentation, Transformation, Joy",
+									"Hop Flowers, Tankards, Maypoles"
+								]
+							]
+						}
 					]
 				},
 				{
