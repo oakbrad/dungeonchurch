@@ -528,7 +528,67 @@
 							"name": "Roll a Pyoran",
 							"page": 0,
 							"entries": [
-								"Placeholder Pyoran Tables"
+								{
+									"type": "statblock",
+									"prop": "table",
+									"source": "DungeonChurch",
+									"name": "Pyoran Species",
+									"collapsed": true
+								},
+								{
+									"type": "statblock",
+									"prop": "table",
+									"source": "DungeonChurch",
+									"name": "Pyoran Hometowns",
+									"style": "inset",
+									"collapsed": true
+								},
+								{
+									"type": "statblock",
+									"prop": "table",
+									"source": "DungeonChurch",
+									"name": "Pyoran Gods",
+									"collapsed": true
+								},
+								{
+									"type": "statblock",
+									"prop": "table",
+									"source": "DungeonChurch",
+									"name": "I Know a Guy... in Pyora",
+									"style": "inset",
+									"collapsed": true
+								},
+								{
+									"type": "statblock",
+									"prop": "table",
+									"source": "DungeonChurch",
+									"name": "Party Bonds",
+									"collapsed": true
+								},
+								{
+									"type": "statblock",
+									"prop": "table",
+									"source": "DungeonChurch",
+									"name": "Legendary Heroes of Pyora",
+									"style": "inset",
+									"collapsed": true
+								},
+								"PLACEHOLDER - Pyoran Trades",
+								{
+									"type": "statblock",
+									"prop": "table",
+									"source": "DungeonChurch",
+									"name": "Pyoran Drugs",
+									"style": "inset",
+									"collapsed": true
+								},
+								{
+									"type": "statblock",
+									"prop": "table",
+									"source": "DungeonChurch",
+									"name": "New Galmaarden Guilds",
+									"collapsed": true
+								}
 							]
 						},
 						{
@@ -570,7 +630,13 @@
 									"source": "DungeonChurch",
 									"name": "Ravenfolk",
 									"style": "inset"
-								}
+								},
+								{
+									"type": "statblock",
+									"prop": "table",
+									"source": "DungeonChurch",
+									"name": "Ravenfolk Mimicry"
+								  }
 							]
 						},
 						{
@@ -5430,7 +5496,7 @@
 			]
 		},
 		{
-			"name": "Pyoran Substances",
+			"name": "Pyoran Drugs",
 			"source": "DungeonChurch",
 			"caption": "Illicit substances in the realm of Pyora.",
 			"page": 0,
