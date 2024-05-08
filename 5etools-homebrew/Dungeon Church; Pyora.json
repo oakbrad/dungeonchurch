@@ -623,6 +623,14 @@
 							"page": 0,
 							"entries": [
 								{
+									"type": "image",
+									"href": {
+										"type": "external",
+										"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/zine2/durandariandwarf.png"
+									},
+									"title": "A workshop in Durandar"
+								},
+								{
 									"type": "statblock",
 									"prop": "race",
 									"source": "DungeonChurch",
@@ -637,6 +645,14 @@
 							"page": 0,
 							"entries": [
 								{
+									"type": "image",
+									"href": {
+										"type": "external",
+										"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/zine2/hearthdwarfpirate.png"
+									},
+									"title": "A dwarf captain of a Confederate hearthship"
+								},
+								{
 									"type": "statblock",
 									"prop": "race",
 									"source": "DungeonChurch",
@@ -650,6 +666,14 @@
 							"name": "{@race Ravenfolk|dungeonchurch|Ravenfolk}",
 							"page": 0,
 							"entries": [
+								{
+									"type": "image",
+									"href": {
+										"type": "external",
+										"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/zine2/ravenfolk.png"
+									},
+									"title": "A ravenfolk wizard"
+								},
 								{
 									"type": "statblock",
 									"prop": "race",
@@ -670,6 +694,14 @@
 							"name": "{@race Tribeborn|dungeonchurch|Tribeborn}",
 							"page": 0,
 							"entries": [
+								{
+									"type": "image",
+									"href": {
+										"type": "external",
+										"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/zine2/tribeborn.png"
+									},
+									"title": "The shaman leader of a tribe of the southwestern plains"
+								},
 								{
 									"type": "statblock",
 									"prop": "race",
