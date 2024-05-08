@@ -106,6 +106,13 @@
 					]
 				},
 				{
+					"name": "Ch. 3: Lore",
+					"headers": [
+						"Avalon",
+						"The Confederacy of Hearthships"
+					]
+				},
+				{
 					"name": "Appendix A: Pyoran Magic Items"
 				},
 				{
@@ -555,6 +562,14 @@
 								"Placeholder"
 							]
 						}
+					]
+				},
+				{
+					"type": "section",
+					"name": "Chapter 3: Lore",
+					"page": 0,
+					"entries": [
+						"Lore placeholder"
 					]
 				},
 				{
