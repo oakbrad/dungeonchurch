@@ -80,7 +80,10 @@
 			},
 			"contents": [
 				{
-					"name": "About"
+					"name": "About",
+					"headers": [
+						"Credits"
+					]
 				},
 				{
 					"name":	"Ch. 1: Campaign",
@@ -370,8 +373,17 @@
 							"page": 0,
 							"name": "License & Additional Formats",
 							"entries": [
-								"This zine is freely available under {@link Creative Commons BY-NC 4.0|https://creativecommons.org/licenses/by-nc/4.0/} license as a {@link 5eTools source|https://github.com/oakbrad/dungeonchurch/}, Homebrewery document, or printable PDF.",
-								"You can also buy a physical copy via {@link Dungeon Church|https://www.dungeon.church}."
+								"This zine is freely available under a {@link Creative Commons BY-NC 4.0|https://creativecommons.org/licenses/by-nc/4.0/} license.",
+								"You can download as a {@link 5eTools source|https://github.com/oakbrad/dungeonchurch/}, Homebrewery document, or printable PDF.",
+								"Physical copies are also for sale via {@link Dungeon Church|https://www.dungeon.church}."
+							]
+						},
+						{
+							"type": "entries",
+							"page": 0,
+							"name": "Credits",
+							"entries": [
+								"Placeholder credits"
 							]
 						}
 					]
@@ -432,7 +444,68 @@
 							"name": "The Life and Undeath of Lamont Solmar",
 							"page": 0,
 							"entries": [
-								"Placeholder text"
+								{
+									"type": "entries",
+									"name": "Life",
+									"entries": [
+										"Known in life as Lamont Solmar, the wealthy owner of a shipbuilding company and patriarch of a founding family of Saltmarsh. A tall, blonde man known for his fairness, good character, and generosity. He mysteriously disappeared on a hunting trip in the Dreadwood, leaving behind his son Anders to carry on the family business and take his seat on the Saltmarsh Council.",
+										"It was revealed that his disappearance was actually the result of a betrayal by the witch Amelia, and he had been turned into one of Lady Nightshade’s vampire knights."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Undeath",
+									"entries": [
+										"In undeath he was known and feared by many names: {@i The Antlered One, The Dark Druid, The Knight of Night}",
+										"He also used his shapechanging nature to infiltrate Saltmarsh - Skerrin Wavechaser is one such identity, undoubtedly there were others.",
+										"Turned into a vampire by the Lady Nightshade, he ran an underground plantation in the perpetual twilight beneath the Sunless Temple. Using the souls of the dragonborn who died in the temple as slave labor, he produced large amounts of {@item Sapphire Nightshade|dungeonchurch}."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Death",
+									"entries": [
+										"Lamont's reign of terror was ended by a brave gnome named Meepo, accompanied by adventurers from the Gold Scale Company who tracked him to his lair."
+									]
+								},
+								{
+									"type": "inset",
+									"name": "Encounters",
+									"entries": [
+										{
+											"type": "list",
+											"items": [
+												"Lamont attacked the party at the dwarven mine, where they found a watch engraved with 'L Solmor'.",
+												"He appeared as Skerrin Wavechaser aboard The Dragon’s Jubilee where he poisoned & murdered passengers.",
+												"The Gold Scale Co. tracked him to the ruins of his old hunting lodge below the Sunless Temple, where he was killed."
+											]
+										}
+									]
+								},
+								{
+									"type": "image",
+									"href": {
+										"type": "external",
+										"url": "https://www.dungeon.church/content/images/size/w2000/2024/01/diybrad_dark_fantasy_horror_movie_image_of_evil_twisted_awakene_787c882c-f60b-4127-9ca4-8b71c3be463c.png"
+									},
+									"title": "Lamont in Vampiric Form"
+								},
+								{
+									"type": "statblockInline",
+									"dataType": "monster",
+									"style": "inset",
+									"dependencies": [
+										"DungeonChurch"
+									],
+									"data": {
+										"name": "Lamont Solmar: the Knight of Night",
+										"source": "DungeonChurch",
+										"_copy": {
+											"name": "Lamont Solmar",
+											"source": "DungeonChurch"
+										}
+									}
+								}
 							]
 						}
 					]
