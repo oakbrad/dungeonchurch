@@ -668,7 +668,201 @@
 					"name": "Appendix A: Pyoran Magic Items",
 					"page": 0,
 					"entries": [
-						"Placeholder"
+						{
+							"type": "statblock",
+							"prop": "item",
+							"source": "DungeonChurch",
+							"name": "Amulet of Betrayal"
+						},
+						{
+							"type": "statblock",
+							"prop": "item",
+							"source": "DungeonChurch",
+							"name": "Brooch of Witchsight"
+						},
+						{
+							"type": "image",
+							"href": {
+								"type": "external",
+								"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/zine2/item-brooch-of-witchsight.png"
+							},
+							"title": "Brooch of Witchsight"
+						},
+						{
+							"type": "statblock",
+							"prop": "item",
+							"source": "DungeonChurch",
+							"name": "Cirilla's Gift"
+						},
+						{
+							"type": "statblock",
+							"prop": "item",
+							"source": "DungeonChurch",
+							"name": "Collector of Souls"
+						},
+						{
+							"type": "statblock",
+							"prop": "item",
+							"source": "DungeonChurch",
+							"name": "Dagger of Profuse Bleeding"
+						},
+						{
+							"type": "statblock",
+							"prop": "item",
+							"source": "DungeonChurch",
+							"name": "Dimensional Glasses"
+						},
+						{
+							"type": "statblock",
+							"prop": "item",
+							"source": "DungeonChurch",
+							"name": "Fedora of Disguise"
+						},
+						{
+							"type": "statblock",
+							"prop": "item",
+							"source": "DungeonChurch",
+							"name": "Fist of Durradin"
+						},
+						{
+							"type": "statblock",
+							"prop": "item",
+							"source": "DungeonChurch",
+							"name": "Fiz's Flute"
+						},
+						{
+							"type": "statblock",
+							"prop": "item",
+							"source": "DungeonChurch",
+							"name": "Gnomish Tea Set"
+						},
+						{
+							"type": "image",
+							"href": {
+								"type": "external",
+								"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/zine2/item-gnomish-tea.png"
+							},
+							"title": "Gnomish Tea Set"
+						},
+						{
+							"type": "statblock",
+							"prop": "item",
+							"source": "DungeonChurch",
+							"name": "Longsword of the Dragon Empire"
+						},
+						{
+							"type": "statblock",
+							"prop": "item",
+							"source": "DungeonChurch",
+							"name": "Mage Bane"
+						},
+						{
+							"type": "statblock",
+							"prop": "item",
+							"source": "DungeonChurch",
+							"name": "Minor Belt of Dwarvenkind"
+						},
+						{
+							"type": "statblock",
+							"prop": "item",
+							"source": "DungeonChurch",
+							"name": "Monster Identification Cards"
+						},
+						{
+							"type": "statblock",
+							"prop": "item",
+							"source": "DungeonChurch",
+							"name": "Nightshade's Ring"
+						},
+						{
+							"type": "statblock",
+							"prop": "item",
+							"source": "DungeonChurch",
+							"name": "Night Messenger's Cloak"
+						},
+						{
+							"type": "statblock",
+							"prop": "item",
+							"source": "DungeonChurch",
+							"name": "Painting of Lamont Solmar"
+						},
+						{
+							"type": "image",
+							"href": {
+								"type": "external",
+								"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-painting-lamont-solmar.png"
+							},
+							"title": "Oil Painting of Lamont Solmar"
+						},
+						{
+							"type": "statblock",
+							"prop": "item",
+							"source": "DungeonChurch",
+							"name": "Potion of Midnight Oil"
+						},
+						{
+							"type": "statblock",
+							"prop": "item",
+							"source": "DungeonChurch",
+							"name": "Potion of Oblivion"
+						},
+						{
+							"type": "statblock",
+							"prop": "item",
+							"source": "DungeonChurch",
+							"name": "Potion of Undeath"
+						},
+						{
+							"type": "statblock",
+							"prop": "item",
+							"source": "DungeonChurch",
+							"name": "Rationing Spice"
+						},
+						{
+							"type": "statblock",
+							"prop": "item",
+							"source": "DungeonChurch",
+							"name": "Ring of Prestidigitation"
+						},
+						{
+							"type": "statblock",
+							"prop": "item",
+							"source": "DungeonChurch",
+							"name": "Sapphire Nightshade"
+						},
+						{
+							"type": "statblock",
+							"prop": "hazard",
+							"source": "DungeonChurch",
+							"name": "Sapphire Nightshade Grove",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"prop": "item",
+							"source": "DungeonChurch",
+							"name": "Shield of Missile Deflection"
+						},
+						{
+							"type": "statblock",
+							"prop": "item",
+							"source": "DungeonChurch",
+							"name": "Skeleton Key"
+						},
+						{
+							"type": "image",
+							"href": {
+								"type": "external",
+								"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/zine2/item-skeleton-key.png"
+							},
+							"title": "Skeleton Key"
+						},
+						{
+							"type": "statblock",
+							"prop": "item",
+							"source": "DungeonChurch",
+							"name": "Sphere of Everlasting Ice"
+						}
 					]
 				},
 				{
