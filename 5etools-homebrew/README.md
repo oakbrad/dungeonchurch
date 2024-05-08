@@ -9,6 +9,7 @@ Or import:
 # Contents
 * Books
     * [Dungeon Church Zine 1](https://www.dungeon.church/zine-no1/)
+    * [Dungeon Church Zine 2](https://www.dungeon.church/zine-no2/)
 * Conditions
     * [Intoxicated](https://lore.dungeon.church/doc/intoxicated-ulnWpIr1P6)
 * Languages

@@ -76,18 +76,14 @@
 			"author": "Brad Wenner",
 			"cover": {
 				"type": "external",
-				"url": "https://github.com/oakbrad/dungeonchurch/blob/main/5etools-homebrew/static/zine2/cover-front.png"
+				"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/zine2/cover-front.png"
 			},
 			"contents": [
 				{
-					"name": "About",
-					"headers": [
-						"Credits",
-						"DM's Note"
-					]
+					"name": "About"
 				},
 				{
-					"name":	"Chapter 1: Campaign",
+					"name":	"Ch. 1: Campaign",
 					"headers": [
 						"Pyora Map",
 						"The Story So Far",
@@ -97,7 +93,7 @@
 					]
 				},
 				{
-					"name": "Chapter 2: Player Options",
+					"name": "Ch. 2: Player Options",
 					"headers": [
 						"Roll a Pyoran",
 						"Dwarf (Durandar)",
@@ -125,7 +121,7 @@
 			"data": [
 				{
 					"type": "section",
-					"name": "Dungeon Church 1",
+					"name": "Dungeon Church Zine 1",
 					"entries": [
 						{
 							"type": "image",
@@ -341,6 +337,175 @@
 								"Some gnomes have come to live on the surface and assimilate to human life - known as halflings - as in half-humans."
 							]
 						}
+					]
+				}
+			]
+		},
+		{
+			"id": "DC2",
+			"source": "DungeonChurch",
+			"data": [
+				{
+					"type": "section",
+					"name": "Dungeon Church Zine 2",
+					"page": 1,
+					"entries": [
+						{
+							"type": "image",
+							"href": {
+								"type": "external",
+								"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/zine2/cover-front.png"
+							}
+						},
+						{
+							"type": "quote",
+							"entries": [
+								"The material compiled here covers more than 30 game sessions over two years: 2022 - 2024",
+								"Collectively, we have adventured more than 400 hours together in Pyora."
+							],
+							"by": "Dungeon Master Brad"
+						},
+						{
+							"type": "inset",
+							"page": 0,
+							"name": "License & Additional Formats",
+							"entries": [
+								"This zine is freely available under {@link Creative Commons BY-NC 4.0|https://creativecommons.org/licenses/by-nc/4.0/} license as a {@link 5eTools source|https://github.com/oakbrad/dungeonchurch/}, Homebrewery document, or printable PDF.",
+								"You can also buy a physical copy via {@link Dungeon Church|https://www.dungeon.church}."
+							]
+						}
+					]
+				},
+				{
+					"type": "section",
+					"name": "Chapter 1: Campaign",
+					"page": 0,
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Pyora Map",
+							"page": 0,
+							"entries": [
+								{
+									"type": "image",
+									"href": {
+										"type": "external",
+										"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/zine2/map-pyora.jpeg"
+									},
+									"title": "Map of Pyora"
+								},
+								{
+									"type": "inset",
+									"name": "Map Source Files",
+									"entries": [
+										"The original source files for the world of Pyora are available in the {@link Dungeon Church wiki|https://lore.dungeon.church/doc/our-setting-pyora-M6fH6HgpLE#h-maps}"
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "The Story So Far",
+							"page": 0,
+							"entries": [
+								"Placeholder text"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Saltmarsh Relationships",
+							"page": 0,
+							"entries": [
+								"Placeholder text"
+							]	
+						},
+						{
+							"type": "entries",
+							"name": "Legacy of Betrayal: Amelia's Story",
+							"page": 0,
+							"entries": [
+								"Placeholder text"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "The Life and Undeath of Lamont Solmar",
+							"page": 0,
+							"entries": [
+								"Placeholder text"
+							]
+						}
+					]
+				},
+				{
+					"type": "section",
+					"name": "Chapter 2: Player Options",
+					"page": 0,
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Roll a Pyoran",
+							"page": 0,
+							"entries": [
+								"Placeholder"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "{@race Dwarf (Durandar)|dungeonchurch|Dwarf (Durandar)}",
+							"page": 0,
+							"entries": [
+								"Placeholder"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "{@race Dwarf (Hearth)|dungeonchurch|Dwarf (Hearth)}",
+							"page": 0,
+							"entries": [
+								"Placeholder"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "{@race Ravenfolk|dungeonchurch|Ravenfolk}",
+							"page": 0,
+							"entries": [
+								"Placeholder"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "{@race Tribeborn|dungeonchurch|Tribeborn}",
+							"page": 0,
+							"entries": [
+								"Placeholder"
+							]
+						}
+					]
+				},
+				{
+					"type": "section",
+					"name": "Appendix A: Pyoran Magic Items",
+					"page": 0,
+					"entries": [
+						"Placeholder"
+					]
+				},
+				{
+					"type": "section",
+					"name": "Appendix B: Gods of Pyora",
+					"page": 0,
+					"entries": [
+						"Placeholder"
+					]
+				},
+				{
+					"type": "section",
+					"name": "Appendix C: House Rules",
+					"page": 0,
+					"entries": [
+						"Placeholder"
 					]
 				}
 			]
