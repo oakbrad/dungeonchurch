@@ -878,7 +878,47 @@
 					"name": "Appendix C: House Rules",
 					"page": 0,
 					"entries": [
-						"Placeholder"
+						{
+							"type": "statblock",
+							"prop": "variantrule",
+							"source": "DungeonChurch",
+							"name": "Long & Short Rests",
+							"inset": true
+						},
+						{
+							"type": "statblock",
+							"prop": "variantrule",
+							"source": "DungeonChurch",
+							"name": "Increase HP When Leveling Up"
+						},
+						{
+							"type": "statblock",
+							"prop": "variantrule",
+							"source": "DungeonChurch",
+							"name": "Inspiration",
+							"inset": true
+						},
+						{
+							"type": "statblock",
+							"prop": "variantrule",
+							"source": "DungeonChurch",
+							"name": "Sorcerer: Wild Magic Surge"
+						},
+						{
+							"type": "statblock",
+							"prop": "variantrule",
+							"source": "DungeonChurch",
+							"name": "Witchsight",
+							"inset": true
+						},
+						{
+							"type": "image",
+							"href": {
+								"type": "external",
+								"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/zine2/lady-nightshade.png"
+							},
+							"title": "Lady Nightshade"
+						}
 					]
 				}
 			]
