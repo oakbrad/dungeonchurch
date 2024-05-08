@@ -381,16 +381,53 @@
 							"page": 0,
 							"name": "Credits",
 							"entries": [
-								"Placeholder credits"
+								{
+									"type": "entries",
+									"name": "Written & Edited By",
+									"entries": [
+										"Brad Wenner, {@i Dungeon Master}"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Contributors",
+									"entries": [
+										{
+											"type": "list",
+											"name": "Writers",
+											"items": [
+												"Liz Berryhill",
+												"Irving Pham",
+												"Steve Streisguth",
+												"Matthew Thompson"
+											]
+										},
+										{
+											"type": "list",
+											"name": "Template Designers",
+											"items": [
+												"5e_cleric",
+												"Kaiburr_Kath-Hound"
+											]
+										},
+										{
+											"type": "list",
+											"name": "Artwork",
+											"items": [
+												"Generated in {@b Midjourney} by DM Brad unless otherwise credited."
+											]
+										}
+									]
+								}
 							]
 						},
 						{
-							"type": "inset",
+							"type": "entries",
 							"page": 0,
 							"name": "License & Additional Formats",
 							"entries": [
 								"This zine is freely available under a {@link Creative Commons BY-NC 4.0|https://creativecommons.org/licenses/by-nc/4.0/} license.",
-								"You can download as a {@link 5eTools source|https://github.com/oakbrad/dungeonchurch/}, Homebrewery document, or printable PDF.",
+								"You can download it as a {@link 5eTools source|https://github.com/oakbrad/dungeonchurch/}, Homebrewery document, or printable PDF.",
 								"Physical copies are also for sale via {@link Dungeon Church|https://www.dungeon.church}."
 							]
 						}
@@ -554,6 +591,7 @@
 							"name": "Roll a Pyoran",
 							"page": 0,
 							"entries": [
+								"Use the following tables to root your character's story in the world of Pyora.",
 								{
 									"type": "statblock",
 									"prop": "table",
