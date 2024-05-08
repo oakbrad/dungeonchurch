@@ -4421,6 +4421,66 @@
 			]
 		},
 		{
+			"name": "Legendary Heroes of Pyora",
+			"source": "DungeonChurch",
+			"caption": "You may have heard stories or legends about some of these figures from Pyora's history.",
+			"page": 0,
+			"colLabels": [
+				"1d12",
+				"Hero"
+			],
+			"rows": [
+				[
+					"1",
+					"{@link Atashi|https://lore.dungeon.church/doc/atashi-atVd38Z9vD}"
+				],
+				[
+					"2",
+					"{@link Adalind Rumblebelly|https://lore.dungeon.church/doc/adalind-rumblebelly-SLXdYH518j}"
+				],
+				[
+					"3",
+					"{@link Ashardolon|https://lore.dungeon.church/doc/ashardolon-tpAzsPflZX}"
+				],
+				[
+					"4",
+					"{@link Ching Hai|https://lore.dungeon.church/doc/ching-hai-yoiW7rLxlV}"
+				],
+				[
+					"5",
+					"{@link Cirilla of Avalon|https://lore.dungeon.church/doc/cirilla-of-house-naberius-Rx97WvltxP}"
+				],
+				[
+					"6",
+					"{@link King Durradin|https://lore.dungeon.church/doc/king-durradin-SGe3lRM9BN}"
+				],
+				[
+					"7",
+					"{@link Edgeface|https://lore.dungeon.church/doc/edgeface-M9VxCkPEOP}"
+				],
+				[
+					"8",
+					"{@link Estelar Thelen|https://lore.dungeon.church/doc/estelar-thelen-3oPlHNG1pr}"
+				],
+				[
+					"9",
+					"{@link Razorback the Uniter|https://lore.dungeon.church/doc/razorback-the-uniter-O3oe7NBQqK}"
+				],
+				[
+					"10",
+					"{@link Eve|https://lore.dungeon.church/doc/eve-QQyGI5YbZc}"
+				],
+				[
+					"11",
+					"{@link Fiz Junkbrand|https://lore.dungeon.church/doc/fiz-junkbrand-6fvhYAH5OE}"
+				],
+				[
+					"12",
+					"{@link Vizimir|https://lore.dungeon.church/doc/vizimir-aebWWF4Ho0}"
+				]
+			]
+		},
+		{
 			"name": "New Galmaarden Guilds",
 			"source": "DungeonChurch",
 			"caption": "The interwoven web of organizations that makes up New Galmaarden's civil society.",
@@ -4730,7 +4790,7 @@
 			]
 		},
 		{
-			"name": "Pyoran Hometown",
+			"name": "Pyoran Hometowns",
 			"source": "DungeonChurch",
 			"caption": "Places your character might originate from in the realm of Pyora.",
 			"page": 0,
