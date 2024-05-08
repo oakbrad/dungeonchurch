@@ -66,6 +66,56 @@
 					]
 				}
 			]
+		},
+		{
+			"name": "Dungeon Church Zine 2",
+			"id": "DC2",
+			"source": "DungeonChurch",
+			"group": "homebrew",
+			"published": "2024-05-07",
+			"author": "Brad Wenner",
+			"cover": {
+				"type": "external",
+				"url": "https://github.com/oakbrad/dungeonchurch/blob/main/5etools-homebrew/static/zine2/cover-front.png"
+			},
+			"contents": [
+				{
+					"name": "About",
+					"headers": [
+						"Credits",
+						"DM's Note"
+					]
+				},
+				{
+					"name":	"Chapter 1: Campaign",
+					"headers": [
+						"Pyora Map",
+						"The Story So Far",
+						"Saltmarsh Relationships",
+						"Legacy of Betrayal: Amelia's Story",
+						"The Life and Undeath of Lamont Solmar"
+					]
+				},
+				{
+					"name": "Chapter 2: Player Options",
+					"headers": [
+						"Roll a Pyoran",
+						"Dwarf (Durandar)",
+						"Dwarf (Hearth)",
+						"Ravenfolk",
+						"Tribeborn"
+					]
+				},
+				{
+					"name": "Appendix A: Pyoran Magic Items"
+				},
+				{
+					"name": "Appendix B: Gods of Pyora"
+				},
+				{
+					"name": "Appendix C: House Rules"
+				}
+			]
 		}
 	],
 	"bookData": [
@@ -4635,7 +4685,7 @@
 		{
 			"name": "Ravenfolk Mimicry",
 			"source": "DungeonChurch",
-			"caption": "{@race Ravenfolk|dungeonchurch|Ravenfolk} can mimic any sound they've heard.",
+			"caption": "Ravenfolk can mimic any sound they've heard.",
 			"page": 0,
 			"colLabels": [
 				"2d20",
