@@ -3872,7 +3872,7 @@
 			"weight": 1,
 			"lootTables": [
 				"Pyoran Potions|dungeonchurch",
-				"Pyroran Magic Items|dungeonchurch"
+				"Pyoran Magic Items|dungeonchurch"
 			],
 			"entries": [
 				"This thick, viscous amber liquid is contained with a dark glass and gives off a faint warm heat. It is both a highly unstable compound that ignites at the slightest provocation, and a protection against the effects of fire. Any object or creature that is coated in this oil will burn ferociously for 1 minute, but not suffer any harm or damage.",
@@ -3983,7 +3983,7 @@
 			],
 			"lootTables": [
 				"Pyoran Potions|dungeonchurch",
-				"Pyroran Magic Items|dungeonchurch"
+				"Pyoran Magic Items|dungeonchurch"
 			],
 			"entries": [
 				"This bottled brew is shaped like an hourglass. When this potion is consumed, it erases the short term memory from the creature's mind. The creature makes a DC 20 Intelligence saving throw. On a success, there is no effect. On a failure, the creature forgets a period of time equal to the number rolled.",
@@ -4015,7 +4015,7 @@
 			"weight": 1,
 			"lootTables": [
 				"Pyoran Potions|dungeonchurch",
-				"Pyroran Magic Items|dungeonchurch"
+				"Pyoran Magic Items|dungeonchurch"
 			],
 			"entries": [
 				"This small bottle contains a boiling, iridescent liquid that seems to change colors unpredictably. Captured within this elixir is the raw chaos of magic itself, a boiling miasma of uncontrollable energy. When uncorked, the bottle emits whispers of ancient incantations and forgotten spells, tempting the drinker with the promise of untold power that only they can discover. Giving in to this temptation produces one roll on the {@table Wild Magic Surge|phb} table.",
@@ -4053,7 +4053,7 @@
 			],
 			"lootTables": [
 				"Pyoran Potions|dungeonchurch",
-				"Pyroran Magic Items|dungeonchurch"
+				"Pyoran Magic Items|dungeonchurch"
 			],
 			"entries": [
 				"When you drink this potion, make a DC 15 Constitution saving throw. On a success, you take {@dice 4d8} necrotic damage and gain one level of exhaustion. If the damage dealt on a success reduces you to zero hit points, you instead suffer the effects of a failure.",
@@ -4086,7 +4086,7 @@
 			"weight": 1,
 			"lootTables": [
 				"Pyoran Potions|dungeonchurch",
-				"Pyroran Magic Items|dungeonchurch"
+				"Pyoran Magic Items|dungeonchurch"
 			],
 			"entries": [
 				"This deep green potion is thick with suspended bits of bark and leaf. When consumed, it grants the drinker the ability to blend seamlessly with natural surroundings, providing advantage on Stealth checks made in forested areas for 1 hour. Additionally, the potion allows the drinker to communicate with plant life using {@spell Speak with Plants}.",
@@ -4283,7 +4283,7 @@
 			"weight": 1,
 			"lootTables": [
 				"Pyoran Potions|dungeonchurch",
-				"Pyroran Magic Items|dungeonchurch"
+				"Pyoran Magic Items|dungeonchurch"
 			],
 			"entries": [
 				"This potion is brewed from the rare Violet Frenzy mushrooms that grow only in moonlit clearings of the Dreadwood. The concoction emits a mesmerizing purple haze when opened and exposed to oxygen. Upon consumption, it induces a state of heightened awareness mixed with intense hallucinations. For 30 minutes, the drinker gains the ability to see invisible entities and gains advantage on Perception checks. However, during this period it becomes possible to also have hallucinations. DM will make a private DC 15 Wisdom for the imbiber, and on a failure will introduce hallucinations or false memories at their discretion.",
@@ -4394,7 +4394,7 @@
 			],
 			"lootTables": [
 				"Pyoran Potions|dungeonchurch",
-				"Pyroran Magic Items|dungeonchurch"
+				"Pyoran Magic Items|dungeonchurch"
 			],
 			"entries": [
 				"This preserved dragon claw is dipped in blood and preserved in hardened amber resin. Passed down through the generations by {@link The Red Talon Society|https://lore.dungeon.church/doc/the-red-talon-society-tI9out85of}, a group of halfling rangers descended from guerilla fighters in the Dragon Wars, this artifact is a treasured heirloom. It is carefully guarded by the eldest Society halfling, only to be taken out when duty calls on them to strike directly at a dragon or their allies.",
@@ -4447,7 +4447,7 @@
 			"weight": 1,
 			"lootTables": [
 				"Pyoran Potions|dungeonchurch",
-				"Pyroran Magic Items|dungeonchurch"
+				"Pyoran Magic Items|dungeonchurch"
 			],
 			"entries": [
 				"This small glass vial contains a single drop of dew from a healthy plant taken at dawn light on the first true autumn morning. When ingested by a humanoid, it heals 2d4+2 hit points.",
