@@ -3865,6 +3865,38 @@
 			}
 		},
 		{
+			"name": "Oil of Immolation",
+			"type": "P",
+			"rarity": "uncommon",
+			"source": "DungeonChurch",
+			"weight": 1,
+			"lootTables": [
+				"Pyoran Potions|dungeonchurch",
+				"Pyroran Magic Items|dungeonchurch"
+			],
+			"entries": [
+				"This thick, viscous amber liquid is contained with a dark glass and gives off a faint warm heat. It is both a highly unstable compound that ignites at the slightest provocation, and a protection against the effects of fire. Any object or creature that is coated in this oil will burn ferociously for 1 minute, but not suffer any harm or damage.",
+				{
+					"type": "inset",
+					"name": "Dungeon Church Lore",
+					"entries": [
+						"Learn more about the {@link Oil of Immolation in the wiki|https://lore.dungeon.church/doc/oil-of-immolation-nrtJScIEL4}."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-oil-of-immolation.png"
+						}
+					}
+				]
+			}
+		},
+		{
 			"name": "Painting of Lamont Solmar",
 			"source": "DungeonChurch",
 			"page": 0,
