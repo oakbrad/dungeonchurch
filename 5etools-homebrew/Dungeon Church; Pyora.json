@@ -3049,6 +3049,10 @@
 						}
 					}
 				]
+			},
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/tokens/bestiary-zombie-raccoon-token.png"
 			}
 		}
 	],
