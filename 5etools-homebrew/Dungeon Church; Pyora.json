@@ -4316,6 +4316,39 @@
 					}
 				]
 			}
+		},
+		{
+			"name": "Vial of the Last Harvest",
+			"type": "P",
+			"rarity": "uncommon",
+			"source": "DungeonChurch",
+			"weight": 1,
+			"lootTables": [
+				"Pyoran Potions|dungeonchurch",
+				"Pyroran Magic Items|dungeonchurch"
+			],
+			"entries": [
+				"This small glass vial contains a single drop of dew from a healthy plant taken at dawn light on the first true autumn morning. When ingested by a humanoid, it heals 2d4+2 hit points.",
+				"When used on a plant, it heals any conditions the plant may have and accelerates it’s growth by one good season - including any flowering or fruiting it would naturally do.",
+				{
+					"type": "inset",
+					"name": "Dungeon Church Lore",
+					"entries": [
+						"Learn more about the {@link Vial of the Last Harvest in the wiki|https://lore.dungeon.church/doc/vial-of-the-last-harvest-tsIxDMwTeP}."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-vial-of-last-harvest.png"
+						}
+					}
+				]
+			}
 		}
 	],
 	"variantrule": [
@@ -4953,7 +4986,7 @@
 			"caption": "Items and relics uncovered in the world of Pyora.",
 			"page": 0,
 			"colLabels": [
-				"d33",
+				"d34",
 				"Item"
 			],
 			"rows": [
@@ -5088,6 +5121,10 @@
 				[
 					"33",
 					"{@item Entrancing Mirror|dungeonchurch}"
+				],
+				[
+					"34",
+					"{@item Vial of the Last Harvest|dungeonchurch}"
 				]
 			]
 
@@ -5143,7 +5180,7 @@
 			"caption": "Potions specific to the realm of Pyora.",
 			"page": 0,
 			"colLabels": [
-				"d5",
+				"d6",
 				"Potion"
 			],
 			"rows": [
@@ -5166,6 +5203,10 @@
 				[
 					"5",
 					"{@item Potion of the Mossy Oak|dungeonchurch}"
+				],
+				[
+					"6",
+					"{@item Vial of the Last Harvest|dungeonchurch}"
 				]
 			]
 		},
