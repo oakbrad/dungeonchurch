@@ -5050,7 +5050,7 @@
 			"caption": "Items and relics uncovered in the world of Pyora.",
 			"page": 0,
 			"colLabels": [
-				"d35",
+				"d36",
 				"Item"
 			],
 			"rows": [
@@ -5193,6 +5193,10 @@
 				[
 					"35",
 					"{@item Potion of Unbridle Potential|dungeonchurch}"
+				],
+				[
+					"36",
+					"{@item Oil of Immolation|dungeonchurch}"
 				]
 			]
 
@@ -5248,7 +5252,7 @@
 			"caption": "Potions specific to the realm of Pyora.",
 			"page": 0,
 			"colLabels": [
-				"d7",
+				"d8",
 				"Potion"
 			],
 			"rows": [
@@ -5279,6 +5283,10 @@
 				[
 					"7",
 					"{@item Potion of Unbridled Potential|dungeonchurch}"
+				],
+				[
+					"8",
+					"{@item Oil of Immolation|dungeonchurch}"
 				]
 			]
 		},
