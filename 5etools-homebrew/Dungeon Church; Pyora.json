@@ -1829,7 +1829,7 @@
 			]
 		},
 		{
-			"name": "Iron Rider Judge",
+			"name": "Iron Rider Commodore",
 			"source": "DungeonChurch",
 			"otherSources": [
 				{
@@ -1888,7 +1888,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The Iron Rider judge is a 12th-level spellcaster. Its spellcasting ability is Charisma (spell save {@dc 14}). The judge has the following paladin spells prepared:"
+						"The Iron Rider Commodore is a 12th-level spellcaster. Its spellcasting ability is Charisma (spell save {@dc 14}). The commodore has the following paladin spells prepared:"
 					],
 					"spells": {
 						"1": {
@@ -1921,19 +1921,19 @@
 				{
 					"name": "Aura of Clarity",
 					"entries": [
-						"While within 10 feet of a conscious Iron Rider judge, creatures of the judge's choice can't be {@condition blinded} or {@condition frightened}, and creatures and objects can be {@condition invisible} only if the judge allows it."
+						"While within 10 feet of a conscious Iron Rider commodore, creatures of the commodore's choice can't be {@condition blinded} or {@condition frightened}, and creatures and objects can be {@condition invisible} only if the commodore allows it."
 					]
 				},
 				{
 					"name": "Brand Heretic (Recharges after a Short or Long Rest)",
 					"entries": [
-						"As a bonus action, the Iron Rider judge chooses one creature the judge can see within 30 feet of it. The judge marks the target as a heretic. For 1 minute, the judge's weapon attack rolls against the heretic score a critical hit on a roll of 19 or 20. At the start of each of the heretic's turns, the judge can use a reaction to make one weapon attack against the heretic."
+						"As a bonus action, the Iron Rider commodore chooses one creature the commodore can see within 30 feet of it. The commodore marks the target as a heretic. For 1 minute, the commodore's weapon attack rolls against the heretic score a critical hit on a roll of 19 or 20. At the start of each of the heretic's turns, the commodore can use a reaction to make one weapon attack against the heretic."
 					]
 				},
 				{
 					"name": "Smite",
 					"entries": [
-						"When the Iron Rider judge hits with a melee weapon attack, it can expend one spell slot to deal extra radiant damage. The extra damage is 9 ({@dice 2d8}) for a 1stlevel spell slot, 13 ({@dice 3d8}) for a 2nd-level one, and 18 ({@dice 4d8}) for a 3rd level slot."
+						"When the Iron Rider commodore hits with a melee weapon attack, it can expend one spell slot to deal extra radiant damage. The extra damage is 9 ({@dice 2d8}) for a 1stlevel spell slot, 13 ({@dice 3d8}) for a 2nd-level one, and 18 ({@dice 4d8}) for a 3rd level slot."
 					]
 				}
 			],
@@ -1941,7 +1941,7 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"The judge makes two greatsword attacks."
+						"The commodore makes two greatsword attacks."
 					]
 				},
 				{
@@ -4992,7 +4992,7 @@
 			"caption": "Monsters known to inhabit the realm of Pyora.",
 			"page": 0,
 			"colLabels": [
-				"d3",
+				"d8",
 				"Monster"
 			],
 			"rows": [
@@ -5007,6 +5007,26 @@
 				[
 					"3",
 					"{@creature Zombie Raccoon|dungeonchurch}"
+				],
+				[
+					"4",
+					"{@creature Iron Rider Hunter|dungeonchurch}"
+				],
+				[
+					"5",
+					"{@creature Iron Rider Knight|dungeonchurch}"
+				],
+				[
+					"6",
+					"{@creature Iron Rider Commodore|dungeonchurch}"
+				],
+				[
+					"7",
+					"{@creature Iron Rider Priest|dungeonchurch}"
+				],
+				[
+					"8",
+					"{@creature Iron Rider Warder|dungeonchurch}"
 				]
 			]
 		},
