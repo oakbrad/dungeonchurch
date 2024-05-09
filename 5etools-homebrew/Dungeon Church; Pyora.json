@@ -1539,7 +1539,24 @@
 			"savingThrowForced": [
 				"strength"
 			],
-			"hasToken": true
+			"fluff": {
+				"entries": [
+					
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/bestiary-dire-boar.png"
+						}
+					}
+				]
+			},
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/tokens/bestiary-dire-boar-token.png"
+			}
 		},
 		{
 			"name": "Hellion Child",
@@ -1698,7 +1715,38 @@
 			"miscTags": [
 				"MW",
 				"RW"
-			]
+			],
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"name": "Tormented Souls",
+						"entries": [
+							"Hellions are the souls of children who died in torment or agony and are unable to move on from this plane. Bound by a seething, confused hatred to the places where they perished they spend their days looking for humans to endlessly torture with their vicious mockery."
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Easily Influenced",
+						"entries": [
+							"Due to their undeveloped personalities, their childlike tantrums lead them to lash out at the world without rhyme or reason. This same temperament makes them easily susceptible to the influence of any figure presenting themselves as a parental figure - especially sorcerers, warlocks, and wizards who channel the rage of these fickle fiends."
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/bestiary-hellion-child.png"
+						}
+					}
+				]
+			},
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/tokens/bestiary-hellion-child-token.png"
+			}
 		},
 		{
 			"name": "Iron Rider Hunter",
@@ -1802,7 +1850,7 @@
 			],
 			"tokenHref": {
 				"type": "external",
-				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/GHMG/Tokens/InquisitorHunter.webp"
+				"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/tokens/bestiary-iron-rider-hunter-token.png"
 			},
 			"attachedItems": [
 				"longbow|phb",
@@ -1826,7 +1874,27 @@
 				"MW",
 				"RNG",
 				"RW"
-			]
+			],
+			"fluff": {
+				"entries": [
+					{
+						"type": "inset",
+						"name": "Dungeon Church Lore",
+						"entries": [
+							"Learn more about the {@link Iron Rider Hunter in the wiki|https://lore.dungeon.church/doc/iron-rider-hunter-kPxugCHSLi}."
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/bestiary-iron-rider-hunter.png"
+						}
+					}
+				]
+			}
 		},
 		{
 			"name": "Iron Rider Commodore",
@@ -1953,7 +2021,7 @@
 			],
 			"tokenHref": {
 				"type": "external",
-				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/GHMG/Tokens/InquisitorJudge.webp"
+				"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/tokens/bestiary-iron-rider-commodore-token.png"
 			},
 			"actionTags": [
 				"Multiattack"
@@ -1974,7 +2042,21 @@
 			],
 			"savingThrowForcedSpell": [
 				"wisdom"
-			]
+			],
+			"fluff": {
+				"entries": [
+					""
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/bestiary-iron-rider-commodore.png"
+						}
+					}
+				]
+			}
 		},
 		{
 			"name": "Iron Rider Knight",
@@ -2078,7 +2160,7 @@
 			],
 			"tokenHref": {
 				"type": "external",
-				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/GHMG/Tokens/InquisitorKnight.webp"
+				"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/tokens/bestiary-iron-rider-knight-token.png"
 			},
 			"actionTags": [
 				"Multiattack"
@@ -2095,7 +2177,27 @@
 				"MW",
 				"RW",
 				"THW"
+			],
+			"fluff": {
+				"entries": [
+					{
+						"type": "inset",
+						"name": "Dungeon Church Lore",
+						"entries": [
+							"Learn more about the {@link Iron Rider Knight in the wiki|https://lore.dungeon.church/doc/iron-rider-knight-JIpk2Tegm7}."
+						]
+					}
+				],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/bestiary-iron-rider-knight.png"
+					}
+				}
 			]
+			}
 		},
 		{
 			"name": "Iron Rider Priest",
