@@ -4382,6 +4382,64 @@
 			}
 		},
 		{
+			"name": "The Red Talon",
+			"rarity": "rare",
+			"wondrous": true,
+			"source": "DungeonChurch",
+			"type": "OTH",
+			"reqAttune": "by a halfling",
+			"weight": 2,
+			"attachedSpells": [
+				"detect thoughts"
+			],
+			"lootTables": [
+				"Pyoran Potions|dungeonchurch",
+				"Pyroran Magic Items|dungeonchurch"
+			],
+			"entries": [
+				"This preserved dragon claw is dipped in blood and preserved in hardened amber resin. Passed down through the generations by {@link The Red Talon Society|https://lore.dungeon.church/doc/the-red-talon-society-tI9out85of}, a group of halfling rangers descended from guerilla fighters in the Dragon Wars, this artifact is a treasured heirloom. It is carefully guarded by the eldest Society halfling, only to be taken out when duty calls on them to strike directly at a dragon or their allies.",
+				{
+					"type": "entries",
+					"name": "Enhanced Interrogation",
+					"entries": [
+						"Once per day, the attuned bearer can cast {@spell Detect Thoughts} to sense sympathies toward draconic entities or the use of dragon-related magic."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Ancestral Protection",
+					"entries": [
+						"Grants the bearer resistance to fire damage and advantage on saving throws against dragon’s breath weapons."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Rally the Resistance",
+					"entries": [
+						"Once per long rest, the bearer can rally allies within 30ft., granting them +1 to attack rolls and saving throws when fighting a dragon or the dragon’s minions for one hour.."
+					]
+				},
+				{
+					"type": "inset",
+					"name": "Dungeon Church Lore",
+					"entries": [
+						"Learn more about the {@link The Red Talon in the wiki|https://lore.dungeon.church/doc/the-red-talon-JmZrNqSkRX}."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-red-talon.png"
+						}
+					}
+				]
+			}
+		},
+		{
 			"name": "Vial of the Last Harvest",
 			"type": "P",
 			"rarity": "uncommon",
