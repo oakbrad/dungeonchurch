@@ -36,6 +36,7 @@ Or import:
 * Items
     * [Abi Teos's Machete](https://lore.dungeon.church/doc/abi-teoss-machete-ZrSq7FcMTj)
     * [Amulet of Betrayal](https://lore.dungeon.church/doc/amulet-of-betrayal-vY1rCwAwHh)
+    * [Avalonian Lantern](https://lore.dungeon.church/doc/avalonian-lantern-4rhyHvymXn)
     * [Brooch of Witchsight](https://lore.dungeon.church/doc/brooch-of-witchsight-Do7tfU7V9e)
     * [Cirilla's Gift](https://lore.dungeon.church/doc/cirillas-gift-pKEY4nYJDS)
     * [Collector of Souls](https://lore.dungeon.church/doc/collector-of-souls-XA0hpJ7gfE)
@@ -73,9 +74,9 @@ Or import:
 * Bestiary
     * [Dire Boar](https://lore.dungeon.church/doc/dire-boar-ICD17iMkzY)
     * [Hellion Child](https://lore.dungeon.church/doc/hellion-cmTM1BgZSd)
-    * Iron Rider Hunter
-    * Iron Rider Judge
-    * Iron Rider Knight
+    * [Iron Rider Commodore](https://lore.dungeon.church/doc/iron-rider-commodore-Lvy7jFg6KW)
+    * [Iron Rider Hunter](https://lore.dungeon.church/doc/iron-rider-hunter-kPxugCHSLi)
+    * [Iron Rider Knight](https://lore.dungeon.church/doc/iron-rider-knight-JIpk2Tegm7)
     * Iron Rider Priest
     * Iron Rider Warder
     * [Lamont Solmar](https://lore.dungeon.church/doc/lamont-solmar-GLrWBoIX5h)
