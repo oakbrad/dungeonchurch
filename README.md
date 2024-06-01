@@ -1,9 +1,9 @@
 # Dungeon Church
 D&D group infrastructure. More information in [this blog post](https://www.dungeon.church/dungeon-church-software-stack).
 
-Dungeon Church's ***Pyora*** setting as <a href="/5etools-homebrew/README.md">homebrew source</a> for 5E Tools.
+Dungeon Church's ***Pyora*** setting as <a href="/5etools-homebrew">homebrew source</a> for 5E Tools.
 
-```https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/Dungeon Church; Pyora.json```
+Interested in playing with us? <b><a href=https://dungeon.church/join-us>Join us</a></b>.
 
 ## Software
 - [Ghost](https://ghost.org/) - public website, email newsletters and automated reminders
@@ -19,7 +19,7 @@ Dungeon Church's ***Pyora*** setting as <a href="/5etools-homebrew/README.md">ho
     - [Plutonium](https://5e.tools/plutonium.html) - Import content from 5E Tools to FoundryVTT
     - [DDB Proxy](https://github.com/MrPrimate/ddb-proxy) - If you are stuck in WotC subscription land, you can import your content with this
 
-*We are not playing online anymore, the FoundryVTT v10 config details are [archived here](/archive/foundryvtt-v10-old/README.md)*
+*We are not playing online anymore, the FoundryVTT v10 config details are [archived here](/foundryvtt)*
 
 ## Docker Compose
 The config necessary to run all this is detailed in the <a href=/docker-compose.yaml>docker-compose.yaml</a>
