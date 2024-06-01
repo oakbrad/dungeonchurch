@@ -3148,6 +3148,42 @@
 				}
 		},
 		{
+			"name": "Avalonian Lantern",
+			"source": "DungeonChurch",
+			"otherSources": [
+				{
+					"source": "ERLW",
+					"page": 277
+				}
+			],
+			"rarity": "uncommon",
+			"wondrous": true,
+			"entries": [
+				"This {@item bullseye lantern|phb} contains a shard of magic crystal that sheds light comparable to that produced by a {@spell continual flame} spell. The lantern is activated by pushing a button on it's side that activates a series of mechanical gears that perform the spell as a ritual. An Avalonian lantern sheds light in a 120-foot cone; the closest 60 feet is bright light, and the farthest 60 feet is dim light.",
+				{
+					"type": "inset",
+					"name": "Dungeon Church Lore",
+					"entries": [
+						"Learn more about the {@link Avalonian Lantern in the wiki|https://lore.dungeon.church/doc/avalonian-lantern-4rhyHvymXn}."
+					]
+				}
+			],
+			"fluff":
+				{
+					"name": "Avalonian Lantern",
+					"source": "DungeonChurch",
+					"images": [
+						{
+							"type": "image",
+							"href": {
+								"type": "external",
+								"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-avalonian-lantern.png"
+							}
+						}
+					]
+				}
+		},
+		{
 			"name": "Brooch of Witchsight",
 			"source": "DungeonChurch",
 			"page": 0,
@@ -5264,6 +5300,10 @@
 				[
 					"36",
 					"{@item Oil of Immolation|dungeonchurch}"
+				],
+				[
+					"37",
+					"{@item Avalonian Lantern|dungeonchurch}"
 				]
 			]
 
