@@ -4665,6 +4665,74 @@
 			"trapHazType": "WLD"
 		}
 	],
+	"spell": [
+		{
+			"name": "Intaglio",
+			"source": "DungeonChurch",
+			"otherSources": [
+				{
+					"source": "GH",
+					"page": 21
+				}
+			],
+			"level": 1,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 5
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a quill or a vial of ink"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"meta": {
+				"ritual": true
+			},
+			"entries": [
+				"You transform a piece of parchment into a duplicate of a text or symbol. While concentrating on this spell, you can use an action to trace your hand over any non-magical text or imagery on a surface within range. You imprint the text or imagery onto parchment you provide, choosing how to resize or crop it. This spell copies a single page with each action, and cannot copy sections larger than 9X12 inches at a time. When copying a spell book, you can do so using the same method as you would replace a spell book, except the time and gp requirements are both halved."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		}
+	],
 	"table": [
 		{
 			"name": "I Know a Guy... in Pyora",

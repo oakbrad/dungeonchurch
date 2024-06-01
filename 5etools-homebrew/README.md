@@ -86,6 +86,8 @@ Or import:
     * [Sapphire Nightshade Grove](https://lore.dungeon.church/doc/sapphire-nightshade-Qvbjiqksvy)
 * Optional Features
     * Witchsight
+* Spells
+    * [Intaglio](https://lore.dungeon.church/doc/intaglio-THBJI8dd6y)
 * Tables
     * I Know a Guy... in Pyora
     * [New Galmaarden Guilds](https://lore.dungeon.church/doc/new-galmaarden-civil-society-AjPbwTWHao)
