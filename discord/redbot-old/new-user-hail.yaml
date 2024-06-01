@@ -1,0 +1,7 @@
+name: new-user-hail
+rank: 4
+event: on-role-add
+if:
+  - compare: ["$role_id", "==", "1074794023887306823"] 
+do:
+  - send-message: [chat,"Hail and well met $user_mention 🍻 "]
