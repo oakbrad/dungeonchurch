@@ -72,6 +72,7 @@ Or import:
     * [Skeleton Key](https://lore.dungeon.church/doc/skeleton-key-aCKEViKMZf)
     * [Vial of the Last Harvest](https://lore.dungeon.church/doc/vial-of-the-last-harvest-tsIxDMwTeP)
 * Bestiary
+    * [Coal Golem](https://lore.dungeon.church/doc/coal-golem-z4SQh5bzSf)
     * [Dire Boar](https://lore.dungeon.church/doc/dire-boar-ICD17iMkzY)
     * [Hellion Child](https://lore.dungeon.church/doc/hellion-cmTM1BgZSd)
     * [Iron Rider Commodore](https://lore.dungeon.church/doc/iron-rider-commodore-Lvy7jFg6KW)
