@@ -3436,6 +3436,52 @@
 				}
 		},
 		{
+			"name": "Avalon Engineer's Signet",
+			"otherSources": [
+				{
+					"source": "BMT",
+					"page": 37
+				}
+			],
+			"source": "DungeonChurch",
+			"type": "RG",
+			"rarity": "rare",
+			"reqAttune": "by a spellcaster",
+			"reqAttuneTags": [
+				{
+					"spellcasting": true
+				}
+			],
+			"entries": [
+				"This gilded ring bears a beautiful engraving of a gear and is imbued with the elven magic of Avalon. While wearing this ring, you can use an action to cast the {@spell Mending} and {@spell Arcane Lock} spells once each using Intelligence as the spellcasting ability. Once you use the ring to cast the spells, the ring can't be used again until the next dawn.",
+				{
+					"type": "inset",
+					"name": "Dungeon Church Lore",
+					"entries": [
+						"Learn more about the {@link Avalon Engineer's Signet in the wiki|https://lore.dungeon.church/doc/avalon-engineers-signet-63RXQwAWMe}."
+					]
+				}
+			],
+			"attachedSpells": [
+				"mending",
+				"arcane lock"
+			],
+			"fluff":
+				{
+					"name": "Avalon Engineer's Signet",
+					"source": "DungeonChurch",
+					"images": [
+						{
+							"type": "image",
+							"href": {
+								"type": "external",
+								"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-avalon-engineers-signet.png"
+							}
+						}
+					]
+				}
+		},
+		{
 			"name": "Avalonian Lantern",
 			"source": "DungeonChurch",
 			"otherSources": [
@@ -5756,6 +5802,10 @@
 				[
 					"39",
 					"{@item Sporebane|dungeonchurch}"
+				],
+				[
+					"40",
+					"{@item Avalon Engineer's Signet|dungeonchurch}"
 				]
 			]
 
