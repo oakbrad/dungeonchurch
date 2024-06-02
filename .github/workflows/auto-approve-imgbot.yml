@@ -9,9 +9,9 @@ jobs:
     name: Auto Approve a PR by imgbot # Name of the job
     runs-on: ubuntu-latest # Environment on which the job runs
     steps:
-      - name: Auto approve
+      - name: Auto approve imgbot
         uses: hmarr/auto-approve-action@v2.0.0 # Custom action for auto approval already available on marketplace
-        # Perform the auto approve action only when the PR is raised by dependabot
+        # Perform the auto approve action only when the PR is raised by imgbot
         if: github.actor == 'imgbot[bot]' || github.actor == 'ImgBot[bot]'
         with:
           # Create a personal access token and store it under the Secrets section of the particular repository
@@ -24,11 +24,15 @@ jobs:
     needs: autoapprove
     runs-on: ubuntu-latest
     steps:
-      - name: Auto merge
+      - id: automerge
+        name: Auto merge
         # Custom action for auto merging already available on marketplace
-        uses: pascalgn/automerge-action@135f0bdb927d9807b5446f7ca9ecc2c51de03c4a
-        # Perform the auto merge action only when the PR is raised by dependabot
+        uses: "pascalgn/automerge-action@v0.16.3"
+        # Perform the auto merge action only when the PR is raised by imgbot
         if: github.actor == 'imgbot[bot]' || github.actor == 'ImgBot[bot]'
         env:
           GITHUB_TOKEN: ${{ secrets.ACTIONS_TOKEN }}
           MERGE_METHOD: rebase
+          UPDATE_LABEL: ""
+          MERGE_LABELS: "!x"
+          MERGE_ERROR_FAIL: "true"
