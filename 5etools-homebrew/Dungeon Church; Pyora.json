@@ -4655,6 +4655,49 @@
 			}
 		},
 		{
+			"name": "Sporebane",
+			"source": "DungeonChurch",
+			"page": 0,
+			"baseItem": "dagger|PHB",
+			"type": "M",
+			"rarity": "rare",
+			"weight": 1,
+			"weaponCategory": "simple",
+			"property": [
+				"F",
+				"L",
+				"T"
+			],
+			"range": "20/60",
+			"dmg1": "1d4",
+			"dmgType": "P",
+			"lootTables": [
+				"Pyoran Magic Items|dungeonchurch"
+			],
+			"entries": [
+				"This dagger is covered in a fungal growth that has left a pockmarked patina across it's once lustrous blade. It constantly sheds spores in the air, leaving behind a trail of myconid rot.",
+				"A cut from this blade deals an additional {@damage 1d4} necrotic damage if the creature is made of organic matter. On a critical strike, the target must make a {@dc 12} constitution saving throw. On a failed save, the target becomes {@condition paralyzed} until the end of your next turn.",
+				{
+					"type": "inset",
+					"name": "Dungeon Church Lore",
+					"entries": [
+						"Learn more about the {@link Sporebane in the wiki|https://lore.dungeon.church/doc/sporebane-7Fte9HtwL6}."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-sporebane.png"
+						}
+					}
+				]
+			}
+		},
+		{
 			"name": "Spores of Delirium",
 			"type": "P",
 			"rarity": "uncommon",
@@ -5554,7 +5597,7 @@
 			"caption": "Items and relics uncovered in the world of Pyora.",
 			"page": 0,
 			"colLabels": [
-				"d38",
+				"d39",
 				"Item"
 			],
 			"rows": [
@@ -5709,6 +5752,10 @@
 				[
 					"38",
 					"{@item Cloak of Rats|dungeonchurch}"
+				],
+				[
+					"39",
+					"{@item Sporebane|dungeonchurch}"
 				]
 			]
 
