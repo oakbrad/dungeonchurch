@@ -39,6 +39,7 @@ Or import:
     * [Avalonian Lantern](https://lore.dungeon.church/doc/avalonian-lantern-4rhyHvymXn)
     * [Brooch of Witchsight](https://lore.dungeon.church/doc/brooch-of-witchsight-Do7tfU7V9e)
     * [Cirilla's Gift](https://lore.dungeon.church/doc/cirillas-gift-pKEY4nYJDS)
+    * [Cloak of Rats](https://lore.dungeon.church/doc/cloak-of-rats-iHIvQwaOt1)
     * [Collector of Souls](https://lore.dungeon.church/doc/collector-of-souls-XA0hpJ7gfE)
     * [Dagger of Profuse Bleeding](https://lore.dungeon.church/doc/dagger-of-profuse-bleeding-uXUIGCXKkL)
     * [Entrancing Mirror](https://lore.dungeon.church/doc/entrancing-mirror-LEDVsFaum5)

@@ -3550,6 +3550,51 @@
 			]
 		},
 		{
+			"name": "Cloak of Rats",
+			"otherSources": [
+				{
+					"source": "DMG",
+					"page": 159
+				}
+			],
+			"source": "DungeonChurch",
+			"tier": "major",
+			"rarity": "rare",
+			"reqAttune": true,
+			"wondrous": true,
+			"lootTables": [
+				"Pyoran Magic Items|dungeonchurch"
+			],
+			"attachedSpells": [
+				"polymorph"
+			],
+			"entries": [
+				"This hooded cloak is made from hundreds of rough leather rat skins, stitched together with twine, and fringed with dessicated rat tails. Wearing this rancid smelling cloak gives the wearer +1 to Constitution saves and allows the attuned wearer to {@spell polymorph} into a {@creature rat} once a day.",
+				{
+					"type": "inset",
+					"name": "Dungeon Church Lore",
+					"entries": [
+						"Learn more about the {@link Cloak of Rats in the wiki|https://lore.dungeon.church/doc/cloak-of-rats-iHIvQwaOt1}."
+					]
+				}
+			
+			],
+			"fluff":
+			{
+				"name": "Cloak of Rats",
+				"source": "DungeonChurch",
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-cloak-of-rats.png"
+						}
+					}
+				]
+			}
+		},
+		{
 			"name": "Collector of Souls",
 			"source": "DungeonChurch",
 			"page": 0,
@@ -5509,7 +5554,7 @@
 			"caption": "Items and relics uncovered in the world of Pyora.",
 			"page": 0,
 			"colLabels": [
-				"d37",
+				"d38",
 				"Item"
 			],
 			"rows": [
@@ -5660,6 +5705,10 @@
 				[
 					"37",
 					"{@item Avalonian Lantern|dungeonchurch}"
+				],
+				[
+					"38",
+					"{@item Cloak of Rats|dungeonchurch}"
 				]
 			]
 
@@ -5670,7 +5719,7 @@
 			"caption": "Monsters known to inhabit the realm of Pyora.",
 			"page": 0,
 			"colLabels": [
-				"d9",
+				"d10",
 				"Monster"
 			],
 			"rows": [
@@ -5709,6 +5758,10 @@
 				[
 					"9",
 					"{@creature Coal Golem|dungeonchurch}"
+				],
+				[
+					"10",
+					"{@creature Giant Coal Ant|dungeonchurch}"
 				]
 			]
 		},
