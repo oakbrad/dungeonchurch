@@ -75,6 +75,7 @@ Or import:
     * [Skeleton Key](https://lore.dungeon.church/doc/skeleton-key-aCKEViKMZf)
     * [Vial of the Last Harvest](https://lore.dungeon.church/doc/vial-of-the-last-harvest-tsIxDMwTeP)
 * Bestiary
+    * [Clockwork Shark](https://lore.dungeon.church/doc/clockwork-shark-PjyuNm1hE0)
     * [Coal Golem](https://lore.dungeon.church/doc/coal-golem-z4SQh5bzSf)
     * [Dire Boar](https://lore.dungeon.church/doc/dire-boar-ICD17iMkzY)
     * [Giant Coal Ant](https://lore.dungeon.church/doc/giant-coal-ant-M9repJEaQW)

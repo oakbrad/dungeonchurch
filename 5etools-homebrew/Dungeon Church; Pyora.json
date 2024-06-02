@@ -1457,6 +1457,131 @@
 	],
 	"monster": [
 		{
+			"name": "Clockwork Shark",
+			"source": "DungeonChurch",
+			"size": [
+				"L"
+			],
+			"type": {
+				"type": "construct"
+			},
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 52,
+				"formula": "8d10 + 8"
+			},
+			"speed": {
+				"swim": 50,
+				"walk": 5
+			},
+			"str": 18,
+			"dex": 13,
+			"con": 15,
+			"int": 1,
+			"wis": 10,
+			"cha": 4,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 11,
+			"resist": [
+				"bludgeoning",
+				"piercing",
+				"slashing"
+			],
+			"immune": [
+				"fire",
+				"poison",
+				"psychic"
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"frightened",
+				"paralyzed",
+				"petrified",
+				"poisoned"
+			],
+			"cr": "3",
+			"trait": [
+				{
+					"name": "Blood Frenzy",
+					"entries": [
+						"The shark has advantage on melee attack rolls against any creature that doesn't have all its hit points."
+					]
+				},
+				{
+					"name": "Construct Nature",
+					"entries": [
+						"The clockwork shark doesn't require air, food, drink, or sleep."
+					]
+				},
+				{
+					"name": "Immutable Form",
+					"entries": [
+						"The clockwork shark is immune to any spell or effect that would alter its form."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The clockwork shark has advantage on saving throws against spells and other magical effects."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 0 ft, one target. {@h}17 ({@damage 5d6}) piercing damage plus 3 ({@damage 1d6}) force damage."
+					]
+				}
+			],
+			"environment": [
+				"underwater"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/tokens/bestiary-clockwork-shark-token.png"
+			},
+			"senseTags": [
+				"D"
+			],
+			"damageTags": [
+				"I",
+				"P",
+				"F"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"traitTags": [
+				"Immutable Form",
+				"Magic Resistance"
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/bestiary-clockwork-shark.png"
+						}
+					}
+				]
+			}
+		},
+		{
 			"name": "Coal Golem",
 			"source": "DungeonChurch",
 			"otherSources": [
@@ -5859,7 +5984,7 @@
 			"caption": "Monsters known to inhabit the realm of Pyora.",
 			"page": 0,
 			"colLabels": [
-				"d10",
+				"d11",
 				"Monster"
 			],
 			"rows": [
@@ -5902,6 +6027,10 @@
 				[
 					"10",
 					"{@creature Giant Coal Ant|dungeonchurch}"
+				],
+				[
+					"11",
+					"{@creature Clockwork Shark|dungeonchurch}"
 				]
 			]
 		},
