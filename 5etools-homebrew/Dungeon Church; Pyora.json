@@ -3493,7 +3493,7 @@
 			"rarity": "uncommon",
 			"wondrous": true,
 			"entries": [
-				"This {@item bullseye lantern|phb} contains a shard of magic crystal that sheds light comparable to that produced by a {@spell continual flame} spell. The lantern is activated by pushing a button on it's side that activates a series of mechanical gears that perform the spell as a ritual. An Avalonian lantern sheds light in a 120-foot cone; the closest 60 feet is bright light, and the farthest 60 feet is dim light.",
+				"This elven {@item bullseye lantern|phb} contains a shard of magic crystal that sheds light comparable to that produced by a {@spell continual flame} spell. The lantern is activated by pushing a button on it's side that initiates a series of mechanical gears that perform the spell as a ritual. An Avalonian lantern sheds light in a 120-foot cone; the closest 60 feet is bright light, and the farthest 60 feet is dim light.",
 				{
 					"type": "inset",
 					"name": "Dungeon Church Lore",
@@ -4670,6 +4670,45 @@
 			}
 		},
 		{
+			"name": "Siduri's Token",
+			"source": "DungeonChurch",
+			"rarity": "common",
+			"wondrous": true,
+			"reqAttune": true,
+			"type": "$",
+			"lootTables": [
+				"Pyoran Magic Items|dungeonchurch"
+			],
+			"entries": [
+				"A gold coin bearing the emblem of a hop flower one one side and a beer tankard on the other. According to {@race Dwarf (Durandar)|dungeonchurch|Durandian} legends, the rebel god {@deity Siduri|pyora|dungeonchurch} gave their last piece of gold to a blind beggar as they fled prison confinement. That one coin has multiplied across the realm of Pyora, for any who possess one will find two in their pocket when in the company of a true friend. When this token is given or spent in the spirit of friendship, it grants the attuned recipient the ability to {@spell Bless} a single friendly target once per day by using a bonus action to flip the coin.",
+				{
+					"type": "inset",
+					"name": "Dungeon Church Lore",
+					"entries": [
+						"Learn more about {@link Siduri's Token in the wiki|https://lore.dungeon.church/doc/siduris-token-2Bkwhc8XEo}."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-siduris-token_front.png"
+						}
+					},
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-siduris-token_back.png"
+						}
+					}
+				]
+			}
+		},
+		{
 			"name": "Sphere of Everlasting Ice",
 			"source": "DungeonChurch",
 			"page": 0,
@@ -5643,7 +5682,7 @@
 			"caption": "Items and relics uncovered in the world of Pyora.",
 			"page": 0,
 			"colLabels": [
-				"d39",
+				"d41",
 				"Item"
 			],
 			"rows": [
@@ -5806,6 +5845,10 @@
 				[
 					"40",
 					"{@item Avalon Engineer's Signet|dungeonchurch}"
+				],
+				[
+					"41",
+					"{@item Siduri's Token|dungeonchurch}"
 				]
 			]
 
