@@ -1730,6 +1730,133 @@
 			}
 		},
 		{
+			"name": "Giant Coal Ant",
+			"source": "DungeonChurch",
+			"otherSources": [
+				{
+					"source": "ToB1-2023",
+					"page": 22
+				}
+			],
+			"page": 22,
+			"size": [
+				"L"
+			],
+			"type": "beast",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 52,
+				"formula": "7d10 + 14"
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 15,
+			"dex": 13,
+			"con": 15,
+			"int": 1,
+			"wis": 9,
+			"cha": 2,
+			"senses": [
+				"blindsight 60 ft."
+			],
+			"passive": 9,
+			"cr": "2",
+			"trait": [
+				{
+					"name": "Ignite",
+					"entries": [
+						"When the Giant Coal Ant would take fire damage from any source, it is lit aflame for 1 minute. While set aflame it casts a bright light 20ft and dim light another 20ft. In addition, whenever a creature hits (or is hit by) the ant with a melee attack, they suffer {@damage 1d6} fire damage."
+					]
+				},
+				{
+					"name": "Keen Smell",
+					"entries": [
+						"The giant ant has advantage on Wisdom ({@skill Perception}) checks that rely on smell."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The giant ant makes one Bite attack and one Sting attack."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d8 + 2}) bludgeoning damage, and the target is {@condition grappled} (escape {@dc 12}). Until this grapple ends, the target is {@condition restrained}, and the giant ant can't Bite a different target."
+					]
+				},
+				{
+					"name": "Sting",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d8 + 2}) piercing damage. The target must make a {@dc 12} Constitution saving throw, taking 11 ({@damage 2d10}) poison damage on a failed save, or half as much damage on a successful one."
+					]
+				}
+			],
+			"environment": [
+				"forest",
+				"underdark"
+			],
+			"traitTags": [
+				"Keen Senses"
+			],
+			"senseTags": [
+				"B"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"B",
+				"I",
+				"P"
+			],
+			"resist": [
+				"cold"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"grappled",
+				"restrained"
+			],
+			"savingThrowForced": [
+				"constitution"
+			],
+			"fluff": {
+				"entries": [
+					
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/bestiary-giant-coal-ant.png"
+						}
+					}
+				]
+			},
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/tokens/bestiary-giant-coal-ant-token.png"
+			}
+		},
+		{
 			"name": "Hellion Child",
 			"source": "DungeonChurch",
 			"page": 0,
@@ -5382,7 +5509,7 @@
 			"caption": "Items and relics uncovered in the world of Pyora.",
 			"page": 0,
 			"colLabels": [
-				"d36",
+				"d37",
 				"Item"
 			],
 			"rows": [
@@ -5543,7 +5670,7 @@
 			"caption": "Monsters known to inhabit the realm of Pyora.",
 			"page": 0,
 			"colLabels": [
-				"d8",
+				"d9",
 				"Monster"
 			],
 			"rows": [
@@ -5578,6 +5705,10 @@
 				[
 					"8",
 					"{@creature Iron Rider Warder|dungeonchurch}"
+				],
+				[
+					"9",
+					"{@creature Coal Golem|dungeonchurch}"
 				]
 			]
 		},
