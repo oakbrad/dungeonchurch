@@ -12,4 +12,4 @@ jobs:
         env:
           schema: /.github/homebrew-schema.json
           jsons: |
-            /5etools-homebrew/Dungeon Church; Pyora.json
+            "5etools-homebrew/Dungeon Church; Pyora.json"
