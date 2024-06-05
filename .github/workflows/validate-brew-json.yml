@@ -1,0 +1,14 @@
+name: Validate Homebrew JSON
+
+on: [pull_request, push]
+
+jobs:
+  verify-json-validation:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - name: Validate JSON
+        uses: docker://orrosenblatt/validate-json-action:latest
+        env:
+          INPUT_SCHEMA: /.github/homebrew-schema.json
+          INPUT_JSONS: /5etools-homebrew/Dungeon Church; Pyora.json
