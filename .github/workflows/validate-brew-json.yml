@@ -8,7 +8,7 @@ jobs:
     steps:
       - uses: actions/checkout@v1
       - name: Validate JSON
-        uses: ScratchAddons/validate-json-action@master
+        uses: docker://ScratchAddons/validate-json-action@master
         env:
           schema: /.github/homebrew-schema.json
           jsons: /5etools-homebrew/Dungeon Church; Pyora.json
