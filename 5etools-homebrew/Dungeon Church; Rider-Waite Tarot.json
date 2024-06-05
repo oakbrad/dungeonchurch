@@ -33,7 +33,7 @@
                 "height": 0,
                 "href": {
                     "type": "external",
-                    "url": "https://url",
+                    "url": "https://url"
                 },
                 "altText": "alt"
             },
@@ -64,6 +64,7 @@
 					"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/WWCT/Ace-of-Cups.jpg"
 				},
 				"credit": "{@link Nataša Ilinčić|https://natasailincic.com/}"
+			}
 		}
     ]
 }
