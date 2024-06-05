@@ -12,8 +12,5 @@ jobs:
       uses: actions/checkout@v4
 
     - name: validate
-      uses: ammarlakis/action-ajv@master
-      with:
-        schema: .github/homebrew-schema.json
-        data: 5etools-homebrew/*json
-        allErrors: true
+      run: |-
+        npx --package=5etools-utils -c "test-json-brew '/5etools-homebrew/Dungeon Church; Pyora.json'"
