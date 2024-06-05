@@ -11,4 +11,4 @@ jobs:
         uses: ScratchAddons/validate-json-action@master
         env:
           schema: /.github/homebrew-schema.json
-          jsons: /5etools-homebrew/Dungeon Church; Pyora.json
+          jsons: "/5etools-homebrew/Dungeon Church; Pyora.json"
