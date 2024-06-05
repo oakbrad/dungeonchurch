@@ -1,15 +1,19 @@
-name: Validate Homebrew JSON
+name: Validate 5eTools Homebrew JSON
 
-on: [pull_request, push]
+on:
+  push:
 
 jobs:
-  verify-json-validation:
+  validate-config:
     runs-on: ubuntu-latest
+    
     steps:
-      - uses: actions/checkout@v1
-      - name: Validate JSON
-        uses: ScratchAddons/validate-json-action@master
-        env:
-          schema: /.github/homebrew-schema.json
-          jsons: |
-            "5etools-homebrew/Dungeon Church; Pyora.json"
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: validate
+      uses: ammarlakis/action-ajv@master
+      with:
+        schema: .github/homebrew-schema.json
+        data: 5etools-homebrew/*json
+        allErrors: true
