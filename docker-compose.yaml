@@ -138,12 +138,12 @@ services:
     depends_on:
       - postdb
     volumes:
-      - /home/ubuntu/dbpost_backup:/backup
+      - /mnt/s3/backup:/backup
     command: >
       bash -c "while true; do
-        PGPASSWORD=$$POSTGRES_PASSWORD pg_dump -h postdb -U $$POSTGRES_USER -Fc $$POSTGRES_DB > /backup/$$(date +%Y-%m-%d-%H-%M-%S).dump
+        PGPASSWORD=$$POSTGRES_PASSWORD pg_dump -h postdb -U $$POSTGRES_USER -Fc $$POSTGRES_DB > /backup/$$(date +%Y-%m-%d-%H-%M-%S)-outline-postgres.dump
         echo ""Backup done at $$(date +%Y-%m-%d_%H:%M:%S)""
-        ls -1 /backup/*.dump | head -n -2 | xargs rm -f
+        ls -1 /backup/*.dump | head -n -30 | xargs rm -f
         sleep 86400
       done"
     environment:
@@ -252,6 +252,26 @@ services:
       - /home/ubuntu/db:/var/lib/mysql
     networks:
       - internal-db
+# GHOST DB BACKUP
+  db_backup:
+     image: databack/mysql-backup
+     restart: always
+     container_name: db_backup
+     user: "0" # needed for local volume
+     environment:
+       - DB_DUMP_FREQ=1440 # once a day
+       - DB_SERVER=db
+       - DB_USER=XXX
+       - DB_PASS=XXX
+       - DB_NAMES=ghost
+       - DB_DUMP_TARGET=/backup
+       - DB_DUMP_SAFECHARS=true
+     links:
+       - db:db
+     networks:
+       - internal-db
+     volumes:
+       - /mnt/s3/backup:/backup
 
 # RED DISCORD BOT
 # https://github.com/PhasecoreX/docker-red-discordbot
