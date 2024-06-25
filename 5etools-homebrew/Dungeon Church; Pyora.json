@@ -3977,7 +3977,7 @@
 			],
 			"fluff":
 				{
-					"name": "Black Diamond",
+					"name": "Dream Vine",
 					"source": "DungeonChurch",
 					"images": [
 						{
@@ -4184,12 +4184,12 @@
 			],
 			"entries": [
 				"The gnomes are masters of the tea ceremony, and it is rare to find even a halfling on the surface who does not travel with their tea set. While most are made of metal because of it’s durability, each tea set is handcrafted and unique to the person. Some are highly polished works of art, others are more functional in nature and so modified over the years by their user they more resemble some type of clockwork.",
-				"{@race Gnome (Rock)|dungeonchurch|Gnomes} are known to use their tea sets in communal rituals that allow them to {@spell Stone Shape} en masse. If enough gnomes participate in this ritual, they can effectively tunnel and travel through solid stone. The exact nature of this Stone Tea and it’s ceremony are a tightly guarded gnomish secret.",
+				"{@race Gnome (Rock)|dungeonchurch|Gnomes} are known to use their tea sets in communal rituals that allow them to {@spell Stone Shape} en masse. If enough gnomes participate in this ritual, they can effectively tunnel and travel through solid stone. The exact nature of this {@item Stone Tea|dungeonchurch} and it’s ceremony are a tightly guarded gnomish secret.",
 				{
 					"type": "entries",
 					"name": "Stone Tea",
 					"entries": [
-						"Gnomes and halflings who come from Underdark society know the secret of this brew, and an individual with a week’s preparation time and the proper ingredients can summon enough magic to imbue a single tea ceremony ritual with {@spell Stone Shape}. However, Stone Tea is known to induce erratic behavior in individuals who are regularly exposed to sunlight."
+						"Gnomes and halflings who come from Underdark society know the secret of this brew, and an individual with a week’s preparation time and the proper ingredients can summon enough magic to imbue a single tea ceremony ritual with {@spell Stone Shape}. However, {@item Stone Tea|dungeonchurch} is known to induce erratic behavior in individuals who are regularly exposed to sunlight."
 					]
 				},
 				{
@@ -5079,6 +5079,48 @@
 			}
 		},
 		{
+			"name": "Stone Tea",
+			"source": "DungeonChurch",
+			"tier": "minor",
+			"rarity": "rare",
+			"attachedSpells": [
+				"stone shape"
+			],
+			"lootTables": [
+				"Pyoran Magic Items|dungeonchurch",
+				"Pyoran Substances|dungeonchurch"
+			],
+			"entries": [
+				"A ritual tea consumed by gnomes that allows them to travel through stone. Gnomes are known to be fond of tea and carry their complex {@item Gnomish Tea Set|dungeonchurch|tea sets} with them.",
+				"The exact ingredients brewed is a closely held secret, but is suspected to contain mushrooms and moonquartz dust. It is known that this tea induces erratic behavior in individuals who are exposed to sunlight on a regular basis.",
+				{
+					"type": "entries",
+					"name": "Strange Brew",
+					"entries": [
+						"Gnomes and halflings who come from Underdark society know the secret of this brew, and an individual with a week’s preparation time and the proper ingredients can summon enough magic to imbue a single tea ceremony ritual with {@spell Stone Shape}. However, {@item Stone Tea|dungeonchurch} is known to induce erratic behavior in individuals who are regularly exposed to sunlight."
+					]
+				},
+				{
+					"type": "inset",
+					"name": "Dungeon Church Lore",
+					"entries": [
+						"Learn more about the {@link Stone Tea in the wiki|https://lore.dungeon.church/doc/stone-tea-ik79CS5iIM}."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-stone-tea.png"
+						}
+					}
+				]
+			}
+		},
+		{
 			"name": "Shield of Missile Deflection",
 			"source": "DungeonChurch",
 			"page": 0,
@@ -5946,7 +5988,7 @@
 			"caption": "Items and relics uncovered in the world of Pyora.",
 			"page": 0,
 			"colLabels": [
-				"d45",
+				"d46",
 				"Item"
 			],
 			"rows": [
@@ -6129,6 +6171,10 @@
 				[
 					"45",
 					"{@item Nightshade Poison|dungeonchurch}"
+				],
+				[
+					"46",
+					"{@item Stone Tea|dungeonchurch}"
 				]
 			]
 
@@ -6327,7 +6373,7 @@
 				],
 				[
 					"7",
-					"Stone Tea"
+					"{@item Stone Tea|dungeonchurch}"
 				],
 				[
 					"8",
