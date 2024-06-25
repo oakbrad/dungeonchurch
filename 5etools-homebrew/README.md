@@ -38,6 +38,7 @@ Or import:
     * [Amulet of Betrayal](https://lore.dungeon.church/doc/amulet-of-betrayal-vY1rCwAwHh)
     * [Avalon Engineer's Signet](https://lore.dungeon.church/doc/avalon-engineers-signet-63RXQwAWMe)
     * [Avalonian Lantern](https://lore.dungeon.church/doc/avalonian-lantern-4rhyHvymXn)
+    * [Banshee Blight](https://lore.dungeon.church/doc/banshee-blight-ziIwCBr2jq)
     * [Brooch of Witchsight](https://lore.dungeon.church/doc/brooch-of-witchsight-Do7tfU7V9e)
     * [Cirilla's Gift](https://lore.dungeon.church/doc/cirillas-gift-pKEY4nYJDS)
     * [Cloak of Rats](https://lore.dungeon.church/doc/cloak-of-rats-iHIvQwaOt1)

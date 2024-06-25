@@ -3643,6 +3643,35 @@
 				}
 		},
 		{
+			"name": "Banshee Blight",
+			"source": "DungeonChurch",
+			"rarity": "common",
+			"entries": [
+				"Illicit street drug made of ground silvery bark from a type of tree only found deep in swamps. Low dosages are generally taken orally. Heavier users often make a paste to apply to their gums. Addicts may smear it into cuts. Potent stimulant that gives users an adrenaline rush and time seems to slow down, but the duration of the high is short.  Can cause psychosis. Death comes from heart failure, wound infection, self-neglect, or wild magic shock in susceptible individuals. Psychologically addictive not physically.",
+				{
+					"type": "inset",
+					"name": "Dungeon Church Lore",
+					"entries": [
+						"Learn more about {@link Banshee Blight in the wiki|https://lore.dungeon.church/doc/banshee-blight-ziIwCBr2jq}."
+					]
+				}
+			],
+			"fluff":
+				{
+					"name": "Banshee Blight",
+					"source": "DungeonChurch",
+					"images": [
+						{
+							"type": "image",
+							"href": {
+								"type": "external",
+								"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-banshee-blight.png"
+							}
+						}
+					]
+				}
+		},
+		{
 			"name": "Brooch of Witchsight",
 			"source": "DungeonChurch",
 			"page": 0,
@@ -5807,7 +5836,7 @@
 			"caption": "Items and relics uncovered in the world of Pyora.",
 			"page": 0,
 			"colLabels": [
-				"d41",
+				"d42",
 				"Item"
 			],
 			"rows": [
@@ -5974,6 +6003,10 @@
 				[
 					"41",
 					"{@item Siduri's Token|dungeonchurch}"
+				],
+				[
+					"42",
+					"{@item Banshee Blight|dungeonchurch}"
 				]
 			]
 
@@ -6149,7 +6182,7 @@
 			"rows": [
 				[
 					"1",
-					"Banshee Blight"
+					"{@item Banshee Blight|dungeonchurch}"
 				],
 				[
 					"2",
