@@ -4520,6 +4520,39 @@
 			}
 		},
 		{
+			"name": "Nightshade Poison",
+			"source": "DungeonChurch",
+			"lootTables": [
+				"Pyoran Magic Items|dungeonchurch",
+				"Pyoran Substances|dungeonchurch"
+			],
+			"rarity": "common",
+			"entries": [
+				"Made from Sapphire Nightshade. In diluted doses, it acts as other common poisons. In higher concentrations that have been properly distilled it is extremely lethal, and if ingested will kill anyone within minutes. It is the most common tool of the assassin’s trade. It is rumored that when prepared to a high degree of purity, it can cause it’s dead victims to return as undead, monstrously transformed. Many necromancers claim to know the secret of this brew.",
+				{
+					"type": "inset",
+					"name": "Dungeon Church Lore",
+					"entries": [
+						"Learn more about {@link Nightshade Poison in the wiki|https://lore.dungeon.church/doc/nightshade-poison-rGISMbm8AA}."
+					]
+				}
+			],
+			"fluff":
+				{
+					"name": "Nightshade Poison",
+					"source": "DungeonChurch",
+					"images": [
+						{
+							"type": "image",
+							"href": {
+								"type": "external",
+								"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-nightshade-poison.png"
+							}
+						}
+					]
+				}
+		},
+		{
 			"name": "Oil of Immolation",
 			"type": "P",
 			"rarity": "uncommon",
@@ -5913,7 +5946,7 @@
 			"caption": "Items and relics uncovered in the world of Pyora.",
 			"page": 0,
 			"colLabels": [
-				"d44",
+				"d45",
 				"Item"
 			],
 			"rows": [
@@ -6092,6 +6125,10 @@
 				[
 					"44",
 					"{@item Dream Vine|dungeonchurch}"
+				],
+				[
+					"45",
+					"{@item Nightshade Poison|dungeonchurch}"
 				]
 			]
 
@@ -6282,7 +6319,7 @@
 				],
 				[
 					"5",
-					"Nightshade Poison"
+					"{@item Nightshade Poison|dungeonchurch}"
 				],
 				[
 					"6",

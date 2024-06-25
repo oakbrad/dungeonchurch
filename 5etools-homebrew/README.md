@@ -59,6 +59,7 @@ Or import:
     * [Monster Identification Cards](https://lore.dungeon.church/doc/monster-identification-cards-gfyYKrdZLJ)
     * [Night Messenger's Cloak](https://lore.dungeon.church/doc/night-messengers-cloak-wPglVS3jpz)
     * [Nightshade's Ring](https://lore.dungeon.church/doc/nightshades-ring-D07HSUmuuy)
+    * [Nightshade Poison](https://lore.dungeon.church/doc/nightshade-poison-rGISMbm8AA)
     * [Oil of Immolation](https://lore.dungeon.church/doc/oil-of-immolation-nrtJScIEL4)
     * [Painting of Lamont Solmar](https://lore.dungeon.church/doc/painting-of-lamont-solmar-h8zc7ZQfRp)
     * [Potion of Unbridled Potential](https://lore.dungeon.church/doc/potion-of-unbridled-potential-MeZ67CPgHh)
