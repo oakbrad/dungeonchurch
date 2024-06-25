@@ -3568,6 +3568,9 @@
 					"page": 37
 				}
 			],
+			"lootTables": [
+				"Pyoran Magic Items|dungeonchurch"
+			],
 			"source": "DungeonChurch",
 			"type": "RG",
 			"rarity": "rare",
@@ -3609,6 +3612,9 @@
 		{
 			"name": "Avalonian Lantern",
 			"source": "DungeonChurch",
+			"lootTables": [
+				"Pyoran Magic Items|dungeonchurch"
+			],
 			"otherSources": [
 				{
 					"source": "ERLW",
@@ -3645,6 +3651,10 @@
 		{
 			"name": "Banshee Blight",
 			"source": "DungeonChurch",
+			"lootTables": [
+				"Pyoran Magic Items|dungeonchurch",
+				"Pyoran Substances|dungeonchurch"
+			],
 			"rarity": "common",
 			"entries": [
 				"Illicit street drug made of ground silvery bark from a type of tree only found deep in swamps. Low dosages are generally taken orally. Heavier users often make a paste to apply to their gums. Addicts may smear it into cuts. Potent stimulant that gives users an adrenaline rush and time seems to slow down, but the duration of the high is short.  Can cause psychosis. Death comes from heart failure, wound infection, self-neglect, or wild magic shock in susceptible individuals. Psychologically addictive not physically.",
@@ -3666,6 +3676,39 @@
 							"href": {
 								"type": "external",
 								"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-banshee-blight.png"
+							}
+						}
+					]
+				}
+		},
+		{
+			"name": "Black Diamond",
+			"source": "DungeonChurch",
+			"lootTables": [
+				"Pyoran Magic Items|dungeonchurch",
+				"Pyoran Substances|dungeonchurch"
+			],
+			"rarity": "common",
+			"entries": [
+				"Illicit street drug magically synthesized from volcanic rock, giving it the appearance of a gray or black crystal. Low dosages are generally smoked in a glass pipe. Addicts may crush it and smear it into cuts. The potent opioid gives users a full-bodied sense of euphoria and brings pain levels down to zero. Death comes from respiratory failure, wound infection and necrosis, and self-neglect. Severely physically addictive. Magic users are immune to its effects.",
+				{
+					"type": "inset",
+					"name": "Dungeon Church Lore",
+					"entries": [
+						"Learn more about {@link Black Diamond in the wiki|https://lore.dungeon.church/doc/black-diamond-pTSDpxQOJ4}."
+					]
+				}
+			],
+			"fluff":
+				{
+					"name": "Black Diamond",
+					"source": "DungeonChurch",
+					"images": [
+						{
+							"type": "image",
+							"href": {
+								"type": "external",
+								"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-black diamond.png"
 							}
 						}
 					]
@@ -4697,7 +4740,8 @@
 			"source": "DungeonChurch",
 			"value": 2500,
 			"lootTables": [
-				"Pyoran Magic Items|dungeonchurch"
+				"Pyoran Magic Items|dungeonchurch",
+				"Pyoran Substances|dungeonchurch"
 			],
 			"entries": [
 				"When applied liberally to food, this reddish powder gives the consumer the feeling that they are eating twice as much and so are satiated on half a normal ration. After three days of eating enchantment spiced food, the consumer must eat a full, hot meal or take one level of exhaustion per day until they do.",
@@ -5836,7 +5880,7 @@
 			"caption": "Items and relics uncovered in the world of Pyora.",
 			"page": 0,
 			"colLabels": [
-				"d42",
+				"d43",
 				"Item"
 			],
 			"rows": [
@@ -6007,6 +6051,10 @@
 				[
 					"42",
 					"{@item Banshee Blight|dungeonchurch}"
+				],
+				[
+					"43",
+					"{@item Black Diamond|dungeonchurch}"
 				]
 			]
 
@@ -6174,7 +6222,6 @@
 			"name": "Pyoran Substances",
 			"source": "DungeonChurch",
 			"caption": "Illicit substances in the realm of Pyora.",
-			"page": 0,
 			"colLabels": [
 				"d8",
 				"Drug"
@@ -6186,7 +6233,7 @@
 				],
 				[
 					"2",
-					"Black Diamond"
+					"{@item Black Diamond|dungeonchurch}"
 				],
 				[
 					"3",
