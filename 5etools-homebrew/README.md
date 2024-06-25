@@ -47,6 +47,7 @@ Or import:
     * [Dagger of Profuse Bleeding](https://lore.dungeon.church/doc/dagger-of-profuse-bleeding-uXUIGCXKkL)
     * [Entrancing Mirror](https://lore.dungeon.church/doc/entrancing-mirror-LEDVsFaum5)
     * [Dimensional Glasses](https://lore.dungeon.church/doc/dimensional-glasses-953LlRzRKE)
+    * [Dream Vine](https://lore.dungeon.church/doc/dream-vine-viEBw5FxT7)
     * [Fedora of Disguise](https://lore.dungeon.church/doc/fedora-of-disguise-c7i4G0ePRf)
     * [Fist of Durradin](https://lore.dungeon.church/doc/fist-of-durradin-GrRsr84scL)
     * [Fiz's Flute](https://lore.dungeon.church/doc/fizs-flute-ANcBt7lLmj)

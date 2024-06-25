@@ -3708,7 +3708,7 @@
 							"type": "image",
 							"href": {
 								"type": "external",
-								"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-black diamond.png"
+								"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-black-diamond.png"
 							}
 						}
 					]
@@ -3956,6 +3956,39 @@
 					}
 				]
 			}
+		},
+		{
+			"name": "Dream Vine",
+			"source": "DungeonChurch",
+			"lootTables": [
+				"Pyoran Magic Items|dungeonchurch",
+				"Pyoran Substances|dungeonchurch"
+			],
+			"rarity": "common",
+			"entries": [
+				"A fragrant herb often smoked in pipes or hand rolled cigarettes, it has a mild stimulant effect said to encourage conversation and the free flow of ideas. It’s use varies widely by cultural norms. Strictly forbidden in Striborg as an illicit narcotic, it is commonly smoked as part of the cafe culture in New Galmaarden.",
+				{
+					"type": "inset",
+					"name": "Dungeon Church Lore",
+					"entries": [
+						"Learn more about {@link Dream Vine in the wiki|https://lore.dungeon.church/doc/dream-vine-viEBw5FxT7}."
+					]
+				}
+			],
+			"fluff":
+				{
+					"name": "Black Diamond",
+					"source": "DungeonChurch",
+					"images": [
+						{
+							"type": "image",
+							"href": {
+								"type": "external",
+								"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-dream-vine.png"
+							}
+						}
+					]
+				}
 		},
 		{
 			"name": "Entrancing Mirror",
@@ -5880,7 +5913,7 @@
 			"caption": "Items and relics uncovered in the world of Pyora.",
 			"page": 0,
 			"colLabels": [
-				"d43",
+				"d44",
 				"Item"
 			],
 			"rows": [
@@ -6055,6 +6088,10 @@
 				[
 					"43",
 					"{@item Black Diamond|dungeonchurch}"
+				],
+				[
+					"44",
+					"{@item Dream Vine|dungeonchurch}"
 				]
 			]
 
@@ -6237,7 +6274,7 @@
 				],
 				[
 					"3",
-					"Dream Vine"
+					"{@item Dream Vine|dungeonchurch}"
 				],
 				[
 					"4",
