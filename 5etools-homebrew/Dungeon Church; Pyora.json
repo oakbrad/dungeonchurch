@@ -2171,6 +2171,147 @@
 				"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/tokens/bestiary-hellion-child-token.png"
 			}
 		},
+{
+	"name": "Iron Rider Deputy",
+	"source": "DungeonChurch",
+	"size": [
+		"M"
+	],
+	"type": {
+		"type": "humanoid",
+		"tags": [
+			"any race"
+		]
+	},
+	"alignment": [
+		"L"
+	],
+	"ac": [
+		{
+			"ac": 15,
+			"from": [
+				"{@item chain shirt|phb}"
+			]
+		}
+	],
+	"hp": {
+		"formula": "3d8 + 6",
+		"average": 18
+	},
+	"speed": {
+		"walk": 30
+	},
+	"str": 13,
+	"dex": 13,
+	"con": 14,
+	"int": 12,
+	"wis": 12,
+	"cha": 10,
+	"skill": {
+		"religion": "+3",
+		"survival": "+3",
+		"intimidation": "+1",
+		"deception": "+1"
+	},
+	"passive": 11,
+	"languages": [
+		"any two languages"
+	],
+	"cr": "1/4",
+	"spellcasting": [
+		{
+			"name": "Spellcasting",
+			"headerEntries": [
+				"The Iron Rider Deputy is a 1st-level spellcaster. Its spellcasting ability is Charisma. The deputy knows the following spell:"
+			],
+			"spells": {
+				"1": {
+					"spells": [
+						"{@spell detect magic}"
+					],
+					"slots": 2
+				}
+			},
+			"ability": "cha",
+			"type": "spellcasting"
+		}
+	],
+	"trait": [
+		{
+			"name": "Iron Rider's Authority",
+			"entries": [
+				"The Iron Rider Deputy can expend a 1st-level ranger spell slot to imbue themselves with the authority of their station for 1 minute. They gain advantage on any check related to leadership, persuasion, or intimidation."
+			]
+		}
+	],
+	"action": [
+		{
+			"name": "Multiattack",
+			"entries": [
+				"The Iron Rider Deputy makes two shortsword attacks, provided it has a {@item shortsword|PHB} in each hand."
+			]
+		},
+		{
+			"name": "Shortsword",
+			"entries": [
+				"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}3 ({@damage 1d4 + 1}) piercing damage, or 2 ({@damage 1d4}) psychic damage if the target is {@status concentration||concentrating} on a spell."
+			]
+		},
+		{
+			"name": "Longbow",
+			"entries": [
+				"{@atk rw} {@hit 4} to hit, ranged 150/600 ft., one target. {@h}3 ({@damage 1d4 + 1}) piercing damage, or 2 ({@damage 1d4}) psychic damage if the target is {@status concentration||concentrating} on a spell."
+			]
+		}
+	],
+	"tokenHref": {
+		"type": "external",
+		"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/tokens/bestiary-iron-rider-deputy-token.png"
+	},
+	"attachedItems": [
+		"longbow|phb",
+		"shortsword|phb"
+	],
+	"actionTags": [
+		"Multiattack"
+	],
+	"languageTags": [
+		"X"
+	],
+	"spellcastingTags": [
+		"O"
+	],
+	"miscTags": [
+		"MW",
+		"MLW",
+		"RW"
+	],
+	"fluff": {
+		"entries": [
+			{
+				"type": "inset",
+				"name": "Dungeon Church Lore",
+				"entries": [
+					"Learn more about the {@link Iron Rider Deputy in the wiki|https://lore.dungeon.church/doc/iron-rider-deputy-S9G0VKvtRB}."
+				]
+			}
+		],
+		"images": [
+			{
+				"type": "image",
+				"href": {
+					"type": "external",
+					"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/bestiary-iron-rider-deputy.png"
+				}
+			}
+		]
+	},
+	"damageTags": [
+		"P",
+		"Y"
+	]
+	},
+
 		{
 			"name": "Iron Rider Hunter",
 			"source": "DungeonChurch",
@@ -2189,7 +2330,7 @@
 				]
 			},
 			"alignment": [
-				"A"
+				"L"
 			],
 			"ac": [
 				{
@@ -2337,10 +2478,7 @@
 				]
 			},
 			"alignment": [
-				"L",
-				"G",
-				"NY",
-				"E"
+				"L"
 			],
 			"ac": [
 				{
@@ -2499,7 +2637,7 @@
 				]
 			},
 			"alignment": [
-				"A"
+				"L"
 			],
 			"ac": [
 				{
@@ -2607,7 +2745,7 @@
 						"type": "inset",
 						"name": "Dungeon Church Lore",
 						"entries": [
-							"Learn more about the {@link Iron Rider Knight in the wiki|https://lore.dungeon.church/doc/iron-rider-knight-JIpk2Tegm7}."
+							"Learn more about the {@link Iron Rider Deputy in the wiki|https://lore.dungeon.church/doc/iron-rider-knight-JIpk2Tegm7}."
 						]
 					}
 				],
@@ -2640,7 +2778,7 @@
 				]
 			},
 			"alignment": [
-				"A"
+				"L"
 			],
 			"ac": [
 				{
@@ -4528,7 +4666,7 @@
 			],
 			"rarity": "common",
 			"entries": [
-				"Made from Sapphire Nightshade. In diluted doses, it acts as other common poisons. In higher concentrations that have been properly distilled it is extremely lethal, and if ingested will kill anyone within minutes. It is the most common tool of the assassin’s trade. It is rumored that when prepared to a high degree of purity, it can cause it’s dead victims to return as undead, monstrously transformed. Many necromancers claim to know the secret of this brew.",
+				"Made from {@item Sapphire Nightshade|dungeonchurch}. In diluted doses, it acts as other common poisons. In higher concentrations that have been properly distilled it is extremely lethal, and if ingested will kill anyone within minutes. It is the most common tool of the assassin’s trade. It is rumored that when prepared to a high degree of purity, it can cause it’s dead victims to return as undead, monstrously transformed. Many necromancers claim to know the secret of this brew.",
 				{
 					"type": "inset",
 					"name": "Dungeon Church Lore",

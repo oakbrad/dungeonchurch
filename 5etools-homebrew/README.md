@@ -86,6 +86,7 @@ Or import:
     * [Giant Coal Ant](https://lore.dungeon.church/doc/giant-coal-ant-M9repJEaQW)
     * [Hellion Child](https://lore.dungeon.church/doc/hellion-cmTM1BgZSd)
     * [Iron Rider Commodore](https://lore.dungeon.church/doc/iron-rider-commodore-Lvy7jFg6KW)
+    * [Iron Rider Deputy](https://lore.dungeon.church/doc/iron-rider-deputy-S9G0VKvtRB)
     * [Iron Rider Hunter](https://lore.dungeon.church/doc/iron-rider-hunter-kPxugCHSLi)
     * [Iron Rider Knight](https://lore.dungeon.church/doc/iron-rider-knight-JIpk2Tegm7)
     * Iron Rider Priest
