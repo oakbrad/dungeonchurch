@@ -5914,7 +5914,7 @@
 		{
 			"name": "Ravenfolk Mimicry",
 			"source": "DungeonChurch",
-			"caption": "{@race Ravenfolk|dungeonchurch|Ravenfolk} can mimic any sound they've heard.",
+			"caption": "Ravenfolk can mimic any sound they've heard.",
 			"page": 0,
 			"colLabels": [
 				"2d20",
@@ -6370,6 +6370,10 @@
 				[
 					"11",
 					"{@creature Clockwork Shark|dungeonchurch}"
+				],
+				[
+					"12",
+					"{@creature Iron Rider Deputy|dungeonchurch}"
 				]
 			]
 		},
