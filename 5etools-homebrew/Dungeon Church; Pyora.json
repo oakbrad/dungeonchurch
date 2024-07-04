@@ -350,7 +350,6 @@
 		{
 			"name": "Elfmarked",
 			"source": "DungeonChurch",
-			"page": 0,
 			"size": [
 				"M"
 			],
@@ -395,10 +394,6 @@
 					"anyStandard": 2
 				}
 			],
-			"soundClip": {
-				"type": "external",
-				"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/pron-elfmarked.mp3"
-			},
 			"entries": [
 				{
 					"name": "Age",
@@ -443,6 +438,11 @@
 					"type": "entries"
 				}
 			],
+			"soundClip": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/pron-elfmarked.mp3"
+			},
+			"foundryImg": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/icon.jpg",
 			"fluff": {
 				"entries": [
 					"According to superstitions common in the villages, children who exhibit certain talents, deformities, or spurious lineage are called “Children of the Travelers” a.k.a. the elfmarked.",
@@ -461,7 +461,6 @@
 		{
 			"name": "Halfling (Pyoran)",
 			"source": "DungeonChurch",
-			"page": 0,
 			"size": [
 				"S"
 			],
@@ -486,10 +485,6 @@
 					"gnomish": true
 				}
 			],
-			"soundClip": {
-				"type": "internal",
-				"path": "races/halfling.mp3"
-			},
 			"entries": [
 				{
 					"name": "Age",
@@ -541,6 +536,11 @@
 					]
 				}
 			],
+			"soundClip": {
+				"type": "internal",
+				"path": "races/halfling.mp3"
+			},
+			"foundryImg": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/icon.jpg",
 			"fluff": {
 				"entries": [
 					"The diminutive little people, gnomes live below ground and guard their homeland with a jealous secrecy that few have glimpsed. their dealings with the civilizations above ground is limited to trade, where they are known for intricate craftsmanship and ingenious devices.",
@@ -558,14 +558,9 @@
 		{
 			"name": "Human (Pyoran)",
 			"source": "DungeonChurch",
-			"page": 0,
 			"size": [
 				"M"
 			],
-			"soundClip": {
-				"type": "external",
-				"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/pron-pyoran.mp3"
-			},
 			"ability": [
 				{
 					"choose": {
@@ -635,6 +630,11 @@
 					"type": "entries"
 				}
 			],
+			"foundryImg": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/icon.jpg",
+			"soundClip": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/pron-pyoran.mp3"
+			},
 			"fluff": {
 				"entries": [
 					"The most common species by far, humans have built their cities, expanded their roads, and in general sought order in the world.",
@@ -653,7 +653,6 @@
 		{
 			"name": "Ravenfolk",
 			"source": "DungeonChurch",
-			"page": 0,
 			"size": [
 				"S",
 				"M"
@@ -690,10 +689,6 @@
 					"anyStandard": 3
 				}
 			],
-			"soundClip": {
-				"type": "external",
-				"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/pron-ravenfolk.mp3"
-			},
 			"entries": [
 				{
 					"name": "Age",
@@ -738,6 +733,11 @@
 					"type": "entries"
 				}
 			],
+			"soundClip": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/pron-ravenfolk.mp3"
+			},
+			"foundryImg": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/icon.jpg",
 			"fluff": {
 				"entries": [
 					"Few live amid so much rumor, suspicion, and outright falsehood as the ravenfolk. Depending on whom you ask, they might condemn the ravenfolk as nomads bearing misfortune or praise them as messengers from the gods. Ravenfolk are loyal comrades and treacherous thieves, brave warriors and contemptible cowards. They are despised for their strange and secretive nature, and criticized for having no true culture - only mimicry. These contradictions conceal a greater mystery few understand or know.",
@@ -756,7 +756,6 @@
 		{
 			"name": "Tribeborn",
 			"source": "DungeonChurch",
-			"page": 0,
 			"size": [
 				"M"
 			],
@@ -792,10 +791,6 @@
 					"tribal": true
 				}
 			],
-			"soundClip": {
-				"type": "external",
-				"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/pron-tribeborn.mp3"
-			},
 			"entries": [
 				{
 					"name": "Age",
@@ -847,6 +842,11 @@
 					"type": "entries"
 				}
 			],
+			"foundryImg": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/icon.jpg",
+			"soundClip": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/pron-tribeborn.mp3"
+			},
 			"fluff": {
 				"entries": [
 					"The Tribeborn are a formidable and resilient people, born of the union between orcs and other species. Deeply connected to their tribal settlements in the wilderness of the southwestern jungles, they embody a fusion of the primal strength of their orcish heritage with the varied traits of Pyora's diversity.",
@@ -870,11 +870,11 @@
 			"source": "DungeonChurch",
 			"raceName": "Dragonborn",
 			"raceSource": "PHB",
-			"page": 0,
 			"soundClip": {
 				"type": "external",
 				"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/pron-pyoran.mp3"
 			},
+			"foundryImg": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/icon.jpg",
 			"fluff": {
 				"entries": [
 					"Forged by the {@link First Dragon Emperor|https://lore.dungeon.church/doc/dragon-empire-odzVqtQPbm#h-emperors} as an unholy magical corruption of humanity, the slaves that conquered and then built the First Empire.",
@@ -896,7 +896,6 @@
 			"source": "DungeonChurch",
 			"raceName": "Gnome",
 			"raceSource": "PHB",
-			"page": 0,
 			"ability": [
 				{
 					"con": 1
@@ -949,6 +948,7 @@
 				}
 			],
 			"hasFluff": true,
+			"foundryImg": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/icon.jpg",
 			"fluff": {
 				"entries": [
 					"The diminutive little people, gnomes live below ground and guard their homeland with a jealous secrecy that few have glimpsed. Their dealings with the civilizations above ground is limited to trade, where they are known for intricate craftsmanship and ingenious devices. Some gnomes have come to live on the surface and assimilate to human life - known as halflings - as in half-humans.",
@@ -969,7 +969,6 @@
 			"source": "DungeonChurch",
 			"raceName": "Dwarf",
 			"raceSource": "PHB",
-			"page": 0,
 			"ability": [
 				{
 					"cha": 1
@@ -1003,6 +1002,7 @@
 				"baseWeight": 115,
 				"weightMod": "2d6"
 			},
+			"foundryImg": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/icon.jpg",
 			"hasFluff": true,
 			"fluff": {
 				"entries": [
@@ -1025,7 +1025,6 @@
 			"source": "DungeonChurch",
 			"raceName": "Dwarf",
 			"raceSource": "PHB",
-			"page": 0,
 			"ability": [
 				{
 					"con": 2,
@@ -1065,10 +1064,6 @@
 					}
 				}
 			],
-			"soundClip": {
-				"type": "external",
-				"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/pron-durandar.mp3"
-			},
 			"entries": [
 				{
 					"type":"entries",
@@ -1106,6 +1101,11 @@
 				"heightMod": "2d4",
 				"baseWeight": 115,
 				"weightMod": "2d6"
+			},
+			"foundryImg": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/icon.jpg",
+			"soundClip": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/pron-durandar.mp3"
 			},
 			"hasFluff": true,
 			"fluff": {
