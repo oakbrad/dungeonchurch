@@ -5,7 +5,7 @@ Dungeon Church's ***Pyora*** setting as <a href="/5etools-homebrew">homebrew sou
 
 Interested in playing with us? <b><a href=https://dungeon.church/join-us>Join us</a></b>.
 
-## Software
+# Software
 - [Ghost](https://ghost.org/) - public website, email newsletters and automated reminders
 - [Outline](https://www.getoutline.com/) - lore wiki for our homebrew setting
     - [Drawio](https://github.com/jgraph/docker-drawio) - diagramming integration
@@ -19,10 +19,11 @@ Interested in playing with us? <b><a href=https://dungeon.church/join-us>Join us
     - [Plutonium](https://5e.tools/plutonium.html) - Import content from 5E Tools to FoundryVTT
     - [DDB Proxy](https://github.com/MrPrimate/ddb-proxy) - If you are stuck in WotC subscription land, you can import your content with this
 
-*We are not playing online anymore, the FoundryVTT v10 config details are [archived here](/foundryvtt)*
-
 ## Docker Compose
 The config necessary to run all this is detailed in the <a href=/docker-compose.yaml>docker-compose.yaml</a>
 
 ## Node-Red Examples
 <a href=/node-red-examples/README.md>Example flows</a>
+
+## FoundryVTT
+Details of our [FoundryVTT V12 setup](/foundryvtt).

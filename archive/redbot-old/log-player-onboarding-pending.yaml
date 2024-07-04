@@ -1,7 +1,0 @@
-name: log-player-onboarding-pending
-rank: 4
-event: on-role-add
-if:
-  - compare: ["$role_id", "==", "1069776575941328947"] # pending-registration
-do:
-  - send-message: [server-log,"✅ $user_mention has read campaign-pitch and is @pending-registration "]
