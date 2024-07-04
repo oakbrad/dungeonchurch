@@ -1,5 +1,9 @@
+<p align="center">
+    <img width="200" height="200" src="icon.jpg">
+</p>
+
 # Dungeon Church
-D&D group infrastructure. More information in [this blog post](https://www.dungeon.church/dungeon-church-software-stack).
+Dungeons & Dragons group infrastructure & homebrew. More information in <a href=https://www.dungeon.church/dungeon-church-software-stack>this blog post</a>.
 
 Dungeon Church's ***Pyora*** setting as <a href="/5etools-homebrew">homebrew source</a> for 5E Tools.
 
@@ -22,8 +26,8 @@ Interested in playing with us? <b><a href=https://dungeon.church/join-us>Join us
 ## Docker Compose
 The config necessary to run all this is detailed in the <a href=/docker-compose.yaml>docker-compose.yaml</a>
 
+## FoundryVTT
+Details of our [FoundryVTT v12 setup](/foundryvtt).
+
 ## Node-Red Examples
 <a href=/node-red-examples/README.md>Example flows</a>
-
-## FoundryVTT
-Details of our [FoundryVTT V12 setup](/foundryvtt).
