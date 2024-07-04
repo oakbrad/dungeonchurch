@@ -42,6 +42,7 @@ services:
       - public-proxy
     volumes:
       - /home/ubuntu/foundryvtt:/data
+      - /home/ubuntu/5etools/homebrew:/data/assets/homebrew
     environment:
       - UID=1001
       - GID=1001
