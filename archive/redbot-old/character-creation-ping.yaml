@@ -1,9 +1,0 @@
-name: character-creation-ping
-rank: 3
-event: on-role-add
-if:
-  - compare: ["$role_id", "==", "1074794023887306823"] # If added role is players
-  - user-has-any-role-in: ["initiate"]
-do:
-  - send-message: ["character-creation", "Welcome $user_mention! To get started adventuring, you're going to need to get set up with a character. See the 📌 pinned message 
-here for more information."]
