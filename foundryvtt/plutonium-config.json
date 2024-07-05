@@ -1,0 +1,804 @@
+{
+	"fileType": "config",
+	"moduleVersion": "1.82.3",
+	"config": {
+		"actor": {
+			"isRefreshOtherOwnedSheets": true,
+			"isAddRollDataItemsFeat": false,
+			"isAddRollDataItemsItem": false,
+			"isAddRollDataItemsSpell": false,
+			"isAddRollDataItemsOther": false,
+			"isAutoMultiattack": false,
+			"autoMultiattackNames": [
+				"multiattack"
+			],
+			"autoMultiattackDelay": null,
+			"isUseExtendedActiveEffectsParser": true
+		},
+		"artBrowser": {
+			"importImagesAs": 0,
+			"dropAnchor": 0,
+			"scale": 1,
+			"scenePadding": 0,
+			"sceneBackgroundColorMode": 0,
+			"sceneBackgroundColorLight": "#ffffff",
+			"sceneBackgroundColorDark": "#222222",
+			"isSceneTokenVision": true,
+			"isSceneFogExploration": true,
+			"isSceneAddToNavigation": false,
+			"isSceneGenerateThumbnail": true,
+			"isSceneGridMetric": false,
+			"tokenSize": 1,
+			"isSwitchToCreatedScene": true,
+			"isDisplaySheetCreatedScene": true,
+			"artDirectoryPath": "assets/art",
+			"buttonDisplay": {
+				"0": false,
+				"1": true,
+				"2": false,
+				"3": true
+			},
+			"imageSaveMode": 0,
+			"isSwitchLayerOnDrop": true,
+			"isShowMissingBackendWarning": true
+		},
+		"currency": {
+			"isNpcUseCurrencySheetItems": true
+		},
+		"dataSources": {
+			"isPlayerEnableSourceSelection": true,
+			"isGmEnableSourceSelection": true,
+			"isPlayerForceSelectAllowedSources": true,
+			"isGmForceSelectAllowedSources": true,
+			"isLoadLocalPrereleaseIndex": false,
+			"localPrereleaseDirectoryPath": "assets/prerelease",
+			"isUseLocalPrereleaseIndexJson": false,
+			"localPrerelease": [],
+			"isLoadLocalHomebrewIndex": true,
+			"localHomebrewDirectoryPath": "assets/homebrew",
+			"isUseLocalHomebrewIndexJson": true,
+			"localHomebrew": [],
+			"minimumRoleWorldDatasourceSelector": 0,
+			"minimumRoleBlocklist": 0,
+			"tooManySourcesWarningThreshold": 50,
+			"baseSiteUrl": "https://5e.dungeon.church",
+			"baseMediaUrlImg": null,
+			"isNoLocalData": false,
+			"isNoPrereleaseBrewIndexes": false,
+			"basePrereleaseUrl": null,
+			"baseBrewUrl": null
+		},
+		"equipmentShop": {
+			"priceMultiplier": 1,
+			"startingGold": null,
+			"minimumRole": 1,
+			"isAllowOverSpending": false
+		},
+		"import": {
+			"isAddSourceToName": false,
+			"isRenderLinksAsTags": true,
+			"isRendererLinksDisabled": false,
+			"isRendererDiceDisabled": false,
+			"enrichersAutoConvert": {
+				"1": true,
+				"2": true,
+				"3": true,
+				"4": true,
+				"5": true,
+				"6": true
+			},
+			"deduplicationMode": 2,
+			"isDuplicateHandlingMaintainImage": true,
+			"minimumRole": 1,
+			"dragDropMode": 2,
+			"isUseOtherFormulaFieldForSaveHalvesDamage": false,
+			"isUseOtherFormulaFieldForOtherDamage": false,
+			"isGlobalMetricDistance": false,
+			"isGlobalMetricWeight": false,
+			"isShowVariantsInLists": true,
+			"isSaveImagesToServer": false,
+			"isSaveTokensToServer": true,
+			"localImageDirectoryPath": "assets/srd5e",
+			"isPreferFoundryImages": false,
+			"isPreferFoundryTokens": false,
+			"hiddenImporterIds": {
+				"actions": false,
+				"adventures": false,
+				"background-features": false,
+				"backgrounds": false,
+				"books": false,
+				"character-creation-options": false,
+				"classes-subclasses-features": false,
+				"classes-subclasses": false,
+				"conditions-diseases": false,
+				"creature-features": false,
+				"creatures": false,
+				"cults-boons": true,
+				"decks": false,
+				"deities": false,
+				"feats": false,
+				"hazards": false,
+				"items": false,
+				"languages": false,
+				"maps": false,
+				"object-features": true,
+				"objects": false,
+				"optional-and-variant-rules": false,
+				"other-options-and-features": true,
+				"psionics": true,
+				"race-and-subrace-features": false,
+				"races-and-subraces": false,
+				"recipes": true,
+				"spells": false,
+				"rewards": true,
+				"tables": false,
+				"trap-features": false,
+				"traps": false,
+				"vehicle-features": true,
+				"vehicle-upgrades": true,
+				"vehicles": false
+			},
+			"isTreatJournalEntriesAsFolders": true,
+			"isUseLocalImages": false,
+			"isStrictMatching": false,
+			"summonsFolderName": "Summons",
+			"tempFolderName": "Temp",
+			"isUseAdvancementBackingCompendium": false,
+			"isAutoAddAdditionalFonts": true,
+			"weaponTargetDefault": 0
+		},
+		"importAction": {
+			"ownership": 0,
+			"setEffectDisabled": "VE_USE_MODULE_VALUE",
+			"setEffectTransfer": "VE_USE_MODULE_VALUE",
+			"isImportDescription": true
+		},
+		"importAdventure": {
+			"ownership": 0,
+			"isUseModdedInstaller": false,
+			"isUseLegacyImporter": false,
+			"indexUrl": "https://raw.githubusercontent.com/DMsGuild201/Foundry_Resources/master/worlds/index.json"
+		},
+		"importBackgroundFeature": {
+			"ownership": 0,
+			"isTargetTemplatePrompt": true
+		},
+		"importBackground": {
+			"ownership": 0,
+			"additionalDataCompendium": [
+				"dnd5e.backgrounds",
+				"dnd-phandelver-below.pbso-player-options"
+			],
+			"additionalDataCompendiumFeatures": [
+				"dnd5e.backgrounds",
+				"dnd-phandelver-below.pbso-player-options"
+			],
+			"setEffectDisabled": "VE_USE_MODULE_VALUE",
+			"setEffectTransfer": "VE_USE_MODULE_VALUE",
+			"isImportDescription": true
+		},
+		"importBook": {
+			"ownership": 0
+		},
+		"importCharCreationOption": {
+			"ownership": 0,
+			"isTargetTemplatePrompt": true,
+			"isMetricDistance": false,
+			"setEffectDisabled": "VE_USE_MODULE_VALUE",
+			"setEffectTransfer": "VE_USE_MODULE_VALUE",
+			"isImportDescription": true
+		},
+		"importClassSubclassFeature": {
+			"ownership": 0,
+			"isTargetTemplatePrompt": true,
+			"isMetricDistance": false,
+			"setEffectDisabled": "VE_USE_MODULE_VALUE",
+			"setEffectTransfer": "VE_USE_MODULE_VALUE",
+			"isImportDescription": true,
+			"deduplicateRefSelectionMode": 0
+		},
+		"importClass": {
+			"ownership": 0,
+			"isAddUnarmedStrike": false,
+			"isImportClassTable": true,
+			"isAddLevelUpButton": true,
+			"isSetXp": false,
+			"hpIncreaseMode": null,
+			"hpIncreaseModeCustomRollFormula": null,
+			"isDisplayOnLevelZeroCharacters": true,
+			"isLevelUpButtonDisabledUntilEnoughExperience": true,
+			"additionalDataCompendiumClasses": [
+				"dnd5e.classes",
+				"dnd-tashas-cauldron.tcoe-character-options"
+			],
+			"additionalDataCompendiumSubclasses": [
+				"dnd5e.subclasses",
+				"dnd-tashas-cauldron.tcoe-character-options"
+			],
+			"additionalDataCompendiumFeatures": [
+				"dnd5e.classfeatures",
+				"dnd-tashas-cauldron.tcoe-character-options"
+			],
+			"setEffectDisabled": "VE_USE_MODULE_VALUE",
+			"setEffectTransfer": "VE_USE_MODULE_VALUE",
+			"isImportDescription": true,
+			"isUseDefaultSubclassImage": true,
+			"isHideSubclassRows": false
+		},
+		"importConditionDisease": {
+			"ownership": 0,
+			"setEffectDisabled": "VE_USE_MODULE_VALUE",
+			"setEffectTransfer": "VE_USE_MODULE_VALUE",
+			"isImportDescription": true
+		},
+		"importCreatureFeature": {
+			"ownership": 0,
+			"isTargetTemplatePrompt": true,
+			"isSecretWrapAttacks": false,
+			"isScaleToTargetActor": true,
+			"isMetricDistance": false,
+			"setEffectDisabled": "VE_USE_MODULE_VALUE",
+			"setEffectTransfer": "VE_USE_MODULE_VALUE",
+			"isSplitMeleeRangedAttack": true,
+			"isSplitConditionalDamageAttack": true,
+			"isPreferFlatSavingThrows": false
+		},
+		"importCreature": {
+			"ownership": 0,
+			"isImportBio": true,
+			"isImportBioImages": true,
+			"isImportBioVariants": true,
+			"isImportVariantsAsFeatures": false,
+			"tokenNameDisplay": 20,
+			"tokenDisposition": -1,
+			"tokenLockRotation": "VE_USE_MODULE_VALUE",
+			"tokenIsAddVision": 1,
+			"tokenSightRange": "VE_USE_MODULE_VALUE",
+			"tokenSightVisionMode": "VE_USE_MODULE_VALUE",
+			"tokenSightAngle": "VE_USE_MODULE_VALUE",
+			"tokenDetectionModes": "VE_USE_MODULE_VALUE",
+			"tokenVisionSaturation": "VE_USE_MODULE_VALUE",
+			"tokenDimLight": "VE_USE_MODULE_VALUE",
+			"tokenBrightLight": "VE_USE_MODULE_VALUE",
+			"tokenLightAngle": "VE_USE_MODULE_VALUE",
+			"tokenLightColor": "VE_USE_MODULE_VALUE",
+			"tokenLightAlpha": "VE_USE_MODULE_VALUE",
+			"tokenLightAnimationType": "VE_USE_MODULE_VALUE",
+			"tokenLightAnimationSpeed": "VE_USE_MODULE_VALUE",
+			"tokenLightAnimationIntensity": "VE_USE_MODULE_VALUE",
+			"tokenBarDisplay": 40,
+			"tokenBar1Attribute": "attributes.hp",
+			"tokenBar2Attribute": null,
+			"tokenScale": null,
+			"isTokenMetric": false,
+			"isEnableDynamicRing": true,
+			"dynamicRingRingColor": null,
+			"dynamicRingBackgroundColor": null,
+			"dynamicRingEffects": {
+				"2": false,
+				"4": false,
+				"8": false
+			},
+			"itemWeightAndValueSizeScaling": 1,
+			"isMetricDistance": false,
+			"spellcastingPrimaryTraitMode": 1,
+			"nameTags": {
+				"0": false,
+				"1": false,
+				"2": false
+			},
+			"isAddSoundEffect": false,
+			"additionalDataCompendium": [
+				"dnd5e.monsters",
+				"dnd-phandelver-below.pbso-bestiary",
+				"dnd-tashas-cauldron.tcoe-actors"
+			],
+			"additionalDataCompendiumFeatures": [
+				"dnd5e.monsterfeatures"
+			],
+			"isUseTokenImageAsPortrait": false,
+			"isDisableActorOverwriteWarning": false,
+			"isAddFakeClassToCharacter": true,
+			"isUseStaticAc": false,
+			"isUseCustomNaturalAc": false,
+			"isUsePathfinderTokenPackBestiariesImages": false
+		},
+		"importCultBoon": {
+			"ownership": 0,
+			"setEffectDisabled": "VE_USE_MODULE_VALUE",
+			"setEffectTransfer": "VE_USE_MODULE_VALUE",
+			"isImportDescription": true
+		},
+		"importDeck": {
+			"ownership": 0
+		},
+		"importDeity": {
+			"ownership": 0
+		},
+		"importFeat": {
+			"ownership": 0,
+			"isTargetTemplatePrompt": true,
+			"isMetricDistance": false,
+			"additionalDataCompendium": [
+				"dnd-tashas-cauldron.tcoe-character-options"
+			],
+			"setEffectDisabled": "VE_USE_MODULE_VALUE",
+			"setEffectTransfer": "VE_USE_MODULE_VALUE",
+			"isImportDescription": true
+		},
+		"importReward": {
+			"ownership": 0,
+			"isTargetTemplatePrompt": true,
+			"isMetricDistance": false,
+			"setEffectDisabled": "VE_USE_MODULE_VALUE",
+			"setEffectTransfer": "VE_USE_MODULE_VALUE",
+			"isImportDescription": true
+		},
+		"importHazard": {
+			"ownership": 0
+		},
+		"importItem": {
+			"ownership": 0,
+			"isAddActiveEffects": true,
+			"isMetricDistance": false,
+			"isMetricWeight": false,
+			"inventoryStackingMode": 1,
+			"isSplitPacksActor": true,
+			"isSplitAtomicPacksActor": false,
+			"throwables": [
+				"Handaxe",
+				"Javelin",
+				"Light Hammer",
+				"Dart",
+				"Net"
+			],
+			"altAbilityScoreByClass": [
+				"monk:club:dex",
+				"monk:dagger:dex",
+				"monk:handaxe:dex",
+				"monk:javelin:dex",
+				"monk:light hammer:dex",
+				"monk:mace:dex",
+				"monk:quarterstaff:dex",
+				"monk:shortsword:dex",
+				"monk:sickle:dex",
+				"monk:spear:dex"
+			],
+			"identified": {
+				"mundane": true,
+				"magic": false,
+				"mundaneActor": true,
+				"magicActor": true
+			},
+			"attunementType": 1,
+			"attunementTypeActor": 2,
+			"isImportDescriptionHeader": false,
+			"isUseOtherFormulaFieldForExtraDamage": false,
+			"additionalDataCompendium": [
+				"dnd5e.items",
+				"dnd5e.tradegoods",
+				"dnd-phandelver-below.pbso-items",
+				"dnd-phandelver-below.pbso-player-options",
+				"dnd-tashas-cauldron.tcoe-magic-items"
+			],
+			"replacementDataCompendium": [],
+			"setEffectDisabled": "VE_USE_MODULE_VALUE",
+			"setEffectTransfer": "VE_USE_MODULE_VALUE",
+			"isImportDescription": true
+		},
+		"importLanguage": {
+			"ownership": 0
+		},
+		"importMap": {
+			"scenePadding": 0,
+			"sceneBackgroundColorMode": 0,
+			"sceneBackgroundColorLight": "#ffffff",
+			"sceneBackgroundColorDark": "#222222",
+			"isSceneTokenVision": true,
+			"isSceneFogExploration": true,
+			"isSceneAddToNavigation": false,
+			"isSceneGenerateThumbnail": true,
+			"isSceneGridMetric": false,
+			"baseSideDataUrl": "https://raw.githubusercontent.com/TheGiddyLimit/plutonium-scenes/main",
+			"isFetchSideData": true,
+			"isDrawDebugRegionsPreTransform": false,
+			"isDrawDebugRegionsPostTransform": false
+		},
+		"importObjectFeature": {
+			"ownership": 0,
+			"isTargetTemplatePrompt": true,
+			"isMetricDistance": false,
+			"setEffectDisabled": "VE_USE_MODULE_VALUE",
+			"setEffectTransfer": "VE_USE_MODULE_VALUE"
+		},
+		"importObject": {
+			"ownership": 0,
+			"tokenNameDisplay": 20,
+			"tokenDisposition": -1,
+			"tokenLockRotation": "VE_USE_MODULE_VALUE",
+			"tokenIsAddVision": 1,
+			"tokenSightRange": "VE_USE_MODULE_VALUE",
+			"tokenSightVisionMode": "VE_USE_MODULE_VALUE",
+			"tokenSightAngle": "VE_USE_MODULE_VALUE",
+			"tokenDetectionModes": "VE_USE_MODULE_VALUE",
+			"tokenVisionSaturation": "VE_USE_MODULE_VALUE",
+			"tokenDimLight": "VE_USE_MODULE_VALUE",
+			"tokenBrightLight": "VE_USE_MODULE_VALUE",
+			"tokenLightAngle": "VE_USE_MODULE_VALUE",
+			"tokenLightColor": "VE_USE_MODULE_VALUE",
+			"tokenLightAlpha": "VE_USE_MODULE_VALUE",
+			"tokenLightAnimationType": "VE_USE_MODULE_VALUE",
+			"tokenLightAnimationSpeed": "VE_USE_MODULE_VALUE",
+			"tokenLightAnimationIntensity": "VE_USE_MODULE_VALUE",
+			"tokenBarDisplay": 40,
+			"tokenBar1Attribute": "attributes.hp",
+			"tokenBar2Attribute": null,
+			"tokenScale": null,
+			"isTokenMetric": false,
+			"isEnableDynamicRing": true,
+			"dynamicRingRingColor": null,
+			"dynamicRingBackgroundColor": null,
+			"dynamicRingEffects": {
+				"2": false,
+				"4": false,
+				"8": false
+			},
+			"isMetricDistance": false,
+			"isImportBio": true,
+			"isImportBioImages": false,
+			"isUseTokenImageAsPortrait": false,
+			"isDisableActorOverwriteWarning": false
+		},
+		"importOptionalFeature": {
+			"ownership": 0,
+			"isTargetTemplatePrompt": true,
+			"isMetricDistance": false,
+			"isFilterOnOpen": true,
+			"additionalDataCompendium": [
+				"dnd5e.classfeatures",
+				"dnd-tashas-cauldron.tcoe-character-options"
+			],
+			"setEffectDisabled": "VE_USE_MODULE_VALUE",
+			"setEffectTransfer": "VE_USE_MODULE_VALUE",
+			"isImportDescription": true
+		},
+		"importPsionic": {
+			"ownership": 0,
+			"psiPointsResource": "sheetItem",
+			"psiPointsResourceCustom": null,
+			"isImportAsSpell": false,
+			"isTargetTemplatePrompt": true,
+			"setEffectDisabled": "VE_USE_MODULE_VALUE",
+			"setEffectTransfer": "VE_USE_MODULE_VALUE",
+			"isImportDescription": true
+		},
+		"importRaceFeature": {
+			"ownership": 0,
+			"isTargetTemplatePrompt": true,
+			"additionalDataCompendiumFeatures": [
+				"dnd5e.races"
+			],
+			"setEffectDisabled": "VE_USE_MODULE_VALUE",
+			"setEffectTransfer": "VE_USE_MODULE_VALUE"
+		},
+		"importRace": {
+			"ownership": 0,
+			"tokenNameDisplay": 20,
+			"tokenDisposition": 0,
+			"tokenLockRotation": "VE_USE_MODULE_VALUE",
+			"tokenIsAddVision": 1,
+			"tokenSightRange": "VE_USE_MODULE_VALUE",
+			"tokenSightVisionMode": "VE_USE_MODULE_VALUE",
+			"tokenSightAngle": "VE_USE_MODULE_VALUE",
+			"tokenDetectionModes": "VE_USE_MODULE_VALUE",
+			"tokenVisionSaturation": "VE_USE_MODULE_VALUE",
+			"tokenDimLight": "VE_USE_MODULE_VALUE",
+			"tokenBrightLight": "VE_USE_MODULE_VALUE",
+			"tokenLightAngle": "VE_USE_MODULE_VALUE",
+			"tokenLightColor": "VE_USE_MODULE_VALUE",
+			"tokenLightAlpha": "VE_USE_MODULE_VALUE",
+			"tokenLightAnimationType": "VE_USE_MODULE_VALUE",
+			"tokenLightAnimationSpeed": "VE_USE_MODULE_VALUE",
+			"tokenLightAnimationIntensity": "VE_USE_MODULE_VALUE",
+			"tokenBarDisplay": 40,
+			"tokenBar1Attribute": "attributes.hp",
+			"tokenBar2Attribute": null,
+			"tokenScale": null,
+			"isTokenMetric": false,
+			"isMetricDistance": false,
+			"additionalDataCompendium": [
+				"dnd5e.races"
+			],
+			"setEffectDisabled": "VE_USE_MODULE_VALUE",
+			"setEffectTransfer": "VE_USE_MODULE_VALUE",
+			"isImportDescription": true
+		},
+		"importRecipe": {
+			"ownership": 0
+		},
+		"importRule": {
+			"ownership": 0
+		},
+		"importSpell": {
+			"ownership": 0,
+			"prepareActorSpells": true,
+			"prepareSpellItems": false,
+			"actorSpellPreparationMode": "prepared",
+			"isAutoDetectActorSpellPreparationMode": true,
+			"spellItemPreparationMode": "prepared",
+			"spellScrollPriceMode": 0,
+			"spellScrollPricesCustom": "0,0,0,0,0,0,0,0,0,0",
+			"isAddSummonsProfiles": true,
+			"spellPointsMode": 0,
+			"spellPointsResource": "sheetItem",
+			"spellPointsResourceCustom": null,
+			"isIncludeClassesInDescription": false,
+			"isTargetTemplatePrompt": true,
+			"isMetricDistance": false,
+			"isFilterOnOpen": true,
+			"additionalDataCompendium": [
+				"dnd5e.spells",
+				"dnd-tashas-cauldron.tcoe-character-options"
+			],
+			"replacementDataCompendium": [],
+			"setEffectDisabled": "VE_USE_MODULE_VALUE",
+			"setEffectTransfer": "VE_USE_MODULE_VALUE",
+			"isImportDescription": true,
+			"isUseCustomSrdIcons": true,
+			"isUseDefaultSchoolImage": true,
+			"spellPointsModeNpc": 0
+		},
+		"importTable": {
+			"ownership": 0,
+			"additionalDataCompendium": [
+				"dnd5e.tables"
+			]
+		},
+		"importTrapFeature": {
+			"ownership": 0,
+			"isTargetTemplatePrompt": true,
+			"isMetricDistance": false,
+			"setEffectDisabled": "VE_USE_MODULE_VALUE",
+			"setEffectTransfer": "VE_USE_MODULE_VALUE"
+		},
+		"importTrap": {
+			"ownership": 0,
+			"tokenNameDisplay": 20,
+			"tokenDisposition": -1,
+			"tokenLockRotation": "VE_USE_MODULE_VALUE",
+			"tokenIsAddVision": 1,
+			"tokenSightRange": "VE_USE_MODULE_VALUE",
+			"tokenSightVisionMode": "VE_USE_MODULE_VALUE",
+			"tokenSightAngle": "VE_USE_MODULE_VALUE",
+			"tokenDetectionModes": "VE_USE_MODULE_VALUE",
+			"tokenVisionSaturation": "VE_USE_MODULE_VALUE",
+			"tokenDimLight": "VE_USE_MODULE_VALUE",
+			"tokenBrightLight": "VE_USE_MODULE_VALUE",
+			"tokenLightAngle": "VE_USE_MODULE_VALUE",
+			"tokenLightColor": "VE_USE_MODULE_VALUE",
+			"tokenLightAlpha": "VE_USE_MODULE_VALUE",
+			"tokenLightAnimationType": "VE_USE_MODULE_VALUE",
+			"tokenLightAnimationSpeed": "VE_USE_MODULE_VALUE",
+			"tokenLightAnimationIntensity": "VE_USE_MODULE_VALUE",
+			"tokenBarDisplay": 40,
+			"tokenBar1Attribute": "attributes.hp",
+			"tokenBar2Attribute": null,
+			"tokenScale": null,
+			"isTokenMetric": false,
+			"isImportBio": true,
+			"isImportBioImages": false,
+			"isDisableActorOverwriteWarning": false
+		},
+		"importVehicleUpgrade": {
+			"ownership": 0,
+			"isTargetTemplatePrompt": true,
+			"isMetricDistance": false,
+			"setEffectDisabled": "VE_USE_MODULE_VALUE",
+			"setEffectTransfer": "VE_USE_MODULE_VALUE",
+			"isImportDescription": true
+		},
+		"importVehicle": {
+			"ownership": 0,
+			"tokenNameDisplay": 20,
+			"tokenDisposition": -1,
+			"tokenLockRotation": "VE_USE_MODULE_VALUE",
+			"tokenIsAddVision": 1,
+			"tokenSightRange": "VE_USE_MODULE_VALUE",
+			"tokenSightVisionMode": "VE_USE_MODULE_VALUE",
+			"tokenSightAngle": "VE_USE_MODULE_VALUE",
+			"tokenDetectionModes": "VE_USE_MODULE_VALUE",
+			"tokenVisionSaturation": "VE_USE_MODULE_VALUE",
+			"tokenDimLight": "VE_USE_MODULE_VALUE",
+			"tokenBrightLight": "VE_USE_MODULE_VALUE",
+			"tokenLightAngle": "VE_USE_MODULE_VALUE",
+			"tokenLightColor": "VE_USE_MODULE_VALUE",
+			"tokenLightAlpha": "VE_USE_MODULE_VALUE",
+			"tokenLightAnimationType": "VE_USE_MODULE_VALUE",
+			"tokenLightAnimationSpeed": "VE_USE_MODULE_VALUE",
+			"tokenLightAnimationIntensity": "VE_USE_MODULE_VALUE",
+			"tokenBarDisplay": 40,
+			"tokenBar1Attribute": "attributes.hp",
+			"tokenBar2Attribute": null,
+			"tokenScale": null,
+			"isTokenMetric": false,
+			"isMetricDistance": false,
+			"isImportBio": true,
+			"isImportBioImages": false,
+			"additionalDataCompendium": [],
+			"isUseTokenImageAsPortrait": false,
+			"isDisableActorOverwriteWarning": false,
+			"setEffectDisabled": "VE_USE_MODULE_VALUE",
+			"setEffectTransfer": "VE_USE_MODULE_VALUE"
+		},
+		"integrationThreeDiCanvas": {
+			"isSetThreeDiModels": true
+		},
+		"integrationBabele": {
+			"isEnabled": true,
+			"isUseTranslatedDescriptions": true
+		},
+		"integrationFoundrySummons": {
+			"isEnabled": true,
+			"isFilterSourcesUa": true
+		},
+		"integrationQuickInsert": {
+			"isEnabled": true,
+			"isFilterSourcesUa": true,
+			"pagesHidden": {
+				"actions.html": false,
+				"backgrounds.html": false,
+				"bestiary.html": false,
+				"citation": false,
+				"classes.html": false,
+				"conditionsdiseases.html": false,
+				"cultsboons.html": false,
+				"decks.html": true,
+				"deities.html": false,
+				"feats.html": false,
+				"itemMastery": false,
+				"items.html": false,
+				"languages.html": false,
+				"legendaryGroup": false,
+				"objects.html": false,
+				"variantrules.html": false,
+				"charcreationoptions.html": false,
+				"optionalfeatures.html": false,
+				"psionics.html": false,
+				"races.html": false,
+				"recipes.html": true,
+				"spells.html": false,
+				"rewards.html": false,
+				"tables.html": false,
+				"trapshazards.html": false,
+				"vehicles.html": false
+			},
+			"isDisplaySource": true
+		},
+		"integrationSpotlightOmnisearch": {
+			"isEnabled": true,
+			"isFilterSourcesUa": true,
+			"pagesHidden": {
+				"actions.html": false,
+				"backgrounds.html": false,
+				"bestiary.html": false,
+				"citation": false,
+				"classes.html": false,
+				"conditionsdiseases.html": false,
+				"cultsboons.html": false,
+				"decks.html": false,
+				"deities.html": false,
+				"feats.html": false,
+				"itemMastery": false,
+				"items.html": false,
+				"languages.html": false,
+				"legendaryGroup": false,
+				"objects.html": false,
+				"variantrules.html": false,
+				"charcreationoptions.html": false,
+				"optionalfeatures.html": false,
+				"psionics.html": false,
+				"races.html": false,
+				"recipes.html": true,
+				"spells.html": false,
+				"rewards.html": false,
+				"tables.html": false,
+				"trapshazards.html": false,
+				"vehicles.html": false
+			}
+		},
+		"item": {
+			"isSuppressAdvancementsOnImportedDrop": true
+		},
+		"journalEntries": {
+			"isAutoExpandJournalEmbeds": true,
+			"isEnableNoteHeaderAnchor": true
+		},
+		"misc": {
+			"isSkipAddonAutomationCheck": false,
+			"isSkipBackendCheck": false,
+			"backendEndpoint": null,
+			"isPatchFromUuid": true,
+			"isDebugDocumentOperations": false,
+			"isDebugFromUuid": false,
+			"isSetDocumentOperationsCanaryFlags": false,
+			"isDebugImageFetching": false
+		},
+		"rivet": {
+			"targetDocumentId": "",
+			"isDisplayStatus": true,
+			"minimumRole": 0
+		},
+		"text": {
+			"isEnableHoverForLinkTags": true,
+			"isAutoRollActorItemTags": false,
+			"isJumpToFolderTags": true,
+			"isShowLinkParent": false
+		},
+		"tokens": {
+			"isDisplayDamageDealt": false,
+			"damageDealtBloodiedThreshold": 0.5,
+			"isDamageDealtBelowToken": false,
+			"nameplateFontSizeMultiplier": null,
+			"isAllowNameplateFontWrap": "VE_USE_GAME_DEFAULT",
+			"nameplateFontWrapWidthMultiplier": null,
+			"isNameplateOnToken": false,
+			"npcHpRollMode": 0,
+			"isDisableAnimations": false,
+			"animationSpeedMultiplier": null,
+			"missingHealthAttribute": "attributes.hp",
+			"isIgnoreDisableAnimationsForWaypointMovement": true
+		},
+		"tools": {
+			"isDeduplicateIgnoreType": false,
+			"minimumRolePolymorph": 1,
+			"minimumRoleActorTools": 1,
+			"minimumRoleTableTools": 0,
+			"minimumRoleDirectoryCleaner": 0,
+			"minimumRoleDirectoryDeduplicator": 0,
+			"minimumRoleDirectoryMover": 0,
+			"minimumRoleBulkOwnershipEditor": 0,
+			"minimumRoleBulkPrototypeTokenEditor": 0,
+			"minimumRoleOwnershipUpdater": 0,
+			"minimumRoleLootGenerator": 0,
+			"minimumRoleContentUpdater": 0,
+			"minimumRolePackageImporter": 0,
+			"minimumRoleImagePreloader": 0,
+			"isAddClearFlagsContextMenu": false
+		},
+		"ui": {
+			"isStreamerMode": false,
+			"colorScheme": 1,
+			"isShowPopout": true,
+			"isCompactWindowBar": true,
+			"isCompactDirectoryButtons": true,
+			"isCompactChat": true,
+			"isCompactScenes": true,
+			"isCompactActors": true,
+			"isCompactItems": true,
+			"isCompactJournal": true,
+			"isCompactTables": true,
+			"isCompactCards": true,
+			"isCompactCompendiums": true,
+			"isCompactMacros": true,
+			"isHidePlutoniumDirectoryButtons": false,
+			"isHidePlutoniumSheetMenuButton": false,
+			"isNameTabFromScene": true,
+			"tabNameSuffix": null,
+			"isDisplayBackendStatus": true,
+			"isExpandActiveEffectConfig": true,
+			"isAddDeleteToSceneNavOptions": true,
+			"isHideGmOnlyConfig": true,
+			"isDisableLargeImportWarning": false,
+			"isFastAnimations": false,
+			"isFastTooltips": false,
+			"isFixEscapeKey": true,
+			"isFixDrawingFreehandMinDistance": true,
+			"isEnableIncreasedFolderDepth": true,
+			"isEnableFolderNameWrap": false,
+			"isEnableSubPopouts": true,
+			"isSuppressMissingRollDataNotifications": true,
+			"isAlwaysResizableApps": false
+		},
+		"version": 2
+	}
+}
