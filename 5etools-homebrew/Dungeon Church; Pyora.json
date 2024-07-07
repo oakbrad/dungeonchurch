@@ -2180,7 +2180,7 @@
 	"type": {
 		"type": "humanoid",
 		"tags": [
-			"any race"
+			"Any species but Dragonborn"
 		]
 	},
 	"alignment": [
@@ -2326,7 +2326,7 @@
 			"type": {
 				"type": "humanoid",
 				"tags": [
-					"any race"
+					"Any species but Dragonborn"
 				]
 			},
 			"alignment": [
@@ -2474,7 +2474,7 @@
 			"type": {
 				"type": "humanoid",
 				"tags": [
-					"any race"
+					"Any species but Dragonborn"
 				]
 			},
 			"alignment": [
@@ -2633,7 +2633,7 @@
 			"type": {
 				"type": "humanoid",
 				"tags": [
-					"any race"
+					"Any species but Dragonborn"
 				]
 			},
 			"alignment": [
@@ -2772,7 +2772,7 @@
 				"M"
 			],
 			"type": {
-				"type": "humanoid",
+				"type": "humanoid except Dragonborn",
 				"tags": [
 					"any race"
 				]
@@ -2918,7 +2918,7 @@
 			"type": {
 				"type": "humanoid",
 				"tags": [
-					"any race"
+					"Any species but Dragonborn"
 				]
 			},
 			"alignment": [
