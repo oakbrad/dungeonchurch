@@ -23,23 +23,33 @@ Notes on setting up Dungeon Church's virtual tabletop.
   * Collapse Item Cards in Chat `Checked`
 
 ## Module Settings
-* DDB Importer
-  * Set CORS Cookie
-  * DDB Proxy `Checked`
-    * URL: `https://ddb-proxy.dungeon.church`
+* Carousel Combat Tracker
+  * Overflow Style `Hidden`
+  * Attribute Visibility `Bars Only`
+  * Hide Defeated `Checked`
+  * Show Disposition `Unchecked`
+  * Show Initiative on Portrait `Unchecked`
+  * Display Name `Based on Token`
+* Chat Media
+* colorsettings - dependency of Splatter
 * Dice So Nice
   * Show Ghost dice for hidden rolls `Checked`
 * Dice Tray
+* Forien's Copy Environment
+  * Backup untracked in repo because it contains secrets
+* Foundry Community Macros
 * Foundry to Discord
   * Enable Server Status Message `Checked`
   * Monitor user login/logout `Unchecked`
   * Enable 'Send to Discord' for everyone `Checked`
 * libWrapper - dependency
-* Magic Items - dependency of DDB Importer
+* Magic Items
 * NPC Generator (GPT)
 * OBS Utils
 * Plutonium
   * [Settings](/foundryvtt/plutonium-config.json) in repo
 * Quick Insert
   * GMs Only `Checked`
-* Vision 5E - dependency of DDB Importer
+* Splatter
+  * Cleanup `1`
+* Vision 5E
