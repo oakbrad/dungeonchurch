@@ -1824,7 +1824,7 @@
 				"Charge"
 			],
 			"damageTags": [
-				"S"
+				"M"
 			],
 			"miscTags": [
 				"MW"
@@ -1844,15 +1844,148 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/bestiary-dire-boar.png"
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/bestiary-dire-hare.png"
 						}
 					}
 				]
 			},
 			"tokenHref": {
 				"type": "external",
-				"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/tokens/bestiary-dire-boar-token.png"
+				"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/tokens/bestiary-dire-hare-token.png"
 			}
+		},
+		{
+			"name": "Dire Hare",
+			"source": "DungeonChurch",
+			"size": [
+				"L"
+			],
+			"type": "beast",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				13
+			],
+			"hp": {
+				"formula": "7d4 + 7",
+				"average": 24
+			},
+			"speed": {
+				"walk": 60
+			},
+			"str": 11,
+			"dex": 17,
+			"con": 13,
+			"int": 2,
+			"wis": 15,
+			"cha": 2,
+			"skill": {
+				"perception": "+6",
+				"stealth": "+7",
+				"acrobatics": "+7",
+				"survival": "+4"
+			},
+			"passive": 16,
+			"cr": "3",
+			"trait": [
+				{
+					"name": "Escape",
+					"entries": [
+						"The dire hare can take the Dash, Disengage, or Hide action as a bonus action on each of its turns."
+					]
+				},
+				{
+					"name": "Keen Hearing",
+					"entries": [
+						"The dire hare has advantage on Wisdom ({@skill Perception}) checks that rely on hearing."
+					]
+				},
+				{
+					"name": "Charge",
+					"entries": [
+						"If the dire hare moves at least 15 feet straight toward a target and then hits it with its bite on the same turn, the target takes an extra 7 ({@dice 2d6}) slashing damage. If the target is a creature, it must succeed on a {@dc 13} Strength saving throw or be knocked {@condition prone}."
+					]
+				}
+			],
+			"fluff": {
+				"name": "Dire Hare",
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/bestiary-dire-hare.png"
+						}
+					}
+				]
+			},
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/tokens/bestiary-dire-hare-token.png"
+			},
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"senseTags": [
+				"SD"
+			],
+			"conditionImmune": [
+				"exhaustion"
+			],
+			"traitTags": [
+				"Charge",
+				"Keen Senses"
+			],
+			"conditionInflict": [
+				"poisoned",
+				"prone"
+			],
+			"reaction": [
+				{
+					"name": "Infestation",
+					"entries": [
+						"If the dire hare is hit with a melee attack, all creatures within 5 ft. of the hare must make a {@dc 13} Dexterity saving throw or they are covered with a {@creature Swarm of Fleas|tob3}."
+					]
+				}
+			],
+			"environment": [
+				"coastal",
+				"desert",
+				"forest",
+				"grassland",
+				"hill",
+				"mountain",
+				"swamp",
+				"urban"
+			],
+			"action": [
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit +2} to hit, reach 5 ft., one target. {@h}3 ({@damage 1d6}) piercing damage. If the target is a creature, it must succeed on a {@dc 11} saving throw against disease or become {@condition poisoned}"
+					]
+				}
+			],
+			"miscTags": [
+				"MW"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"savingThrowForced": [
+				"dexterity",
+				"strength"
+			]
 		},
 		{
 			"name": "Giant Coal Ant",
