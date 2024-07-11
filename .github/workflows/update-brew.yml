@@ -1,8 +1,8 @@
 name: Update Homebrew
 on:
-    push:
-      paths:
-        - '5etools-homebrew/Dungeon Church; Pyora.json'  
+  push:
+    paths:
+      - '5etools-homebrew/Dungeon Church; Pyora.json'  
 jobs:
   build:
     name: Build
