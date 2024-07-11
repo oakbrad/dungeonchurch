@@ -4,7 +4,7 @@ on:
       types:
         - closed
       paths:
-        - 'Dungeon Church; Pyora.json'  
+        - '5etools-homebrew/**.json'  
 jobs:
   build:
     if: github.event.pull_request.merged == true
