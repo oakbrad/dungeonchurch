@@ -3923,6 +3923,7 @@
 		{
 			"name": "Avalonian Lantern",
 			"source": "DungeonChurch",
+			"type": "G",
 			"lootTables": [
 				"Pyoran Magic Items|dungeonchurch"
 			],
@@ -3962,6 +3963,7 @@
 		{
 			"name": "Banshee Blight",
 			"source": "DungeonChurch",
+			"type": "P",
 			"lootTables": [
 				"Pyoran Magic Items|dungeonchurch",
 				"Pyoran Substances|dungeonchurch"
@@ -3995,6 +3997,7 @@
 		{
 			"name": "Black Diamond",
 			"source": "DungeonChurch",
+			"type": "P",
 			"lootTables": [
 				"Pyoran Magic Items|dungeonchurch",
 				"Pyoran Substances|dungeonchurch"
@@ -4271,6 +4274,7 @@
 		{
 			"name": "Dream Vine",
 			"source": "DungeonChurch",
+			"type": "P",
 			"lootTables": [
 				"Pyoran Magic Items|dungeonchurch",
 				"Pyoran Substances|dungeonchurch"
@@ -4833,6 +4837,7 @@
 		{
 			"name": "Nightshade Poison",
 			"source": "DungeonChurch",
+			"type": "P",
 			"lootTables": [
 				"Pyoran Magic Items|dungeonchurch",
 				"Pyoran Substances|dungeonchurch"
@@ -5394,6 +5399,7 @@
 			"source": "DungeonChurch",
 			"tier": "minor",
 			"rarity": "rare",
+			"type": "OTH",
 			"attachedSpells": [
 				"stone shape"
 			],
