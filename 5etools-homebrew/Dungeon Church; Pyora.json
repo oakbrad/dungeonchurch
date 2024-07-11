@@ -1858,7 +1858,7 @@
 			"name": "Dire Hare",
 			"source": "DungeonChurch",
 			"size": [
-				"L"
+				"S"
 			],
 			"type": "beast",
 			"alignment": [
@@ -1904,7 +1904,7 @@
 				{
 					"name": "Charge",
 					"entries": [
-						"If the dire hare moves at least 15 feet straight toward a target and then hits it with its bite on the same turn, the target takes an extra 7 ({@dice 2d6}) slashing damage. If the target is a creature, it must succeed on a {@dc 13} Strength saving throw or be knocked {@condition prone}."
+						"If the dire hare moves at least 15 feet straight toward a target and then hits it with its bite on the same turn, the target takes an extra 7 ({@dice 2d6}) piercing damage. If the target is a creature, it must succeed on a {@dc 13} Dexterity saving throw or be knocked {@condition prone}."
 					]
 				}
 			],
@@ -1953,7 +1953,7 @@
 				{
 					"name": "Infestation",
 					"entries": [
-						"If the dire hare is hit with a melee attack, all creatures within 5 ft. of the hare must make a {@dc 13} Dexterity saving throw or they are covered with a {@creature Swarm of Fleas|tob3}."
+						"If the dire hare is hit with a melee attack, all creatures within 5 ft. of the hare must make a {@dc 13} Dexterity saving throw or they are covered with a {@creature Swarm of Insects|mm|Swarm of Fleas}."
 					]
 				}
 			],
@@ -3010,7 +3010,7 @@
 			],
 			"tokenHref": {
 				"type": "external",
-				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/GHMG/Tokens/Iron RiderPriest.webp"
+				"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/tokens/bestiary-iron-rider-priest-token.png"
 			},
 			"languageTags": [
 				"X"
@@ -3035,7 +3035,27 @@
 			],
 			"savingThrowForcedSpell": [
 				"dexterity"
+			],
+			"fluff": {
+				"entries": [
+					{
+						"type": "inset",
+						"name": "Dungeon Church Lore",
+						"entries": [
+							"Learn more about the {@link Iron Rider Priest in the wiki|https://lore.dungeon.church/doc/iron-rider-priest-rqFdIU3jmX}."
+						]
+					}
+				],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/bestiary-iron-rider-priest.png"
+					}
+				}
 			]
+			}
 		},
 		{
 			"name": "Iron Rider Warder",
@@ -3182,7 +3202,7 @@
 			],
 			"tokenHref": {
 				"type": "external",
-				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/GHMG/Tokens/InquisitorWarder.webp"
+				"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/tokens/bestiary-iron-rider-warder-token.png"
 			},
 			"actionTags": [
 				"Multiattack"
@@ -3211,7 +3231,27 @@
 			"savingThrowForcedSpell": [
 				"charisma",
 				"dexterity"
+			],
+			"fluff": {
+				"entries": [
+					{
+						"type": "inset",
+						"name": "Dungeon Church Lore",
+						"entries": [
+							"Learn more about the {@link Iron Rider Warder in the wiki|https://lore.dungeon.church/doc/iron-rider-warder-TQ0pXTDXj0}."
+						]
+					}
+				],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/bestiary-iron-rider-warder.png"
+					}
+				}
 			]
+			}
 		},
 		{
 			"name": "Lamont Solmar",

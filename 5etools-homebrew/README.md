@@ -83,14 +83,15 @@ Or import:
     * [Clockwork Shark](https://lore.dungeon.church/doc/clockwork-shark-PjyuNm1hE0)
     * [Coal Golem](https://lore.dungeon.church/doc/coal-golem-z4SQh5bzSf)
     * [Dire Boar](https://lore.dungeon.church/doc/dire-boar-ICD17iMkzY)
+    * [Dire Hare](https://lore.dungeon.church/doc/dire-hare-yQuDMVc6re)
     * [Giant Coal Ant](https://lore.dungeon.church/doc/giant-coal-ant-M9repJEaQW)
     * [Hellion Child](https://lore.dungeon.church/doc/hellion-cmTM1BgZSd)
     * [Iron Rider Commodore](https://lore.dungeon.church/doc/iron-rider-commodore-Lvy7jFg6KW)
     * [Iron Rider Deputy](https://lore.dungeon.church/doc/iron-rider-deputy-S9G0VKvtRB)
     * [Iron Rider Hunter](https://lore.dungeon.church/doc/iron-rider-hunter-kPxugCHSLi)
     * [Iron Rider Knight](https://lore.dungeon.church/doc/iron-rider-knight-JIpk2Tegm7)
-    * Iron Rider Priest
-    * Iron Rider Warder
+    * [Iron Rider Priest](https://lore.dungeon.church/doc/iron-rider-priest-rqFdIU3jmX)
+    * [Iron Rider Warder](https://lore.dungeon.church/doc/iron-rider-warder-TQ0pXTDXj0)
     * [Lamont Solmar](https://lore.dungeon.church/doc/lamont-solmar-GLrWBoIX5h)
     * [Sap Ooze](https://lore.dungeon.church/doc/sap-ooze-eGVX8QPLEh)
     * [Zombie Raccoon](https://lore.dungeon.church/doc/zombie-raccoon-kRMzfO1jg9)
