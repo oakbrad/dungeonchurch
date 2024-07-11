@@ -15,4 +15,4 @@ jobs:
         username: ${{ secrets.SSH_USER }}
         key: ${{ secrets.SSH_KEY }}
         port: 22
-        script: sudo ./home/ubuntu/5etools-homebrew/getbrew.sh
+        script: sudo /home/ubuntu/5etools-homebrew/getbrew.sh
