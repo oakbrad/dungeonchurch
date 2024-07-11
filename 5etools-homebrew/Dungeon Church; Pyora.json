@@ -5,7 +5,7 @@
 				"json": "DungeonChurch",
 				"abbreviation": "CHURCH",
 				"full": "Dungeon Church",
-				"version": "0.5",
+				"version": "0.6",
 				"url": "https://www.dungeon.church",
 				"authors": [
 					"Brad Wenner, Elizabeth Berryhill, Steve Streisguth, Irving Pham, Matthew Thompson"
@@ -17,7 +17,7 @@
 			}
 		],
 		"dateAdded": 1711973394,
-		"dateLastModified": 1712121094
+		"dateLastModified": 1720663314
 	},
     "book": [
 		{
