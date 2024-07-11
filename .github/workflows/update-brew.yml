@@ -1,13 +1,10 @@
 name: Update Homebrew
 on:
-    pull_request:
-      types:
-        - closed
+    push:
       paths:
-        - '5etools-homebrew/**.json'  
+        - '5etools-homebrew/Dungeon Church; Pyora.json'  
 jobs:
   build:
-    if: github.event.pull_request.merged == true
     name: Build
     runs-on: ubuntu-latest
     steps:
