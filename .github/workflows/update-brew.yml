@@ -1,14 +1,14 @@
-name: Update Homebrew
+name: Update Pyora Homebrew
 on:
   push:
     paths:
       - '5etools-homebrew/Dungeon Church; Pyora.json'  
 jobs:
-  build:
-    name: Build
+  remoteupdate:
+    name: Remote Update
     runs-on: ubuntu-latest
     steps:
-    - name: Update homebrew on DC server
+    - name: SSH to run script on remote server
       uses: appleboy/ssh-action@v1.0.3
       with:
         host: ${{ secrets.SSH_HOST }}
