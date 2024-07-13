@@ -4482,6 +4482,39 @@
 			}
 		},
 		{
+			"name": "Gloomroot Extract",
+			"type": "P",
+			"rarity": "uncommon",
+			"source": "DungeonChurch",
+			"weight": 1,
+			"lootTables": [
+				"Pyoran Potions|dungeonchurch",
+				"Pyoran Magic Items|dungeonchurch"
+			],
+			"entries": [
+				"A clear, purple-tinted liquid kept in a small wooden bottle that feels cool in your hands, almost as if it draws the warmth from your skin.",
+				"When consumed, your visions sharpens and the shadows of the world seem to pulse with unseen energies in time with your heartbeat. You can see invisible creaures and objects for 2 hours as if they are glowing with an ethereal light, giving you advantage on attack rolls against them.",
+				{
+					"type": "inset",
+					"name": "Dungeon Church Lore",
+					"entries": [
+						"Learn more about {@link Gloomroot Extract in the wiki|https://lore.dungeon.church/doc/gloomroot-extract-q9dbCwX0TX}."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-gloomroot-extract.png"
+						}
+					}
+				]
+			}
+		},
+		{
 			"name": "Gnomish Tea Set",
 			"source": "DungeonChurch",
 			"page": 0,
@@ -6335,7 +6368,7 @@
 			"caption": "Items and relics uncovered in the world of Pyora.",
 			"page": 0,
 			"colLabels": [
-				"d47",
+				"d48",
 				"Item"
 			],
 			"rows": [
@@ -6526,6 +6559,10 @@
 				[
 					"47",
 					"{@item Potion of Vile Strength|dungeonchurch}"
+				],
+				[
+					"48",
+					"{@item Gloomroot Extract|dungeonchurch}"
 				]
 			]
 
@@ -6594,10 +6631,9 @@
 		{
 			"name": "Pyoran Potions",
 			"source": "DungeonChurch",
-			"caption": "Potions specific to the realm of Pyora.",
-			"page": 0,
+			"caption": "Potions from the realm of Pyora.",
 			"colLabels": [
-				"d9",
+				"d10",
 				"Potion"
 			],
 			"rows": [
@@ -6636,6 +6672,10 @@
 				[
 					"9",
 					"{@item Potion of Vile Strength|dungeonchurch}"
+				],
+				[
+					"10",
+					"{@item Gloomroot Extract|dungeonchurch}"
 				]
 			]
 		},
