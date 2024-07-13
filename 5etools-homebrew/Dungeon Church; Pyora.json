@@ -5005,6 +5005,39 @@
 			}
 		},
 		{
+			"name": "Potion of Incorporeal Passage",
+			"type": "P",
+			"rarity": "uncommon",
+			"weight": 1,
+			"source": "DungeonChurch",
+			"lootTables": [
+				"Pyoran Potions|dungeonchurch",
+				"Pyoran Magic Items|dungeonchurch"
+			],
+			"entries": [
+				"A pale, silvery liquid that seems to shimmer and waver like a ghostly apparition contained in a slender, delicate glass bottle. The bottle is sealed with a glass stopper and a metallic pattern is etched into the glass.",
+				"For one minute, the drinker is transformed into a ghostly mist and gains the ability to pass through solid objects such as doors or walls no thicker than one foot. Once the passage is made, the effect ends immediately. If passage is attempted through a material too thick, the drinker takes {@dice 3d10} force damage and returns to the spot they started from.",
+				{
+					"type": "inset",
+					"name": "Dungeon Church Lore",
+					"entries": [
+						"Learn more about the {@link Potion of Incorporeal Passage in the wiki|https://lore.dungeon.church/doc/potion-of-incorporeal-passage-izVvGx3r6c}."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-potion-of-incorporeal-passage.png"
+						}
+					}
+				]
+			}
+		},
+		{
 			"name": "Potion of Midnight Oil",
 			"type": "P",
 			"rarity": "uncommon",
@@ -6433,9 +6466,8 @@
 			"name": "Pyoran Magic Items",
 			"source": "DungeonChurch",
 			"caption": "Items and relics uncovered in the world of Pyora.",
-			"page": 0,
 			"colLabels": [
-				"d50",
+				"d51",
 				"Item"
 			],
 			"rows": [
@@ -6638,6 +6670,10 @@
 				[
 					"50",
 					"{@item Berserker's Draught|dungeonchurch}"
+				],
+				[
+					"51",
+					"{@item Potion of Incorporeal Passage|dungeonchurch}"
 				]
 			]
 
@@ -6708,7 +6744,7 @@
 			"source": "DungeonChurch",
 			"caption": "Potions from the realm of Pyora.",
 			"colLabels": [
-				"d12",
+				"d13",
 				"Potion"
 			],
 			"rows": [
@@ -6759,6 +6795,10 @@
 				[
 					"12",
 					"{@item Berserker's Draught|dungeonchurch}"
+				],
+				[
+					"13",
+					"{@item Potion of Incorporeal Passage|dungeonchurch}"
 				]
 			]
 		},
