@@ -2,7 +2,9 @@ name: Update Pyora Homebrew
 on:
   push:
     paths:
-      - '5etools-homebrew/Dungeon Church; Pyora.json'  
+      - '5etools-homebrew/Dungeon Church; Pyora.json'
+    branches:
+      - main
 jobs:
   remoteupdate:
     name: Remote Update
