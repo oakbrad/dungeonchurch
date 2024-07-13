@@ -85,6 +85,7 @@ Or import:
     * [Vial of the Last Harvest](https://lore.dungeon.church/doc/vial-of-the-last-harvest-tsIxDMwTeP)
     * [Void Essence](https://lore.dungeon.church/doc/void-essence-lYJOMctLcD)
 * Bestiary
+    * [Amelia, Knight of Twilight](https://lore.dungeon.church/doc/amelia-mAibH1T0Em)
     * [Clockwork Shark](https://lore.dungeon.church/doc/clockwork-shark-PjyuNm1hE0)
     * [Coal Golem](https://lore.dungeon.church/doc/coal-golem-z4SQh5bzSf)
     * [Dire Boar](https://lore.dungeon.church/doc/dire-boar-ICD17iMkzY)
@@ -97,7 +98,7 @@ Or import:
     * [Iron Rider Knight](https://lore.dungeon.church/doc/iron-rider-knight-JIpk2Tegm7)
     * [Iron Rider Priest](https://lore.dungeon.church/doc/iron-rider-priest-rqFdIU3jmX)
     * [Iron Rider Warder](https://lore.dungeon.church/doc/iron-rider-warder-TQ0pXTDXj0)
-    * [Lamont Solmar](https://lore.dungeon.church/doc/lamont-solmar-GLrWBoIX5h)
+    * [Lamont Solmar, Knight of Night](https://lore.dungeon.church/doc/lamont-solmar-GLrWBoIX5h)
     * [Sap Ooze](https://lore.dungeon.church/doc/sap-ooze-eGVX8QPLEh)
     * [Zombie Raccoon](https://lore.dungeon.church/doc/zombie-raccoon-kRMzfO1jg9)
 * Hazards / Traps

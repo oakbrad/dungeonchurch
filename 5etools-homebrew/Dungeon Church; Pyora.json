@@ -1457,6 +1457,214 @@
 	],
 	"monster": [
 		{
+			"name": "Amelia, Knight of Twilight",
+			"source": "DungeonChurch",
+			"size": [
+				"M"
+			],
+			"type": "undead",
+			"alignment": [
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 20,
+					"from": [
+						"mage armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 162,
+				"formula": "25d8 + 50"
+			},
+			"speed": {
+				"walk": 30,
+				"fly": 30
+			},
+			"str": 6,
+			"dex": 12,
+			"con": 14,
+			"int": 16,
+			"wis": 20,
+			"cha": 20,
+			"save": {
+				"int": "+8",
+				"wis": "+10",
+				"cha": "+10"
+			},
+			"skill": {
+				"history": "+8",
+				"insight": "+15",
+				"perception": "+15",
+				"arcana": "+7",
+				"survival": "+13"
+			},
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"type": "spellcasting",
+					"headerEntries": [
+						"Amelia's spellcasting attribute is Charisma (save {@dc 19}, {@hit 12} to hit with spell attacks). She can innately cast the following spells, requiring no material components:"
+					],
+					"will": [
+						"{@spell faerie fire}",
+						"{@spell hex}",
+						"{@spell misty step}",
+						"{@spell silent image}",
+						"{@spell tongues}"
+					],
+					"daily": {
+						"1e": [
+							"{@spell power word kill}",
+							"{@spell sleep} (9th level)",
+							"{@spell true polymorph}",
+							"{@spell time stop}"
+						],
+						"2e": [
+							"{@spell bestow curse}",
+							"{@spell feeblemind}",
+							"{@spell mass suggestion}",
+							"{@spell flesh to stone}"
+						],
+						"3e": [
+							"{@spell chain lightning}",
+							"{@spell counterspell}",
+							"{@spell dispel magic}",
+							"{@spell hypnotic pattern}",
+							"{@spell teleportation circle}"
+						]
+					},
+					"ability": "cha"
+				}
+			],
+			"senses": [
+				"truesight 60 ft."
+			],
+			"passive": 25,
+			"immune": [
+				"fire",
+				"psychic"
+			],
+			"languages": [
+				"Common",
+				"Infernal",
+				"telepathy (100 ft.)"
+			],
+			"cr": "12",
+			"trait": [
+				{
+					"name": "Bend Fate (3/Day)",
+					"entries": [
+						"If Amelia fails a saving throw, she may choose to succeed instead and reflect the effect of the failed saving throw onto one enemy within 30 feet. Amelia still suffers the effect of a successful saving throw, if any. The new target is entitled to a saving throw as if it were the original target of the attack, but with disadvantage."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"Amelia has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Misty Step (At Will)",
+					"entries": [
+						"Amelia can step between places as a bonus action."
+					]
+				},
+				{
+					"name": "Sealed Destiny (1/Day)",
+					"entries": [
+						"Amelia attunes herself to the threads of the PCs' fates. Ask each player to write down their prediction of how the PC to their left will die, and at what level. Collect the notes without revealing the answers. When one of those PCs dies, reveal the prediction. If the character died in the manner predicted, they fulfill their destiny and are immediately resurrected by the gods as a reward. If they died at or within one level of the prediction, they return to life with some useful insight into the destiny of someone important."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Amelia makes two Inexorable Thread attacks."
+					]
+				},
+				{
+					"name": "Inexorable Threads",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 30 ft., one target. {@h}27 ({@damage 5d8 + 5}) radiant damage, and the target is \"one step closer to death.\" If the target is reduced to 0 hit points, it's treated as if it's already failed one death saving throw. This effect is cumulative; each inexorable threads hit adds one unsuccessful death saving throw. If a character who's been hit three or more times by inexorable threads is reduced to 0 hit points, he or she dies immediately. This effect lasts until the character completes a long rest."
+					]
+				},
+				{
+					"name": "Bind Fates (1/Day)",
+					"entries": [
+						"One target within 60 feet of Amelia must make a {@dc 18} Wisdom saving throw. On a failed save, the target's fate is bound to one random ally of the target. Any damage or condition the target suffers is inflicted on the individual to which they are bound instead, and vice versa. A creature can be bound to only one other creature at a time. This effect lasts until either of the affected creatures gains a level, or until a heal or heroes' feast lifts this binding."
+					]
+				},
+				{
+					"name": "Destiny Distortion Wave {@recharge 5}",
+					"entries": [
+						"Amelia projects a 60-foot cone of distortion that frays the strands of fate. All targets in the cone take 55 ({@damage 10d10}) force damage, or half damage with a successful {@dc 18} Wisdom saving throw. In addition, if more than one target that failed its saving throw is affected by a condition, those conditions are randomly redistributed among the targets with failed saving throws."
+					]
+				}
+			],
+			"environment": [
+				"any",
+				"forest",
+				"urban"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/tokens/bestiary-amelia-token.png"
+			},
+			"traitTags": [
+				"Magic Resistance"
+			],
+			"senseTags": [
+				"U"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"I",
+				"TP"
+			],
+			"miscTags": [
+				"MW",
+				"RCH",
+				"AOE"
+			],
+			"fluff": {
+				"entries": [
+					{
+						"type": "inset",
+						"name": "Dungeon Church Lore",
+						"entries": [
+							"Learn more about the {@link Amelia in the wiki|https://lore.dungeon.church/doc/amelia-mAibH1T0Em}."
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/bestiary-amelia.png"
+						}
+					}
+				]
+			},
+			"shortName": "Amelia",
+			"resist": [
+				"radiant"
+			],
+			"damageTags": [
+				"O",
+				"R"
+			],
+			"savingThrowForced": [
+				"wisdom"
+			]
+		},
+		{
 			"name": "Clockwork Shark",
 			"source": "DungeonChurch",
 			"size": [
@@ -3251,10 +3459,10 @@
 			}
 		},
 		{
-			"name": "Lamont Solmar",
+			"name": "Lamont Solmar, Knight of Night",
 			"source": "DungeonChurch",
-			"page": 0,
 			"srd": true,
+			"shortName": "Lamont Solmar",
 			"otherSources": [
 				{
 					"source": "MM"
@@ -3468,7 +3676,31 @@
 			],
 			"savingThrowForced": [
 				"wisdom"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/tokens/bestiary-lamont-solmar-token.png"
+			},
+			"fluff": {
+				"entries": [
+					{
+						"type": "inset",
+						"name": "Dungeon Church Lore",
+						"entries": [
+							"Learn more about the {@link Lamont Solmar in the wiki|https://lore.dungeon.church/doc/lamont-solmar-GLrWBoIX5h}."
+						]
+					}
+				],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/bestiary-lamont-solmar.png"
+					}
+				}
 			]
+			}
 		},
 		{
 			"name": "Sap Ooze",
