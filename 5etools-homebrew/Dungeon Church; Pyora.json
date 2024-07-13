@@ -4001,7 +4001,8 @@
 			],
 			"rarity": "common",
 			"entries": [
-				"",
+				"A carbonated and heavily hopped brew contained in a bottle crafted from thick, unpolished amber glass. Instead of a brewer’s mark, the glass is crudely etched by hand with the dwarven rune for “berserker”.",
+				"When you drink this beer, you feel the heightened awareness and confidence of an experienced brawler flood through you. When attacking with an unarmed strike or improvised weapon, you have advantage on the attack roll and can use your bonus action to make another attack of the same type for 5 minutes. Your heightened battle focus gives you disadvantage on Wisdom and Intelligence checks and saving throws for the duration.",
 				{
 					"type": "inset",
 					"name": "Dungeon Church Lore",
@@ -4022,6 +4023,9 @@
 								"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-berserkers-draught.png"
 							}
 						}
+					],
+					"entries": [
+						"While not commercially available, the breweries of {@link Durandar|https://lore.dungeon.church/doc/durandar-sWDxZHDVIC} are known for producing all types of experimental concoctions off-label. Variations on the “berserker’s draught” recipe are unique to each brewer and a closely held secret."
 					]
 				}
 		},
@@ -4545,6 +4549,10 @@
 							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-gloomroot-extract.png"
 						}
 					}
+				],
+				"entries": [
+					"Gloomroot is a weed found in only the darkest parts of the {@link Dreadwood|https://lore.dungeon.church/doc/dreadwood-GcfKdBzGyT}, where sunlight barely penetrates. It thrives in the rocky soil of ancient ruins, leading some to wonder if it feeds on the remnants of old magic or ground soaked in blood. Chewing the leaves gives a mild stimulant affect that enhances creatures natural darkvision, but the roots can be distilled into an extract with an effect many times stronger.",
+					"Locals and hunters in the Dreadwood sometimes refer to it as “{@deity Ostara|pyora|dungeonchurch}'s Broom” - a gift from the trickster to help navigate the treacherous paths of the dark forest."
 				]
 			}
 		},
