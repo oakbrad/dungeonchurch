@@ -1823,9 +1823,6 @@
 			"traitTags": [
 				"Charge"
 			],
-			"damageTags": [
-				"M"
-			],
 			"miscTags": [
 				"MW"
 			],
@@ -5115,6 +5112,39 @@
 			}
 		},
 		{
+			"name": "Potion of Vile Strength",
+			"type": "P",
+			"rarity": "rare",
+			"source": "DungeonChurch",
+			"weight": 1,
+			"lootTables": [
+				"Pyoran Potions|dungeonchurch",
+				"Pyoran Magic Items|dungeonchurch"
+			],
+			"entries": [
+				"This rough stone bottle contains a liquid with the stinging scent of strong alcohol mixed with the metallic iron of fresh blood.",
+				"When consumed, a primal force surges through veins of the drinker and their muscles bulge with newfound strength, gaining +2 to Strength checks or saves for 1 hour. Yet this consuming power causes drooling, tics, emotional outbursts, and other anti-social behaviors that cause disadvantage on Charisma checks.",
+				{
+					"type": "inset",
+					"name": "Dungeon Church Lore",
+					"entries": [
+						"Learn more about the {@link Potion of Vile Strength in the wiki|https://lore.dungeon.church/doc/potion-of-vile-strength-v5oDyTkJ2B}."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-potion-of-vile-strength.png"
+						}
+					}
+				]
+			}
+		},
+		{
 			"name": "Rationing Spice",
 			"type": "OTH",
 			"tier": "minor",
@@ -6305,7 +6335,7 @@
 			"caption": "Items and relics uncovered in the world of Pyora.",
 			"page": 0,
 			"colLabels": [
-				"d46",
+				"d47",
 				"Item"
 			],
 			"rows": [
@@ -6492,6 +6522,10 @@
 				[
 					"46",
 					"{@item Stone Tea|dungeonchurch}"
+				],
+				[
+					"47",
+					"{@item Potion of Vile Strength|dungeonchurch}"
 				]
 			]
 
@@ -6563,7 +6597,7 @@
 			"caption": "Potions specific to the realm of Pyora.",
 			"page": 0,
 			"colLabels": [
-				"d8",
+				"d9",
 				"Potion"
 			],
 			"rows": [
@@ -6598,6 +6632,10 @@
 				[
 					"8",
 					"{@item Oil of Immolation|dungeonchurch}"
+				],
+				[
+					"9",
+					"{@item Potion of Vile Strength|dungeonchurch}"
 				]
 			]
 		},

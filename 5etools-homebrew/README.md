@@ -67,6 +67,7 @@ Or import:
     * [Potion of Midnight Oil](https://lore.dungeon.church/doc/potion-of-midnight-oil-4PiTnJSnnP)
     * [Potion of the Mossy Oak](https://lore.dungeon.church/doc/potion-of-the-mossy-oak-EUrhe6nCRs)
     * [Potion of Oblivion](https://lore.dungeon.church/doc/potion-of-oblivion-DBhlvDmtCl)
+    * [Potion of Vile Strength](https://lore.dungeon.church/doc/potion-of-vile-strength-v5oDyTkJ2B)
     * [Rationing Spice](https://lore.dungeon.church/doc/rationing-spice-iguPtdfdS2)
     * [Red Talon](https://lore.dungeon.church/doc/the-red-talon-JmZrNqSkRX)
     * [Ring of Prestidigitation](https://lore.dungeon.church/doc/ring-of-prestidigitation-RrfeGNnCzv)
