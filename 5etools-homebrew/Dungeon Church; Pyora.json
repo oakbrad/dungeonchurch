@@ -3992,6 +3992,40 @@
 				}
 		},
 		{
+			"name": "Berserker's Draught",
+			"source": "DungeonChurch",
+			"type": "P",
+			"lootTables": [
+				"Pyoran Magic Items|dungeonchurch",
+				"Pyoran Substances|dungeonchurch"
+			],
+			"rarity": "common",
+			"entries": [
+				"",
+				{
+					"type": "inset",
+					"name": "Dungeon Church Lore",
+					"entries": [
+						"Learn more about the {@link Berserker's Draught in the wiki|https://lore.dungeon.church/doc/berserkers-draught-sn5rNNx4Lp}."
+					]
+				}
+			],
+			"fluff":
+				{
+					"name": "Berserker's Draught",
+					"source": "DungeonChurch",
+					"images": [
+						{
+							"type": "image",
+							"href": {
+								"type": "external",
+								"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-berserkers-draught.png"
+							}
+						}
+					]
+				}
+		},
+		{
 			"name": "Black Diamond",
 			"source": "DungeonChurch",
 			"type": "P",
@@ -5663,6 +5697,39 @@
 					}
 				]
 			}
+		},
+		{
+			"name": "Void Essence",
+			"type": "P",
+			"rarity": "uncommon",
+			"source": "DungeonChurch",
+			"weight": 1,
+			"lootTables": [
+				"Pyoran Potions|dungeonchurch",
+				"Pyoran Magic Items|dungeonchurch"
+			],
+			"entries": [
+				"An obsidian bottle, its surface polished to a mirror like sheen that reflects a dark, distorted image. The bubbling liquid inside appears to be boiling, but it is as cold as ice water and smells of carrion and ozone.",
+				"Any who manage to quaff it feel a bone-chilling cold, like the touch of death spreading through their veins, gaining resistance to necrotic damage and vulnerability to radiant damage for one hour.",
+				{
+					"type": "inset",
+					"name": "Dungeon Church Lore",
+					"entries": [
+						"Learn more about the {@link Void Essence in the wiki|https://lore.dungeon.church/doc/void-essence-lYJOMctLcD}."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-void-essence.png"
+						}
+					}
+				]
+			}
 		}
 	],
 	"variantrule": [
@@ -6368,7 +6435,7 @@
 			"caption": "Items and relics uncovered in the world of Pyora.",
 			"page": 0,
 			"colLabels": [
-				"d48",
+				"d50",
 				"Item"
 			],
 			"rows": [
@@ -6563,6 +6630,14 @@
 				[
 					"48",
 					"{@item Gloomroot Extract|dungeonchurch}"
+				],
+				[
+					"49",
+					"{@item Void Essence|dungeonchurch}"
+				],
+				[
+					"50",
+					"{@item Berserker's Draught|dungeonchurch}"
 				]
 			]
 
@@ -6633,7 +6708,7 @@
 			"source": "DungeonChurch",
 			"caption": "Potions from the realm of Pyora.",
 			"colLabels": [
-				"d10",
+				"d12",
 				"Potion"
 			],
 			"rows": [
@@ -6676,6 +6751,14 @@
 				[
 					"10",
 					"{@item Gloomroot Extract|dungeonchurch}"
+				],
+				[
+					"11",
+					"{@item Void Essence|dungeonchurch}"
+				],
+				[
+					"12",
+					"{@item Berserker's Draught|dungeonchurch}"
 				]
 			]
 		},

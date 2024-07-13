@@ -39,6 +39,7 @@ Or import:
     * [Avalon Engineer's Signet](https://lore.dungeon.church/doc/avalon-engineers-signet-63RXQwAWMe)
     * [Avalonian Lantern](https://lore.dungeon.church/doc/avalonian-lantern-4rhyHvymXn)
     * [Banshee Blight](https://lore.dungeon.church/doc/banshee-blight-ziIwCBr2jq)
+    * [Berserker's Draught](https://lore.dungeon.church/doc/berserkers-draught-sn5rNNx4Lp)
     * [Black Diamond](https://lore.dungeon.church/doc/black-diamond-pTSDpxQOJ4)
     * [Brooch of Witchsight](https://lore.dungeon.church/doc/brooch-of-witchsight-Do7tfU7V9e)
     * [Cirilla's Gift](https://lore.dungeon.church/doc/cirillas-gift-pKEY4nYJDS)
@@ -81,6 +82,7 @@ Or import:
     * [Spores of Delirium](https://lore.dungeon.church/doc/spores-of-delirium-JpyH7CL4vS)
     * [Stone Tea](https://lore.dungeon.church/doc/stone-tea-ik79CS5iIM)
     * [Vial of the Last Harvest](https://lore.dungeon.church/doc/vial-of-the-last-harvest-tsIxDMwTeP)
+    * [Void Essence](https://lore.dungeon.church/doc/void-essence-lYJOMctLcD)
 * Bestiary
     * [Clockwork Shark](https://lore.dungeon.church/doc/clockwork-shark-PjyuNm1hE0)
     * [Coal Golem](https://lore.dungeon.church/doc/coal-golem-z4SQh5bzSf)
