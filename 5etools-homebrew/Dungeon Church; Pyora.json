@@ -5840,6 +5840,40 @@
 			}
 		},
 		{
+			"name": "Shield of Duskmire",
+			"source": "DungeonChurch",
+			"type": "S",
+			"rarity": "uncommon",
+			"weight": 6,
+			"value": 22000,
+			"ac": 2,
+			"entries": [
+				"A sturdy wooden shield made from mahogany grown in the {@link Dreadwood|https://lore.dungeon.church/doc/dreadwood-GcfKdBzGyT}, the front is stained a deep purple and and has a metal inlay of a windmill.",
+				"Wearing this shield gives you resistance to poison damage and advantage against being {@condition poisoned}.",
+				{
+					"type": "inset",
+					"name": "Dungeon Church Lore",
+					"entries": [
+						"Learn more about the {@link Shield of Duskmire in the wiki|https://lore.dungeon.church/doc/shield-of-duskmire-8Z1MhlOIXG}."
+					]
+				}
+			],
+			"lootTables": [
+				"Pyoran Magic Items|dungeonchurch"
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-shield-of-duskmire.png"
+						}
+					}
+				]
+			}
+		},
+		{
 			"name": "Shield of Missile Deflection",
 			"source": "DungeonChurch",
 			"page": 0,
@@ -6739,7 +6773,7 @@
 			"source": "DungeonChurch",
 			"caption": "Items and relics uncovered in the world of Pyora.",
 			"colLabels": [
-				"d52",
+				"d53",
 				"Item"
 			],
 			"rows": [
@@ -6950,6 +6984,10 @@
 				[
 					"52",
 					"{@item Guildmaster's Hunting Horn|dungeonchurch}"
+				],
+				[
+					"53",
+					"{@item Shield of Duskmire|dungeonchurch}"
 				]
 			]
 

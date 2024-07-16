@@ -77,6 +77,7 @@ Or import:
     * [Ring of Prestidigitation](https://lore.dungeon.church/doc/ring-of-prestidigitation-RrfeGNnCzv)
     * [Ring of Water Breathing](https://lore.dungeon.church/doc/ring-of-water-breathing-hgx2rNwFjj)
     * [Sapphire Nightshade](https://lore.dungeon.church/doc/sapphire-nightshade-Qvbjiqksvy)
+    * [Shield of Duskmire](https://lore.dungeon.church/doc/shield-of-duskmire-8Z1MhlOIXG)
     * [Shield of Missile Deflection](https://lore.dungeon.church/doc/shield-of-missile-deflection-cltEpG9HRg)
     * [Siduri's Token](https://lore.dungeon.church/doc/siduris-token-2Bkwhc8XEo)
     * [Skeleton Key](https://lore.dungeon.church/doc/skeleton-key-aCKEViKMZf)
