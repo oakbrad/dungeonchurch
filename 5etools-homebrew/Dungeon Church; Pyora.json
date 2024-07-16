@@ -4192,7 +4192,7 @@
 		{
 			"name": "Banshee Blight",
 			"source": "DungeonChurch",
-			"type": "P",
+			"type": "IDG",
 			"lootTables": [
 				"Pyoran Magic Items|dungeonchurch",
 				"Pyoran Substances|dungeonchurch"
@@ -4264,7 +4264,7 @@
 		{
 			"name": "Black Diamond",
 			"source": "DungeonChurch",
-			"type": "P",
+			"type": "IDG",
 			"lootTables": [
 				"Pyoran Magic Items|dungeonchurch",
 				"Pyoran Substances|dungeonchurch"
@@ -4541,7 +4541,7 @@
 		{
 			"name": "Dream Vine",
 			"source": "DungeonChurch",
-			"type": "P",
+			"type": "IDG",
 			"lootTables": [
 				"Pyoran Magic Items|dungeonchurch",
 				"Pyoran Substances|dungeonchurch"
@@ -5518,7 +5518,7 @@
 		},
 		{
 			"name": "Rationing Spice",
-			"type": "OTH",
+			"type": "IDG",
 			"tier": "minor",
 			"rarity": "common",
 			"source": "DungeonChurch",
