@@ -7,7 +7,7 @@ on:
       - main
 jobs:
   remoteupdate:
-    name: Remote Update
+    name: Update Pyora data on server
     runs-on: ubuntu-latest
     steps:
     - name: SSH to run script on remote server
