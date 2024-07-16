@@ -17,7 +17,7 @@
 			}
 		],
 		"dateAdded": 1711973394,
-		"dateLastModified": 1720664138
+		"dateLastModified": 1721111951
 	},
     "book": [
 		{
@@ -103,7 +103,7 @@
 				{
 					"type": "section",
 					"name": "History",
-					"page": 0,
+					
 					"entries": [
 						{
 							"type": "entries",
@@ -154,7 +154,7 @@
 				{
 					"type": "section",
 					"name": "Pyora",
-					"page": 0,
+					
 					"entries": [
 						"Several centuries after the fall of the {@link Last Dragon Emperor|https://lore.dungeon.church/doc/dragon-empire-odzVqtQPbm}, civilization in the lands of Pyora has entered a new period of innovation & transition.",
 						"{@race Human (Pyoran)|dungeonchurch|Humans} have labored to carve out pockets of order among the wilderness & ruins of the last age, rebuilding cities, establishing trade routes, and mastering the wild lands into agriculture. In the villages on the edges of humanity's reach, rumors and superstitions percolate about {@race Elfmarked|dungeonchurch} children born with unexplainable talents, echoes of long vanished Elven heroes.",
@@ -167,7 +167,7 @@
 				{
 					"type": "section",
 					"name": "Saltmarsh",
-					"page": 0,
+					
 					"entries": [
 						"Nestled on the eastern coast of the Azure Sea is {@link Saltmarsh|https://lore.dungeon.church/doc/saltmarsh-GkGI6ISio5}, a sleepy fishing village thats sits on the precipice of great change.",
 						"Smugglers guide their ships to hidden coves, willing to slit the throat of any who cross their path. Soldiers of a faraway power patrol the roads mounted on armored horses. Monsters gather beneath the waves & drowned sailors stir to unnatural life, animated by dark magic. The cult of a dead god silently grows it's reach. The nearby woods house mind-bending horrors. Mercenary groups seek abandoned treasures in the old dwarven mine.",
@@ -175,7 +175,7 @@
 						{
 							"type": "entries",
 							"name": "Maps",
-							"page": 0,
+							
 							"entries": [
 								{
 									"type": "image",
@@ -200,7 +200,7 @@
 				{
 					"type": "section",
 					"name": "Players",
-					"page": 0,
+					
 					"entries": [
 						"You have been invited to join our in-person Dungeons & Dragons campaign.",
 						"We will play an ongoing, narrative-focused game in a world of our own creation.",
@@ -217,7 +217,7 @@
 				{
 					"type": "section",
 					"name": "Species",
-					"page": 0,
+					
 					"entries": [
 						{
 							"type": "inset",
@@ -228,7 +228,7 @@
 						{
 							"type": "entries",
 							"name": "{@race Human (Pyoran)|dungeonchurch|Humans}",
-							"page": 0,
+							
 							"entries": [
 								"The most common species by far, humans have built their cities, expanded their roads, and in general sought order in the world.",
 								"Human ambition is embodied in the prosperous merchant city of Striborg. Ruled by an aristocratic merchant class, with a rising religious-populous movement in the streets, Striborg has become a place increasingly unwelcome to those not committed to human partisanship in some form.",
@@ -238,7 +238,7 @@
 						{
 							"type": "entries",
 							"name": "Dwarves ({@race Dwarf (Durandar)|dungeonchurch|Durandar} or {@race Dwarf (Road)|dungeonchurch|Road})",
-							"page": 0,
+							
 							"entries": [
 								"It's taken centuries for {@link King Olfgard Wisebeard|https://lore.dungeon.church/doc/king-olfgard-wisebeard-S0YDu9xGHy} to convince the majority of the dwarven tribes to abandon their homes and build the new granite city of {@link Durandar|https://lore.dungeon.church/doc/durandar-sWDxZHDVIC} under the mountain. Opposed to the use of magic, the dwarves there dedicate themselves to alchemy & artificing, building great forges, damming the power of the rivers, and preparing for the apocalypse that's been foretold. ",
 								"But dwarves are stubborn & not everyone has gone along. Some have stayed behind, adapting to the flood of newcomers to the old cities, while others have sought fortune on the continent as independent merchants or hireswords.",
@@ -248,7 +248,7 @@
 						{
 							"type": "entries",
 							"name": "Elves",
-							"page": 0,
+							
 							"entries": [
 								"It is known that elves played a prominent role in fighting the Dragon Empires in the last age, but no one in living memory can remember seeing one in the flesh except for the oldest dwarves.",
 								"According to legends and the tall tales of lost hunters, they have built an advanced civilization in the deep forests, but no one has ever pinpointed the exact location of any settlement or ruin.",
@@ -263,7 +263,7 @@
 						{
 							"type": "entries",
 							"name": "{@race Elfmarked|dungeonchurch}",
-							"page": 0,
+							
 							"entries": [
 								"According to superstitions common in the villages, children who exhibit certain talents, deformities, or spurious lineage are called 'Children of the Travelers' a.k.a. the elfmarked.",
 								"Many stories, or convenient excuses, of individuals being charmed into illicit encounters with elves have been reported over the centuries. Sometimes the rumors claim whole towns were bewitched into bacchanal acts, or driven mad in carnivals beyond comprehension, only to find themselves not only hungover - but bearing a generation of progeny that can only be called special.",
@@ -273,7 +273,7 @@
 						{
 							"type": "entries",
 							"name": "{@race Dragonborn (Pyoran)|dungeonchurch|Dragonborn}",
-							"page": 0,
+							
 							"entries": [
 								"Forged by the {@link First Dragon Emperor|https://lore.dungeon.church/doc/dragon-empire-odzVqtQPbm#h-emperors} as an unholy magical corruption of humanity, the slaves that conquered and then built the First Empire.",
 								"Finally freed of their wyrm master, the former conscripts have since proven their resilience and independent nature despite lingering doubts about their true allegiances.",
@@ -284,7 +284,7 @@
 						{
 							"type": "entries",
 							"name": "{@race Gnome (Rock)|dungeonchurch|Gnomes} & {@race Halfling (Pyoran)|dungeonchurch|Halflings}",
-							"page": 0,
+							
 							"entries": [
 								"The diminutive little people, gnomes live below ground and guard their homeland with a jealous secrecy that few have glimpsed.",
 								"Their dealings with the civilizations above ground is limited to trade, where they are known for intricate craftsmanship and ingenious devices.",
@@ -300,7 +300,7 @@
 		{
 			"name": "Intoxicated",
 			"source": "DungeonChurch",
-			"page": 0,
+			
 			"entries": [
 				"An intoxicated creature has disadvantage on attack rolls and ability checks. To cast a spell, the creature must first succeed a DC 10 Constitution check. Otherwise, the spellcasting action is wasted, but the spell is not."
 			],
@@ -324,7 +324,7 @@
 		{
 			"name": "Adalindian Whistling",
 			"source": "DungeonChurch",
-			"page": 0,
+			
 			"entries": [
 				"A secret, whistled language used by the Gnomish resistance movement {@link Hand of Adalind|https://lore.dungeon.church/doc/hand-of-adalind-kFepjGY6vb}."
 			],
@@ -336,7 +336,7 @@
 		{
 			"name": "Tribal",
 			"source": "DungeonChurch",
-			"page": 0,
+			
 			"entries": [
 				"Tribal is a harsh, grating language with hard consonants used mostly by the {@race Tribeborn|dungeonchurch} of the southwest. It has no script of its own but is written in the Dwarvish script."
 			],
@@ -638,7 +638,7 @@
 			"fluff": {
 				"entries": [
 					"The most common species by far, humans have built their cities, expanded their roads, and in general sought order in the world.",
-					"Human ambition is embodied in the prosperous merchant city of Striborg. Ruled by an aristocratic merchant class, with a rising religious-populous movement in the streets, Striborg has become a place increasingly unwelcome to those not committed to human partisanship in some form.",
+					"Human ambition is embodied in the prosperous merchant city of {@link Striborg|https://lore.dungeon.church/doc/striborg-mZk9jSyJUV}. Ruled by an aristocratic merchant class, with a rising religious-populous movement in the streets, Striborg has become a place increasingly unwelcome to those not committed to human partisanship in some form.",
 					"Most humans do not live in Striborg though, but in simple settlements throughout the continent. These people are driven by more basic motivations: farmers, craftsmen, travelers, scholars, and adventurers.",
 					{
 						"type": "inset",
@@ -1130,7 +1130,6 @@
 			"title": "God of War",
 			"source": "DungeonChurch",
 			"pantheon": "Pyora",
-			"page": 0,
 			"alignment": [
 				"L",
 				"N"
@@ -1172,7 +1171,6 @@
 			"title": "God of the Sun",
 			"source": "DungeonChurch",
 			"pantheon": "Pyora",
-			"page": 0,
 			"alignment": [
 				"N"
 			],
@@ -1211,7 +1209,6 @@
 			"title": "The Pathfinder",
 			"source": "DungeonChurch",
 			"pantheon": "Pyora",
-			"page": 0,
 			"alignment": [
 				"N",
 				"E"
@@ -1256,7 +1253,6 @@
 			"title": "The Trickster",
 			"source": "DungeonChurch",
 			"pantheon": "Pyora",
-			"page": 0,
 			"alignment": [
 				"C",
 				"N"
@@ -1300,7 +1296,6 @@
 			"title": "God of the Sea",
 			"source": "DungeonChurch",
 			"pantheon": "Pyora",
-			"page": 0,
 			"alignment": [
 				"L",
 				"G"
@@ -1341,7 +1336,6 @@
 			"title": "Goddess of Death",
 			"source": "DungeonChurch",
 			"pantheon": "Pyora",
-			"page": 0,
 			"alignment": [
 				"L",
 				"E"
@@ -1384,7 +1378,6 @@
 			"title": "Mother of Madness",
 			"source": "DungeonChurch",
 			"pantheon": "Pyora",
-			"page": 0,
 			"alignment": [
 				"C",
 				"E"
@@ -1424,7 +1417,6 @@
 			"title": "The Beer Runner",
 			"source": "DungeonChurch",
 			"pantheon": "Pyora",
-			"page": 0,
 			"alignment": [
 				"C",
 				"G"
@@ -2322,7 +2314,6 @@
 		{
 			"name": "Hellion Child",
 			"source": "DungeonChurch",
-			"page": 0,
 			"otherSources": [
 				{
 					"source": "ToA"
@@ -3543,7 +3534,7 @@
 				{
 					"name": "Saltmarsh Spy",
 					"entries": [
-						"Lamont keeps an eye on the town he knew and loved in life, including his living son Anders. Whenever Lamont visits Saltmarsh after dark, he is able to shapechange into the form of any of his vampire thralls."
+						"Lamont keeps an eye on the town he knew and loved in life, including his living son {@link Anders|https://lore.dungeon.church/doc/anders-solmor-njTKn6ITMV}. Whenever Lamont visits {@link Saltmarsh|https://lore.dungeon.church/doc/saltmarsh-GkGI6ISio5} after dark, he is able to shapechange into the form of any of his vampire thralls."
 					]
 				},
 				{
@@ -3705,7 +3696,6 @@
 		{
 			"name": "Sap Ooze",
 			"source": "DungeonChurch",
-			"page": 0,
 			"size": [
 				"S"
 			],
@@ -4023,7 +4013,6 @@
 		{
         	"name": "Abi-Tseos's Machete",
         	"source": "DungeonChurch",
-        	"page": 0,
         	"baseItem": "scimitar|PHB",
 			"type": "M",
 			"rarity": "legendary",
@@ -4060,7 +4049,6 @@
 		{
 			"name": "Amulet of Betrayal",
 			"source": "DungeonChurch",
-			"page": 0,
 			"weight": 0,
 			"otherSources": [
 				{
@@ -4121,7 +4109,7 @@
 				}
 			],
 			"entries": [
-				"This gilded ring bears a beautiful engraving of a gear and is imbued with the elven magic of Avalon. While wearing this ring, you can use an action to cast the {@spell Mending} and {@spell Arcane Lock} spells once each using Intelligence as the spellcasting ability. Once you use the ring to cast the spells, the ring can't be used again until the next dawn.",
+				"This gilded ring bears a beautiful engraving of a gear and is imbued with the elven magic of {@link Avalon|https://lore.dungeon.church/doc/avalon-7amKaC2AMg}. While wearing this ring, you can use an action to cast the {@spell Mending} and {@spell Arcane Lock} spells once each using Intelligence as the spellcasting ability. Once you use the ring to cast the spells, the ring can't be used again until the next dawn.",
 				{
 					"type": "inset",
 					"name": "Dungeon Church Lore",
@@ -4226,7 +4214,7 @@
 		{
 			"name": "Berserker's Draught",
 			"source": "DungeonChurch",
-			"type": "P",
+			"type": "FD",
 			"lootTables": [
 				"Pyoran Magic Items|dungeonchurch",
 				"Pyoran Substances|dungeonchurch"
@@ -4234,7 +4222,7 @@
 			"rarity": "common",
 			"entries": [
 				"A carbonated and heavily hopped brew contained in a bottle crafted from thick, unpolished amber glass. Instead of a brewer’s mark, the glass is crudely etched by hand with the dwarven rune for “berserker”.",
-				"When you drink this beer, you feel the heightened awareness and confidence of an experienced brawler flood through you. When attacking with an unarmed strike or improvised weapon, you have advantage on the attack roll and can use your bonus action to make another attack of the same type for 5 minutes. Your heightened battle focus gives you disadvantage on Wisdom and Intelligence checks and saving throws for the duration.",
+				"When you drink this beer, you feel the heightened awareness and confidence of an experienced brawler flood through you for 5 minutes. When attacking with an unarmed strike or improvised weapon, you have advantage on the attack roll and can use your bonus action to make another attack of the same type. Your heightened battle focus gives you disadvantage on Wisdom and Intelligence checks and saving throws.",
 				{
 					"type": "inset",
 					"name": "Dungeon Church Lore",
@@ -4298,7 +4286,6 @@
 		{
 			"name": "Brooch of Witchsight",
 			"source": "DungeonChurch",
-			"page": 0,
 			"rarity": "very rare",
 			"wondrous": true,
 			"tier": "major",
@@ -4354,7 +4341,6 @@
 		{
 			"name": "Cirilla's Gift",
 			"source": "DungeonChurch",
-			"page": 0,
 			"type": "RG",
 			"rarity": "legendary",
 			"tier": "major",
@@ -4421,7 +4407,6 @@
 		{
 			"name": "Collector of Souls",
 			"source": "DungeonChurch",
-			"page": 0,
 			"type": "OTH",
 			"weight": 4,
 			"rarity": "legendary",
@@ -4460,7 +4445,6 @@
 		{
 			"name": "Dagger of Profuse Bleeding",
 			"source": "DungeonChurch",
-			"page": 0,
 			"baseItem": "dagger|PHB",
 			"type": "M",
 			"rarity": "very rare",
@@ -4509,7 +4493,6 @@
 		{
 			"name": "Dimensional Glasses",
 			"source": "DungeonChurch",
-			"page": 0,
 			"type": "OTH",
 			"rarity": "very rare",
 			"wondrous": true,
@@ -4548,7 +4531,7 @@
 			],
 			"rarity": "common",
 			"entries": [
-				"A fragrant herb often smoked in pipes or hand rolled cigarettes, it has a mild stimulant effect said to encourage conversation and the free flow of ideas. It’s use varies widely by cultural norms. Strictly forbidden in Striborg as an illicit narcotic, it is commonly smoked as part of the cafe culture in New Galmaarden.",
+				"A fragrant herb often smoked in pipes or hand rolled cigarettes, it has a mild stimulant effect said to encourage conversation and the free flow of ideas. It’s use varies widely by cultural norms. Strictly forbidden in {@link Striborg|https://lore.dungeon.church/doc/striborg-mZk9jSyJUV} as an illicit narcotic, it is commonly smoked as part of the cafe culture in {@link New Galmaarden|https://lore.dungeon.church/doc/new-galmaarden-03tcpxxc2t}.",
 				{
 					"type": "inset",
 					"name": "Dungeon Church Lore",
@@ -4625,13 +4608,10 @@
 					"page": 173
 				}
 			],
-			"page": 0,
-			"srd": true,
-			"tier": "major",
+			"tier": "minor",
 			"rarity": "uncommon",
 			"weight": 1,
 			"reqAttune": true,
-			"wondrous": true,
 			"entries": [
 				"This hat is patched together out of a motley of many colors and types of materials, forming it into a lumpy fedora shape head covering.",
 				"While wearing this fedora, you can use an action to cast the {@spell disguise self} spell from it once a day. The spell ends if the hat is removed. The hat's potential renews at dawn.",
@@ -4670,7 +4650,6 @@
 		{
 			"name": "Fist of Durradin",
 			"source": "DungeonChurch",
-			"page": 0,
 			"otherSources": [
 				{
 					"source": "BMT",
@@ -4722,7 +4701,6 @@
 		{
 			"name": "Fiz's Flute",
 			"source": "DungeonChurch",
-			"page": 0,
 			"type": "INS",
 			"weight": 2,
 			"rarity": "legendary",
@@ -4784,14 +4762,13 @@
 				],
 				"entries": [
 					"Gloomroot is a weed found in only the darkest parts of the {@link Dreadwood|https://lore.dungeon.church/doc/dreadwood-GcfKdBzGyT}, where sunlight barely penetrates. It thrives in the rocky soil of ancient ruins, leading some to wonder if it feeds on the remnants of old magic or ground soaked in blood. Chewing the leaves gives a mild stimulant affect that enhances creatures natural darkvision, but the roots can be distilled into an extract with an effect many times stronger.",
-					"Locals and hunters in the Dreadwood sometimes refer to it as “{@deity Ostara|pyora|dungeonchurch}'s Broom” - a gift from the trickster to help navigate the treacherous paths of the dark forest."
+					"Locals and hunters in the {@link Dreadwood|https://lore.dungeon.church/doc/dreadwood-GcfKdBzGyT} sometimes refer to it as “{@deity Ostara|pyora|dungeonchurch}'s Broom” - a gift from the trickster to help navigate the treacherous paths of the dark forest."
 				]
 			}
 		},
 		{
 			"name": "Gnomish Tea Set",
 			"source": "DungeonChurch",
-			"page": 0,
 			"tier": "minor",
 			"type": "T",
 			"rarity": "common",
@@ -4908,7 +4885,6 @@
 		{
 			"name": "Longsword of the Dragon Empire",
 			"source": "DungeonChurch",
-			"page": 0,
 			"baseItem": "longsword|phb",
 			"type": "M",
 			"rarity": "uncommon",
@@ -4965,7 +4941,6 @@
 			"name": "Mage Bane",
 			"source": "DungeonChurch",
 			"baseItem": "longsword|phb",
-			"page": 0,
 			"type": "M",
 			"weight": 3,
 			"rarity": "legendary",
@@ -4993,12 +4968,10 @@
 					"page": 155
 				}
 			],
-			"page": 0,
 			"weight": 1,
 			"type": "LA",
 			"rarity": "very rare",
-			"wondrous": true,
-			"tier": "major",
+			"tier": "minor",
 			"reqAttune": true,
 			"ability": {
 				"con": 1
@@ -5045,7 +5018,6 @@
 		{
 			"name": "Monster Identification Cards",
 			"source": "DungeonChurch",
-			"page": 0,
 			"type": "GS",
 			"rarity": "common",
 			"lootTables": [
@@ -5076,7 +5048,6 @@
 		{
 			"name": "Night Messenger's Cloak",
 			"source": "DungeonChurch",
-			"page": 0,
 			"type": "LA",
 			"rarity": "uncommon",
 			"weight": 4,
@@ -5140,7 +5111,6 @@
 		{
 			"name": "Nightshade's Ring",
 			"source": "DungeonChurch",
-			"page": 0,
 			"type": "RG",
 			"rarity": "very rare",
 			"curse": true,
@@ -5239,8 +5209,7 @@
 		{
 			"name": "Painting of Lamont Solmar",
 			"source": "DungeonChurch",
-			"page": 0,
-			"type": "TG",
+			"type": "$A",
 			"rarity": "rare",
 			"value": 250000,
 			"weight": 8,
@@ -5622,7 +5591,6 @@
 		{
 			"name": "Sapphire Nightshade",
 			"source": "DungeonChurch",
-			"page": 0,
 			"type": "OTH",
 			"rarity": "common",
 			"lootTables": [
@@ -5693,7 +5661,6 @@
 		{
 			"name": "Sphere of Everlasting Ice",
 			"source": "DungeonChurch",
-			"page": 0,
 			"type": "OTH",
 			"rarity": "rare",
 			"lootTables": [
@@ -5724,7 +5691,6 @@
 		{
 			"name": "Sporebane",
 			"source": "DungeonChurch",
-			"page": 0,
 			"baseItem": "dagger|PHB",
 			"type": "M",
 			"rarity": "rare",
@@ -5876,9 +5842,8 @@
 		{
 			"name": "Shield of Missile Deflection",
 			"source": "DungeonChurch",
-			"page": 0,
 			"type": "S",
-			"tier": "major",
+			"tier": "minor",
 			"rarity": "very rare",
 			"otherSources": [
 				{
@@ -5918,7 +5883,6 @@
 		{
 			"name": "Skeleton Key",
 			"source": "DungeonChurch",
-			"page": 0,
 			"tier": "major",
 			"rarity": "legendary",
 			"wondrous": true,
@@ -6075,7 +6039,6 @@
 		{
 			"name": "Long & Short Rests",
 			"source": "DungeonChurch",
-			"page": 0,
 			"ruleType": "V",
 			"entries": [
 				"At the end of both Long & Short rests, a character can spend one or more Hit Dice, up to the character's maximum number of Hit Dice (same as your level). For each Hit Die spent this way, the player rolls the die and adds the CON modifier to it. The player can decide to spend additional die after each roll.",
@@ -6094,7 +6057,6 @@
 		{
 			"name": "Increase HP When Leveling Up",
 			"source": "DungeonChurch",
-			"page": 0,
 			"ruleType": "V",
 			"entries": [
 				"Roll your hit die. You may take either the number you rolled, or the average roll, whichever is higher. The average roll of your hit die is calculated as (rounded down):",
@@ -6111,7 +6073,6 @@
 		{
 			"name": "Witchsight",
 			"source": "DungeonChurch",
-			"page": 0,
 			"ruleType": "O",
 			"entries": [
 				"You can see and sense ley lines and magical trails within a 100' radius as if they were luminous.",
@@ -6127,7 +6088,6 @@
 		{
 			"name": "Inspiration",
 			"source": "DungeonChurch",
-			"page": 0,
 			"ruleType": "V",
 			"entries": [
 				"When you have Inspiration, you can expend it to give yourself Advantage on a d20 Test. You must decide to do so before rolling.",
@@ -6164,7 +6124,6 @@
 		{
 			"name": "Sorcerer: Wild Magic Surge",
 			"source": "DungeonChurch",
-			"page": 0,
 			"ruleType": "V",
 			"entries": [
 				"When the character casts a leveled spell, they roll 1D8. If the roll is equal to or less than the number of spells that have been cast that day, the PC triggers a Wild Magic Surge. When the PC has activated Tides of Chaos, they may surge when casting any subsequent leveled spell of their choosing. All wild magic surges are subject to override at the DM’s discretion.",
@@ -6182,7 +6141,6 @@
 		{
 			"name": "Witchsight",
 			"source": "DungeonChurch",
-			"page": 0,
 			"featureType": [
 				"OTH"
 			],
@@ -6202,7 +6160,6 @@
 		{
 			"name": "Sapphire Nightshade Grove",
 			"source": "DungeonChurch",
-			"page": 0,
 			"entries": [
 				"{@item Sapphire Nightshade|dungeonchurch} is a plant that thrives on the darkness and gloom of deep forest, where other things die and rot. It feeds on the insecurities, fears, and distress projected by the living beings that pass through it.",
 				"Sapphire Nightshade groves are difficult terrain.",
@@ -6291,7 +6248,6 @@
 			"name": "I Know a Guy... in Pyora",
 			"source": "DungeonChurch",
 			"caption": "You are in some way affiliated with a person who is involved in this organization.",
-			"page": 0,
 			"colLabels": [
 				"1d12",
 				"Organization"
@@ -6351,7 +6307,6 @@
 			"name": "Legendary Heroes of Pyora",
 			"source": "DungeonChurch",
 			"caption": "You may have heard stories or legends about some of these figures from Pyora's history.",
-			"page": 0,
 			"colLabels": [
 				"1d12",
 				"Hero"
@@ -6411,7 +6366,6 @@
 			"name": "New Galmaarden Guilds",
 			"source": "DungeonChurch",
 			"caption": "The interwoven web of organizations that makes up New Galmaarden's civil society.",
-			"page": 0,
 			"colLabels": [
 				"1d12",
 				"Organization"
@@ -6471,7 +6425,6 @@
 			"name": "Party Bonds",
 			"source": "DungeonChurch",
 			"caption": "One of these bonds you to a member of your party.",
-			"page": 0,
 			"colLabels": [
 				"1d20",
 				"Bond"
@@ -6563,7 +6516,6 @@
 			"name": "Ravenfolk Mimicry",
 			"source": "DungeonChurch",
 			"caption": "Ravenfolk can mimic any sound they've heard.",
-			"page": 0,
 			"colLabels": [
 				"2d20",
 				"Manner",
@@ -6676,7 +6628,6 @@
 			"name": "Pyoran Gods",
 			"source": "DungeonChurch",
 			"caption": "Gods within the realm of Pyora.",
-			"page": 0,
 			"colLabels": [
 				"d8",
 				"Deity"
@@ -6720,7 +6671,6 @@
 			"name": "Pyoran Hometowns",
 			"source": "DungeonChurch",
 			"caption": "Places your character might originate from in the realm of Pyora.",
-			"page": 0,
 			"colLabels": [
 				"1d10",
 				"Location"
@@ -6915,7 +6865,7 @@
 				],
 				[
 					"35",
-					"{@item Potion of Unbridle Potential|dungeonchurch}"
+					"{@item Potion of Unbridled Potential|dungeonchurch}"
 				],
 				[
 					"36",
@@ -6996,7 +6946,7 @@
 			"name": "Pyoran Monsters",
 			"source": "DungeonChurch",
 			"caption": "Monsters known to inhabit the realm of Pyora.",
-			"page": 0,
+			
 			"colLabels": [
 				"d11",
 				"Monster"
@@ -7120,7 +7070,7 @@
 			"name": "Pyoran Species",
 			"source": "DungeonChurch",
 			"caption": "The diversity of Pyoran humanoids.",
-			"page": 0,
+			
 			"colLabels": [
 				"d9",
 				"Species",
