@@ -4832,9 +4832,41 @@
 			}
 		},
 		{
+            "name": "Guildmaster's Hunting Horn",
+			"source": "DungeonChurch",
+			"tier": "minor",
+			"wondrous": true,
+			"type": "INS",
+			"rarity": "rare",
+			"lootTables": [
+				"Pyoran Magic Items|dungeonchurch"
+			],
+			"entries": [
+				"A polished brass horn, beautifully etched with a scene of dogs pursuing a buck through the woods, and dressed with a leather strap for carrying over the shoulder. Carried by the guildmaster of {@link Burle Hunter's Guild|https://lore.dungeon.church/doc/burle-hunters-guild-TFqCs3pSJy} and traditionally blown at the start of their organized hunts and to mark holiday celebrations.",
+				"This horn has 2 charges and resets at dawn. Daily you may choose the creature type of your quarry. When you use an action to blow the horn, all creatures that can hear it within 600 feet of your chosen type must make a DC 13 Wisdom saving thrown or be {@condition frightened}.",
+				{
+					"type": "inset",
+					"name": "Dungeon Church Lore",
+					"entries": [
+						"Learn more about the {@link Guildmaster's Hunting Horn in the wiki|https://lore.dungeon.church/doc/guildmasters-hunting-horn-PkmJIssiGT}."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-guildmasters-hunting-horn.png"
+						}
+					}
+				]
+			}
+		},
+		{
 			"name": "Ley Line Lens",
 			"source": "DungeonChurch",
-			"page": 0,
 			"rarity": "very rare",
 			"wondrous": true,
 			"tier": "major",
@@ -6707,7 +6739,7 @@
 			"source": "DungeonChurch",
 			"caption": "Items and relics uncovered in the world of Pyora.",
 			"colLabels": [
-				"d51",
+				"d52",
 				"Item"
 			],
 			"rows": [
@@ -6914,6 +6946,10 @@
 				[
 					"51",
 					"{@item Potion of Incorporeal Passage|dungeonchurch}"
+				],
+				[
+					"52",
+					"{@item Guildmaster's Hunting Horn|dungeonchurch}"
 				]
 			]
 
