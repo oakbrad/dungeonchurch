@@ -12,6 +12,7 @@ Notes on setting up Dungeon Church's virtual tabletop.
     * Configure Token Settings `Check for Player`
     * Create Journal Entries `Check for Player`
     * Create New Items `Check for Player`
+    * Create New Actors `Check for Player`
     * Create New Tokens `Check for Player`
     * Delete Tokens `Check for Player`
     * Display Mouse Cursors `Uncheck All`
@@ -21,17 +22,21 @@ Notes on setting up Dungeon Church's virtual tabletop.
 * DnD5E
   * Encumbrance Tracking `Normal`
   * Collapse Item Cards in Chat `Checked`
+  * Allow Polmorphing `Checked`
 
 ## Module Settings
 * Carousel Combat Tracker
+  * Carousel Style `Carousel - Left`
   * Overflow Style `Hidden`
+  * Alignemnt `Left`
   * Attribute Visibility `Bars Only`
+  * Portrait Aspect Ratio `Square`
   * Hide Defeated `Checked`
   * Show Disposition `Unchecked`
   * Show Initiative on Portrait `Unchecked`
   * Display Name `Based on Token`
 * Chat Media
-* colorsettings - dependency of Splatter
+* colorsettings - *dependency of Splatter*
 * Dice So Nice
   * Show Ghost dice for hidden rolls `Checked`
 * Dice Tray
@@ -42,14 +47,20 @@ Notes on setting up Dungeon Church's virtual tabletop.
   * Enable Server Status Message `Checked`
   * Monitor user login/logout `Unchecked`
   * Enable 'Send to Discord' for everyone `Checked`
-* libWrapper - dependency
+  * Force show names on Discord `Checked`
+  * Auto-embed UUID Link Messages `Checked`
+* libWrapper - *dependency*
 * Magic Items
 * NPC Generator (GPT)
-* OBS Utils
 * Plutonium
   * [Settings](/foundryvtt/plutonium-config.json) in repo
 * Quick Insert
   * GMs Only `Checked`
 * Splatter
-  * Cleanup `1`
+  * Violence Level `6`
+  * Cleanup `2`
 * Vision 5E
+
+### Evaluating
+Modules in consideration.
+* OBS Utils
