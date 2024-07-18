@@ -25,16 +25,6 @@ Notes on setting up Dungeon Church's virtual tabletop.
   * Allow Polmorphing `Checked`
 
 ## Module Settings
-* Carousel Combat Tracker
-  * Carousel Style `Carousel - Left`
-  * Overflow Style `Hidden`
-  * Alignemnt `Left`
-  * Attribute Visibility `Bars Only`
-  * Portrait Aspect Ratio `Square`
-  * Hide Defeated `Checked`
-  * Show Disposition `Unchecked`
-  * Show Initiative on Portrait `Unchecked`
-  * Display Name `Based on Token`
 * Chat Media
 * colorsettings - *dependency of Splatter*
 * Dice So Nice
@@ -50,7 +40,6 @@ Notes on setting up Dungeon Church's virtual tabletop.
   * Force show names on Discord `Checked`
   * Auto-embed UUID Link Messages `Checked`
 * libWrapper - *dependency*
-* Magic Items
 * NPC Generator (GPT)
 * Plutonium
   * [Settings](/foundryvtt/plutonium-config.json) in repo
@@ -63,6 +52,19 @@ Notes on setting up Dungeon Church's virtual tabletop.
 
 ### Evaluating
 Modules in consideration.
+* Auto Rotate
+  * `Automatic`
+* Magic Items - only used by DDB? Remove?
+* Carousel Combat Tracker
+  * Carousel Style `Carousel - Left`
+  * Overflow Style `Hidden`
+  * Alignemnt `Left`
+  * Attribute Visibility `Bars Only`
+  * Portrait Aspect Ratio `Square`
+  * Hide Defeated `Checked`
+  * Show Disposition `Unchecked`
+  * Show Initiative on Portrait `Unchecked`
+  * Display Name `Based on Token`
 * Combat Booster
   * Enable Next Turn Marker `Unchecked`
   * Enable Start Turn Marker `Unchecked`
@@ -70,4 +72,4 @@ Modules in consideration.
   * Your Turn Notification `Checked`
   * Auto-Select Token on Turn Start `Checked`
   * Ignore Player Tokens `Checked`
-* OBS Utils
+* OBS Utils - haven't tried
