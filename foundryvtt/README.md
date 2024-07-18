@@ -63,4 +63,11 @@ Notes on setting up Dungeon Church's virtual tabletop.
 
 ### Evaluating
 Modules in consideration.
+* Combat Booster
+  * Enable Next Turn Marker `Unchecked`
+  * Enable Start Turn Marker `Unchecked`
+  * Mark Defeated `Checked`
+  * Your Turn Notification `Checked`
+  * Auto-Select Token on Turn Start `Checked`
+  * Ignore Player Tokens `Checked`
 * OBS Utils
