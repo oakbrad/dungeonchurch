@@ -1658,6 +1658,113 @@
 			]
 		},
 		{
+			"name": "Bramble Tree",
+			"size": [
+				"H"
+			],
+			"type": "plant",
+			"source": "DungeonChurch",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "8d10 + 14",
+				"average": 58
+			},
+			"speed": {
+				"walk": 20
+			},
+			"str": 19,
+			"dex": 6,
+			"con": 15,
+			"int": 10,
+			"wis": 10,
+			"cha": 7,
+			"passive": 10,
+			"cr": "2",
+			"senses": [
+				"blindsight 30 ft."
+			],
+			"senseTags": [
+				"B"
+			],
+			"languages": [
+				"Sylvan"
+			],
+			"languageTags": [
+				"S"
+			],
+			"resist": [
+				"bludgeoning",
+				"piercing"
+			],
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"poisoned"
+			],
+			"trait": [
+				{
+					"name": "False Appearance",
+					"entries": [
+						"While the bramble tree remains motionless, it is indistinguishable from a normal tree."
+					]
+				},
+				{
+					"name": "Thorny Defense",
+					"entries": [
+						"A creature that touches the bramble tree or hits it with a melee attack while within 5 feet of it takes 5 ({@dice 2d4}) piercing damage."
+					]
+				}
+			],
+			"traitTags": [
+				"False Appearance"
+			],
+			"action": [
+				{
+					"name": "Slam",
+					"entries": [
+						"{@atk mw} {@hit +6} to hit, reach 5 ft., one target. {@h}14 ({@damage 3d6 + 4}) bludgeoning damage. "
+					]
+				}
+			],
+			"miscTags": [
+				"MW"
+			],
+			"vulnerable": [
+				"fire"
+			],
+			"damageTags": [
+				"B",
+				"P"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/tokens/bestiary-bramble-tree-token.png"
+			},
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/bestiary-bramble-tree.png"
+						}
+					}
+				]
+			}
+		},
+		{
 			"name": "Clockwork Shark",
 			"source": "DungeonChurch",
 			"size": [
@@ -4526,6 +4633,96 @@
 				}
 		},
 		{
+			"name": "Bag of Rust",
+			"otherSources": [
+				{
+					"source": "DMG",
+					"page: 154"
+				}
+			],
+			"source": "DungeonChurch",
+			"tier": "major",
+			"rarity": "uncommon",
+			"wondrous": true,
+			"weight": 0.5,
+			"entries": [
+				"This ordinary leather bag appears empty. Reaching inside the bag, however, reveals a handful of rust powder.",
+				"Once a day, you can use an action to pull rust powder from the bag and throw it up to 20 feet. The powder cloud transforms into a creature you determine by rolling a {@dice d8} and consulting the table.",
+				"The creature is friendly to you and your companions, and it acts on your turn. You can use a bonus action to command how the creature moves and what action it takes on its next turn, or to give it general orders, such as to attack your enemies. In the absence of such orders, the creature acts in a fashion appropriate to its nature.",
+				"Creatures summoned this way are resistant to necrotic damage.",
+				"The creature vanishes at the next dawn or when it is reduced to 0 hit points. At that point, the bag can be used again.",
+				{
+					"type": "table",
+					"colLabels": [
+						"{@dice d8}",
+						"Creature"
+					],
+					"colStyles": [
+						"col-1 text-center",
+						"col-11"
+					],
+					"rows": [
+						[
+							"1",
+							"{@creature Space Hamster}"
+						],
+						[
+							"2",
+							"{@creature Eye Crow|ghmg}"
+						],
+						[
+							"3",
+							"{@creature Riding Horse}"
+						],
+						[
+							"4",
+							"{@creature Alligator Turtle|tob2}"
+						],
+						[
+							"5",
+							"{@creature Garroter Crab|tob}"
+						],
+						[
+							"6",
+							"{@creature Ormwurm|ghmg}"
+						],
+						[
+							"7",
+							"{@creature Lantern Beetle}"
+						],
+						[
+							"8",
+							"{@creature Giant Armadillo|tob2}"
+						]
+					]
+				},
+				{
+					"type": "inset",
+					"name": "Dungeon Church Lore",
+					"entries": [
+						"Learn more about the {@link Bag of Rust in the wiki|https://lore.dungeon.church/doc/bag-of-rust-SfaknUwwtp}."
+					]
+				}
+			],
+			"lootTables": [
+				"Pyoran Magic Items|dungeonchurch"
+			],
+			"fluff":
+			{
+				"name": "Bag of Rust",
+				"source": "DungeonChurch",
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-bag-of-rust.png"
+						}
+					}
+				]
+			}
+		},
+		{
 			"name": "Banshee Blight",
 			"source": "DungeonChurch",
 			"type": "IDG",
@@ -7110,7 +7307,7 @@
 			"source": "DungeonChurch",
 			"caption": "Items and relics uncovered in the world of Pyora.",
 			"colLabels": [
-				"d54",
+				"d55",
 				"Item"
 			],
 			"rows": [
@@ -7329,6 +7526,10 @@
 				[
 					"54",
 					"{@item Mildred's Amulet|dungeonchurch}"
+				],
+				[
+					"55",
+					"{@item Bag of Rust|dungeonchurch}"
 				]
 			]
 
