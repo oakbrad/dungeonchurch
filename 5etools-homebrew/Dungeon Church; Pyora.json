@@ -1658,7 +1658,7 @@
 			]
 		},
 		{
-			"name": "Bramble Tree",
+			"name": "Briar Tree",
 			"size": [
 				"H"
 			],
@@ -1717,13 +1717,13 @@
 				{
 					"name": "False Appearance",
 					"entries": [
-						"While the bramble tree remains motionless, it is indistinguishable from a normal tree."
+						"While the briar tree remains motionless, it is indistinguishable from a normal tree."
 					]
 				},
 				{
 					"name": "Thorny Defense",
 					"entries": [
-						"A creature that touches the bramble tree or hits it with a melee attack while within 5 feet of it takes 5 ({@dice 2d4}) piercing damage."
+						"A creature that touches the briar tree or hits it with a melee attack while within 5 feet of it takes 5 ({@dice 2d4}) piercing damage."
 					]
 				}
 			],
@@ -1750,7 +1750,7 @@
 			],
 			"tokenHref": {
 				"type": "external",
-				"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/tokens/bestiary-bramble-tree-token.png"
+				"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/tokens/bestiary-briar-tree-token.png"
 			},
 			"fluff": {
 				"images": [
@@ -1758,7 +1758,129 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/bestiary-bramble-tree.png"
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/bestiary-briar-tree.png"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Briar Mound",
+			"size": [
+				"L"
+			],
+			"type": "plant",
+			"source": "DungeonChurch",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "16d10 + 48",
+				"average": 136
+			},
+			"speed": {
+				"walk": 20,
+				"swim": 20
+			},
+			"str": 18,
+			"dex": 8,
+			"con": 16,
+			"int": 5,
+			"wis": 10,
+			"cha": 5,
+			"passive": 10,
+			"cr": "5",
+			"senses": [
+				"blindsight 60 ft."
+			],
+			"senseTags": [
+				"B"
+			],
+			"resist": [
+				"cold",
+				"fire"
+			],
+			"immune": [
+				"lightning"
+			],
+			"conditionImmune": [
+				"blinded",
+				"deafened",
+				"exhaustion"
+			],
+			"trait": [
+				{
+					"name": "Lightning Absoprtion",
+					"entries": [
+						"Whenever the briar mound would take lightning damage, it instead takes no damage and regains hit points equal to the damage dealt."
+					]
+				},
+				{
+					"name": "Thorny Defense",
+					"entries": [
+						"A creature that touches the briar mound or hits it with a melee attack while within 5 feet of it takes 5 ({@dice 2d4}) piercing damage."
+					]
+				}
+			],
+			"traitTags": [
+				"False Appearance"
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The briar mound makes two attacks."
+					]
+				},
+				{
+					"name": "Slam",
+					"entries": [
+						"{@atk mw} {@hit +6} to hit, reach 5 ft., one target. {@h}14 ({@damage 3d6 + 4}) bludgeoning damage. "
+					]
+				},
+				{
+					"name": "Engulf",
+					"entries": [
+						"The briar mound engulfs a Medium or smaller creature {@condition grappled} by it. The engulfed target is {@condition blinded}, {@condition restrained}, and unable to breathe, and it must succeed on a {@dc 14} saving throw at the start of each of the briar mound's turns or take 13 ({@damage 2d8 + 4}) bludgeoning damage. If the briar mound moves, the engulfed target moves with it. The briar mound can have only one creature engulfed at a time."
+					]
+				}
+			],
+			"miscTags": [
+				"MW"
+			],
+			"skill": {
+				"stealth": "+2"
+			},
+			"actionTags": [
+				"Multiattack"
+			],
+			"conditionInflict": [
+				"blinded",
+				"restrained"
+			],
+			"damageTags": [
+				"B",
+				"P"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/tokens/bestiary-briar-mound-token.png"
+			},
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/bestiary-briar-mound.png"
 						}
 					}
 				]
@@ -4637,7 +4759,7 @@
 			"otherSources": [
 				{
 					"source": "DMG",
-					"page: 154"
+					"page": 154
 				}
 			],
 			"source": "DungeonChurch",
@@ -7540,7 +7662,7 @@
 			"caption": "Monsters known to inhabit the realm of Pyora.",
 			
 			"colLabels": [
-				"d11",
+				"d14",
 				"Monster"
 			],
 			"rows": [
@@ -7591,6 +7713,14 @@
 				[
 					"12",
 					"{@creature Iron Rider Deputy|dungeonchurch}"
+				],
+				[
+					"13"
+					"{@creature Briar Tree|dungeonchurch}"
+				],
+				[
+					"14",
+					"{@creature Briar Mound|dungeonchurch}"
 				]
 			]
 		},

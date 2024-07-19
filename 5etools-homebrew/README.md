@@ -42,7 +42,6 @@ Or import:
     * [Banshee Blight](https://lore.dungeon.church/doc/banshee-blight-ziIwCBr2jq)
     * [Berserker's Draught](https://lore.dungeon.church/doc/berserkers-draught-sn5rNNx4Lp)
     * [Black Diamond](https://lore.dungeon.church/doc/black-diamond-pTSDpxQOJ4)
-    * [Bramble Tree](https://lore.dungeon.church/doc/bramble-tree-fRVWJq8gZQ)
     * [Brooch of Witchsight](https://lore.dungeon.church/doc/brooch-of-witchsight-Do7tfU7V9e)
     * [Cirilla's Gift](https://lore.dungeon.church/doc/cirillas-gift-pKEY4nYJDS)
     * [Cloak of Rats](https://lore.dungeon.church/doc/cloak-of-rats-iHIvQwaOt1)
@@ -91,6 +90,8 @@ Or import:
     * [Void Essence](https://lore.dungeon.church/doc/void-essence-lYJOMctLcD)
 * Bestiary
     * [Amelia, Knight of Twilight](https://lore.dungeon.church/doc/amelia-mAibH1T0Em)
+    * [Briar Tree](https://lore.dungeon.church/doc/briar-tree-fRVWJq8gZQ)
+    * [Briar Mound](https://lore.dungeon.church/doc/briar-mound-Jh4pKdDHHQ)
     * [Clockwork Shark](https://lore.dungeon.church/doc/clockwork-shark-PjyuNm1hE0)
     * [Coal Golem](https://lore.dungeon.church/doc/coal-golem-z4SQh5bzSf)
     * [Dire Boar](https://lore.dungeon.church/doc/dire-boar-ICD17iMkzY)
