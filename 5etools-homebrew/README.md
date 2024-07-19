@@ -94,6 +94,7 @@ Or import:
     * [Briar Mound](https://lore.dungeon.church/doc/briar-mound-Jh4pKdDHHQ)
     * [Clockwork Shark](https://lore.dungeon.church/doc/clockwork-shark-PjyuNm1hE0)
     * [Coal Golem](https://lore.dungeon.church/doc/coal-golem-z4SQh5bzSf)
+    * [Commodore Daniel Warrington](https://lore.dungeon.church/doc/commodore-daniel-warrington-OHzOMkhMHS)
     * [Dire Boar](https://lore.dungeon.church/doc/dire-boar-ICD17iMkzY)
     * [Dire Hare](https://lore.dungeon.church/doc/dire-hare-yQuDMVc6re)
     * [Giant Coal Ant](https://lore.dungeon.church/doc/giant-coal-ant-M9repJEaQW)

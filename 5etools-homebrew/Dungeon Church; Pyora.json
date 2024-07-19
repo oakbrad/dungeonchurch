@@ -2415,6 +2415,269 @@
 			]
 		},
 		{
+			"name": "Commodore Daniel Warrington",
+			"source": "DungeonChurch",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					{
+						"tag": "human",
+						"prefix": "Pyoran"
+					}
+				]
+			},
+			"alignment": [
+				"L",
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"{@item plate armor|PHB|plate}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "16d8 + 48",
+				"average": 120
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 19,
+			"dex": 10,
+			"con": 16,
+			"int": 12,
+			"wis": 14,
+			"cha": 17,
+			"skill": {
+				"insight": "+6",
+				"investigation": "+5",
+				"perception": "+6",
+				"religion": "+5",
+				"history": "+5",
+				"intimidation": "+7"
+			},
+			"passive": 16,
+			"cr": "9",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"Commodore Daniel is a 12th-level spellcaster. His spellcasting ability is Charisma (spell save {@dc 15}). The Commodore has the following pspells prepared:"
+					],
+					"spells": {
+						"1": {
+							"spells": [
+								"{@spell detect magic}",
+								"{@spell hunter's mark}",
+								"{@spell speak with animals}",
+								"{@spell wrathful smite}"
+							],
+							"slots": 4
+						},
+						"2": {
+							"spells": [
+								"{@spell animal messenger}",
+								"{@spell detect thoughts}",
+								"{@spell lesser restoration}",
+								"{@spell moonbeam}",
+								"{@spell zone of truth}"
+							],
+							"slots": 3
+						},
+						"3": {
+							"spells": [
+								"{@spell bestow curse}",
+								"{@spell dispel magic}"
+							],
+							"slots": 3
+						}
+					},
+					"will": [
+						"{@spell beast sense}",
+						"{@spell green-flame blade|TCE}",
+						"{@spell holy word|GH}",
+						"{@spell sacred flame}"
+					],
+					"ability": "cha",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Aura of Clarity (Human Form)",
+					"entries": [
+						"While within 10 feet of a conscious Commodore Daniel, creatures of the Commodore's choice can't be {@condition blinded} or {@condition frightened}, and creatures and objects can be {@condition invisible} only if the commodore allows it."
+					]
+				},
+				{
+					"name": "Brand Heretic (Recharges after a Short or Long Rest)",
+					"entries": [
+						"As a bonus action, the Commodore Daniel chooses one creature the Commodore can see within 30 feet of it. The Commodore marks the target as a heretic. For 1 minute, the Commodore's weapon attack rolls against the heretic score a critical hit on a roll of 19 or 20. At the start of each of the heretic's turns, the Commodore can use a reaction to make one weapon attack against the heretic."
+					]
+				},
+				{
+					"name": "Smite",
+					"entries": [
+						"When Commodore Daniel hits with a melee weapon attack, it can expend one spell slot to deal extra radiant damage. The extra damage is 9 ({@dice 2d8}) for a 1st level spell slot, 13 ({@dice 3d8}) for a 2nd-level one, and 18 ({@dice 4d8}) for a 3rd level slot."
+					]
+				},
+				{
+					"name": "Shapechanger",
+					"entries": [
+						"As an action, Commodore Daniel can polymorph into one of his lycanthrope forms: a boar-humanoid hybrid or a {@creature Boar}. While in lycanthrope form, the wereboar gains resistance to bludgeoning, piercing, and slashing damage from non-silvered, non-magical sources. Any equipment he is wearing or carrying isn't transformed. He reverts to its true form if he dies."
+					]
+				},
+				{
+					"name": "Charge (Lycanthrope Form)",
+					"entries": [
+						"If the wereboar moves at least 15 feet straight toward a target and then hits it with its tusks on the same turn, the target takes an extra 7 ({@dice 2d6}) slashing damage. If the target is a creature, it must succeed on a {@dc 13} Strength saving throw or be knocked {@condition prone}."
+					]
+				},
+				{
+					"name": "Lust for the Hunt (Lycanthrope Form)",
+					"entries": [
+						"The savage nature of your curse causes you to lose control. When in hybrid form, make a {@dc 12} Wisdom saving throw at the beginning of each turn. On a fail, the wereboar is overcome with bloodlust and attacks the nearest creature, or dashes towards the nearest helpless or weak creature."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The Commodore makes two attacks, only one of which can be with his tusks if in hybrid form."
+					]
+				},
+				{
+					"name": "Greatsword",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d6 + 4}) slashing damage and 4 ({@damage 1d8}) radiant damage."
+					]
+				},
+				{
+					"name": "Maul (Lycanthrope Form)",
+					"entries": [
+						"{@atk mw} {@hit +8} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d6 + 4}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Tusks (Lycanthrope Form)",
+					"entries": [
+						"{@atk mw} {@hit +5} to hit, reach ft., one target. {@h}10 ({@damage 2d6+3}) slashing damage. If the target is a humanoid, it must succeed on a {@dc 12} Constitution saving throw or be cursed with wereboar lycanthropy."
+					]
+				}
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/tokens/bestiary-commodore-daniel-token.png"
+			},
+			"actionTags": [
+				"Multiattack"
+			],
+			"spellcastingTags": [
+				"CP"
+			],
+			"miscTags": [
+				"MW",
+				"MLW"
+			],
+			"fluff": {
+				"entries": [
+					{
+						"name": "Lust for Vengeance",
+						"entries": [
+							"His {@link father|https://lore.dungeon.church/doc/commodore-wardell-warrington-JVLIYKxGXE} the former Commodore was {@link killed aboard|https://lore.dungeon.church/doc/session-15-16-murder-on-the-jubilee-b5dYJiJkGZ} the Dragon's Jubilee by the vampire {@creature Lamont Solmar, Knight of Night|dungeonchurch|Lamont Solmar}. The young Lieutenant became the new Commodore, bent on avenging his father’s death. He has consolidated control of security forces after the {@creature sahuagin} attack, and taken over what was left of the {@link Saltmarsh Town Guard|https://lore.dungeon.church/doc/saltmarsh-town-guard-v63eLpRU1Q} and thus gaining himself a seat on the {@link Saltmarsh Council|https://lore.dungeon.church/doc/saltmarsh-council-8KxfpMfTQ0}."
+						]
+					},
+					{
+						"name": "Curse of Lycanthropy",
+						"entries": [
+							"During a {@link brazen assault |https://lore.dungeon.church/doc/the-ladys-price-9GqAM1W0Pw} on his mansion by monsters directed by Lady Nightshade, Daniel was dosed with {@item Nightshade Poison|dungeonchurch}, transforming him into a {@creature wereboar} lycanthrope."
+						]
+					},
+					{
+						"type": "inset",
+						"name": "Dungeon Church Lore",
+						"entries": [
+							"Learn more about {@link Commodore Daniel Warrington in the wiki|https://lore.dungeon.church/doc/commodore-daniel-warrington-OHzOMkhMHS}."
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/bestiary-commodore-daniel.png"
+						}
+					}
+				]
+			},
+			"attachedItems": [
+				"greatsword|phb",
+				"maul|phb"
+			],
+			"shortName": "Commodore Daniel",
+			"languages": [
+				"Common",
+				"Dwarvish",
+				"Infernal"
+			],
+			"languageTags": [
+				"C",
+				"D",
+				"I"
+			],
+			"conditionImmune": [
+				"frightened"
+			],
+			"environment": [
+				"coastal",
+				"urban"
+			],
+			"isNpc": true,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"senseTags": [
+				"D"
+			],
+			"traitTags": [
+				"Charge",
+				"Shapechanger"
+			],
+			"conditionInflict": [
+				"prone"
+			],
+			"damageTags": [
+				"B",
+				"R",
+				"S"
+			],
+			"damageTagsSpell": [
+				"F",
+				"N",
+				"R",
+				"Y"
+			],
+			"savingThrowForced": [
+				"constitution",
+				"strength",
+				"wisdom"
+			],
+			"savingThrowForcedSpell": [
+				"charisma",
+				"constitution",
+				"dexterity",
+				"wisdom"
+			]
+		},
+		{
 			"name": "Giant Coal Ant",
 			"source": "DungeonChurch",
 			"otherSources": [
@@ -2524,7 +2787,13 @@
 			],
 			"fluff": {
 				"entries": [
-					
+					{
+						"type": "inset",
+						"name": "Dungeon Church Lore",
+						"entries": [
+							"Learn more about the {@link Giant Coal Ant in the wiki|https://lore.dungeon.church/doc/giant-coal-ant-M9repJEaQW}."
+						]
+					}
 				],
 				"images": [
 					{
@@ -2712,6 +2981,13 @@
 						"name": "Easily Influenced",
 						"entries": [
 							"Due to their undeveloped personalities, their childlike tantrums lead them to lash out at the world without rhyme or reason. This same temperament makes them easily susceptible to the influence of any figure presenting themselves as a parental figure - especially sorcerers, warlocks, and wizards who channel the rage of these fickle fiends."
+						]
+					},
+					{
+						"type": "inset",
+						"name": "Dungeon Church Lore",
+						"entries": [
+							"Learn more about the {@link Hellion Children in the wiki|https://lore.dungeon.church/doc/hellion-child-cmTM1BgZSd}."
 						]
 					}
 				],
@@ -5857,12 +6133,12 @@
 			"scftype": "druid",
 			"rarity": "rare",
 			"weight": 1,
-			"value": 2500,
+			"value": 250000,
 			"lootTables": [
 				"Pyoran Magic Items|dungeonchurch"
 			],
 			"entries": [
-				"A dark gem mounted in an iron brooch, the hag {@creature Mildred Magpie|dungeonchurch} has embued it with magic that allows the bearer to reach her across the planes to speak or ask her favor. Whenever the amulet is used, its power must be revived by Mildred's coven.",
+				"A dark gem mounted in an iron brooch, the hag {@creature Mildred Magpie|dungeonchurch} has imbued it with magic that allows the bearer to reach her across the planes to speak or ask her favor. Whenever the amulet is used, its power must be revived by Mildred's coven.",
 				{
 					"type": "inset",
 					"name": "Dungeon Church Lore",
@@ -7948,7 +8224,7 @@
 			"caption": "People and acquaintances from the realm of Pyora.",
 			
 			"colLabels": [
-				"d6",
+				"d7",
 				"Person"
 			],
 			"rows": [
@@ -7975,6 +8251,10 @@
 				[
 					"6",
 					"{@creature King Thistletongue|dungeonchurch}"
+				],
+				[
+					"7",
+					"{@creature Commodore Daniel Warrington|dungeonchurch}"
 				]
 
 			]
