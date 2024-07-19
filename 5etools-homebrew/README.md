@@ -104,6 +104,7 @@ Or import:
     * [Iron Rider Knight](https://lore.dungeon.church/doc/iron-rider-knight-JIpk2Tegm7)
     * [Iron Rider Priest](https://lore.dungeon.church/doc/iron-rider-priest-rqFdIU3jmX)
     * [Iron Rider Warder](https://lore.dungeon.church/doc/iron-rider-warder-TQ0pXTDXj0)
+    * [King Thistletongue](https://lore.dungeon.church/doc/king-thistletongue-byqTEswqZE)
     * [Lamont Solmar, Knight of Night](https://lore.dungeon.church/doc/lamont-solmar-GLrWBoIX5h)
     * [Mildred Magpie](https://lore.dungeon.church/doc/mildred-magpie-y6vemFK5Bi)
     * [Sap Ooze](https://lore.dungeon.church/doc/sap-ooze-eGVX8QPLEh)
