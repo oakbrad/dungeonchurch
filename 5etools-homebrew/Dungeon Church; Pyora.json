@@ -3822,7 +3822,8 @@
 						"1": [
 							"{@spell major image}",
 							"{@spell transport via plants}",
-							"{@spell wall of thorns}"
+							"{@spell wall of thorns}",
+							"{@spell pass without trace}"
 						]
 					},
 					"ability": "cha",
@@ -5003,7 +5004,7 @@
 					"rows": [
 						[
 							"1",
-							"{@creature Space Hamster}"
+							"{@creature Space Hamster|wdmm}"
 						],
 						[
 							"2",
@@ -5015,7 +5016,7 @@
 						],
 						[
 							"4",
-							"{@creature Alligator Turtle|tob2}"
+							"{@creature Suturefly|tob}"
 						],
 						[
 							"5",
@@ -5023,11 +5024,11 @@
 						],
 						[
 							"6",
-							"{@creature Ormwurm|ghmg}"
+							"{@creature Porcellina|tob3}"
 						],
 						[
 							"7",
-							"{@creature Lantern Beetle}"
+							"{@creature Lantern Beetle|tob2}"
 						],
 						[
 							"8",
