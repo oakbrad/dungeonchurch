@@ -101,6 +101,7 @@ Or import:
     * [Iron Rider Priest](https://lore.dungeon.church/doc/iron-rider-priest-rqFdIU3jmX)
     * [Iron Rider Warder](https://lore.dungeon.church/doc/iron-rider-warder-TQ0pXTDXj0)
     * [Lamont Solmar, Knight of Night](https://lore.dungeon.church/doc/lamont-solmar-GLrWBoIX5h)
+    * [Mildred Magpie](https://lore.dungeon.church/doc/mildred-magpie-y6vemFK5Bi)
     * [Sap Ooze](https://lore.dungeon.church/doc/sap-ooze-eGVX8QPLEh)
     * [Zombie Raccoon](https://lore.dungeon.church/doc/zombie-raccoon-kRMzfO1jg9)
 * Hazards / Traps
@@ -118,6 +119,7 @@ Or import:
     * Pyoran Hometowns
     * [Pyoran Magic Items](https://lore.dungeon.church/collection/items-N65bPehkML)
     * [Pyoran Monsters](https://lore.dungeon.church/collection/bestiary-NEgxqdnHW5)
+    * [Pyoran NPCs](https://lore.dungeon.church/collection/npcs-7D8dMCqI9X)
     * Pyoran Potions
     * [Pyoran Species](https://lore.dungeon.church/collection/species-AkHU2MbLwO)
     * [Pyoran Substances](https://lore.dungeon.church/doc/substances-uTUpOdUuKi)
