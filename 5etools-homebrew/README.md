@@ -58,6 +58,7 @@ Or import:
     * [Ley Line Lens](https://lore.dungeon.church/doc/ley-line-lens-A8oN3yTn4x)
     * [Longsword of the Dragon Empire](https://lore.dungeon.church/doc/longsword-of-the-dragon-empire-WNp5oBATI3)
     * [Mage Bane](https://lore.dungeon.church/doc/mage-bane-vvIjgk9BDu)
+    * [Mildred's Amulet](https://lore.dungeon.church/doc/mildreds-amulet-rEyfbZD2MW)
     * [Minor Belt of Dwarvenkind](https://5e.dungeon.church/items.html#belt%20of%20dwarvenkind_dmg)
     * [Monster Identification Cards](https://lore.dungeon.church/doc/monster-identification-cards-gfyYKrdZLJ)
     * [Night Messenger's Cloak](https://lore.dungeon.church/doc/night-messengers-cloak-wPglVS3jpz)

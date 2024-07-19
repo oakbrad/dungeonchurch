@@ -5308,6 +5308,45 @@
 			]
 		},
 		{
+			"name": "Mildred's Amulet",
+			"source": "DungeonChurch",
+			"otherSources": [
+				{
+					"source": "PHB",
+					"page": 151
+				}
+			],
+			"type": "SCF",
+			"scftype": "druid",
+			"rarity": "rare",
+			"weight": 1,
+			"value": 2500,
+			"lootTables": [
+				"Pyoran Magic Items|dungeonchurch"
+			],
+			"entries": [
+				"A dark gem mounted in an iron brooch, the hag {@creature Mildred Magpie|dungeonchurch} has embued it with magic that allows the bearer to reach her across the planes to speak or ask her favor. Whenever the amulet is used, its power must be revived by Mildred's coven.",
+				{
+					"type": "inset",
+					"name": "Dungeon Church Lore",
+					"entries": [
+						"Learn more about {@link Mildred's Amulet in the wiki|https://lore.dungeon.church/doc/mildreds-amulet-rEyfbZD2MW}."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-mildreds-amulet.png"
+						}
+					}
+				]
+			}
+		},
+		{
 			"name": "Minor Belt of Dwarvenkind",
 			"source": "DungeonChurch",
 			"otherSources": [
@@ -7071,7 +7110,7 @@
 			"source": "DungeonChurch",
 			"caption": "Items and relics uncovered in the world of Pyora.",
 			"colLabels": [
-				"d53",
+				"d54",
 				"Item"
 			],
 			"rows": [
@@ -7286,6 +7325,10 @@
 				[
 					"53",
 					"{@item Shield of Duskmire|dungeonchurch}"
+				],
+				[
+					"54",
+					"{@item Mildred's Amulet|dungeonchurch}"
 				]
 			]
 
