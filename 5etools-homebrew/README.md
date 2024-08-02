@@ -17,7 +17,7 @@ Or import:
 * Species (Races)
     * [Dragonborn (Pyoran)](https://lore.dungeon.church/doc/dragonborn-pyoran-Pd8mdtKo6V)
     * [Dwarf (Durandar)](https://lore.dungeon.church/doc/dwarf-durandian-UOdggQRi6Y)
-    * [Dwarf (Road)](https://lore.dungeon.church/doc/dwarf-road-JqwmFsdhFj)
+    * [Dwarf (Hearth)](https://lore.dungeon.church/doc/dwarf-hearth-JqwmFsdhFj)
     * [Elfmarked](https://lore.dungeon.church/doc/elfmarked-ohkfCOb0aT)
     * [Gnome (Rock)](https://lore.dungeon.church/doc/gnome-rock-ARFvDASnZz)
     * [Halfling (Pyoran)](https://lore.dungeon.church/doc/halfling-fFZiVbQDbC)
