@@ -163,7 +163,7 @@ services:
 # OUTLINE WIKI
 # https://github.com/outline/outline
  outline:
-    image: outlinewiki/outline:0.75.2
+    image: outlinewiki/outline:0.78.0
     container_name: outline
     restart: unless-stopped
     # USE THIS TO UPGRADE
