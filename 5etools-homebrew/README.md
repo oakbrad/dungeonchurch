@@ -48,6 +48,7 @@ Or import:
     * [Collector of Souls](https://lore.dungeon.church/doc/collector-of-souls-XA0hpJ7gfE)
     * [Dagger of Profuse Bleeding](https://lore.dungeon.church/doc/dagger-of-profuse-bleeding-uXUIGCXKkL)
     * [Entrancing Mirror](https://lore.dungeon.church/doc/entrancing-mirror-LEDVsFaum5)
+    * [Essence of Submission](https://lore.dungeon.church/doc/essence-of-submission-U5IGAEmwpH)
     * [Dimensional Glasses](https://lore.dungeon.church/doc/dimensional-glasses-953LlRzRKE)
     * [Dream Vine](https://lore.dungeon.church/doc/dream-vine-viEBw5FxT7)
     * [Fedora of Disguise](https://lore.dungeon.church/doc/fedora-of-disguise-c7i4G0ePRf)
@@ -87,7 +88,9 @@ Or import:
     * [Spores of Delirium](https://lore.dungeon.church/doc/spores-of-delirium-JpyH7CL4vS)
     * [Stone Tea](https://lore.dungeon.church/doc/stone-tea-ik79CS5iIM)
     * [Vial of the Last Harvest](https://lore.dungeon.church/doc/vial-of-the-last-harvest-tsIxDMwTeP)
+    * [Vial of Vielblood](https://lore.dungeon.church/doc/vial-of-veilblood-cuYF9sYCbQ)
     * [Void Essence](https://lore.dungeon.church/doc/void-essence-lYJOMctLcD)
+    * [Wooden Stake](https://lore.dungeon.church/doc/wooden-stake-FnGtypUkbI)
 * Bestiary
     * [Amelia, Knight of Twilight](https://lore.dungeon.church/doc/amelia-mAibH1T0Em)
     * [Briar Tree](https://lore.dungeon.church/doc/briar-tree-fRVWJq8gZQ)
