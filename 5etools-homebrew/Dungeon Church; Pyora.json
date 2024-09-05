@@ -7304,6 +7304,50 @@
 					}
 				]
 			}
+		},
+		{
+			"name": "Wooden Stake",
+			"source": "dungeonchurch",
+			"type": "M",
+			"rarity": "none",
+			"weight": 3,
+			"weaponCategory": "martial",
+			"property": [
+				"2H",
+				"F",
+				"S"
+			],
+			"dmg1": "1d12",
+			"dmgType": "P",
+			"weapon": true,
+			"entries": [
+				"An improvised weapon, crudely whittled from whatever wood was close at hand. Unreliable, but better than nothing.",
+				{
+					"type": "inset",
+					"name": "Dungeon Church Lore",
+					"entries": [
+						"Learn more about the {@link Wooden Stake in the wiki|https://lore.dungeon.church/doc/wooden-stake-FnGtypUkbI}."
+					]
+				}
+				{
+					"type": "entries",
+					"name": "Special",
+					"entries": [
+						"When you attack with a wooden stake, roll a 1d6. On a 6, the stake fails and breaks apart, becoming unrecoverable."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-wooden-stake.png"
+						}
+					}
+				]
+			}
 		}
 	],
 	"variantrule": [
@@ -7926,7 +7970,7 @@
 			"source": "DungeonChurch",
 			"caption": "Items and relics uncovered in the world of Pyora.",
 			"colLabels": [
-				"d57",
+				"d58",
 				"Item"
 			],
 			"rows": [
@@ -8157,6 +8201,10 @@
 				[
 					"57",
 					"{@item Essence of Submission|dungeonchurch}"
+				],
+				[
+					"58",
+					"{@item Wooden Stake|dungeonchurch}"
 				]
 			]
 
