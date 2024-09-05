@@ -7202,6 +7202,40 @@
 			}
 		},
 		{
+			"name": "Vial of Veilblood",
+			"type": "P",
+			"rarity": "uncommon",
+			"source": "DungeonChurch",
+			"weight": 1,
+			"lootTables": [
+				"Pyoran Potions|dungeonchurch",
+				"Pyoran Magic Items|dungeonchurch"
+			],
+			"entries": [
+				"Small vial-shaped bottle made of black glass wrapped in silver filigree, a swirling blue-black liquid inside glows faintly. This smoky and herbal smelling brew is made from vampire blood, shadow essence, and a mix of dried herbs from the {@link Dreadwood|https://lore.dungeon.church/doc/dreadwood-GcfKdBzGyT}.",
+				"When consumed by a humanoid, it cloaks the imbiber in shadow, allowing them to move as if {@condition invisible} for 1 minute.",
+				"When consumed by a {@creature vampire} or {@creature dhampir|dungeonchurch}, it also allows them to move through walls and solid objects by stepping briefly into the ethereal plane for up to 10 feet, as if they had cast {@spell Etherealness}.",
+				{
+					"type": "inset",
+					"name": "Dungeon Church Lore",
+					"entries": [
+						"Learn more about the {@link Vial of Veilblood in the wiki|https://lore.dungeon.church/doc/vial-of-veilblood-cuYF9sYCbQ}."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-vial-of-veilblood.png"
+						}
+					}
+				]
+			}
+		},
+		{
 			"name": "Void Essence",
 			"type": "P",
 			"rarity": "uncommon",
@@ -7855,7 +7889,7 @@
 			"source": "DungeonChurch",
 			"caption": "Items and relics uncovered in the world of Pyora.",
 			"colLabels": [
-				"d55",
+				"d56",
 				"Item"
 			],
 			"rows": [
@@ -8078,6 +8112,10 @@
 				[
 					"55",
 					"{@item Bag of Rust|dungeonchurch}"
+				],
+				[
+					"56",
+					"{@item Vial of Veilblood|dungeonchurch}"
 				]
 			]
 
@@ -8196,7 +8234,7 @@
 			"source": "DungeonChurch",
 			"caption": "Potions from the realm of Pyora.",
 			"colLabels": [
-				"d13",
+				"d14",
 				"Potion"
 			],
 			"rows": [
@@ -8251,6 +8289,10 @@
 				[
 					"13",
 					"{@item Potion of Incorporeal Passage|dungeonchurch}"
+				],
+				[
+					"14",
+					"{@item Vial of Veilblood|dungeonchurch}"
 				]
 			]
 		},
