@@ -5761,6 +5761,43 @@
 			}
 		},
 		{
+			"name": "Essence of Submission",
+			"type": "P",
+			"rarity": "uncommon",
+			"source": "DungeonChurch",
+			"weight": 1,
+			"lootTables": [
+				"Pyoran Potions|dungeonchurch",
+				"Pyoran Magic Items|dungeonchurch"
+			],
+			"entries": [
+				"An amber colored liquid with a honey-like viscosity and a sweet taste that masks it's true purpose. The main ingredients are a mix of herbs known for their hypnotic effects combined with {@creature vampire} saliva.",
+				"When consumed, it instills a deep sense of trust and submission making the drinker obedient to those around them.",
+				"The target must make a DC 14 Wisdom saving throw or be {@condition charmed} into a suggestible state for 1 hour. The charm breaks if the target's trust is betrayed while under the influence.",
+				{
+					"type": "inset",
+					"name": "Dungeon Church Lore",
+					"entries": [
+						"Learn more about {@link Essence of Submission in the wiki|https://lore.dungeon.church/doc/essence-of-submission-U5IGAEmwpH}."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-essence-of-submission.png"
+						}
+					}
+				],
+				"entries": [
+					"Essence of Submission is used by the vampires of {@link Duskmire|https://lore.dungeon.church/doc/duskmire-hJey19lfsu} as a method of social control of the humans they keep for their blood quota. While the high walls of the dark city keep both humans and vampires under the watchful eye of {@link Lady Nightshade|https://lore.dungeon.church/doc/lady-nightshade-3kjLNj2Zbs}, the real trap for the humans is laid in their minds slowly over time as they are acclimated to their fate."
+				]
+			}
+		},
+		{
 			"name": "Fedora of Disguise",
 			"source": "DungeonChurch",
 			"otherSources": [
@@ -7204,7 +7241,7 @@
 		{
 			"name": "Vial of Veilblood",
 			"type": "P",
-			"rarity": "uncommon",
+			"rarity": "rare",
 			"source": "DungeonChurch",
 			"weight": 1,
 			"lootTables": [
@@ -7889,7 +7926,7 @@
 			"source": "DungeonChurch",
 			"caption": "Items and relics uncovered in the world of Pyora.",
 			"colLabels": [
-				"d56",
+				"d57",
 				"Item"
 			],
 			"rows": [
@@ -8116,6 +8153,10 @@
 				[
 					"56",
 					"{@item Vial of Veilblood|dungeonchurch}"
+				],
+				[
+					"57",
+					"{@item Essence of Submission|dungeonchurch}"
 				]
 			]
 
@@ -8234,7 +8275,7 @@
 			"source": "DungeonChurch",
 			"caption": "Potions from the realm of Pyora.",
 			"colLabels": [
-				"d14",
+				"d15",
 				"Potion"
 			],
 			"rows": [
@@ -8293,6 +8334,10 @@
 				[
 					"14",
 					"{@item Vial of Veilblood|dungeonchurch}"
+				],
+				[
+					"15",
+					"{@item Essence of Submission|dungeonchurch}"
 				]
 			]
 		},
