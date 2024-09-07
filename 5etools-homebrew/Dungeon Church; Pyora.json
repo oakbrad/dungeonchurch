@@ -6723,6 +6723,39 @@
 			}
 		},
 		{
+			"name": "Pyrotov Cocktail",
+			"type": "P",
+			"rarity": "common",
+			"source": "DungeonChurch",
+			"weight": 1,
+			"lootTables": [
+				"Pyoran Potions|dungeonchurch",
+				"Pyoran Magic Items|dungeonchurch"
+			],
+			"entries": [
+				"This ordinary beer bottle contains a menacing swirl of smoke and glowing cinders. When the bottle is uncorked and inhaled, the user is set ablaze for 1 minute.",
+				"While ablaze you cast a bright light in a 20 foot radius, and are able to cast {@spell Fire Bolt} as an interaction. If you do so, you take {@dice 1d4} fire damage yourself.",
+				{
+					"type": "inset",
+					"name": "Dungeon Church Lore",
+					"entries": [
+						"Learn more about the {@link Pyrotov Cocktail in the wiki|https://lore.dungeon.church/doc/pyrotov-cocktail-1AqaCK0mQh}."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-pyrotov-cocktail.png"
+						}
+					}
+				]
+			}
+		},
+		{
 			"name": "Rationing Spice",
 			"type": "IDG",
 			"tier": "minor",
@@ -8008,7 +8041,7 @@
 			"source": "DungeonChurch",
 			"caption": "Items and relics uncovered in the world of Pyora.",
 			"colLabels": [
-				"d59",
+				"d60",
 				"Item"
 			],
 			"rows": [
@@ -8247,6 +8280,10 @@
 				[
 					"59",
 					"{@item Serum of Dark Truth|dungeonchurch}"
+				],
+				[
+					"60",
+					"{@item Pyrotov Cocktail|dungeonchurch}"
 				]
 			]
 
@@ -8365,7 +8402,7 @@
 			"source": "DungeonChurch",
 			"caption": "Potions from the realm of Pyora.",
 			"colLabels": [
-				"d16",
+				"d17",
 				"Potion"
 			],
 			"rows": [
@@ -8432,6 +8469,10 @@
 				[
 					"16",
 					"{@item Serum of Dark Truth|dungeonchurch}"
+				],
+				[
+					"17",
+					"{@item Pyrotov Cocktail|dungeonchurch}"
 				]
 			]
 		},
