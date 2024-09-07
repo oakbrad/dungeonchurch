@@ -5378,7 +5378,8 @@
 			"type": "FD",
 			"lootTables": [
 				"Pyoran Magic Items|dungeonchurch",
-				"Pyoran Substances|dungeonchurch"
+				"Pyoran Substances|dungeonchurch",
+				"Durandian Draughts|dungeonchurch"
 			],
 			"rarity": "common",
 			"entries": [
@@ -6730,7 +6731,8 @@
 			"weight": 1,
 			"lootTables": [
 				"Pyoran Potions|dungeonchurch",
-				"Pyoran Magic Items|dungeonchurch"
+				"Pyoran Magic Items|dungeonchurch",
+				"Durandian Draughts|dungeonchurch"
 			],
 			"entries": [
 				"This ordinary beer bottle contains a menacing swirl of smoke and glowing cinders. When the bottle is uncorked and inhaled, the user is set ablaze for 1 minute.",
@@ -7562,6 +7564,25 @@
 		}
 	],
 	"table": [
+		{
+			"name": "Durandian Draughts",
+			"source": "DungeonChurch",
+			"caption": "The dwarves of Durandar may have eschewed the use of magic, but their creative talents have brought ferment to a wide range of alchemical draughts.",
+			"colLabels": [
+				"1d2",
+				"Draught"
+			],
+			"rows": [
+				[
+					"1",
+					"{@item Berserker's Draught|dungeonchurch}"
+				],
+				[
+					"2",
+					"{@item Pyrotov Cocktail|dungeonchurch}"
+				]
+			]
+		},
 		{
 			"name": "I Know a Guy... in Pyora",
 			"source": "DungeonChurch",

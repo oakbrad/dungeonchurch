@@ -120,6 +120,7 @@ Or import:
 * Optional Features
     * Witchsight
 * Tables
+    * Durandian Draughts
     * I Know a Guy... in Pyora
     * [New Galmaarden Guilds](https://lore.dungeon.church/doc/new-galmaarden-civil-society-AjPbwTWHao)
     * [Legendary Heroes of Pyora](https://lore.dungeon.church/doc/legendary-Vs6JW0T0Cz)
