@@ -6857,6 +6857,44 @@
 			}
 		},
 		{
+			"name": "Serum of Dark Truth",
+			"type": "P",
+			"rarity": "rare",
+			"baseItem": "truth serum|DMG",
+			"source": "DungeonChurch",
+			"weight": 1,
+			"lootTables": [
+				"Pyoran Potions|dungeonchurch",
+				"Pyoran Magic Items|dungeonchurch"
+			],
+			"entries": [
+				"A creature subjected to this poison must succeed on a DC Constitution 16 save or be afflicted by terrifying hallucinations for 1 hour.",
+				"During this time, they suffer disadvantage on all skill checks and saving throws due to the overwhelming visions. If they survive the hour, they gain a flash of insight: they may ask one question (as though using the {@spell Commune} spell) or recall a hidden or forgotten truth relevant to their current situation. They then suffer one level of {@condition exhaustion}.",
+				{
+					"type": "inset",
+					"name": "Dungeon Church Lore",
+					"entries": [
+						"Learn more about the {@link Serum of Dark Truth in the wiki|https://lore.dungeon.church/doc/serum-of-dark-truth-XpjnKHYKML}."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-serum-of-dark-truth.png"
+						}
+					}
+				],
+				"entries": [
+					"This subtly glowing crimson liquid is a powerful and dangerous potion. Said to be brewed from adrenalized blood under a full moon, it reveals deep, hidden truths—but at a terrifying cost.",
+					"It is rumored that it is used to enhance interrogations or reveal dangerous knowledge quickly. Some are known to use it on themselves in pursuit of their own repressed secrets."
+				]
+			}
+		},
+		{
 			"name": "Siduri's Token",
 			"source": "DungeonChurch",
 			"rarity": "common",
@@ -7970,7 +8008,7 @@
 			"source": "DungeonChurch",
 			"caption": "Items and relics uncovered in the world of Pyora.",
 			"colLabels": [
-				"d58",
+				"d59",
 				"Item"
 			],
 			"rows": [
@@ -8205,6 +8243,10 @@
 				[
 					"58",
 					"{@item Wooden Stake|dungeonchurch}"
+				],
+				[
+					"59",
+					"{@item Serum of Dark Truth|dungeonchurch}"
 				]
 			]
 
@@ -8323,7 +8365,7 @@
 			"source": "DungeonChurch",
 			"caption": "Potions from the realm of Pyora.",
 			"colLabels": [
-				"d15",
+				"d16",
 				"Potion"
 			],
 			"rows": [
@@ -8386,6 +8428,10 @@
 				[
 					"15",
 					"{@item Essence of Submission|dungeonchurch}"
+				],
+				[
+					"16",
+					"{@item Serum of Dark Truth|dungeonchurch}"
 				]
 			]
 		},
