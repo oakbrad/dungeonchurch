@@ -6159,6 +6159,42 @@
 			]
 		},
 		{
+			"name": "Migrant Bitters",
+			"source": "DungeonChurch",
+			"type": "P",
+			"lootTables": [
+				"Pyoran Magic Items|dungeonchurch",
+				"Pyoran Substances|dungeonchurch",
+				"Durandian Draughts|dungeonchurch"
+			],
+			"rarity": "common",
+			"entries": [
+				"A staple among the {@race Dwarf (Durandar)|dungeonchurch|Durandian} migrants and {@link Confederacy of Hearthship|https://lore.dungeon.church/doc/confederacy-of-hearthships-EDksxQvprt} sailors. Brewed from citrus, hardy herbs, and fermented seaweed, this bitter tincture was a necessity to stave off the debilitating effects of scurvy and other diseases during long ship voyages.",
+				"A few drops of bitters mixed in any drink will cure {@condition poisoned|PHB|poison} and any minor, non-magical ailments like colds or fevers. The effect lasts for 24 hours, granting advantage on additional poison saves.",
+				{
+					"type": "inset",
+					"name": "Dungeon Church Lore",
+					"entries": [
+						"Learn more about {@link Migrant Bitters in the wiki|https://lore.dungeon.church/doc/migrant-bitters-7x14g5xzPG}."
+					]
+				}
+			],
+			"fluff":
+				{
+					"name": "Migrant Bitters",
+					"source": "DungeonChurch",
+					"images": [
+						{
+							"type": "image",
+							"href": {
+								"type": "external",
+								"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-migrant-bitters.png"
+							}
+						}
+					]
+				}
+		},
+		{
 			"name": "Mildred's Amulet",
 			"source": "DungeonChurch",
 			"otherSources": [
@@ -7569,7 +7605,7 @@
 			"source": "DungeonChurch",
 			"caption": "The dwarves of Durandar may have eschewed the use of magic, but their creative talents have brought ferment to a wide range of alchemical draughts.",
 			"colLabels": [
-				"1d2",
+				"1d3",
 				"Draught"
 			],
 			"rows": [
@@ -7580,6 +7616,10 @@
 				[
 					"2",
 					"{@item Pyrotov Cocktail|dungeonchurch}"
+				],
+				[
+					"3",
+					"{@item Migrant Bitters|dungeonchurch}"
 				]
 			]
 		},
@@ -8423,7 +8463,7 @@
 			"source": "DungeonChurch",
 			"caption": "Potions from the realm of Pyora.",
 			"colLabels": [
-				"d17",
+				"d18",
 				"Potion"
 			],
 			"rows": [
@@ -8494,6 +8534,10 @@
 				[
 					"17",
 					"{@item Pyrotov Cocktail|dungeonchurch}"
+				],
+				[
+					"18",
+					"{@item Migrant Bitters|dungeonchurch}"
 				]
 			]
 		},
