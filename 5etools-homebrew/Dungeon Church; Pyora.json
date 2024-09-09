@@ -5929,6 +5929,42 @@
 			}
 		},
 		{
+			"name": "Forge Mead",
+			"source": "DungeonChurch",
+			"type": "P",
+			"lootTables": [
+				"Pyoran Magic Items|dungeonchurch",
+				"Pyoran Substances|dungeonchurch",
+				"Durandian Draughts|dungeonchurch"
+			],
+			"rarity": "common",
+			"entries": [
+				"This rich, amber-colored mead is used by the forge engineers of {@race Dwarf (Durandar)|dungeonchurch|Durandar} to protect themselves from the exposure to intense heat their work requires.",
+				"Upon drinking, the user gains resistance to fire damage and sheds dim light in a 10' radius for 1 hour.",
+				{
+					"type": "inset",
+					"name": "Dungeon Church Lore",
+					"entries": [
+						"Learn more about {@link Forge Mead in the wiki|https://lore.dungeon.church/doc/forge-mead-wP6KD1RtSA}."
+					]
+				}
+			],
+			"fluff":
+				{
+					"name": "Migrant Bitters",
+					"source": "DungeonChurch",
+					"images": [
+						{
+							"type": "image",
+							"href": {
+								"type": "external",
+								"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-forge-mead.png"
+							}
+						}
+					]
+				}
+		},
+		{
 			"name": "Gloomroot Extract",
 			"type": "P",
 			"rarity": "uncommon",
@@ -7605,7 +7641,7 @@
 			"source": "DungeonChurch",
 			"caption": "The dwarves of Durandar may have eschewed the use of magic, but their creative talents have brought ferment to a wide range of alchemical draughts.",
 			"colLabels": [
-				"1d3",
+				"1d4",
 				"Draught"
 			],
 			"rows": [
@@ -7620,6 +7656,10 @@
 				[
 					"3",
 					"{@item Migrant Bitters|dungeonchurch}"
+				],
+				[
+					"4",
+					"{@item Forge Mead|dungeonchurch}"
 				]
 			]
 		},
@@ -8102,7 +8142,7 @@
 			"source": "DungeonChurch",
 			"caption": "Items and relics uncovered in the world of Pyora.",
 			"colLabels": [
-				"d60",
+				"d61",
 				"Item"
 			],
 			"rows": [
@@ -8345,6 +8385,10 @@
 				[
 					"60",
 					"{@item Pyrotov Cocktail|dungeonchurch}"
+				],
+				[
+					"61",
+					"{@item Forge Mead|dungeonchurch}"
 				]
 			]
 
@@ -8463,7 +8507,7 @@
 			"source": "DungeonChurch",
 			"caption": "Potions from the realm of Pyora.",
 			"colLabels": [
-				"d18",
+				"d19",
 				"Potion"
 			],
 			"rows": [
@@ -8538,6 +8582,10 @@
 				[
 					"18",
 					"{@item Migrant Bitters|dungeonchurch}"
+				],
+				[
+					"19",
+					"{@item Forge Mead|dungeonchurch}"
 				]
 			]
 		},
