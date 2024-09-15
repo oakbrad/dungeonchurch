@@ -5653,6 +5653,44 @@
 			}
 		},
 		{
+			"name": "Dark Truth Serum",
+			"type": "P",
+			"rarity": "rare",
+			"baseItem": "truth serum|DMG",
+			"source": "DungeonChurch",
+			"weight": 1,
+			"lootTables": [
+				"Pyoran Potions|dungeonchurch",
+				"Pyoran Magic Items|dungeonchurch"
+			],
+			"entries": [
+				"A creature subjected to this poison must succeed on a DC Constitution 16 save or be afflicted by terrifying hallucinations for 1 hour.",
+				"During this time, they suffer disadvantage on all skill checks and saving throws due to the overwhelming visions. If they survive the hour, they gain a flash of insight: they may ask one question (as though using the {@spell Commune} spell) or recall a hidden or forgotten truth relevant to their current situation. They then suffer one level of {@condition exhaustion}.",
+				{
+					"type": "inset",
+					"name": "Dungeon Church Lore",
+					"entries": [
+						"Learn more about the {@link Dark Truth Serum in the wiki|https://lore.dungeon.church/doc/serum-of-dark-truth-XpjnKHYKML}."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-dark-truth-serum.png"
+						}
+					}
+				],
+				"entries": [
+					"This subtly glowing crimson liquid is a powerful and dangerous potion. Said to be brewed from adrenalized blood under a full moon, it reveals deep, hidden truths—but at a terrifying cost.",
+					"It is rumored that it is used to enhance interrogations or reveal dangerous knowledge quickly. Some are known to use it on themselves in pursuit of their own repressed secrets."
+				]
+			}
+		},
+		{
 			"name": "Dimensional Glasses",
 			"source": "DungeonChurch",
 			"type": "OTH",
@@ -6960,44 +6998,6 @@
 							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-sapphire-nightshade.png"
 						}
 					}
-				]
-			}
-		},
-		{
-			"name": "Serum of Dark Truth",
-			"type": "P",
-			"rarity": "rare",
-			"baseItem": "truth serum|DMG",
-			"source": "DungeonChurch",
-			"weight": 1,
-			"lootTables": [
-				"Pyoran Potions|dungeonchurch",
-				"Pyoran Magic Items|dungeonchurch"
-			],
-			"entries": [
-				"A creature subjected to this poison must succeed on a DC Constitution 16 save or be afflicted by terrifying hallucinations for 1 hour.",
-				"During this time, they suffer disadvantage on all skill checks and saving throws due to the overwhelming visions. If they survive the hour, they gain a flash of insight: they may ask one question (as though using the {@spell Commune} spell) or recall a hidden or forgotten truth relevant to their current situation. They then suffer one level of {@condition exhaustion}.",
-				{
-					"type": "inset",
-					"name": "Dungeon Church Lore",
-					"entries": [
-						"Learn more about the {@link Serum of Dark Truth in the wiki|https://lore.dungeon.church/doc/serum-of-dark-truth-XpjnKHYKML}."
-					]
-				}
-			],
-			"fluff": {
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-serum-of-dark-truth.png"
-						}
-					}
-				],
-				"entries": [
-					"This subtly glowing crimson liquid is a powerful and dangerous potion. Said to be brewed from adrenalized blood under a full moon, it reveals deep, hidden truths—but at a terrifying cost.",
-					"It is rumored that it is used to enhance interrogations or reveal dangerous knowledge quickly. Some are known to use it on themselves in pursuit of their own repressed secrets."
 				]
 			}
 		},
@@ -8426,7 +8426,7 @@
 				],
 				[
 					"59",
-					"{@item Serum of Dark Truth|dungeonchurch}"
+					"{@item Dark Truth Serum|dungeonchurch}"
 				],
 				[
 					"60",
@@ -8623,7 +8623,7 @@
 				],
 				[
 					"16",
-					"{@item Serum of Dark Truth|dungeonchurch}"
+					"{@item Dark Truth Serum|dungeonchurch}"
 				],
 				[
 					"17",
