@@ -94,6 +94,7 @@ Or import:
     * [Vial of the Last Harvest](https://lore.dungeon.church/doc/vial-of-the-last-harvest-tsIxDMwTeP)
     * [Vial of Vielblood](https://lore.dungeon.church/doc/vial-of-veilblood-cuYF9sYCbQ)
     * [Void Essence](https://lore.dungeon.church/doc/void-essence-lYJOMctLcD)
+    * [Whisperwine](https://lore.dungeon.church/doc/whisperwine-PWBtjr4LcS)
     * [Wooden Stake](https://lore.dungeon.church/doc/wooden-stake-FnGtypUkbI)
 * Bestiary
     * [Amelia, Knight of Twilight](https://lore.dungeon.church/doc/amelia-mAibH1T0Em)

@@ -7451,6 +7451,52 @@
 			}
 		},
 		{
+			"name": "Whisperwine",
+			"type": "P",
+			"rarity": "common",
+			"source": "DungeonChurch",
+			"weight": 1,
+			"lootTables": [
+				"Pyoran Potions|dungeonchurch",
+				"Pyoran Magic Items|dungeonchurch"
+			],
+			"entries": [
+				"A dark, red wine with an alluring aroma of spice and roses served slightly warm, it is commonly drunk by humans and vampires alike in the city of {@link Duskmire|https://lore.dungeon.church/doc/duskmire-hJey19lfsu}. Bottled in slender, black glass vessels with a silvered label, they each bear the crest of the dhampir estate from which it originates. Each estate has its own secret recipe and subtle blending of spice and herbs, giving a mild narcotic effect depending on the nature of the drinker.",
+				{
+					"type": "entries",
+					"name": "Enchanting Suggestion",
+					"entries": [
+						"For 1 hour after drinking, a human suffers disadvantage on saving throws against any  {@condition charmed|phb|charm} or enchantments that would influence their mind."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Enthralling Suggestion",
+					"entries": [
+						"For 1 hour after drinking, a {@creature vampire} or undead's wit and charm are sharpened and the DC of any persuasion check, charm effect, or enchantment spell is increased by 1."
+					]
+				},
+				{
+					"type": "inset",
+					"name": "Dungeon Church Lore",
+					"entries": [
+						"Learn more about the {@link Whisperwine in the wiki|https://lore.dungeon.church/doc/whisperwine-PWBtjr4LcS}."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-whisperwine.png"
+						}
+					}
+				]
+			}
+		},
+		{
 			"name": "Wooden Stake",
 			"source": "dungeonchurch",
 			"type": "M",
@@ -8142,7 +8188,7 @@
 			"source": "DungeonChurch",
 			"caption": "Items and relics uncovered in the world of Pyora.",
 			"colLabels": [
-				"d61",
+				"d62",
 				"Item"
 			],
 			"rows": [
@@ -8389,6 +8435,10 @@
 				[
 					"61",
 					"{@item Forge Mead|dungeonchurch}"
+				],
+				[
+					"62",
+					"{@item Whisperwine|dungeonchurch}"
 				]
 			]
 
@@ -8507,7 +8557,7 @@
 			"source": "DungeonChurch",
 			"caption": "Potions from the realm of Pyora.",
 			"colLabels": [
-				"d19",
+				"d20",
 				"Potion"
 			],
 			"rows": [
@@ -8586,6 +8636,10 @@
 				[
 					"19",
 					"{@item Forge Mead|dungeonchurch}"
+				],
+				[
+					"20",
+					"{@item Whisperwine|dungeonchurch}"
 				]
 			]
 		},
