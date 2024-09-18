@@ -89,5 +89,5 @@ Modules in consideration.
 ## Custom CSS
 ```
 /* Custom CSS */
-#logo {content:url('https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/foundryvtt/foundryvtt-logo.png');} 
+#logo {content:url('https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/foundryvtt/foundry-logo.png');} 
 ```
