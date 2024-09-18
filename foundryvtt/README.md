@@ -36,6 +36,8 @@ Notes on setting up Dungeon Church's virtual tabletop.
   * Your Turn Notification `Checked`
   * Auto-Select Token on Turn Start `Checked`
   * Ignore Player Tokens `Checked`
+* Custom CSS
+  * _CodeMirror - *dependency*
 * Dice So Nice
   * Show Ghost dice for hidden rolls `Checked`
 * Dice Tray
@@ -83,3 +85,9 @@ Modules in consideration.
   * Show Initiative on Portrait `Unchecked`
   * Display Name `Based on Token`
 * OBS Utils - haven't tried
+
+## Custom CSS
+```
+/* Custom CSS */
+#logo {content:url('https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/foundryvtt/foundryvtt-logo.png');} 
+```
