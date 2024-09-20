@@ -7351,6 +7351,39 @@
 			}
 		},
 		{
+			"name": "Vial of Dark Resolve",
+			"type": "P",
+			"rarity": "uncommon",
+			"source": "DungeonChurch",
+			"weight": 1,
+			"lootTables": [
+				"Pyoran Potions|dungeonchurch",
+				"Pyoran Magic Items|dungeonchurch"
+			],
+			"entries": [
+				"A small vial filled with a shot of red-tinted alcohol that tastes bitterly of wormwood.",
+				"Those who imbibe the contents of the vial gain resistance to radiant damage for 1 hour.",
+				{
+					"type": "inset",
+					"name": "Dungeon Church Lore",
+					"entries": [
+						"Learn more about the {@link Vial of Dark Resolve in the wiki|https://lore.dungeon.church/doc/vial-of-dark-resolve-hdap6jS2a8}."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-vial-of-dark-resolve.png"
+						}
+					}
+				]
+			}
+		},
+		{
 			"name": "Vial of the Last Harvest",
 			"type": "P",
 			"rarity": "uncommon",
@@ -8188,7 +8221,7 @@
 			"source": "DungeonChurch",
 			"caption": "Items and relics uncovered in the world of Pyora.",
 			"colLabels": [
-				"d62",
+				"d63",
 				"Item"
 			],
 			"rows": [
@@ -8439,6 +8472,10 @@
 				[
 					"62",
 					"{@item Whisperwine|dungeonchurch}"
+				],
+				[
+					"63",
+					"{@item Vial of Dark Resolve|dungeonchurch}"
 				]
 			]
 
@@ -8557,7 +8594,7 @@
 			"source": "DungeonChurch",
 			"caption": "Potions from the realm of Pyora.",
 			"colLabels": [
-				"d20",
+				"d21",
 				"Potion"
 			],
 			"rows": [
@@ -8640,6 +8677,10 @@
 				[
 					"20",
 					"{@item Whisperwine|dungeonchurch}"
+				],
+				[
+					"21",
+					"{@item Vial of Dark Resolve|dungeonchurch}"
 				]
 			]
 		},
