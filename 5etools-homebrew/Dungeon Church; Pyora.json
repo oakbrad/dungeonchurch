@@ -5160,6 +5160,48 @@
 				}
 		},
 		{
+			"name": "Amulet of False Life",
+			"source": "DungeonChurch",
+			"weight": 1,
+			"rarity": "rare",
+			"reqAttune": false,
+			"wondrous": true,
+			"lootTables": [
+				"Pyoran Magic Items|dungeonchurch"
+			],
+			"attachedSpells": [
+				"false life"
+			],
+			"entries": [
+				"A black stone pendant chiseled into an eye on a silver chain which is cold to the touch. ",
+				"Once per long rest, the wearer can cast {@spell False Life} at 2nd level ({@dice 1d4+9}).",
+				{
+					"type": "inset",
+					"name": "Dungeon Church Lore",
+					"entries": [
+						"Learn more about the {@link Amulet of False Life in the wiki|https://lore.dungeon.church/doc/amulet-of-false-life-vuSsCyR2g0}."
+					]
+				}
+			],
+			"fluff":
+				{
+					"name": "Amulet of Betrayal",
+					"source": "DungeonChurch",
+					"images": [
+						{
+							"type": "image",
+							"href": {
+								"type": "external",
+								"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-amulet-of-false-life.png"
+							}
+						}
+					],
+					"entries": [
+						"The dark radiant eye is the symbol of the {@link Duskmire Inquisition|https://lore.dungeon.church/doc/duskmire-inquisition-zVMHbvUlGR}, a powerful dhampir estate that advises the {@link Crimson Court|https://lore.dungeon.church/doc/crimson-court-cofX8ha90z}."
+					]
+				}
+		},
+		{
 			"name": "Avalon Engineer's Signet",
 			"otherSources": [
 				{
@@ -8221,7 +8263,7 @@
 			"source": "DungeonChurch",
 			"caption": "Items and relics uncovered in the world of Pyora.",
 			"colLabels": [
-				"d63",
+				"d64",
 				"Item"
 			],
 			"rows": [
@@ -8476,6 +8518,10 @@
 				[
 					"63",
 					"{@item Vial of Dark Resolve|dungeonchurch}"
+				],
+				[
+					"64",
+					"{@item Amulet of False Life|dungeonchurch}"
 				]
 			]
 

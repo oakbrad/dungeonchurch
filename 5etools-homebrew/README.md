@@ -36,6 +36,7 @@ Or import:
 * Items
     * [Abi Teos's Machete](https://lore.dungeon.church/doc/abi-teoss-machete-ZrSq7FcMTj)
     * [Amulet of Betrayal](https://lore.dungeon.church/doc/amulet-of-betrayal-vY1rCwAwHh)
+    * [Amulet of False Life](https://lore.dungeon.church/doc/amulet-of-false-life-vuSsCyR2g0)
     * [Avalon Engineer's Signet](https://lore.dungeon.church/doc/avalon-engineers-signet-63RXQwAWMe)
     * [Avalonian Lantern](https://lore.dungeon.church/doc/avalonian-lantern-4rhyHvymXn)
     * [Bag of Rust](https://lore.dungeon.church/doc/bag-of-rust-SfaknUwwtp)
