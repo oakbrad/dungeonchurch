@@ -5185,7 +5185,7 @@
 			],
 			"fluff":
 				{
-					"name": "Amulet of Betrayal",
+					"name": "Amulet of False Life",
 					"source": "DungeonChurch",
 					"images": [
 						{
@@ -5197,7 +5197,7 @@
 						}
 					],
 					"entries": [
-						"The dark radiant eye is the symbol of the {@link Duskmire Inquisition|https://lore.dungeon.church/doc/duskmire-inquisition-zVMHbvUlGR}, a powerful dhampir estate that advises the {@link Crimson Court|https://lore.dungeon.church/doc/crimson-court-cofX8ha90z}."
+						"The dark radiant eye is the symbol of the {@link Eye of Duskmire|https://lore.dungeon.church/doc/eye-of-duskmire-zVMHbvUlGR}, a powerful dhampir estate that advises the {@link Crimson Court|https://lore.dungeon.church/doc/crimson-court-cofX8ha90z}."
 					]
 				}
 		},
@@ -7336,6 +7336,51 @@
 			}
 		},
 		{
+			"name": "Soulbound Skull",
+			"source": "DungeonChurch",
+			"tier": "major",
+			"rarity": "legendary",
+			"weight": 3,
+			"wondrous": true,
+			"attachedSpells": [
+				"commune"
+			],
+			"lootTables": [
+				"Pyoran Magic Items|dungeonchurch"
+			],
+			"entries": [
+				"A human skull with intricate, magical runes etched into the bone. The soul of an obstinate prisoner is bound to this skull as a form of punishment by the {@link Eye of Duskmire|https://lore.dungeon.church/doc/eye-of-duskmire-zVMHbvUlGR}, forced to aid their captors even after their body has long passed.",
+				{
+					"type": "entries",
+					"name": "Coerced Revelation",
+					"entries": [
+						"Once per long rest, the possessor of the skull can ask it one question (as if casting the {@spell Commune} spell) as a ritual with the only component needed being blood. The skull must respond with an answer it believes to be true, but the spirit’s unwillingness often means the answers take the form of riddles or other types of bitter evasions."
+					]
+				},
+				{
+					"type": "inset",
+					"name": "Dungeon Church Lore",
+					"entries": [
+						"Learn more about the {@link Souldbound Skull in the wiki|https://lore.dungeon.church/doc/soulbound-skull-DNlBi2UMIZ}."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-soulbound-skull.png"
+						}
+					}
+				],
+				"entries": [
+					"The Soulbound Skull was created by the {@link Eye of Duskmire|https://lore.dungeon.church/doc/eye-of-duskmire-zVMHbvUlGR} as both a tool and a punishment. Those who were found guilty of severe transgressions, such as betrayal or treason, were sometimes bound into these skulls. Forced to serve forever, these souls can never find peace, condemned to aid their captors for eternity."
+				]
+			}
+		},
+		{
 			"name": "The Red Talon",
 			"rarity": "rare",
 			"wondrous": true,
@@ -8263,7 +8308,7 @@
 			"source": "DungeonChurch",
 			"caption": "Items and relics uncovered in the world of Pyora.",
 			"colLabels": [
-				"d64",
+				"d65",
 				"Item"
 			],
 			"rows": [
@@ -8522,6 +8567,10 @@
 				[
 					"64",
 					"{@item Amulet of False Life|dungeonchurch}"
+				],
+				[
+					"65",
+					"{@item Soulbound Skull|dungeonchurch}"
 				]
 			]
 

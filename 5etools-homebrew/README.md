@@ -90,6 +90,7 @@ Or import:
     * [Shield of Missile Deflection](https://lore.dungeon.church/doc/shield-of-missile-deflection-cltEpG9HRg)
     * [Siduri's Token](https://lore.dungeon.church/doc/siduris-token-2Bkwhc8XEo)
     * [Skeleton Key](https://lore.dungeon.church/doc/skeleton-key-aCKEViKMZf)
+    * [Soulbound Skull](https://lore.dungeon.church/doc/soulbound-skull-DNlBi2UMIZ)
     * [Sphere of Everlasting Ice](https://lore.dungeon.church/doc/sphere-of-everlasting-ice-hjFNSWJiwx)
     * [Spores of Delirium](https://lore.dungeon.church/doc/spores-of-delirium-JpyH7CL4vS)
     * [Stone Tea](https://lore.dungeon.church/doc/stone-tea-ik79CS5iIM)
