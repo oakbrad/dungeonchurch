@@ -122,6 +122,7 @@ Or import:
     * [Mildred Magpie](https://lore.dungeon.church/doc/mildred-magpie-y6vemFK5Bi)
     * [Sap Ooze](https://lore.dungeon.church/doc/sap-ooze-eGVX8QPLEh)
     * [Zombie Raccoon](https://lore.dungeon.church/doc/zombie-raccoon-kRMzfO1jg9)
+    * [Zombie Vulture](https://lore.dungeon.church/doc/zombie-vulture-Uc0z6ODNRp)
 * Hazards / Traps
     * [Sapphire Nightshade Grove](https://lore.dungeon.church/doc/sapphire-nightshade-Qvbjiqksvy)
 * Optional Features
