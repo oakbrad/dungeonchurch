@@ -1,6 +1,7 @@
 <p align="center">
     <img width="650" src="logo-chrome.png">
 </p>
+
 # Dungeon Church
 Dungeons & Dragons group infrastructure & homebrew. More information in <a href=https://www.dungeon.church/dungeon-church-software-stack>this blog post</a>.
 
