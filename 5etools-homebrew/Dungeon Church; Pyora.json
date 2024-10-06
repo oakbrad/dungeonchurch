@@ -7356,6 +7356,98 @@
 			}
 		},
 		{
+			"name": "Stone of Sargoth the Eternal",
+			"source": "DungeonChurch",
+			"otherSources": [
+				{
+					"source": "WDH",
+					"page": 192
+				}
+			],
+			"rarity": "artifact",
+			"reqAttune": true,
+			"wondrous": true,
+			"sentient": true,
+			"recharge": "dawn",
+			"rechargeAmount": "1",
+			"charges": 1,
+			"entries": [
+				"The Stone of Sargoth the Eternal is a glossy, black stone that fits in the palm of your hand. The stone is actually a vampire {@creature aboleth} named Sargoth, transformed by magic into an object.",
+				{
+					"type": "entries",
+					"name": "Attuned Properties",
+					"entries": [
+						"The Stone of Sargoth has the following properties:",
+						{
+							"type": "list",
+							"items": [
+								"While attuned to the artifact, you can't be {@condition charmed} or {@condition frightened}.",
+								"While attuned to the artifact, all holy water within 10 feet of you turns to blood."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Legend Lore",
+					"entries": [
+						"The Stone of Sargoth has 1 charge and recharges at dawn. While holding the stone, you can expend its charge to cast the {@spell legend lore} spell.",
+						"By using the stone to cast {@spell legend lore}, you communicate directly with the {@creature aboleth}, and it shares its knowledge with you. The aboleth can't lie to you, but the information it provides is often cryptic or vague."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Failed Memory",
+					"entries": [
+						"When your attunement to the Stone of Sargoth ends, you must make a DC 16 Wisdom saving throw. On a failed save, you lose all memory of the stone being in your possession and all knowledge imparted by it. A {@spell remove curse} spell cast on you has a {@chance 20} chance of restoring the lost knowledge and memories, and a {@spell greater restoration} spell does so automatically."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Sentience",
+					"entries": [
+						"The Stone of Sargoth is a sentient lawful evil magic item with an Intelligence of 18, a Wisdom of 15, and a Charisma of 18. It has hearing and {@sense darkvision} out to a range of 120 feet. It can communicate telepathically with the creature that is attuned to it, as long as that creature understands at least one language. In addition, the {@creature aboleth} learns the greatest desires of any creature that communicates telepathically with the stone.",
+						"The Stone of Sargoth hungers for information and prefers not to remain in the clutches of any creature for too long. Whenever the stone desires a new owner, it demands to be given to another intelligent creature as quickly as possible. If its demands are ignored, it tries to take control of its owner (see \"Sentient Magic Items\" in chapter 7 of the Dungeon Master's Guide)."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Personality",
+					"entries": [
+						"The Stone of Sargoth has an alien intellect that is both domineering and hungry for knowledge. It thinks of itself as an ageless and immortal god."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Destroying the Stone",
+					"entries": [
+						"While in stone form, the {@creature aboleth} isn't a creature and isn't subject to effects that target creatures. The Stone of Sargoth is immune to all damage. Casting an {@spell antipathy/sympathy} spell on the stone destroys it if the antipathy effect is selected and the spell is directed to repel aberrations. When the spell is cast in this way, the stone transforms into mucus and is destroyed, and Sargoth the aboleth appears in an unoccupied space within 30 feet of the stone's remains. The aboleth is incensed by the stone's destruction, and it attacks all other creatures it can see."
+					]
+				},
+				{
+					"type": "inset",
+					"name": "Dungeon Church Lore",
+					"entries": [
+						"Learn more about the {@link Stone of Sargoth the Eternal in the wiki|https://lore.dungeon.church/doc/stone-of-sargoth-the-eternal-1sQ7dwJoJz}."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-stone-of-sargoth-the-eternal.png"
+						}
+					}
+				]
+			},
+			"attachedSpells": [
+				"legend lore"
+			]
+		},
+		{
 			"name": "Stone Tea",
 			"source": "DungeonChurch",
 			"tier": "minor",
