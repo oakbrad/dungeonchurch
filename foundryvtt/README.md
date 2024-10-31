@@ -36,6 +36,16 @@ Notes on setting up Dungeon Church's virtual tabletop.
   * Your Turn Notification `Checked`
   * Auto-Select Token on Turn Start `Checked`
   * Ignore Player Tokens `Checked`
+* Carousel Combat Tracker
+  * Carousel Style `Carousel - Left`
+  * Overflow Style `Hidden`
+  * Alignemnt `Left`
+  * Attribute Visibility `Bars Only`
+  * Portrait Aspect Ratio `Square`
+  * Hide Defeated `Checked`
+  * Show Disposition `Unchecked`
+  * Show Initiative on Portrait `Unchecked`
+  * Display Name `Based on Token`
 * Custom CSS
   * _CodeMirror - *dependency*
 * Dice So Nice
@@ -54,6 +64,7 @@ Notes on setting up Dungeon Church's virtual tabletop.
   * Automated Animations
   * [dnd5e-animations](https://github.com/MrVauxs/dnd5e-animations)
   * Sequencer
+* Initiative Double Click
 * libWrapper - *dependency*
 * 💵 MAD Cartographer - *depends on the following....*
   * Token Attacher
@@ -74,16 +85,6 @@ Notes on setting up Dungeon Church's virtual tabletop.
 ### Evaluating
 Modules in consideration.
 
-* Carousel Combat Tracker
-  * Carousel Style `Carousel - Left`
-  * Overflow Style `Hidden`
-  * Alignemnt `Left`
-  * Attribute Visibility `Bars Only`
-  * Portrait Aspect Ratio `Square`
-  * Hide Defeated `Checked`
-  * Show Disposition `Unchecked`
-  * Show Initiative on Portrait `Unchecked`
-  * Display Name `Based on Token`
 * OBS Utils - haven't tried
 
 ## Custom CSS
