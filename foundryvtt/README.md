@@ -80,6 +80,7 @@ Notes on setting up Dungeon Church's virtual tabletop.
 * Splatter
   * Violence Level `6`
   * Cleanup `2`
+* [Subfolder Indent](https://github.com/Mushie1/subfolder-indent)
 * Vision 5E
 
 ### Evaluating
