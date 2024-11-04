@@ -81,6 +81,7 @@ Notes on setting up Dungeon Church's virtual tabletop.
   * Violence Level `6`
   * Cleanup `2`
 * [Subfolder Indent](https://github.com/Mushie1/subfolder-indent)
+* [Update Your Password](https://github.com/RichardRobertson/update-your-password)
 * Vision 5E
 
 ### Evaluating
