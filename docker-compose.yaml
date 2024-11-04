@@ -1,4 +1,3 @@
-version: '3.8'
 services:
 
   # NGINX PROXY
@@ -65,7 +64,42 @@ services:
     links:
       - ddb-proxy:ddb-proxy
 
+# FOUNDRY 2 WITH SHARING
+# This sets up a second FVTT server that shares content & settings with the first
+  foundryvtt2:
+    container_name: foundry2
+    image: felddy/foundryvtt:release
+    hostname: XXX.dungeon.church
+    restart: unless-stopped
+    networks:
+      - public-proxy
+    volumes:
+      - /home/ubuntu/foundryvtt2:/data # needs its own root /data folder
+      - /home/ubuntu/foundryvtt/Data:/data/Data  # shares the /data/Data folder that contains content
+      - /home/ubuntu/foundryvtt/cache:/data/cache
+      - /home/ubuntu/5etools/homebrew:/data/Data/assets/homebrew
+    environment:
+      - UID=1001
+      - GID=1001
+      - FOUNDRY_USERNAME=XXX
+      - FOUNDRY_PASSWORD=XXX
+      - CONTAINER_CACHE=/data/cache
+      - FOUNDRY_ADMIN_KEY=XXX
+      - FOUNDRY_MINIFY_STATIC_FILES=true
+      - FOUNDRY_HOSTNAME=XXX.dungeon.church
+      - VIRTUAL_HOST=XXX.dungeon.church
+      - FOUNDRY_AWS_CONFIG=aws.json
+      - FOUNDRY_PROXY_PORT=443
+      - FOUNDRY_PROXY_SSL=true
+      - VIRTUAL_PORT=30000
+      - TIMEZONE='America/Los_Angeles'
+      - FOUNDRY_UID=1001
+      - FOUNDRY_GID=1001
+    ports:
+      - 30001:30000/tcp
+
 # CONNECTS FOUNDRY to D&D BEYOND
+# Our group isn't using this anymore, but leaving in as example
 # https://github.com/MrPrimate/ddb-proxy
   ddb-proxy:
     image: ghcr.io/mrprimate/ddb-proxy:latest
@@ -160,9 +194,10 @@ services:
     container_name: redis
     networks:
       - outline-internal
+
 # OUTLINE WIKI
 # https://github.com/outline/outline
- outline:
+  outline:
     image: outlinewiki/outline:0.78.0
     container_name: outline
     restart: unless-stopped
