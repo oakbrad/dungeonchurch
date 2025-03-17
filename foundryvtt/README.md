@@ -53,6 +53,16 @@ To use the original 5E rules:
   * Your Turn Notification `Checked`
   * Auto-Select Token on Turn Start `Checked`
   * Ignore Player Tokens `Checked`
+* Carousel Combat Tracker
+  * Carousel Style `Carousel - Left`
+  * Overflow Style `Hidden`
+  * Alignemnt `Left`
+  * Attribute Visibility `Bars Only`
+  * Portrait Aspect Ratio `Square`
+  * Hide Defeated `Checked`
+  * Show Disposition `Unchecked`
+  * Show Initiative on Portrait `Unchecked`
+  * Display Name `Based on Token`
 * Custom CSS
   * _CodeMirror - *dependency*
 * Dice So Nice
@@ -71,6 +81,7 @@ To use the original 5E rules:
   * Automated Animations
   * [dnd5e-animations](https://github.com/MrVauxs/dnd5e-animations)
   * Sequencer
+* Initiative Double Click
 * libWrapper - *dependency*
 * 💵 MAD Cartographer - *depends on the following....*
   * Token Attacher
@@ -86,6 +97,8 @@ To use the original 5E rules:
 * Splatter
   * Violence Level `6`
   * Cleanup `2`
+* [Subfolder Indent](https://github.com/Mushie1/subfolder-indent)
+* [Update Your Password](https://github.com/RichardRobertson/update-your-password)
 * Vision 5E
 
 ### Evaluating
