@@ -1,6 +1,6 @@
 {
 	"fileType": "config",
-	"moduleVersion": "1.82.3",
+	"moduleVersion": "1.84.3",
 	"config": {
 		"actor": {
 			"isRefreshOtherOwnedSheets": true,
@@ -13,7 +13,8 @@
 				"multiattack"
 			],
 			"autoMultiattackDelay": null,
-			"isUseExtendedActiveEffectsParser": true
+			"isUseExtendedActiveEffectsParser": true,
+			"isDebugForceGmUserCharLink": false
 		},
 		"artBrowser": {
 			"importImagesAs": 0,
@@ -58,8 +59,8 @@
 			"localHomebrewDirectoryPath": "assets/homebrew",
 			"isUseLocalHomebrewIndexJson": true,
 			"localHomebrew": [],
-			"minimumRoleWorldDatasourceSelector": 0,
-			"minimumRoleBlocklist": 0,
+			"minimumRoleWorldDatasourceSelector": 3,
+			"minimumRoleBlocklist": 3,
 			"tooManySourcesWarningThreshold": 50,
 			"baseSiteUrl": "https://5e.dungeon.church",
 			"baseMediaUrlImg": null,
@@ -72,7 +73,9 @@
 			"priceMultiplier": 1,
 			"startingGold": null,
 			"minimumRole": 1,
-			"isAllowOverSpending": false
+			"isAllowOverSpending": false,
+			"minimumRoleAllowOverSpending": 4,
+			"isUseRarityPricing": false
 		},
 		"import": {
 			"isAddSourceToName": false,
@@ -116,6 +119,7 @@
 				"cults-boons": true,
 				"decks": false,
 				"deities": false,
+				"facilities": false,
 				"feats": false,
 				"hazards": false,
 				"items": false,
@@ -123,12 +127,12 @@
 				"maps": false,
 				"object-features": true,
 				"objects": false,
-				"optional-and-variant-rules": false,
-				"other-options-and-features": true,
+				"other-options-and-features": false,
 				"psionics": true,
-				"race-and-subrace-features": false,
-				"races-and-subraces": false,
 				"recipes": true,
+				"optional-and-variant-rules": false,
+				"races-and-subraces": false,
+				"race-and-subrace-features": false,
 				"spells": false,
 				"rewards": true,
 				"tables": false,
@@ -145,7 +149,8 @@
 			"tempFolderName": "Temp",
 			"isUseAdvancementBackingCompendium": false,
 			"isAutoAddAdditionalFonts": true,
-			"weaponTargetDefault": 0
+			"weaponTargetDefault": 0,
+			"isActivateSidebarTabOnImport": true
 		},
 		"importAction": {
 			"ownership": 0,
@@ -223,7 +228,10 @@
 			"setEffectTransfer": "VE_USE_MODULE_VALUE",
 			"isImportDescription": true,
 			"isUseDefaultSubclassImage": true,
-			"isHideSubclassRows": false
+			"isHideSubclassRows": false,
+			"isImportDescriptionFluffText": true,
+			"isImportDescriptionFluffImages": true,
+			"isUseBaldursGateIcons": true
 		},
 		"importConditionDisease": {
 			"ownership": 0,
@@ -384,7 +392,8 @@
 			"replacementDataCompendium": [],
 			"setEffectDisabled": "VE_USE_MODULE_VALUE",
 			"setEffectTransfer": "VE_USE_MODULE_VALUE",
-			"isImportDescription": true
+			"isImportDescription": true,
+			"isImportDescriptionMastery": true
 		},
 		"importLanguage": {
 			"ownership": 0
@@ -402,7 +411,8 @@
 			"baseSideDataUrl": "https://raw.githubusercontent.com/TheGiddyLimit/plutonium-scenes/main",
 			"isFetchSideData": true,
 			"isDrawDebugRegionsPreTransform": false,
-			"isDrawDebugRegionsPostTransform": false
+			"isDrawDebugRegionsPostTransform": false,
+			"debugAllowedMapUrlPathList": null
 		},
 		"importObjectFeature": {
 			"ownership": 0,
@@ -450,7 +460,7 @@
 			"isDisableActorOverwriteWarning": false
 		},
 		"importOptionalFeature": {
-			"ownership": 0,
+			"ownership": 3,
 			"isTargetTemplatePrompt": true,
 			"isMetricDistance": false,
 			"isFilterOnOpen": true,
@@ -639,7 +649,8 @@
 		},
 		"integrationFoundrySummons": {
 			"isEnabled": true,
-			"isFilterSourcesUa": true
+			"isFilterSourcesUa": true,
+			"isFilterLegacy": true
 		},
 		"integrationQuickInsert": {
 			"isEnabled": true,
@@ -672,7 +683,8 @@
 				"trapshazards.html": false,
 				"vehicles.html": false
 			},
-			"isDisplaySource": true
+			"isDisplaySource": true,
+			"isFilterLegacy": true
 		},
 		"integrationSpotlightOmnisearch": {
 			"isEnabled": true,
@@ -704,7 +716,8 @@
 				"tables.html": false,
 				"trapshazards.html": false,
 				"vehicles.html": false
-			}
+			},
+			"isFilterLegacy": true
 		},
 		"item": {
 			"isSuppressAdvancementsOnImportedDrop": true
@@ -721,7 +734,8 @@
 			"isDebugDocumentOperations": false,
 			"isDebugFromUuid": false,
 			"isSetDocumentOperationsCanaryFlags": false,
-			"isDebugImageFetching": false
+			"isDebugImageFetching": false,
+			"rulesVersion": "modern"
 		},
 		"rivet": {
 			"targetDocumentId": "",
@@ -732,7 +746,8 @@
 			"isEnableHoverForLinkTags": true,
 			"isAutoRollActorItemTags": false,
 			"isJumpToFolderTags": true,
-			"isShowLinkParent": false
+			"isShowLinkParent": false,
+			"isAllowRedirectImports": true
 		},
 		"tokens": {
 			"isDisplayDamageDealt": false,
@@ -753,17 +768,18 @@
 			"minimumRolePolymorph": 1,
 			"minimumRoleActorTools": 1,
 			"minimumRoleTableTools": 0,
-			"minimumRoleDirectoryCleaner": 0,
-			"minimumRoleDirectoryDeduplicator": 0,
-			"minimumRoleDirectoryMover": 0,
-			"minimumRoleBulkOwnershipEditor": 0,
-			"minimumRoleBulkPrototypeTokenEditor": 0,
-			"minimumRoleOwnershipUpdater": 0,
-			"minimumRoleLootGenerator": 0,
-			"minimumRoleContentUpdater": 0,
-			"minimumRolePackageImporter": 0,
-			"minimumRoleImagePreloader": 0,
-			"isAddClearFlagsContextMenu": false
+			"minimumRoleDirectoryCleaner": 3,
+			"minimumRoleDirectoryDeduplicator": 3,
+			"minimumRoleDirectoryMover": 3,
+			"minimumRoleBulkOwnershipEditor": 3,
+			"minimumRoleBulkPrototypeTokenEditor": 3,
+			"minimumRoleOwnershipUpdater": 3,
+			"minimumRoleLootGenerator": 3,
+			"minimumRoleContentUpdater": 3,
+			"minimumRolePackageImporter": 3,
+			"minimumRoleImagePreloader": 3,
+			"isAddClearFlagsContextMenu": false,
+			"minimumRoleShowPlayers": 0
 		},
 		"ui": {
 			"isStreamerMode": false,
@@ -797,8 +813,16 @@
 			"isEnableFolderNameWrap": false,
 			"isEnableSubPopouts": true,
 			"isSuppressMissingRollDataNotifications": true,
-			"isAlwaysResizableApps": false
+			"isAlwaysResizableApps": false,
+			"isLeftAlignSceneNames": false,
+			"isEnableCustomTooltips": true,
+			"isHideUpdateNotifications": false
 		},
-		"version": 2
+		"version": 2,
+		"importFacility": {
+			"ownership": 0,
+			"setEffectDisabled": "VE_USE_MODULE_VALUE",
+			"setEffectTransfer": "VE_USE_MODULE_VALUE"
+		}
 	}
 }

@@ -86,6 +86,9 @@ services:
     environment:
       - SOURCE=GITHUB
       - IMG=TRUE
+      # Use the 2014 Rules
+      - DL_LINK=https://github.com/5etools-mirror-3/5etools-2014-src.git
+      - IMG_LINK=https://github.com/5etools-mirror-3/5etools-2014-img.git
     networks:
       - public-proxy
 
