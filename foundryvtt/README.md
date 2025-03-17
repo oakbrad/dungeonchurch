@@ -1,5 +1,12 @@
 # FoundryVTT
 Notes on setting up Dungeon Church's virtual tabletop.
+
+### 2014 Rules
+To use the original 5E rules:
+* Plutonium locked to [v1.84.3](https://github.com/TheGiddyLimit/plutonium-next/releases/tag/v1.84.3)
+* 5etools Mirror [2014 repo](https://github.com/5etools-mirror-3/5etools-2014-src/releases/latest)
+* Foundry DND5e game system `???`
+
 ## Server Settings
 
 * Core
@@ -27,6 +34,16 @@ Notes on setting up Dungeon Church's virtual tabletop.
 ## Module Settings
 * Auto Rotate
   * `Automatic`
+* Carousel Combat Tracker
+  * Carousel Style `Carousel - Left`
+  * Overflow Style `Hidden`
+  * Alignemnt `Left`
+  * Attribute Visibility `Bars Only`
+  * Portrait Aspect Ratio `Square`
+  * Hide Defeated `Checked`
+  * Show Disposition `Unchecked`
+  * Show Initiative on Portrait `Unchecked`
+  * Display Name `Based on Token`
 * Chat Media
 * colorsettings - *dependency of Splatter*
 * Combat Booster
@@ -73,17 +90,10 @@ Notes on setting up Dungeon Church's virtual tabletop.
 
 ### Evaluating
 Modules in consideration.
-
-* Carousel Combat Tracker
-  * Carousel Style `Carousel - Left`
-  * Overflow Style `Hidden`
-  * Alignemnt `Left`
-  * Attribute Visibility `Bars Only`
-  * Portrait Aspect Ratio `Square`
-  * Hide Defeated `Checked`
-  * Show Disposition `Unchecked`
-  * Show Initiative on Portrait `Unchecked`
-  * Display Name `Based on Token`
+* [Magic Items 2](https://github.com/PwQt/magic-items-2)
+* [DFred's Droppables](https://github.com/DFreds/dfreds-droppables)
+  * Style: `Horizontal Line`
+* [Sync Token Name](https://github.com/lipefl/sync-token-name)
 * OBS Utils - haven't tried
 
 ## Custom CSS
