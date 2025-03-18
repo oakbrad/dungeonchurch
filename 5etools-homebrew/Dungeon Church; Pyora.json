@@ -6440,6 +6440,43 @@
 			}
 		},
 		{
+			"name": "Hearthhoney Braggot",
+			"source": "DungeonChurch",
+			"type": "P",
+			"lootTables": [
+				"Durandian Draughts|dungeonchurch",
+				"Pyoran Magic Items|dungeonchurch"
+			],
+			"rarity": "common",
+			"entries": [
+				"A smooth, amber-colored honey braggot traditionally brewed by Durandian blacksmiths. Over the long winter months, this hearty blend of wildflower honey and robust malt ferments in oak casks kept near their glowing hearths. By spring, it achieves a rich, balanced sweetness with subtle oak and spice undertones.",
+				"Drinking Hearthhoney Braggot allows you to temporarily ignore the penalties of one level of exhaustion for 4 hours. This effect does not remove exhaustion, merely suspends its penalties. Consuming another before finishing a long rest provides no additional benefit.",
+				{
+					"type": "inset",
+					"name": "Dungeon Church Lore",
+					"entries": [
+						"Learn more about {@link Hearthhoney Braggot in the wiki|https://lore.dungeon.church/doc/hearthhoney-braggot-zL90z9tilm}."
+					]
+				}
+			],
+			"fluff": {
+				"name": "Hearthhoney Braggot",
+				"source": "DungeonChurch",
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-hearthhoney-braggot.png"
+						}
+					}
+				],
+				"entries": [
+					"Durandian blacksmiths view the brewing of Hearthhoney Braggot as a tradition as sacred as their craft. Highly coveted by laborers of all types, this seasonal brew is fermented over the winter and tapping a cask marks the start of the busy spring forging season when the days begin to get longer."
+				]
+			}
+		},
+		{
 			"name": "Longsword of the Dragon Empire",
 			"source": "DungeonChurch",
 			"baseItem": "longsword|phb",
@@ -8140,7 +8177,7 @@
 			"source": "DungeonChurch",
 			"caption": "The dwarves of Durandar may have eschewed the use of magic, but their creative talents have brought ferment to a wide range of alchemical draughts.",
 			"colLabels": [
-				"1d6",
+				"1d7",
 				"Draught"
 			],
 			"rows": [
@@ -8167,6 +8204,10 @@
 				[
 					"6",
 					"{@item Dubbelheart Ale|dungeonchurch}"
+				],
+				[
+					"7",
+					"{@item Hearthhoney Braggot|dungeonchurch}"
 				]
 			]
 		},
@@ -8684,7 +8725,7 @@
 			"source": "DungeonChurch",
 			"caption": "Items and relics uncovered in the world of Pyora.",
 			"colLabels": [
-				"d67",
+				"d68",
 				"Item"
 			],
 			"rows": [
@@ -8955,6 +8996,10 @@
 				[
 					"67",
 					"{@item Dubbelheart Ale|dungeonchurch}"
+				],
+				[
+					"68",
+					"{@item Hearthhoney Braggot|dungeonchurch}"
 				]
 			]
 			
