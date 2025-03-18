@@ -43,6 +43,7 @@ Or import:
     * [Banshee Blight](https://lore.dungeon.church/doc/banshee-blight-ziIwCBr2jq)
     * [Berserker's Draught](https://lore.dungeon.church/doc/berserkers-draught-sn5rNNx4Lp)
     * [Black Diamond](https://lore.dungeon.church/doc/black-diamond-pTSDpxQOJ4)
+    * [Blacklung Brew](https://lore.dungeon.church/doc/blacklung-brew-SzL7h3Wqun)
     * [Brooch of Witchsight](https://lore.dungeon.church/doc/brooch-of-witchsight-Do7tfU7V9e)
     * [Cirilla's Gift](https://lore.dungeon.church/doc/cirillas-gift-pKEY4nYJDS)
     * [Cloak of Rats](https://lore.dungeon.church/doc/cloak-of-rats-iHIvQwaOt1)

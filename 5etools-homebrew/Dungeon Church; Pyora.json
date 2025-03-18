@@ -5589,7 +5589,6 @@
 			"type": "FD",
 			"lootTables": [
 				"Pyoran Magic Items|dungeonchurch",
-				"Pyoran Substances|dungeonchurch",
 				"Durandian Draughts|dungeonchurch"
 			],
 			"rarity": "common",
@@ -5653,6 +5652,43 @@
 							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-black-diamond.png"
 						}
 					}
+				]
+			}
+		},
+		{
+			"name": "Blacklung Brew",
+			"source": "DungeonChurch",
+			"type": "P",
+			"lootTables": [
+				"Durandian Draughts|dungeonchurch",
+				"Pyoran Magic Items|dungeonchurch"
+			],
+			"rarity": "common",
+			"entries": [
+				"A black lager brewed with traces of coal dust, it has a deep charcoal color and smoky aftertaste. Originally crafted by dwarven miners to build resistance to the toxic gases found deep underground.",
+				"When you drink this brew, you gain resistance to poison damage for 1 hour. Additionally, you have advantage on saving throws against inhaled toxins.",
+				{
+					"type": "inset",
+					"name": "Dungeon Church Lore",
+					"entries": [
+						"Learn more about {@link Blacklung Brew in the wiki|https://lore.dungeon.church/doc/blacklung-brew-SzL7h3Wqun}."
+					]
+				}
+			],
+			"fluff": {
+				"name": "Blacklung Brew",
+				"source": "DungeonChurch",
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-blacklung-brew.png"
+						}
+					}
+				],
+				"entries": [
+					"Durandian miners swear by Blacklung Brew, believing it not only fortifies their lungs against foul air but also enhances their ability to work for longer hours in the deepest tunnels."
 				]
 			}
 		},
@@ -6183,7 +6219,6 @@
 			"type": "P",
 			"lootTables": [
 				"Pyoran Magic Items|dungeonchurch",
-				"Pyoran Substances|dungeonchurch",
 				"Durandian Draughts|dungeonchurch"
 			],
 			"rarity": "common",
@@ -6449,7 +6484,6 @@
 			"type": "P",
 			"lootTables": [
 				"Pyoran Magic Items|dungeonchurch",
-				"Pyoran Substances|dungeonchurch",
 				"Durandian Draughts|dungeonchurch"
 			],
 			"rarity": "common",
@@ -8068,7 +8102,7 @@
 			"source": "DungeonChurch",
 			"caption": "The dwarves of Durandar may have eschewed the use of magic, but their creative talents have brought ferment to a wide range of alchemical draughts.",
 			"colLabels": [
-				"1d4",
+				"1d5",
 				"Draught"
 			],
 			"rows": [
@@ -8087,6 +8121,10 @@
 				[
 					"4",
 					"{@item Forge Mead|dungeonchurch}"
+				],
+				[
+					"5",
+					"{@item Blacklung Brew|dungeonchurch}"
 				]
 			]
 		},
@@ -8604,7 +8642,7 @@
 			"source": "DungeonChurch",
 			"caption": "Items and relics uncovered in the world of Pyora.",
 			"colLabels": [
-				"d65",
+				"d66",
 				"Item"
 			],
 			"rows": [
@@ -8867,6 +8905,10 @@
 				[
 					"65",
 					"{@item Soulbound Skull|dungeonchurch}"
+				],
+				[
+					"66",
+					"{@item Blacklung Brew|dungeonchurch}"
 				]
 			]
 			
