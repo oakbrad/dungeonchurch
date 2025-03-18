@@ -64,7 +64,7 @@
 			"tooManySourcesWarningThreshold": 50,
 			"baseSiteUrl": "https://5e.dungeon.church",
 			"baseMediaUrlImg": null,
-			"isNoLocalData": false,
+			"isNoLocalData": true,
 			"isNoPrereleaseBrewIndexes": false,
 			"basePrereleaseUrl": null,
 			"baseBrewUrl": null
