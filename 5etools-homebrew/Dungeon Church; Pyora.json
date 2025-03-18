@@ -6003,6 +6003,44 @@
 			}
 		},
 		{
+			"name": "Dubbelheart Ale",
+			"source": "DungeonChurch",
+			"type": "P",
+			"lootTables": [
+				"Durandian Draughts|dungeonchurch",
+				"Pyoran Magic Items|dungeonchurch"
+			],
+			"rarity": "common",
+			"entries": [
+				"A rich, deep amber dubbel-style ale brewed by the forgemasters of Durandar. The yeast used in its fermentation thrives in the intense heat of dwarven hearths & forges, developing a distinct spicy-herbal character with undertones of clove, coriander, and roasted malt.",
+				"When you drink this ale, you gain temporary hit points equal to your Constitution modifier + 2 (minimum of 3).",
+				"Additionally, for 10 minutes, you become extra sure-footed - granting you advantage on checks and saving throws against being knocked prone or forcibly moved.",
+				{
+					"type": "inset",
+					"name": "Dungeon Church Lore",
+					"entries": [
+						"Learn more about {@link Dubbelheart Ale in the wiki|https://lore.dungeon.church/doc/dubbelheart-ale-hhJAx5QaAA}."
+					]
+				}
+			],
+			"fluff": {
+				"name": "Dubbelheart Ale",
+				"source": "DungeonChurch",
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-dubbelheart-ale.png"
+						}
+					}
+				],
+				"entries": [
+					"The forgemasters of Durandar keep the recipe close among their own, believing that the unqiue spice blend with the heat of the hearth imparts not just flavor, but fortitude. It is often shared before long journeys, coming of age celebrations, or dangerous battles, ensuring that a dwarf's heart burns as strong as their forge."
+				]
+			}
+		},		
+		{
 			"name": "Entrancing Mirror",
 			"source": "DungeonChurch",
 			"tier": "minor",
@@ -8102,7 +8140,7 @@
 			"source": "DungeonChurch",
 			"caption": "The dwarves of Durandar may have eschewed the use of magic, but their creative talents have brought ferment to a wide range of alchemical draughts.",
 			"colLabels": [
-				"1d5",
+				"1d6",
 				"Draught"
 			],
 			"rows": [
@@ -8125,6 +8163,10 @@
 				[
 					"5",
 					"{@item Blacklung Brew|dungeonchurch}"
+				],
+				[
+					"6",
+					"{@item Dubbelheart Ale|dungeonchurch}"
 				]
 			]
 		},
@@ -8642,7 +8684,7 @@
 			"source": "DungeonChurch",
 			"caption": "Items and relics uncovered in the world of Pyora.",
 			"colLabels": [
-				"d66",
+				"d67",
 				"Item"
 			],
 			"rows": [
@@ -8909,6 +8951,10 @@
 				[
 					"66",
 					"{@item Blacklung Brew|dungeonchurch}"
+				],
+				[
+					"67",
+					"{@item Dubbelheart Ale|dungeonchurch}"
 				]
 			]
 			

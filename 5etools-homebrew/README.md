@@ -55,10 +55,11 @@ Or import:
     * [Dark Truth Serum](https://lore.dungeon.church/doc/serum-of-dark-truth-XpjnKHYKML)
     * [Dimensional Glasses](https://lore.dungeon.church/doc/dimensional-glasses-953LlRzRKE)
     * [Dream Vine](https://lore.dungeon.church/doc/dream-vine-viEBw5FxT7)
+    * [Dubbelheart Ale](https://lore.dungeon.church/doc/dubbelheart-ale-hhJAx5QaAA)
     * [Fedora of Disguise](https://lore.dungeon.church/doc/fedora-of-disguise-c7i4G0ePRf)
     * [Fist of Durradin](https://lore.dungeon.church/doc/fist-of-durradin-GrRsr84scL)
     * [Fiz's Flute](https://lore.dungeon.church/doc/fizs-flute-ANcBt7lLmj)
-    * [Forge Mead](https://lore.dungeon.church/doc/forge-mead-wP6KD1RtSA)]
+    * [Forge Mead](https://lore.dungeon.church/doc/forge-mead-wP6KD1RtSA)
     * [Gloomroot Extract](https://lore.dungeon.church/doc/gloomroot-extract-q9dbCwX0TX)
     * [Gnomish Tea Set](https://lore.dungeon.church/doc/gnomish-tea-set-HrqDVlit6V)
     * [Guildmaster's Hunting Horn](https://lore.dungeon.church/doc/guildmasters-hunting-horn-PkmJIssiGT)
