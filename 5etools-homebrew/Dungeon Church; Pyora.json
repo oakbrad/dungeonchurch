@@ -8,7 +8,7 @@
 				"version": "0.6",
 				"url": "https://www.dungeon.church",
 				"authors": [
-					"Brad Wenner, Elizabeth Berryhill, Steve Streisguth, Irving Pham, Matthew Thompson"
+					"Brad Wenner"
 				],
 				"convertedBy": [
 					"Brad Wenner"
@@ -8087,6 +8087,41 @@
 				[
 					"4",
 					"{@item Forge Mead|dungeonchurch}"
+				]
+			]
+		},
+		{
+			"name": "Faction Reputation Tracking",
+			"source": "DungeonChurch",
+			"caption": "Actions have consequences, and organizations have a long memory.",
+			"colLabels": [
+				"Interaction",
+				"Reputation"
+			],
+			"rows": [
+				[
+					"Favor",
+					"+3"
+				],
+				[
+					"Mutual Aid",
+					"+2"
+				],
+				[
+					"Minor Boon",
+					"+1"
+				],
+				[
+					"Minor Slight",
+					"-1"
+				],
+				[
+					"Disrespect",
+					"-2"
+				],
+				[
+					"Crime",
+					"-3"
 				]
 			]
 		},
