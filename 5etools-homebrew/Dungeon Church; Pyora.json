@@ -5947,7 +5947,7 @@
 			],
 			"rarity": "common",
 			"entries": [
-				"A crisp, mildly tart cider brewed from rare subterranean apples, cultivated carefully within the underground arks of the Arkwrights Guild.",
+				"A crisp, mildly tart cider brewed from rare subterranean apples, cultivated carefully within the underground arks of the {@link Arkwrights Guild|https://lore.dungeon.church/doc/arkwrights-guild-xpUNyD7GMm}.",
 				"When consumed during a short rest, this cider revitalizes you, reducing the required duration of the rest by half. This benefit can be gained only once per long rest.",
 				{
 					"type": "inset",
@@ -6566,6 +6566,44 @@
 							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-longsword-of-dragon-empire.png"
 						}
 					}
+				]
+			}
+		},
+		{
+			"name": "Lumengrove Tincture",
+			"source": "DungeonChurch",
+			"type": "P",
+			"lootTables": [
+				"Durandian Draughts|dungeonchurch",
+				"Pyoran Magic Items|dungeonchurch"
+			],
+			"rarity": "uncommon",
+			"entries": [
+				"A softly glowing tonic distilled from rare luminescent fungi and moss, carefully cultivated by the {@link Arkwrights Guild|https://lore.dungeon.church/doc/arkwrights-guild-xpUNyD7GMm} in their underground arks.",
+				"Grants darkvision out to 60 feet for 4 hours; if you already possess darkvision, increase its range by an additional 30 feet for the duration.",
+				{
+					"type": "inset",
+					"name": "Dungeon Church Lore",
+					"entries": [
+						"Learn more about {@link Lumengrove Tincture in the wiki|https://lore.dungeon.church/doc/lumengrove-tincture-nlSmr4f3l8}."
+					]
+				}
+			],
+			"fluff": {
+				"name": "Lumengrove Tincture",
+				"source": "DungeonChurch",
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-lumengrove-tincture.png"
+						}
+					}
+				],
+				"entries": [
+					"Within the deepest subterranean vaults of {@link Durandar|https://lore.dungeon.church/doc/durandar-sWDxZHDVIC}, the {@link Arkwrights Guild|https://lore.dungeon.church/doc/arkwrights-guild-xpUNyD7GMm} meticulously tends to a glowing, diverse collection of fungi and mosses known as the Lumengrove. Originally cultivated by the guild's Curators as one of the first arks to sustainably provide light to the underground kingdom, the Lumengrove is one of the most delicate ecosystems under their care. The guild engineers devised solutions that eventually became the model for how steam power and climate control was delivered to the rest of Durandar.",
+					"The Lumengrove Tincture is carefully harvested and distilled from these fungi and moss, bottling their varied bioluminescent properties into a potion valued by miners, explorers, and anyone venturing into the deep."
 				]
 			}
 		},
@@ -8252,7 +8290,7 @@
 			"source": "DungeonChurch",
 			"caption": "The dwarves of Durandar may have eschewed the use of magic, but their creative talents have brought ferment to a wide range of alchemical draughts.",
 			"colLabels": [
-				"1d9",
+				"1d10",
 				"Draught"
 			],
 			"rows": [
@@ -8291,6 +8329,10 @@
 				[
 					"9",
 					"{@item Deepgarden Cider|dungeonchurch}"
+				],
+				[
+					"10",
+					"{@item Lumengrove Tincture|dungeonchurch}"
 				]
 			]
 		},
@@ -8808,7 +8850,7 @@
 			"source": "DungeonChurch",
 			"caption": "Items and relics uncovered in the world of Pyora.",
 			"colLabels": [
-				"d70",
+				"d71",
 				"Item"
 			],
 			"rows": [
@@ -9091,6 +9133,10 @@
 				[
 					"70",
 					"{@item Deepgarden Cider|dungeonchurch}"
+				],
+				[
+					"71",
+					"{@item Lumengrove Tincture|dungeonchurch}"
 				]
 			]
 			

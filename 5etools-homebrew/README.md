@@ -67,6 +67,7 @@ Or import:
     * [Hearthhoney Braggot](https://lore.dungeon.church/doc/hearthhoney-braggot-zL90z9tilm)
     * [Ley Line Lens](https://lore.dungeon.church/doc/ley-line-lens-A8oN3yTn4x)
     * [Longsword of the Dragon Empire](https://lore.dungeon.church/doc/longsword-of-the-dragon-empire-WNp5oBATI3)
+    * [Lumengrove Tincture](https://lore.dungeon.church/doc/lumengrove-tincture-nlSmr4f3l8)
     * [Mage Bane](https://lore.dungeon.church/doc/mage-bane-vvIjgk9BDu)
     * [Migrant Bitters](https://lore.dungeon.church/doc/migrant-bitters-7x14g5xzPG)
     * [Mildred's Amulet](https://lore.dungeon.church/doc/mildreds-amulet-rEyfbZD2MW)
