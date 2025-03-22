@@ -97,6 +97,7 @@ Or import:
     * [Sphere of Everlasting Ice](https://lore.dungeon.church/doc/sphere-of-everlasting-ice-hjFNSWJiwx)
     * [Spores of Delirium](https://lore.dungeon.church/doc/spores-of-delirium-JpyH7CL4vS)
     * [Stone of Sargoth the Eternal](https://lore.dungeon.church/doc/stone-of-sargoth-the-eternal-1sQ7dwJoJz)
+    * [Stoneflower Ale](https://lore.dungeon.church/doc/stoneflower-ale-yY7nlXWO8Y)
     * [Stone Tea](https://lore.dungeon.church/doc/stone-tea-ik79CS5iIM)
     * [Vial of Dark Resolve](https://lore.dungeon.church/doc/vial-of-dark-resolve-hdap6jS2a8)
     * [Vial of the Last Harvest](https://lore.dungeon.church/doc/vial-of-the-last-harvest-tsIxDMwTeP)

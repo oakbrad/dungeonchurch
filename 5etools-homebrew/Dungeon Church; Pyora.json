@@ -7557,6 +7557,43 @@
 			]
 		},
 		{
+			"name": "Stoneflower Ale",
+			"source": "DungeonChurch",
+			"type": "P",
+			"lootTables": [
+				"Durandian Draughts|dungeonchurch",
+				"Pyoran Magic Items|dungeonchurch"
+			],
+			"rarity": "common",
+			"entries": [
+				"Stoneflower Ale is an invigorating blend of beer and herbal tea, made from rare species grown in the Durandian {@link Arkwrights Guild|https://lore.dungeon.church/doc/arkwrights-guild-xpUNyD7GMm} collection.",
+				"Drinking the brew steadies the nerves, granting advantage on Charisma checks and Wisdom saves for 1 hour.",
+				{
+					"type": "inset",
+					"name": "Dungeon Church Lore",
+					"entries": [
+						"Learn more about {@link Stoneflower Ale in the wiki|https://lore.dungeon.church/doc/stoneflower-ale-yY7nlXWO8Y}."
+					]
+				}
+			],
+			"fluff": {
+				"name": "Stoneflower Ale",
+				"source": "DungeonChurch",
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-stoneflower-ale.png"
+						}
+					}
+				],
+				"entries": [
+					"Named in honor of {@link Thrain Stoneflower|https://lore.dungeon.church/doc/thrain-stoneflower-mjPtuvzNNT}, founder of the {@link Arkwrights Guild|https://lore.dungeon.church/doc/arkwrights-guild-xpUNyD7GMm}, this ale blends traditional dwarven brewing with the caffeination of tea. Crafted from rare subterranean blossoms steeped into a delicate herbal infusion, the brew is gently combined with the wort of a smooth, amber ale, producing a drink that balances earthy malt flavors with floral, herbal notes. Scholars and diplomats favor this beverage, and it is customary for the dwarven King to serve it at state meetings."
+				]
+			}
+		},
+		{
 			"name": "Stone Tea",
 			"source": "DungeonChurch",
 			"tier": "minor",
@@ -8177,7 +8214,7 @@
 			"source": "DungeonChurch",
 			"caption": "The dwarves of Durandar may have eschewed the use of magic, but their creative talents have brought ferment to a wide range of alchemical draughts.",
 			"colLabels": [
-				"1d7",
+				"1d8",
 				"Draught"
 			],
 			"rows": [
@@ -8208,6 +8245,10 @@
 				[
 					"7",
 					"{@item Hearthhoney Braggot|dungeonchurch}"
+				],
+				[
+					"8",
+					"{@item Stoneflower Ale|dungeonchurch}"
 				]
 			]
 		},
@@ -8725,7 +8766,7 @@
 			"source": "DungeonChurch",
 			"caption": "Items and relics uncovered in the world of Pyora.",
 			"colLabels": [
-				"d68",
+				"d69",
 				"Item"
 			],
 			"rows": [
@@ -9000,6 +9041,10 @@
 				[
 					"68",
 					"{@item Hearthhoney Braggot|dungeonchurch}"
+				],
+				[
+					"69",
+					"{@item Stoneflower Ale|dungeonchurch}"
 				]
 			]
 			
