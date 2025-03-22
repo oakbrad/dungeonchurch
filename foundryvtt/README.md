@@ -65,6 +65,8 @@ To use the original 5E rules:
   * Display Name `Based on Token`
 * Custom CSS
   * _CodeMirror - *dependency*
+* [DFred's Droppables](https://github.com/DFreds/dfreds-droppables)
+  * Style: `Horizontal Line`
 * Dice So Nice
   * Show Ghost dice for hidden rolls `Checked`
 * Dice Tray
@@ -89,6 +91,7 @@ To use the original 5E rules:
   * Levels
   * Wall Height
   * Better Roofs
+* [Magic Items 2](https://github.com/PwQt/magic-items-2)
 * NPC Generator (GPT)
 * Plutonium
   * [Settings](/foundryvtt/plutonium-config.json) in repo
@@ -103,10 +106,15 @@ To use the original 5E rules:
 
 ### Evaluating
 Modules in consideration.
-* [Magic Items 2](https://github.com/PwQt/magic-items-2)
-* [DFred's Droppables](https://github.com/DFreds/dfreds-droppables)
-  * Style: `Horizontal Line`
 * [Sync Token Name](https://github.com/lipefl/sync-token-name)
+* [Monk's Little Details](https://github.com/ironmonk88/monks-little-details)
+  * Edit Effects -> Add `Intoxicated` and remove extras
+  * Swap target and settings button `Uncheck`
+  * Directory padding - does this remove need for Subfolder Indent plugin?
+  * Move the Pause Button Up `Everyone`
+  * Pause Border Color `#ff2600`
+
+
 * OBS Utils - haven't tried
 
 ## Custom CSS
