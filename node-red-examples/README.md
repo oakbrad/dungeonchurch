@@ -1,13 +1,15 @@
 # Node-Red Examples
-Node-Red is a low code, visual programming tool. For this project, I use it as duck tape to connect Ghost, Discord, and Outline together.
+Node-Red is a low code, visual programming tool. For this project, I use it as duck tape to connect Ghost, Discord, and Outline together via their APIs.
 
 You can use the json files here to import these into Node-Red.
 
 ## Useful Nodes
 * [node-red-contrib-turndown](https://flows.nodered.org/node/node-red-contrib-turndown) Convert HTML to Markdown
 * [node-red-discord-advanced](https://github.com/Markoudstaal/node-red-contrib-discord-advanced) Interact with Discord
+* [node-red-discord-alternative](https://flows.nodered.org/node/node-red-discord-alternative) A few more nodes for Discord
+* [node-red-contrib-ical-events](https://flows.nodered.org/node/node-red-contrib-ical-events) Calendar events
 * [node-red-contrib-chatgpt](https://github.com/HaroldPetersInskipp/node-red-contrib-chatgpt) Access OpenAI tools
-* [node-red-ratelimit](https://flows.nodered.org/node/@cameo69/node-red-ratelimit) Rate limit
+* [node-red-contrib-batcher](https://flows.nodered.org/node/node-red-contrib-batcher) Debouncing & rate limiting.
 
 ### Ghost Authorization
 Get an auth cookie to access the Ghost API, then save it in the Node-Red flow context.
@@ -27,8 +29,3 @@ Discord node listens for ```/lore``` command prints the first result from Outlin
 <img src=/node-red-examples/discord-slash-lore.png>
 Output::
 <img src=/node-red-examples/discord-slash-lore-output.png>
-
-### Discord Roles to Ghost Newsletters
-Synchronize RSVP roles from Discord to corresponding email newsletters in Ghost.
-
-*Need to clean this up before posting. There has to be some way to map Discord ID to the Ghost ID, which I'm currently doing in a Google Spreadsheet...*

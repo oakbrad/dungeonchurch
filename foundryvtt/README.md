@@ -1,11 +1,11 @@
 # FoundryVTT
+<p align="center">
+    <img src=https://img.shields.io/badge/dynamic/json?url=https://table.dungeon.church/api/status&query=$.version&logo=foundryvirtualtabletop&logoColor=ffffff&labelColor=ff2600&color=gray&label=foundryvtt>
+    <img src=https://img.shields.io/badge/dynamic/json?url=https://table.dungeon.church/api/status&query=$.systemVersion&logo=dungeonsanddragons&logoColor=ffffff&labelColor=ff2600&color=gray&label=dnd5e>
+    <img src=https://img.shields.io/badge/5etools-2014-gray?logo=roll20&logoColor=ffffff&labelColor=ff2600> 
+    <img src=https://img.shields.io/badge/plutonium-v1.84.3-gray?&labelColor=ff2600> 
+</p>
 Notes on setting up Dungeon Church's virtual tabletop.
-
-### 2014 Rules
-To use the original 5E rules:
-* Plutonium locked to [v1.84.3](https://github.com/TheGiddyLimit/plutonium-next/releases/tag/v1.84.3)
-* 5etools Mirror [2014 repo](https://github.com/5etools-mirror-3/5etools-2014-src/releases/latest)
-* Foundry DND5e game system `???`
 
 ## Server Settings
 
@@ -25,7 +25,7 @@ To use the original 5E rules:
     * Display Mouse Cursors `Uncheck All`
     * Upload New Files `Check for Player`
     * Use File Browser `Check for Player`
-    * Use Drawing Tools `Check for Player
+    * Use Drawing Tools `Check for Player`
 * DnD5E
   * Encumbrance Tracking `Normal`
   * Collapse Item Cards in Chat `Checked`
@@ -113,8 +113,6 @@ Modules in consideration.
   * Directory padding - does this remove need for Subfolder Indent plugin?
   * Move the Pause Button Up `Everyone`
   * Pause Border Color `#ff2600`
-
-
 * OBS Utils - haven't tried
 
 ## Custom CSS

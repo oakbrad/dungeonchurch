@@ -1,27 +1,35 @@
 <p align="center">
-    <img width="650" src="logo-chrome.png">
+    <img width="650" src="logo-chrome.png"><br>
+    <a href=https://github.com/oakbrad/dungeonchurch>
+        <img src=https://img.shields.io/github/last-commit/oakbrad/dungeonchurch?label=dungeonchurch&color=gray&labelColor=ff2600&logo=github>
+    </a>
+    <a href=https://github.com/oakbrad/dungeonchurch-pyora>
+        <img src=https://img.shields.io/github/last-commit/oakbrad/dungeonchurch-pyora?label=dungeonchurch-pyora&color=gray&labelColor=ff2600&logo=github>
+    </a>
+    <a href=https://github.com/oakbrad/dungeonchurch-cogs>
+        <img src=https://img.shields.io/github/last-commit/oakbrad/dungeonchurch-cogs?label=dungeonchurch-cogs&color=gray&labelColor=ff2600&logo=github>
+    </a>
 </p>
 
 # Dungeon Church
-Dungeons & Dragons group infrastructure & homebrew. More information in <a href=https://www.dungeon.church/dungeon-church-software-stack>this blog post</a>.
-
-Dungeon Church's ***Pyora*** setting as <a href="/5etools-homebrew">homebrew source</a> for 5E Tools.
+Dungeons & Dragons group infrastructure. <a href=https://www.dungeon.church/dungeon-church-software-stack>More info here</a>.
 
 Interested in playing with us? <b><a href=https://dungeon.church/join-us>Join us</a></b>.
 
 # Software
-- [Ghost](https://ghost.org/) - public website, email newsletters and automated reminders
-- [Outline](https://www.getoutline.com/) - lore wiki for our homebrew setting
-    - [Drawio](https://github.com/jgraph/docker-drawio) - diagramming integration
-- [5E Tools](https://github.com/Jafner/5etools-docker) - Community compilation of D&D content and tools
-- [Homebrewery](https://github.com/naturalcrit/homebrewery) - Convert Markdown (from Outline or 5ETools) to nice pages for print
-- [Discord](/discord) - group chat
-    - [Sesh.FYI](https://sesh.fyi/) - RSVP and event bot *(<a href=https://github.com/oakbrad/dungeonchurch/issues/7>not self hosted</a>)*
-    - [Red Bot](https://github.com/Cog-Creators/Red-DiscordBot) - self hosted, extensible Discord bot
-- [Node-Red](https://nodered.org/) - low code API magic to connect our services, syndicate to social, sync Discord roles to Ghost, etc.
+- [Ghost](https://ghost.org/) - public website & email newsletter
+- [Outline](https://www.getoutline.com/) - lore wiki for our homebrew world
+  - [Drawio](https://github.com/jgraph/docker-drawio) - diagramming integration
+- [5eTools](https://github.com/Jafner/5etools-docker) - D&D content & tools *(see: [dungeonchurch-pyora](https://github.com/oakbrad/dungeonchurch-pyora))*
+- [Homebrewery](https://github.com/naturalcrit/homebrewery) - Convert Markdown to nice pages for print
+- Discord
+  - [Red Bot](https://github.com/Cog-Creators/Red-DiscordBot) - extensible Discord bot *(see: [dungeonchurch-cogs](https://github.com/oakbrad/dungeonchurch-cogs))*
+  - [Sesh.fyi](https://sesh.fyi/) - RSVP and event bot *(not self hosted)*
+  - [Kenku.fm](https://kenku.fm) - audio bot *(not self hosted)*
+- [Node-Red](https://nodered.org/) - low code API magic to connect our services
 - [FoundryVTT](https://foundryvtt.com/) - Virtual table platform
-    - [Plutonium](https://5e.tools/plutonium.html) - Import content from 5E Tools to FoundryVTT
-    - [DDB Proxy](https://github.com/MrPrimate/ddb-proxy) - Imports from official D&D Beyond platform
+  - [Plutonium](https://5e.tools/plutonium.html) - Import from 5eTools to FoundryVTT
+  - [DDB Proxy](https://github.com/MrPrimate/ddb-proxy) - DDB integration
 
 ## Docker Compose
 The config necessary to run all this is detailed in the <a href=/docker-compose.yaml>docker-compose.yaml</a>
@@ -31,3 +39,22 @@ Details of our [FoundryVTT v12 setup](/foundryvtt).
 
 ## Node-Red Examples
 <a href=/node-red-examples/README.md>Example flows</a>
+
+# Follow Elsewhere
+<p align="left">
+    <a href=https://www.dungeon.church>
+        <img src=https://img.shields.io/badge/dungeon.church-ff2600?logo=ghost&logoColor=ffffff> 
+    </a>
+    <a href=https://bsky.app/profile/dungeon.church>
+        <img src=https://img.shields.io/badge/bluesky-ff2600?logo=bluesky&logoColor=ffffff> 
+    </a>
+    <a href=https://twitch.tv/dungeonchurch>
+        <img src=https://img.shields.io/twitch/status/dungeonchurch?style=flat&logo=twitch&logoColor=ffffff&labelColor=ff2600&color=gray>
+    </a>
+    <a href=https://youtube.com/@DungeonChurch>
+        <img src=https://img.shields.io/youtube/channel/subscribers/UCMaCjbcyIqyQ_ykH7hIpQiA?style=flat&label=youtube&logo=youtube&labelColor=ff2600&color=gray>
+    </a>
+    <a href=https://www.dungeon.church/#/portal/support>
+        <img src=https://img.shields.io/badge/support-brightgreen?logo=cashapp&logoColor=ffffff> 
+    </a>
+</p>
