@@ -1,14 +1,11 @@
 <p align="center">
     <img width="650" src="logo-chrome.png"><br>
     <a href=https://github.com/oakbrad/dungeonchurch>
-        <img src=https://img.shields.io/github/last-commit/oakbrad/dungeonchurch?label=dungeonchurch&color=gray&labelColor=ff2600&logo=github>
-    </a>
+        <img src=https://img.shields.io/github/last-commit/oakbrad/dungeonchurch?label=dungeonchurch&color=gray&labelColor=ff2600&logo=github></a>
     <a href=https://github.com/oakbrad/dungeonchurch-pyora>
-        <img src=https://img.shields.io/github/last-commit/oakbrad/dungeonchurch-pyora?label=dungeonchurch-pyora&color=gray&labelColor=ff2600&logo=github>
-    </a>
+        <img src=https://img.shields.io/github/last-commit/oakbrad/dungeonchurch-pyora?label=dungeonchurch-pyora&color=gray&labelColor=ff2600&logo=github></a>
     <a href=https://github.com/oakbrad/dungeonchurch-cogs>
-        <img src=https://img.shields.io/github/last-commit/oakbrad/dungeonchurch-cogs?label=dungeonchurch-cogs&color=gray&labelColor=ff2600&logo=github>
-    </a>
+        <img src=https://img.shields.io/github/last-commit/oakbrad/dungeonchurch-cogs?label=dungeonchurch-cogs&color=gray&labelColor=ff2600&logo=github></a>
 </p>
 
 # Dungeon Church
@@ -43,18 +40,13 @@ Details of our [FoundryVTT v12 setup](/foundryvtt).
 # Follow Elsewhere
 <p align="left">
     <a href=https://www.dungeon.church>
-        <img src=https://img.shields.io/badge/dungeon.church-ff2600?logo=ghost&logoColor=ffffff> 
-    </a>
+        <img src=https://img.shields.io/badge/dungeon.church-ff2600?logo=ghost&logoColor=ffffff></a>
     <a href=https://bsky.app/profile/dungeon.church>
-        <img src=https://img.shields.io/badge/bluesky-ff2600?logo=bluesky&logoColor=ffffff> 
-    </a>
+        <img src=https://img.shields.io/badge/bluesky-ff2600?logo=bluesky&logoColor=ffffff></a>
     <a href=https://twitch.tv/dungeonchurch>
-        <img src=https://img.shields.io/twitch/status/dungeonchurch?style=flat&logo=twitch&logoColor=ffffff&labelColor=ff2600&color=gray>
-    </a>
+        <img src=https://img.shields.io/twitch/status/dungeonchurch?style=flat&logo=twitch&logoColor=ffffff&labelColor=ff2600&color=gray></a>
     <a href=https://youtube.com/@DungeonChurch>
-        <img src=https://img.shields.io/youtube/channel/subscribers/UCMaCjbcyIqyQ_ykH7hIpQiA?style=flat&label=youtube&logo=youtube&labelColor=ff2600&color=gray>
-    </a>
+        <img src=https://img.shields.io/youtube/channel/subscribers/UCMaCjbcyIqyQ_ykH7hIpQiA?style=flat&label=youtube&logo=youtube&labelColor=ff2600&color=gray></a>
     <a href=https://www.dungeon.church/#/portal/support>
-        <img src=https://img.shields.io/badge/support-brightgreen?logo=cashapp&logoColor=ffffff> 
-    </a>
+        <img src=https://img.shields.io/badge/support-brightgreen?logo=cashapp&logoColor=ffffff></a>
 </p>

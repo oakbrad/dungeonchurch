@@ -32,9 +32,9 @@ Notes on setting up Dungeon Church's virtual tabletop.
   * Allow Polmorphing `Checked`
 
 ## Module Settings
-* Auto Rotate
+* [Auto Rotate](https://github.com/Varriount/fvtt-autorotate)
   * `Automatic`
-* Carousel Combat Tracker
+* [Carousel Combat Tracker](https://github.com/theripper93/combat-tracker-dock)
   * Carousel Style `Carousel - Left`
   * Overflow Style `Hidden`
   * Alignemnt `Left`
@@ -44,65 +44,55 @@ Notes on setting up Dungeon Church's virtual tabletop.
   * Show Disposition `Unchecked`
   * Show Initiative on Portrait `Unchecked`
   * Display Name `Based on Token`
-* Chat Media
-* colorsettings - *dependency of Splatter*
-* Combat Booster
+* [Chat Media](https://github.com/p4535992/foundryvtt-chat-media/)
+* [Combat Booster](https://github.com/theripper93/Combat-Booster)
   * Enable Next Turn Marker `Unchecked`
   * Enable Start Turn Marker `Unchecked`
   * Mark Defeated `Checked`
   * Your Turn Notification `Checked`
   * Auto-Select Token on Turn Start `Checked`
   * Ignore Player Tokens `Checked`
-* Carousel Combat Tracker
-  * Carousel Style `Carousel - Left`
-  * Overflow Style `Hidden`
-  * Alignemnt `Left`
-  * Attribute Visibility `Bars Only`
-  * Portrait Aspect Ratio `Square`
-  * Hide Defeated `Checked`
-  * Show Disposition `Unchecked`
-  * Show Initiative on Portrait `Unchecked`
-  * Display Name `Based on Token`
-* Custom CSS
-  * _CodeMirror - *dependency*
+* [Custom CSS](https://github.com/cswendrowski/FoundryVTT-Custom-CSS)
+  * *dependency* [CodeMirror](https://github.com/League-of-Foundry-Developers/codemirror-lib)
 * [DFred's Droppables](https://github.com/DFreds/dfreds-droppables)
   * Style: `Horizontal Line`
-* Dice So Nice
+* [Dice So Nice](https://gitlab.com/riccisi/foundryvtt-dice-so-nice)
   * Show Ghost dice for hidden rolls `Checked`
-* Dice Tray
-* Forien's Copy Environment
+* [Dice Tray](https://github.com/mclemente/fvtt-dice-tray)
+* [Forien's Copy Environment](https://github.com/League-of-Foundry-Developers/foundryvtt-forien-copy-environment)
   * Backup untracked in repo because it contains secrets
-* Foundry Community Macros
-* Foundry to Discord
+* [Foundry Community Macros](https://github.com/foundry-vtt-community/macros)
+* [Foundry to Discord](https://github.com/therealguy90/FoundryToDiscord)
   * Enable Server Status Message `Checked`
   * Monitor user login/logout `Unchecked`
   * Enable 'Send to Discord' for everyone `Checked`
   * Force show names on Discord `Checked`
   * Auto-embed UUID Link Messages `Checked`
-* 💵 JB2A Animation Assets - *depends on the following...*
-  * Automated Animations
-  * [dnd5e-animations](https://github.com/MrVauxs/dnd5e-animations)
-  * Sequencer
-* Initiative Double Click
-* libWrapper - *dependency*
-* 💵 MAD Cartographer - *depends on the following....*
-  * Token Attacher
-  * Library: Scene Packer
-  * Levels
-  * Wall Height
-  * Better Roofs
+* 💵 [JB2A Animation Assets](https://github.com/Jules-Bens-Aa/JB2A_DnD5e) - *depends on the following...*
+  * *dependency* [Automated Animations](https://github.com/otigon/automated-jb2a-animations)
+  * *dependency* [dnd5e-animations](https://github.com/MrVauxs/dnd5e-animations)
+  * *dependency* [Sequencer](https://github.com/fantasycalendar/FoundryVTT-Sequencer)
+* [Initiative Double Click](https://github.com/mclemente/fvtt-initiative-double-click)
+* *dependency* [libWrapper](https://github.com/ruipin/fvtt-lib-wrapper)
+* 💵 [MAD Cartographer Map Packs](https://themad.network/the-mad-cartographer)
+  * *dependency* [Token Attacher](https://github.com/KayelGee/token-attacher)
+  * *dependency* [Library: Scene Packer](https://github.com/League-of-Foundry-Developers/scene-packer)
+  * *dependency* [Levels](https://github.com/theripper93/Levels)
+  * *dependency* [Wall Height](https://foundryvtt.com/packages/wall-height)
+  * *dependency* [Better Roofs](https://github.com/theripper93/Better-Roofs/)
 * [Magic Items 2](https://github.com/PwQt/magic-items-2)
-* NPC Generator (GPT)
-* Plutonium
+* [NPC Generator (GPT)](https://foundryvtt.com/packages/npc-generator-gpt)
+* [Plutonium](https://github.com/TheGiddyLimit/plutonium-next/releases/tag/v1.84.3)
   * [Settings](/foundryvtt/plutonium-config.json) in repo
-* Quick Insert
+* [Quick Insert](https://gitlab.com/fvtt-modules-lab/quick-insert)
   * GMs Only `Checked`
-* Splatter
+* [Splatter](https://github.com/theripper93/Splatter)
+  * *dependency* [colorsettings](https://github.com/ardittristan/VTTColorSettings)
   * Violence Level `6`
   * Cleanup `2`
 * [Subfolder Indent](https://github.com/Mushie1/subfolder-indent)
 * [Update Your Password](https://github.com/RichardRobertson/update-your-password)
-* Vision 5E
+* [Vision 5E](https://github.com/dev7355608/vision-5e)
 
 ### Evaluating
 Modules in consideration.
@@ -113,7 +103,7 @@ Modules in consideration.
   * Directory padding - does this remove need for Subfolder Indent plugin?
   * Move the Pause Button Up `Everyone`
   * Pause Border Color `#ff2600`
-* OBS Utils - haven't tried
+* [OBS Utils](https://github.com/FaeyUmbrea/obs-utils) - haven't tried
 
 ## Custom CSS
 ```
