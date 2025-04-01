@@ -10,7 +10,9 @@ Notes on setting up Dungeon Church's virtual tabletop.
 ## Server Settings
 
 * Core
-  * Combat Tab→Skip Defeated? `Checked`
+  * Combat Tracker
+    * Skip Defeated? `Checked`
+    * Combat Sounds `Epic`
   * Audio/Video→Audio Video Conferencing Mode `Disabled`
   * Pan to Token Speaker `Unchecked`
   * Left Click to Release Objects `Checked`
@@ -44,14 +46,17 @@ Notes on setting up Dungeon Church's virtual tabletop.
   * Show Disposition `Unchecked`
   * Show Initiative on Portrait `Unchecked`
   * Display Name `Based on Token`
+  * Hide Until First Turn `Checked`
 * [Chat Media](https://github.com/p4535992/foundryvtt-chat-media/)
 * [Combat Booster](https://github.com/theripper93/Combat-Booster)
   * Enable Next Turn Marker `Unchecked`
+  * Turn Marker Image `combatbooster-turnmarker-dc.png`
   * Enable Start Turn Marker `Unchecked`
   * Mark Defeated `Checked`
   * Your Turn Notification `Checked`
   * Auto-Select Token on Turn Start `Checked`
   * Ignore Player Tokens `Checked`
+  * Auto Enable HUD (GM Only) `Checked`
 * [Custom CSS](https://github.com/cswendrowski/FoundryVTT-Custom-CSS)
   * *dependency* [CodeMirror](https://github.com/League-of-Foundry-Developers/codemirror-lib)
 * [DFred's Droppables](https://github.com/DFreds/dfreds-droppables)
@@ -69,6 +74,9 @@ Notes on setting up Dungeon Church's virtual tabletop.
   * Force show names on Discord `Checked`
   * Auto-embed UUID Link Messages `Checked`
 * 💵 [JB2A Animation Assets](https://github.com/Jules-Bens-Aa/JB2A_DnD5e) - *depends on the following...*
+  * Hide Animation Tab from Players `Checked`
+  * Critical Hits `Checked`
+  * Critical Misses `Checked`
   * *dependency* [Automated Animations](https://github.com/otigon/automated-jb2a-animations)
   * *dependency* [dnd5e-animations](https://github.com/MrVauxs/dnd5e-animations)
   * *dependency* [Sequencer](https://github.com/fantasycalendar/FoundryVTT-Sequencer)

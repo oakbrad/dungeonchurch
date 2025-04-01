@@ -1,6 +1,6 @@
 {
 	"fileType": "config",
-	"moduleVersion": "1.84.3",
+	"moduleVersion": "2.84.3-noble-prerelease-24-67",
 	"config": {
 		"actor": {
 			"isRefreshOtherOwnedSheets": true,
@@ -17,7 +17,7 @@
 			"isDebugForceGmUserCharLink": false
 		},
 		"artBrowser": {
-			"importImagesAs": 0,
+			"importImagesAs": 1,
 			"dropAnchor": 0,
 			"scale": 1,
 			"scenePadding": 0,
@@ -64,7 +64,7 @@
 			"tooManySourcesWarningThreshold": 50,
 			"baseSiteUrl": "https://5e.dungeon.church",
 			"baseMediaUrlImg": null,
-			"isNoLocalData": true,
+			"isNoLocalData": false,
 			"isNoPrereleaseBrewIndexes": false,
 			"basePrereleaseUrl": null,
 			"baseBrewUrl": null
@@ -231,7 +231,8 @@
 			"isHideSubclassRows": false,
 			"isImportDescriptionFluffText": true,
 			"isImportDescriptionFluffImages": true,
-			"isUseBaldursGateIcons": true
+			"isUseBaldursGateIcons": true,
+			"isLegacyLevelUpButton": false
 		},
 		"importConditionDisease": {
 			"ownership": 0,
@@ -531,7 +532,7 @@
 		},
 		"importSpell": {
 			"ownership": 0,
-			"prepareActorSpells": true,
+			"prepareActorSpells": false,
 			"prepareSpellItems": false,
 			"actorSpellPreparationMode": "prepared",
 			"isAutoDetectActorSpellPreparationMode": true,
@@ -735,7 +736,8 @@
 			"isDebugFromUuid": false,
 			"isSetDocumentOperationsCanaryFlags": false,
 			"isDebugImageFetching": false,
-			"rulesVersion": "modern"
+			"rulesVersion": "modern",
+			"baseSiteUrl": "https://plutonium.giddy.cyou"
 		},
 		"rivet": {
 			"targetDocumentId": "",
@@ -823,6 +825,9 @@
 			"ownership": 0,
 			"setEffectDisabled": "VE_USE_MODULE_VALUE",
 			"setEffectTransfer": "VE_USE_MODULE_VALUE"
+		},
+		"charactermancer": {
+			"minimumRole": 0
 		}
 	}
 }
