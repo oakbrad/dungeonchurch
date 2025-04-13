@@ -326,6 +326,29 @@ services:
       - TZ=America/Los_Angeles
       - PUID=1000
 
+# QUAKE 3 ARENA
+  quake:
+    container_name: quake
+    image: gl-registry.emzi0767.dev/emzi0767/ioq3-universal/ioq3-universal:latest
+    restart: unless-stopped
+    volumes:
+      - /home/ubuntu/quake/baseq3:/quake/baseq3:ro
+      - /home/ubuntu/quake:/quake/home
+    ports:
+      - 0.0.0.0:27960:27960/udp
+# This serves the custom maps
+  quake_web:
+    image: sebp/lighttpd
+    container_name: quake_web
+    volumes:
+      - /home/ubuntu/quake/baseq3:/var/www/localhost/htdocs
+    ports:
+      - 27961:80
+    tty: true
+    restart: unless-stopped
+    networks:
+      - public-proxy
+
 networks:
   public-proxy:
   internal-db:

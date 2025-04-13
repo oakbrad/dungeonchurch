@@ -27,6 +27,7 @@ Interested in playing with us? <b><a href=https://dungeon.church/join-us>Join us
 - [FoundryVTT](https://foundryvtt.com/) - Virtual table platform
   - [Plutonium](https://5e.tools/plutonium.html) - Import from 5eTools to FoundryVTT
   - [DDB Proxy](https://github.com/MrPrimate/ddb-proxy) - DDB integration
+- [Quake 3 Arena](https://ioquake3.org/) - why not
 
 ## Docker Compose
 The config necessary to run all this is detailed in the <a href=/docker-compose.yaml>docker-compose.yaml</a>
