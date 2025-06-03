@@ -1,11 +1,13 @@
 <p align="center">
     <img width="650" src="logo-chrome.png"><br>
     <a href=https://github.com/oakbrad/dungeonchurch>
-        <img src=https://img.shields.io/github/last-commit/oakbrad/dungeonchurch?label=dungeonchurch&color=gray&labelColor=ff2600&logo=github></a>
+        <img src=https://img.shields.io/github/last-commit/oakbrad/dungeonchurch?label=dungeonchurch&color=gray&labelColor=ff2600&logoColor=ffffff&logo=docker></a>
     <a href=https://github.com/oakbrad/dungeonchurch-pyora>
-        <img src=https://img.shields.io/github/last-commit/oakbrad/dungeonchurch-pyora?label=dungeonchurch-pyora&color=gray&labelColor=ff2600&logo=github></a>
+        <img src=https://img.shields.io/github/last-commit/oakbrad/dungeonchurch-pyora?label=dungeonchurch-pyora&color=gray&labelColor=ff2600&logo=dungeonsanddragons></a>
+    <a href=https://github.com/oakbrad/dungeonchurch-basilica>
+        <img src=https://img.shields.io/github/last-commit/oakbrad/dungeonchurch-basilica?label=dungeonchurch-basilica&color=gray&labelColor=ff2600&logo=ghost></a>
     <a href=https://github.com/oakbrad/dungeonchurch-cogs>
-        <img src=https://img.shields.io/github/last-commit/oakbrad/dungeonchurch-cogs?label=dungeonchurch-cogs&color=gray&labelColor=ff2600&logo=github></a>
+        <img src=https://img.shields.io/github/last-commit/oakbrad/dungeonchurch-cogs?label=dungeonchurch-cogs&color=gray&labelColor=ff2600&logoColor=ffffff&logo=discord></a>
 </p>
 
 # Dungeon Church
@@ -14,15 +16,14 @@ Dungeons & Dragons group infrastructure. <a href=https://www.dungeon.church/dung
 Interested in playing with us? <b><a href=https://dungeon.church/join-us>Join us</a></b>.
 
 # Software
-- [Ghost](https://ghost.org/) - public website & email newsletter
+- [Ghost](https://ghost.org/) - public website & email newsletter *(see: [dungeonchurch-basilica](https://github.com/oakbrad/dungeonchurch-basilica)*)
 - [Outline](https://www.getoutline.com/) - lore wiki for our homebrew world
   - [Drawio](https://github.com/jgraph/docker-drawio) - diagramming integration
 - [5eTools](https://github.com/Jafner/5etools-docker) - D&D content & tools *(see: [dungeonchurch-pyora](https://github.com/oakbrad/dungeonchurch-pyora))*
 - [Homebrewery](https://github.com/naturalcrit/homebrewery) - Convert Markdown to nice pages for print
 - Discord
   - [Red Bot](https://github.com/Cog-Creators/Red-DiscordBot) - extensible Discord bot *(see: [dungeonchurch-cogs](https://github.com/oakbrad/dungeonchurch-cogs))*
-  - [Sesh.fyi](https://sesh.fyi/) - RSVP and event bot *(not self hosted)*
-  - [Kenku.fm](https://kenku.fm) - audio bot *(not self hosted)*
+  - *Not Hosted:* [Sesh.fyi](https://sesh.fyi/) & [Kenku.fm](https://kenku.fm)
 - [Node-Red](https://nodered.org/) - low code API magic to connect our services
 - [FoundryVTT](https://foundryvtt.com/) - Virtual table platform
   - [Plutonium](https://5e.tools/plutonium.html) - Import from 5eTools to FoundryVTT

@@ -51,6 +51,7 @@ Notes on setting up Dungeon Church's virtual tabletop.
 * [Combat Booster](https://github.com/theripper93/Combat-Booster)
   * Enable Next Turn Marker `Unchecked`
   * Turn Marker Image `combatbooster-turnmarker-dc.png`
+  * Turn Marker Scale `1.4`
   * Enable Start Turn Marker `Unchecked`
   * Mark Defeated `Checked`
   * Your Turn Notification `Checked`
@@ -89,6 +90,12 @@ Notes on setting up Dungeon Church's virtual tabletop.
   * *dependency* [Wall Height](https://foundryvtt.com/packages/wall-height)
   * *dependency* [Better Roofs](https://github.com/theripper93/Better-Roofs/)
 * [Magic Items 2](https://github.com/PwQt/magic-items-2)
+* [Monk's Little Details](https://github.com/ironmonk88/monks-little-details)
+  * Edit Effects -> Add `Intoxicated` and remove extras
+  * Swap target and settings button `Uncheck`
+  * Directory padding - does this remove need for Subfolder Indent plugin?
+  * Move the Pause Button Up `Everyone`
+  * Pause Border Color `#ff2600`
 * [NPC Generator (GPT)](https://foundryvtt.com/packages/npc-generator-gpt)
 * [Plutonium](https://github.com/TheGiddyLimit/plutonium-next/releases/tag/v1.84.3)
   * [Settings](/foundryvtt/plutonium-config.json) in repo
@@ -98,19 +105,14 @@ Notes on setting up Dungeon Church's virtual tabletop.
   * *dependency* [colorsettings](https://github.com/ardittristan/VTTColorSettings)
   * Violence Level `6`
   * Cleanup `2`
+* [Sync Token Name](https://github.com/lipefl/sync-token-name)
 * [Subfolder Indent](https://github.com/Mushie1/subfolder-indent)
 * [Update Your Password](https://github.com/RichardRobertson/update-your-password)
 * [Vision 5E](https://github.com/dev7355608/vision-5e)
 
 ### Evaluating
 Modules in consideration.
-* [Sync Token Name](https://github.com/lipefl/sync-token-name)
-* [Monk's Little Details](https://github.com/ironmonk88/monks-little-details)
-  * Edit Effects -> Add `Intoxicated` and remove extras
-  * Swap target and settings button `Uncheck`
-  * Directory padding - does this remove need for Subfolder Indent plugin?
-  * Move the Pause Button Up `Everyone`
-  * Pause Border Color `#ff2600`
+* [CharacterVault](https://github.com/sigil-johnstevens/character-vault) - sync actors to/from github
 * [OBS Utils](https://github.com/FaeyUmbrea/obs-utils) - haven't tried
 
 ## Custom CSS
