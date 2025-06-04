@@ -1,13 +1,37 @@
 #!/bin/bash
-# Pull homebrew file every hour via crontab on server
+# Clone dungeonchurch-pyora repo and copy files to production 5etools site
 # jafner/5etools-docker doesn't manage UID/GID so have to correct permissions here
 
-cd /home/ubuntu/5etools-homebrew
-wget "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/Dungeon Church; Pyora.json"
-cp "/home/ubuntu/5etools-homebrew/Dungeon Church; Pyora.json" /home/ubuntu/5etools/homebrew
-rm "/home/ubuntu/5etools-homebrew/Dungeon Church; Pyora.json"
-chown opc:opc "/home/ubuntu/5etools/homebrew/Dungeon Church; Pyora.json"
-chmod 775 "/home/ubuntu/5etools/homebrew/Dungeon Church; Pyora.json"
+# Create temporary directory for cloning
+TEMP_DIR=$(mktemp -d)
+cd "$TEMP_DIR"
+
+# Clone the repository
+git clone https://github.com/oakbrad/dungeonchurch-pyora.git
+cd dungeonchurch-pyora
+
+# Copy all JSON files to homebrew directory
+mkdir -p /home/ubuntu/5etools-homebrew
+cp *.json /home/ubuntu/5etools-homebrew/
+cp *.json /home/ubuntu/5etools/homebrew/
+
+# Copy static and thirdparty directories
+mkdir -p /home/ubuntu/5etools/homebrew/static
+mkdir -p /home/ubuntu/5etools/homebrew/thirdparty
+
+# Copy static directory contents
+cp -r static/* /home/ubuntu/5etools/homebrew/static/
+
+# Copy thirdparty directory contents
+cp -r thirdparty/* /home/ubuntu/5etools/homebrew/thirdparty/
+
+# Fix permissions
+find /home/ubuntu/5etools/homebrew -type f -exec chown opc:opc {} \;
+find /home/ubuntu/5etools/homebrew -type f -exec chmod 775 {} \;
+
+# Clean up
+cd /
+rm -rf "$TEMP_DIR"
 echo "Done loading newest brew."
 
 # This changes the alert message on the main page
@@ -18,3 +42,4 @@ sed -i "s|$original|$replacement|g" index.html
 nuke="<div class=\"mb-2\" id=\"wrp-patreon\"></div>"
 sed -i "s|$nuke| |g" index.html
 echo "Done updating homepage"
+
