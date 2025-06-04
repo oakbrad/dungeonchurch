@@ -11,18 +11,29 @@ echo "Created temporary directory: $TEMP_DIR"
 cd "$TEMP_DIR"
 echo "Changed to temporary directory"
 
-# Clone the repository
-echo "Cloning dungeonchurch-pyora repository..."
-git clone https://github.com/oakbrad/dungeonchurch-pyora.git
+# Clone the repository with sparse checkout to exclude static folder
+echo "Initializing sparse checkout of dungeonchurch-pyora repository..."
+git init
+git remote add origin https://github.com/oakbrad/dungeonchurch-pyora.git
+git config core.sparseCheckout true
+
+# Configure sparse-checkout to exclude static folder
+echo "Configuring sparse-checkout to exclude static folder..."
+echo "/*" > .git/info/sparse-checkout
+echo "!static/" >> .git/info/sparse-checkout
+cat .git/info/sparse-checkout
+echo "Performing sparse checkout..."
+git pull --depth=1 origin main
+
 if [ $? -ne 0 ]; then
     echo "ERROR: Failed to clone repository!"
     exit 1
 else
-    echo "Successfully cloned repository"
+    echo "Successfully performed sparse checkout"
 fi
 
-cd dungeonchurch-pyora
-echo "Changed to repository directory: $(pwd)"
+echo "Current directory contents:"
+ls -la
 
 # Copy all JSON files to homebrew directory
 echo "Creating homebrew directories if they don't exist..."
@@ -34,23 +45,10 @@ echo "  - Copied $(ls *.json | wc -l) JSON files to /home/ubuntu/5etools-homebre
 cp *.json /home/ubuntu/5etools/homebrew/
 echo "  - Copied $(ls *.json | wc -l) JSON files to /home/ubuntu/5etools/homebrew/"
 
-# Copy static and thirdparty directories
-echo "Creating static and thirdparty directories..."
-mkdir -p /home/ubuntu/5etools/homebrew/static
-mkdir -p /home/ubuntu/5etools/homebrew/thirdparty
-
-# Copy static directory contents
-echo "Copying static directory contents..."
-if [ -d "static" ]; then
-    cp -r static/* /home/ubuntu/5etools/homebrew/static/
-    echo "  - Copied $(find static -type f | wc -l) files from static directory"
-else
-    echo "WARNING: static directory not found!"
-fi
-
 # Copy thirdparty directory contents
 echo "Copying thirdparty directory contents..."
 if [ -d "thirdparty" ]; then
+    mkdir -p /home/ubuntu/5etools/homebrew/thirdparty
     cp -r thirdparty/* /home/ubuntu/5etools/homebrew/thirdparty/
     echo "  - Copied $(find thirdparty -type f | wc -l) files from thirdparty directory"
 else
