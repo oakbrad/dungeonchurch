@@ -36,6 +36,8 @@ Notes on setting up Dungeon Church's virtual tabletop.
 ## Module Settings
 * [Auto Rotate](https://github.com/Varriount/fvtt-autorotate)
   * `Automatic`
+* Automated Animations
+  * Launch Menu->Settings->JB2a Asset Location `S3`
 * [Carousel Combat Tracker](https://github.com/theripper93/combat-tracker-dock)
   * Carousel Style `Carousel - Left`
   * Overflow Style `Hidden`
@@ -78,6 +80,7 @@ Notes on setting up Dungeon Church's virtual tabletop.
   * Hide Animation Tab from Players `Checked`
   * Critical Hits `Checked`
   * Critical Misses `Checked`
+  * JB2A Location - `S3`
   * *dependency* [Automated Animations](https://github.com/otigon/automated-jb2a-animations)
   * *dependency* [dnd5e-animations](https://github.com/MrVauxs/dnd5e-animations)
   * *dependency* [Sequencer](https://github.com/fantasycalendar/FoundryVTT-Sequencer)
