@@ -29,15 +29,21 @@ Notes on setting up Dungeon Church's virtual tabletop.
     * Use File Browser `Check for Player`
     * Use Drawing Tools `Check for Player`
 * DnD5E
+  * Rules Version `2014`
   * Encumbrance Tracking `Normal`
   * Collapse Item Cards in Chat `Checked`
   * Allow Polmorphing `Checked`
+  * Allow Summoning `Checked`
 
 ## Module Settings
 * [Auto Rotate](https://github.com/Varriount/fvtt-autorotate)
   * `Automatic`
 * Automated Animations
   * Launch Menu->Settings->JB2a Asset Location `S3`
+* [Automated Evocations](https://theripper93.com/module/automated-evocations)
+  * Store Companions on Actor `Checked`
+  * Auto Close on Summon `Checked`
+  *dependency* portal-lib
 * [Carousel Combat Tracker](https://github.com/theripper93/combat-tracker-dock)
   * Carousel Style `Carousel - Left`
   * Overflow Style `Hidden`
@@ -56,6 +62,7 @@ Notes on setting up Dungeon Church's virtual tabletop.
   * Turn Marker Scale `1.4`
   * Enable Start Turn Marker `Unchecked`
   * Mark Defeated `Checked`
+  * Turn Marker Ignore Token Scale `Unchecked`
   * Your Turn Notification `Checked`
   * Auto-Select Token on Turn Start `Checked`
   * Ignore Player Tokens `Checked`
@@ -67,6 +74,8 @@ Notes on setting up Dungeon Church's virtual tabletop.
 * [Dice So Nice](https://gitlab.com/riccisi/foundryvtt-dice-so-nice)
   * Show Ghost dice for hidden rolls `Checked`
 * [Dice Tray](https://github.com/mclemente/fvtt-dice-tray)
+* 💵 [Epic Rolls](https://theripper93.com/module)
+  * Recap Message `Public`
 * [Forien's Copy Environment](https://github.com/League-of-Foundry-Developers/foundryvtt-forien-copy-environment)
   * Backup untracked in repo because it contains secrets
 * [Foundry Community Macros](https://github.com/foundry-vtt-community/macros)
@@ -84,15 +93,19 @@ Notes on setting up Dungeon Church's virtual tabletop.
   * *dependency* [Automated Animations](https://github.com/otigon/automated-jb2a-animations)
   * *dependency* [dnd5e-animations](https://github.com/MrVauxs/dnd5e-animations)
   * *dependency* [Sequencer](https://github.com/fantasycalendar/FoundryVTT-Sequencer)
+* 💵 [Hover Distance](https://theripper93.com/module)
+  * Highlight Only in Combat `Checked`
 * [Initiative Double Click](https://github.com/mclemente/fvtt-initiative-double-click)
 * *dependency* [libWrapper](https://github.com/ruipin/fvtt-lib-wrapper)
+* 💵 [Levels - Depth Blur](https://theripper93.com/module)
 * 💵 [MAD Cartographer Map Packs](https://themad.network/the-mad-cartographer)
   * *dependency* [Token Attacher](https://github.com/KayelGee/token-attacher)
   * *dependency* [Library: Scene Packer](https://github.com/League-of-Foundry-Developers/scene-packer)
   * *dependency* [Levels](https://github.com/theripper93/Levels)
   * *dependency* [Wall Height](https://foundryvtt.com/packages/wall-height)
   * *dependency* [Better Roofs](https://github.com/theripper93/Better-Roofs/)
-* [Magic Items 2](https://github.com/PwQt/magic-items-2)
+* [Magic Items 2](https://github.com/PwQt/magic-items-2) - allows magic abilities to be attached to items
+* 💵 [Media Optimizer](https://theripper93.com/module)
 * [Monk's Little Details](https://github.com/ironmonk88/monks-little-details)
   * Edit Effects -> Add `Intoxicated` and remove extras
   * Swap target and settings button `Uncheck`
@@ -102,8 +115,19 @@ Notes on setting up Dungeon Church's virtual tabletop.
 * [NPC Generator (GPT)](https://foundryvtt.com/packages/npc-generator-gpt)
 * [Plutonium](https://github.com/TheGiddyLimit/plutonium-next/releases/tag/v1.84.3)
   * [Settings](/foundryvtt/plutonium-config.json) in repo
+* 💵 [PSFX Sound FX](www.patreon.com/c/perisfx/posts)
 * [Quick Insert](https://gitlab.com/fvtt-modules-lab/quick-insert)
   * GMs Only `Checked`
+* [SmartTarget](https://github.com/theripper93/Smart-Target)
+  * Targeting Mode `Always Target (Player Only)`
+  * Release Behavior `Sticky`
+  * Template Targeting `Checked`
+  * Show Indicator Portraits Instead of Colors `Checked`
+  * Use Tokens instead of Avatars `Checked`
+  * GM Image `Token Portrait`
+  * Target Indicator Position `Center Bottom`
+  * Target Indicator `Better Target`
+  * Use Player Color for Indicator `Checked`
 * [Splatter](https://github.com/theripper93/Splatter)
   * *dependency* [colorsettings](https://github.com/ardittristan/VTTColorSettings)
   * Violence Level `6`
@@ -114,8 +138,21 @@ Notes on setting up Dungeon Church's virtual tabletop.
 * [Vision 5E](https://github.com/dev7355608/vision-5e)
 
 ### Evaluating
-Modules in consideration.
-* [CharacterVault](https://github.com/sigil-johnstevens/character-vault) - sync actors to/from github
+Installed modules for consideration. Not enabled.
+
+* 💵 [Dynamic Soundscapes](https://theripper93.com/module)
+* 💵 [Levels Cover Calculator](https://theripper93.com/module)
+* 💵 [Paper Doll](https://theripper93.com/module)
+* 💵 [PartyHUD](https://theripper93.com/module)
+* 💵 [Puzzle Locks](https://theripper93.com/module)
+* 💵 [Youtube Player Widget](https://theripper93.com/module)
+* 💵 [Compact Scene Navigation](https://theripper93.com/module)
+  * Doesn't really do what I want it to do (hide it always)
+* 💵 [Filepicker+](https://theripper93.com/module)
+* 💵 [Hexplorer](https://theripper93.com/module)
+* 💵 [World Setting Sync](https://theripper93.com/module)
+* 💵 [System Customizer](https://theripper93.com/module)
+* [CharacterVault](https://github.com/sigil-johnstevens/character-vault) - sync actors to/from . haven't tried.
 * [OBS Utils](https://github.com/FaeyUmbrea/obs-utils) - haven't tried
 
 ## Custom CSS
