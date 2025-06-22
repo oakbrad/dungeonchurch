@@ -67,6 +67,10 @@ Notes on setting up Dungeon Church's virtual tabletop.
   * Auto-Select Token on Turn Start `Checked`
   * Ignore Player Tokens `Checked`
   * Auto Enable HUD (GM Only) `Checked`
+* 💵 [Compact Scene Navigation](https://theripper93.com/module)
+  * GM Only `Uncheck`
+  * Auto Hide `Checked`
+  * Click to View Scene `Checked`
 * [Custom CSS](https://github.com/cswendrowski/FoundryVTT-Custom-CSS)
   * *dependency* [CodeMirror](https://github.com/League-of-Foundry-Developers/codemirror-lib)
 * [DFred's Droppables](https://github.com/DFreds/dfreds-droppables)
@@ -146,8 +150,6 @@ Installed modules for consideration. Not enabled.
 * 💵 [PartyHUD](https://theripper93.com/module)
 * 💵 [Puzzle Locks](https://theripper93.com/module)
 * 💵 [Youtube Player Widget](https://theripper93.com/module)
-* 💵 [Compact Scene Navigation](https://theripper93.com/module)
-  * Doesn't really do what I want it to do (hide it always)
 * 💵 [Filepicker+](https://theripper93.com/module)
 * 💵 [Hexplorer](https://theripper93.com/module)
 * 💵 [World Setting Sync](https://theripper93.com/module)
