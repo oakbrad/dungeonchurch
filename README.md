@@ -28,6 +28,7 @@ Interested in playing with us? <b><a href=https://dungeon.church/join-us>Join us
 - [FoundryVTT](https://foundryvtt.com/) - Virtual table platform
   - [Plutonium](https://5e.tools/plutonium.html) - Import from 5eTools to FoundryVTT
   - [DDB Proxy](https://github.com/MrPrimate/ddb-proxy) - DDB integration
+- [Restreamer](github.com/datarhei/restreamer) - streaming utility
 - [Quake 3 Arena](https://ioquake3.org/) - why not
 
 ## Docker Compose

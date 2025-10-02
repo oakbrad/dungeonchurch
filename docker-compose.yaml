@@ -326,6 +326,23 @@ services:
       - TZ=America/Los_Angeles
       - PUID=1000
 
+# RESTREAMER
+# https://github.com/datarhei/restreamer
+  restreamer:
+    container_name: restreamer
+    image: datarhei/restreamer:latest
+    restart: always
+    volumes:
+      - /home/ubuntu/restreamer/config:/core/config
+      - /home/ubuntu/restreamer/data:/core/data
+    ports:
+      - 8081:8080 # HTTP
+      #- "0.0.0.0:1936:1936/tcp" # RTMPS
+      #- "0.0.0.0:1935:1935/tcp" # RTMP
+      - "0.0.0.0:6000:6000/udp" # SRT
+    networks:
+      - public-proxy
+
 # QUAKE 3 ARENA
   quake:
     container_name: quake
