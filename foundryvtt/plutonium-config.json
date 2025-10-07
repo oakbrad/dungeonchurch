@@ -1,6 +1,6 @@
 {
 	"fileType": "config",
-	"moduleVersion": "2.84.3-noble-prerelease-24-67",
+	"moduleVersion": "3.8.1-noble-prerelease-25-29",
 	"config": {
 		"actor": {
 			"isRefreshOtherOwnedSheets": true,
@@ -21,7 +21,7 @@
 			"dropAnchor": 0,
 			"scale": 1,
 			"scenePadding": 0,
-			"sceneBackgroundColorMode": 0,
+			"sceneBackgroundColorMode": "browser",
 			"sceneBackgroundColorLight": "#ffffff",
 			"sceneBackgroundColorDark": "#222222",
 			"isSceneTokenVision": true,
@@ -63,7 +63,7 @@
 			"minimumRoleBlocklist": 3,
 			"tooManySourcesWarningThreshold": 50,
 			"baseSiteUrl": "https://5e.dungeon.church",
-			"baseMediaUrlImg": null,
+			"baseMediaUrlImg": "https://5e.dungeon.church/img",
 			"isNoLocalData": false,
 			"isNoPrereleaseBrewIndexes": false,
 			"basePrereleaseUrl": null,
@@ -96,8 +96,8 @@
 			"dragDropMode": 2,
 			"isUseOtherFormulaFieldForSaveHalvesDamage": false,
 			"isUseOtherFormulaFieldForOtherDamage": false,
-			"isGlobalMetricDistance": false,
-			"isGlobalMetricWeight": false,
+			"isGlobalMetricDistance": "VE_USE_GAME_DEFAULT",
+			"isGlobalMetricWeight": "VE_USE_GAME_DEFAULT",
 			"isShowVariantsInLists": true,
 			"isSaveImagesToServer": false,
 			"isSaveTokensToServer": true,
@@ -150,7 +150,12 @@
 			"isUseAdvancementBackingCompendium": false,
 			"isAutoAddAdditionalFonts": true,
 			"weaponTargetDefault": 0,
-			"isActivateSidebarTabOnImport": true
+			"isActivateSidebarTabOnImport": true,
+			"isGlobalMetricVolume": "VE_USE_GAME_DEFAULT",
+			"isSaveImagesToServerGithub": true,
+			"isSaveTokensToServerGithub": true,
+			"isDebugActivityUnusedDamageBlocks": false,
+			"isSkipCompendiumImageFetch": false
 		},
 		"importAction": {
 			"ownership": 0,
@@ -200,7 +205,9 @@
 			"setEffectDisabled": "VE_USE_MODULE_VALUE",
 			"setEffectTransfer": "VE_USE_MODULE_VALUE",
 			"isImportDescription": true,
-			"deduplicateRefSelectionMode": 0
+			"deduplicateRefSelectionMode": 0,
+			"isUseDefaultFeatureImage": true,
+			"isLevelPrefixNames": false
 		},
 		"importClass": {
 			"ownership": 0,
@@ -232,7 +239,8 @@
 			"isImportDescriptionFluffText": true,
 			"isImportDescriptionFluffImages": true,
 			"isUseBaldursGateIcons": true,
-			"isLegacyLevelUpButton": false
+			"isLegacyLevelUpButton": false,
+			"isImportClassSubclassFeaturesAlways": true
 		},
 		"importConditionDisease": {
 			"ownership": 0,
@@ -394,14 +402,16 @@
 			"setEffectDisabled": "VE_USE_MODULE_VALUE",
 			"setEffectTransfer": "VE_USE_MODULE_VALUE",
 			"isImportDescription": true,
-			"isImportDescriptionMastery": true
+			"isImportDescriptionMastery": true,
+			"isMetricVolume": false,
+			"isSetValueFromRarity": true
 		},
 		"importLanguage": {
 			"ownership": 0
 		},
 		"importMap": {
 			"scenePadding": 0,
-			"sceneBackgroundColorMode": 0,
+			"sceneBackgroundColorMode": "browser",
 			"sceneBackgroundColorLight": "#ffffff",
 			"sceneBackgroundColorDark": "#222222",
 			"isSceneTokenVision": true,
@@ -557,7 +567,8 @@
 			"isImportDescription": true,
 			"isUseCustomSrdIcons": true,
 			"isUseDefaultSchoolImage": true,
-			"spellPointsModeNpc": 0
+			"spellPointsModeNpc": 0,
+			"debugInnateScalingLevelDelta": null
 		},
 		"importTable": {
 			"ownership": 0,
@@ -639,7 +650,15 @@
 			"isUseTokenImageAsPortrait": false,
 			"isDisableActorOverwriteWarning": false,
 			"setEffectDisabled": "VE_USE_MODULE_VALUE",
-			"setEffectTransfer": "VE_USE_MODULE_VALUE"
+			"setEffectTransfer": "VE_USE_MODULE_VALUE",
+			"isEnableDynamicRing": true,
+			"dynamicRingRingColor": null,
+			"dynamicRingBackgroundColor": null,
+			"dynamicRingEffects": {
+				"2": false,
+				"4": false,
+				"8": false
+			}
 		},
 		"integrationThreeDiCanvas": {
 			"isSetThreeDiModels": true
@@ -651,7 +670,8 @@
 		"integrationFoundrySummons": {
 			"isEnabled": true,
 			"isFilterSourcesUa": true,
-			"isFilterLegacy": true
+			"isFilterLegacy": true,
+			"isFilterModern": false
 		},
 		"integrationQuickInsert": {
 			"isEnabled": true,
@@ -685,7 +705,8 @@
 				"vehicles.html": false
 			},
 			"isDisplaySource": true,
-			"isFilterLegacy": true
+			"isFilterLegacy": true,
+			"isFilterModern": false
 		},
 		"integrationSpotlightOmnisearch": {
 			"isEnabled": true,
@@ -718,7 +739,8 @@
 				"trapshazards.html": false,
 				"vehicles.html": false
 			},
-			"isFilterLegacy": true
+			"isFilterLegacy": true,
+			"isFilterModern": false
 		},
 		"item": {
 			"isSuppressAdvancementsOnImportedDrop": true
@@ -736,13 +758,14 @@
 			"isDebugFromUuid": false,
 			"isSetDocumentOperationsCanaryFlags": false,
 			"isDebugImageFetching": false,
-			"rulesVersion": "modern",
+			"rulesVersion": "VE_USE_GAME_DEFAULT",
 			"baseSiteUrl": "https://plutonium.giddy.cyou"
 		},
 		"rivet": {
 			"targetDocumentId": "",
 			"isDisplayStatus": true,
-			"minimumRole": 0
+			"minimumRole": 0,
+			"isAllowActorOverwriteImports": false
 		},
 		"text": {
 			"isEnableHoverForLinkTags": true,
@@ -785,7 +808,7 @@
 		},
 		"ui": {
 			"isStreamerMode": false,
-			"colorScheme": 1,
+			"colorScheme": "VE_USE_GAME_DEFAULT",
 			"isShowPopout": true,
 			"isCompactWindowBar": true,
 			"isCompactDirectoryButtons": true,
@@ -827,7 +850,8 @@
 			"setEffectTransfer": "VE_USE_MODULE_VALUE"
 		},
 		"charactermancer": {
-			"minimumRole": 0
+			"minimumRole": 1,
+			"isAllowMultiplePrimaryClasses": false
 		}
 	}
 }
