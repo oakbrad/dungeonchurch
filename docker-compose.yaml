@@ -116,7 +116,7 @@ services:
     image: jafner/5etools-docker
     volumes:
       - /home/ubuntu/5etools:/usr/local/apache2/htdocs
-      - /home/ubuntu/5etools-homebrew:/usr/local/apache2/htdocs/homebrew
+      - /home/ubuntu/5etools/homebrew/index.json:/usr/local/apache2/htdocs/homebrew/index.json:ro # try to prevent overwriting custom index on restart
     environment:
       - SOURCE=GITHUB
       - IMG=TRUE
